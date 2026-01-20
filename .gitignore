@@ -1,4 +1,32 @@
+# Virtual Environment
 env/
+venv/
+ENV/
+
+# Python Cache
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Temporary files
 temp*
+
+# Environment Variables
 .env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Logs
+*.log

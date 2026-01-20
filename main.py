@@ -1,13 +1,10 @@
-from db import engine, SessionLocal
-from models import User
-from db import Base
+from bot import run_bot
 
-Base.metadata.create_all(engine)
-
-session = SessionLocal()
-session.commit()
-
-users = session.query(User).all()
-print(users)
-
-session.close()
+if __name__ == "__main__":
+    print("🚀 Starting Champak Chacha Discord Bot...")
+    try:
+        run_bot()
+    except KeyboardInterrupt:
+        print("\n👋 Bot stopped by user")
+    except Exception as e:
+        print(f"❌ Error: {e}")
