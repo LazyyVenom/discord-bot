@@ -1,104 +1,147 @@
 #!/usr/bin/env python3
-"""
-Admin script to manage the Champak Chacha bot database
-"""
+"""Offline management for the Champak Chacha database."""
+
+from __future__ import annotations
+
+import asyncio
 import sys
-from db import get_session, init_db
-from models import User, Question, Resource, Answer
+from pathlib import Path
 
-def show_stats():
-    """Show database statistics"""
-    session = get_session()
-    try:
-        users = session.query(User).count()
-        questions = session.query(Question).count()
-        resources = session.query(Resource).count()
-        answers = session.query(Answer).count()
-        
-        print("\n📊 Database Statistics")
-        print("=" * 40)
-        print(f"👥 Total Users: {users}")
-        print(f"📝 Total Questions: {questions}")
-        print(f"📚 Total Resources: {resources}")
-        print(f"✍️  Total Answers: {answers}")
-        print("=" * 40)
-        
-        if users > 0:
-            print("\n🏆 Top 5 Users by Aura:")
-            top_users = session.query(User).order_by(User.aura_points.desc()).limit(5).all()
-            for i, user in enumerate(top_users, 1):
-                print(f"  {i}. {user.username}: {user.aura_points} aura")
-    finally:
-        session.close()
+from sqlalchemy import func, select
 
-def list_questions():
-    """List all questions"""
-    session = get_session()
-    try:
-        questions = session.query(Question).all()
-        print(f"\n📝 All Questions ({len(questions)} total)")
-        print("=" * 80)
-        for q in questions:
-            print(f"\nID: {q.id}")
-            print(f"Title: {q.title}")
-            print(f"Category: {q.category} | Difficulty: {q.difficulty} | Points: {q.points}")
-            print(f"Active: {'✅' if q.is_active else '❌'}")
-    finally:
-        session.close()
+from champak.config import ConfigError, load_config
+from champak.db.import_questions import DEFAULT_DIRECTORY, import_all
+from champak.db.models import Answer, Base, Question, Resource, User
+from champak.db.session import create_engine_for, init_db, make_session_factory
+from champak.services.users import recompute_all
 
-def list_resources():
-    """List all resources"""
-    session = get_session()
-    try:
-        resources = session.query(Resource).all()
-        print(f"\n📚 All Resources ({len(resources)} total)")
-        print("=" * 80)
-        for r in resources:
-            print(f"\nID: {r.id}")
-            print(f"Title: {r.title}")
-            print(f"URL: {r.url}")
-            print(f"Category: {r.category} | Upvotes: {r.upvotes}")
-    finally:
-        session.close()
 
-def reset_database():
-    """Reset the database (CAUTION: Deletes all data)"""
-    confirm = input("⚠️  Are you sure you want to reset the database? This will DELETE ALL DATA! (yes/no): ")
-    if confirm.lower() == 'yes':
-        from db import Base, engine
-        Base.metadata.drop_all(engine)
-        init_db()
-        print("✅ Database reset successfully!")
-    else:
-        print("❌ Reset cancelled")
+async def _count(session, model) -> int:
+    return (await session.execute(select(func.count()).select_from(model))).scalar_one()
 
-def main():
-    if len(sys.argv) < 2:
-        print("\n🤖 Champak Chacha Admin Tool")
-        print("\nUsage: python admin.py <command>")
-        print("\nAvailable commands:")
-        print("  stats        - Show database statistics")
-        print("  questions    - List all questions")
-        print("  resources    - List all resources")
-        print("  reset        - Reset database (CAUTION)")
-        print("  init         - Initialize database tables")
+
+async def show_stats(session) -> None:
+    print("\nDatabase")
+    print("=" * 44)
+    for label, model in (("Users", User), ("Questions", Question),
+                         ("Resources", Resource), ("Answers", Answer)):
+        print(f"  {label:<12} {await _count(session, model)}")
+
+    rows = (await session.execute(
+        select(Question.category, func.count())
+        .group_by(Question.category).order_by(Question.category)
+    )).all()
+    if rows:
+        print("\nQuestions by category")
+        for category, total in rows:
+            print(f"  {category:<24} {total}")
+
+    top = (await session.execute(
+        select(User).order_by(User.aura_points.desc()).limit(5)
+    )).scalars().all()
+    if top:
+        print("\nTop 5 by aura")
+        for i, user in enumerate(top, 1):
+            print(f"  {i}. {user.username}: {user.aura_points}")
+
+
+async def list_questions(session) -> None:
+    rows = (await session.execute(
+        select(Question).order_by(Question.id).limit(50)
+    )).scalars().all()
+    print(f"\nFirst {len(rows)} questions")
+    for q in rows:
+        flag = "" if q.is_active else " [inactive]"
+        print(f"  #{q.id:<5} [{q.category}/d{q.difficulty}] {q.title[:60]}{flag}")
+
+
+async def list_resources(session) -> None:
+    rows = (await session.execute(select(Resource).order_by(Resource.id))).scalars().all()
+    print(f"\n{len(rows)} resources")
+    for r in rows:
+        print(f"  #{r.id:<5} [{r.category}] {r.title} -> {r.url}")
+
+
+async def recompute(session) -> None:
+    changed = await recompute_all(session)
+    if not changed:
+        print("Cached counters already match the answer history.")
         return
-    
-    command = sys.argv[1].lower()
-    
-    if command == "stats":
-        show_stats()
-    elif command == "questions":
-        list_questions()
-    elif command == "resources":
-        list_resources()
-    elif command == "reset":
-        reset_database()
-    elif command == "init":
-        init_db()
-        print("✅ Database initialized!")
+    print(f"Repaired {len(changed)} users:")
+    for discord_id, old, new in changed:
+        print(f"  {discord_id}: {old} -> {new}")
+
+
+async def run_import(session, argv: list[str]) -> None:
+    directory = Path(argv[0]) if argv else DEFAULT_DIRECTORY
+    stats = await import_all(session, directory)
+    print(f"{stats.files} files -> {stats.created} created, {stats.updated} updated")
+
+
+async def reset(engine) -> None:
+    if input("Delete ALL data? Type 'yes': ").strip().lower() != "yes":
+        print("Cancelled.")
+        return
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.drop_all)
+    await init_db(engine)
+    print("Database reset. Run 'python admin.py import' to reload questions.")
+
+
+USAGE = """Champak Chacha admin
+
+  python admin.py stats             Row counts and top users
+  python admin.py questions         List the first 50 questions
+  python admin.py resources         List every resource
+  python admin.py import [dir]      Load the question bank (default data/questions)
+  python admin.py recompute-aura    Rebuild cached counters from answers
+  python admin.py reset             Drop every table (destructive)
+"""
+
+
+async def _main() -> int:
+    if len(sys.argv) < 2:
+        print(USAGE)
+        return 0
+
+    try:
+        config = load_config()
+    except ConfigError:
+        # The CLI does not need a bot token, only a database.
+        import os
+        db_url = os.getenv("DB_URL", "sqlite:///app.db")
+        db_url = db_url.replace("sqlite:///", "sqlite+aiosqlite:///", 1)
     else:
-        print(f"❌ Unknown command: {command}")
+        db_url = config.db_url
+
+    engine = create_engine_for(db_url)
+    await init_db(engine)
+    factory = make_session_factory(engine)
+    command, argv = sys.argv[1].lower(), sys.argv[2:]
+
+    try:
+        if command == "reset":
+            await reset(engine)
+            return 0
+
+        async with factory() as session:
+            actions = {
+                "stats": lambda: show_stats(session),
+                "questions": lambda: list_questions(session),
+                "resources": lambda: list_resources(session),
+                "recompute-aura": lambda: recompute(session),
+                "import": lambda: run_import(session, argv),
+            }
+            action = actions.get(command)
+            if action is None:
+                print(f"Unknown command: {command}\n")
+                print(USAGE)
+                return 1
+            await action()
+        return 0
+    finally:
+        await engine.dispose()
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(asyncio.run(_main()))
