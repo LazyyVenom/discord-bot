@@ -9,8 +9,8 @@
 The bot works, but has defects that make its core mechanic meaningless and its UX dated.
 
 **Point farming.** Nothing prevents re-answering the same question. `bot.py` writes to an
-`active_questions` dict that is never read. The live database shows `asli_anubhav` holding
-59,994 aura from 6 answers.
+`active_questions` dict that is never read. Before it was discarded, the database showed
+`asli_anubhav` holding 59,994 aura from 6 answers.
 
 **Hardcoded backdoor.** `bot.py:122` awards 9,999 points to any user whose username contains
 the substring `anubhav`. The companion check against `"YOUR_DISCORD_ID_HERE"` is a placeholder
@@ -38,8 +38,7 @@ file that calls `bot.run()` at import time.
 | Answer rules | 3 attempts per question, 24h apart, points decay 100% → 50% → 25%. |
 | Answer reveal | Hidden while attempts remain; revealed on success or exhaustion. |
 | Backdoor | Removed. |
-| Legacy aura | All cached counters reset to 0 for all users. |
-| Legacy attempt rows | Preserved on disk, flagged `is_legacy`, excluded from eligibility. |
+| Existing data | Discarded. Database rebuilt from scratch and reseeded. |
 | Prefix commands | Dropped. Slash only. |
 | Aura storage | Cached columns on `User` (not derived). |
 | Who may answer | Only the user who ran `/ask`. |
@@ -54,7 +53,7 @@ champak/
   db/
     models.py         # SQLAlchemy models
     session.py        # async engine + session factory
-    migrate.py        # one-off idempotent migration
+    import_questions.py  # idempotent JSON question-bank importer
   services/
     scoring.py        # decay, attempts, cooldown        <- pure, no I/O
     questions.py      # selection, eligibility, recording
@@ -81,30 +80,34 @@ results into embeds; they hold no rules of their own.
 
 ### `Question` (changed)
 
-- **Add** `explanation` (Text, nullable) — shown when the answer is revealed.
+- **Add** `explanation` (Text, not null) — shown when the answer is revealed. Every imported
+  question has one.
+- **Add** `import_key` (String, unique, nullable) — SHA-256 of the normalised question text.
+  Set on imported questions, null on ones added via `/addquestion`. Makes reimport idempotent.
+- **Change** `difficulty` from String to Integer, `1`–`5`, matching the source data. The old
+  `easy`/`medium`/`hard` strings are gone.
+- **Change** `description` to nullable — the source data has a single question string, so
+  `title` carries it and `description` is optional elaboration.
 - **Remove** `answer` (Text) — dead column; `correct_option` is authoritative.
-- Unchanged: `id`, `title`, `description`, `category`, `difficulty`, `option_a`–`option_d`,
-  `correct_option`, `points`, `is_active`, `asked_by`, `created_at`.
+- Unchanged: `id`, `category`, `option_a`–`option_d`, `correct_option`, `points`, `is_active`,
+  `asked_by`, `created_at`.
 
 `correct_option` is validated to be one of `A`/`B`/`C`/`D` on write, closing the
 `AttributeError` path. The four option columns stay nullable in the schema — rewriting them to
-`NOT NULL` in SQLite means a table rebuild, which is not worth it — but the service layer
-rejects any question missing an option, so the "non-MCQ question" path that caused the
-`None.strip()` crash becomes unreachable. The migration asserts that all existing rows already
-have four options; the live data satisfies this.
+`NOT NULL` in SQLite means a table rebuild — but the service layer rejects any question missing
+an option, so the "non-MCQ question" path that caused the `None.strip()` crash becomes
+unreachable.
+
+`points` is derived from difficulty at import time as `difficulty * 10`, giving 10/20/30/40/50.
+This makes harder questions worth more without a separate authoring step.
 
 ### `Answer` (changed, ORM class and table name both retained)
 
 - **Add** `attempt_number` (Integer, not null) — `1`, `2`, or `3`.
-- **Add** `is_legacy` (Boolean, not null, default `False`) — `True` for every pre-existing row.
 - **Add** unique constraint on `(question_id, user_id, attempt_number)`.
 - **Add** index on `(user_id, question_id)`.
 - Unchanged: `id`, `question_id`, `user_id`, `answer_text`, `is_correct`, `points_awarded`,
   `created_at`.
-
-History is flagged with `is_legacy`, not with a sentinel `attempt_number`. The live data
-requires this: user 1 has two rows for question 4, so a shared sentinel value would violate the
-unique constraint. Legacy rows are instead numbered sequentially like any other.
 
 The unique constraint doubles as a race guard — two rapid button clicks cannot both insert
 attempt N.
@@ -112,15 +115,15 @@ attempt N.
 Cooldown state and attempts-remaining are derived by querying these rows. There is no separate
 state table and no in-memory dict, so the bot survives a restart mid-question.
 
-### `User` (values reset, schema unchanged)
+### `User` (schema unchanged)
 
-`aura_points`, `correct_answers`, and `total_answers` remain cached columns. All three are reset
-to `0` for every user by the migration.
+`aura_points`, `correct_answers`, and `total_answers` remain cached columns, starting at `0` on
+a fresh database.
 
 Because these are caches, they can drift from the underlying rows. Two mitigations: every write
 goes through a single `services/users.py::apply_attempt_result` function, and
-`admin.py recompute-aura` recomputes all three from live (non-legacy) attempt rows so drift is
-always one command away from fixed.
+`admin.py recompute-aura` recomputes all three from the attempt rows so drift is always one
+command away from fixed.
 
 ### No `active_questions` state
 
@@ -140,8 +143,7 @@ def check_eligibility(attempts: list[AttemptRecord], now: datetime) -> Eligibili
 ```
 
 `AttemptRecord` is a plain dataclass (`attempt_number`, `is_correct`, `created_at`) so the
-function never touches an ORM object. Legacy rows are filtered out before the list reaches this
-function.
+function never touches an ORM object.
 
 Precedence when several conditions hold: `AlreadySolved` > `Exhausted` > `TooSoon` > `Allowed`.
 
@@ -220,29 +222,55 @@ rather than leaking `str(error)` into the channel, as `on_command_error` does to
 Config validates at startup: a missing or empty `DISCORD_TOKEN` exits with a one-line
 diagnostic, not a traceback.
 
-## Migration
+## Content: the question bank
 
-`db/migrate.py`, idempotent, safe to run twice.
+The old database has been discarded — no migration is written, and `models.py` defines the
+final schema directly. The previous `app.db` is retained out-of-tree as
+`app.db.discarded-20260807` and is gitignored.
 
-1. Copy `app.db` to a timestamped `app.db.bak`, abort if the copy fails.
-2. Assert every existing question has four options and a `correct_option` in `A`–`D`; abort
-   with a report if not.
-3. Add `questions.explanation`, `answers.attempt_number`, `answers.is_legacy`.
-4. Set `is_legacy = True` on all pre-existing answer rows, and backfill their `attempt_number`
-   sequentially per `(user_id, question_id)` ordered by `created_at` — so user 1's two rows on
-   question 4 become attempts 1 and 2 rather than colliding.
-5. Backfill `explanation` for the 6 seeded questions.
-6. Set `aura_points`, `correct_answers`, `total_answers` to `0` for every user.
-7. Drop `questions.answer`.
-8. Add the unique constraint and index on `answers`.
-9. Print a before/after table of row counts and per-user aura.
+Content comes from 1,500 MCQs in `for_claude/JSON_Qus/*.json`. The set was validated against
+the schema before this spec was finalised: every question has exactly four options with
+`option_id` 1–4, an `answer_id` within that range, non-empty question text, and a non-empty
+`answer_explanation`. Zero defects across all 1,500.
 
-Steps 3–8 are guarded by schema introspection so a second run is a no-op. `.gitignore` gains
-`app.db.bak*`.
+Source shape:
 
-Legacy rows keep their `points_awarded = 9999` values as an artifact. This is intentional: the
-rows are history, the cached counters are the score, and the two are reconciled only over
-non-legacy rows.
+```json
+{
+  "question": "What is the time complexity of binary search on a sorted array?",
+  "options": [{"option_id": 1, "option_value": "O(n)"}, ...],
+  "answer_id": 2,
+  "answer_explanation": "Binary search divides the search space in half ...",
+  "difficulty_level": 2
+}
+```
+
+Field mapping, in `db/import_questions.py`:
+
+| Source | Target |
+| --- | --- |
+| `question` | `title` |
+| `options[n].option_value` ordered by `option_id` | `option_a`–`option_d` |
+| `answer_id` (1–4) | `correct_option` (`A`–`D`) |
+| `answer_explanation` | `explanation` |
+| `difficulty_level` (1–5) | `difficulty`, and `points = difficulty * 10` |
+| filename, `_partN` stripped | `category` |
+
+Categories collapse to six: `dsa`, `backend_concepts`, `javascript_typescript`, `oops_lld`,
+`python`, `system_design`. Difficulty spread is 133 / 539 / 629 / 179 / 20 across levels 1–5.
+
+The importer validates every record before inserting any, reports all defects at once, and
+aborts on the first invalid file rather than half-loading. It is idempotent via `import_key`:
+rerunning updates existing rows in place instead of duplicating them. It runs as
+`python -m db.import_questions <path>` and via `admin.py import`.
+
+`seed.py` is reduced to resources only; its 6 hand-written questions are superseded.
+
+### Consequence: the question bank is gitignored
+
+`for_claude/` is excluded from version control at your request, so the repo cannot rebuild its
+own content from a fresh clone. This is a deliberate accepted trade-off, not an oversight —
+see the open question at the end of this spec.
 
 ## Testing
 
@@ -250,18 +278,20 @@ non-legacy rows.
 the cogs hold no logic worth testing.
 
 **`scoring.py`** — each decay tier; attempt 4+ yields zero; integer-division rounding; cooldown
-boundary at exactly 24h; `TooSoon` before it, `Allowed` after; `Exhausted` at 3 attempts;
-`AlreadySolved` short-circuits regardless of count; legacy rows ignored; precedence order.
+boundary at exactly 24h inclusive; `TooSoon` before it, `Allowed` at and after; `Exhausted` at 3
+attempts; `AlreadySolved` short-circuits regardless of count; precedence order.
 
 **`questions.py`** — never-attempted preferred; solved excluded; exhausted excluded;
-cooling-down excluded; category filter respected; legacy rows don't block selection; empty-pool
-cases return the right distinction.
+cooling-down excluded; category filter respected; the two empty-pool cases return the right
+distinction.
 
-**`users.py`** — counters move together; wrong answers bump only `total_answers`;
-`recompute-aura` reproduces the cached values from non-legacy rows.
+**`users.py`** — counters move together in one transaction; wrong answers bump only
+`total_answers`; `recompute-aura` reproduces the cached values from attempt rows.
 
-**`migrate.py`** — against a fixture copy of the real schema: runs twice with the same result,
-zeroes counters, preserves row count, flags legacy rows.
+**`import_questions.py`** — field mapping including `answer_id` → letter; `points` derived from
+difficulty; category derived from filename with `_partN` stripped; a malformed record aborts
+the whole file with nothing inserted; rerunning is idempotent and does not duplicate; a run
+against all ten real files loads exactly 1,500 rows across 6 categories.
 
 ## Deletions
 
@@ -270,6 +300,8 @@ zeroes counters, preserves row count, flags legacy rows.
 - All pipe-delimited command parsing.
 - `Question.answer` and the non-MCQ code paths branching on it.
 - `active_questions`.
+- The 6 hand-written questions in `seed.py`, superseded by the imported bank.
+- The old `app.db` (moved aside, gitignored).
 
 ## Dependencies
 
@@ -289,8 +321,17 @@ Multi-server support is explicitly not built and not designed around; adding it 
 - Answering the same question repeatedly cannot yield more than one award, and no more than
   three attempts total.
 - No username or ID grants special scoring.
-- `asli_anubhav` shows 0 aura after migration; the 6 legacy rows still exist on disk.
+- A fresh database imports all 1,500 questions across 6 categories; a second import run leaves
+  the count unchanged.
 - Every `/` command responds without blocking the event loop.
 - A bot restart mid-question leaves the buttons working.
 - Malformed input to any command yields a readable message, not a traceback.
 - `pytest` passes with every rule in the Decisions table covered.
+
+## Open question
+
+`for_claude/` is gitignored, so the 1,500 questions (852 KB) live only on this machine. If that
+directory is lost, the bot's entire content is lost with it, and a fresh clone seeds an empty
+database. Moving the JSON into a tracked `data/questions/` directory would fix that at the cost
+of 852 KB in the repo. Flagged for a decision before implementation; the spec assumes the
+gitignored arrangement until told otherwise.

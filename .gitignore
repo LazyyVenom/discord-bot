@@ -19,6 +19,11 @@ temp*
 *.db
 *.sqlite
 *.sqlite3
+app.db.bak*
+app.db.discarded-*
+
+# Working material for Claude (question banks, scratch notes)
+for_claude/
 
 # IDEs
 .vscode/
