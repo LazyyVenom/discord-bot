@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is horizontal pod autoscaling in Kubernetes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Vertical scaling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scaling pod count based on metrics"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual scaling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database scaling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HPA automatically scales number of pod replicas based on CPU/memory/custom metrics.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is vertical pod autoscaling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Horizontal scaling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Adjusting pod CPU/memory requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual scaling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Node scaling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "VPA adjusts CPU and memory requests/limits for pod containers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is cluster autoscaling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Pod scaling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scaling number of cluster nodes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual scaling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Application scaling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cluster autoscaler adjusts number of nodes in cluster based on pod demands.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kubernetes config map?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Secret storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Configuration data storage"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Volume"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ConfigMap stores non-confidential configuration data in key-value pairs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Kubernetes secret?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Config map"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storage for sensitive data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Public data"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Volume"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Secret stores sensitive data like passwords, OAuth tokens, SSH keys.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Kubernetes ingress?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "HTTP/HTTPS routing rules"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Pod"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Deployment"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Ingress manages external access to services, typically HTTP, with routing rules.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kubernetes persistent volume?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Temporary storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Network-attached storage in cluster"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Local disk only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Memory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PersistentVolume is cluster-wide storage resource independent of pod lifecycle.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Helm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Container runtime"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Package manager for Kubernetes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Load balancer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Helm is package manager for Kubernetes, managing charts (packages of pre-configured K8s resources).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Helm chart?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Graph"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Package of pre-configured Kubernetes resources"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Config file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Docker image"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Helm chart is collection of files describing related set of Kubernetes resources.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is GitOps?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Manual deployment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using Git as single source of truth for infrastructure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No version control"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Email-based deployment"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GitOps uses Git repositories as source of truth for declarative infrastructure.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ArgoCD?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Declarative GitOps CD for Kubernetes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ArgoCD is declarative, GitOps continuous delivery tool for Kubernetes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Flux?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "GitOps operator for Kubernetes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Flux is GitOps operator that synchronizes cluster state with Git repository.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Terraform?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Programming language"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Infrastructure as Code tool"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Container platform"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Message queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Terraform provisions infrastructure across cloud providers using declarative configuration.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Terraform state?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No state"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mapping of resources to real-world infrastructure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Terraform state maps resource configuration to real infrastructure for tracking.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Terraform provider?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cloud customer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Plugin for cloud/service API"
+      },
+      {
+        "option_id": 3,
+        "option_value": "User interface"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Terraform provider is plugin that implements resource types for specific service.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Ansible?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Configuration management tool"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Container runtime"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Ansible automates configuration management, application deployment, task automation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Ansible playbook?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single task"
+      },
+      {
+        "option_id": 2,
+        "option_value": "YAML file defining automation tasks"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database script"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Shell script"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Playbook is YAML file defining ordered list of tasks to execute on managed nodes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Puppet?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Configuration management tool"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Puppet manages infrastructure configuration declaratively.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Chef?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Configuration management using Ruby DSL"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Chef manages infrastructure as code using Ruby-based domain-specific language.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Pulumi?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Infrastructure as Code using programming languages"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Container runtime"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pulumi provisions infrastructure using familiar programming languages (TypeScript, Python, Go).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is CloudFormation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Third-party tool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS Infrastructure as Code service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "GCP service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CloudFormation is AWS service for modeling and provisioning infrastructure.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ARM templates?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "AWS service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Azure Resource Manager templates"
+      },
+      {
+        "option_id": 3,
+        "option_value": "GCP service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Kubernetes resource"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ARM templates are JSON files defining Azure infrastructure declaratively.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Google Cloud Deployment Manager?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "AWS service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "GCP Infrastructure as Code service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Kubernetes tool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Deployment Manager is GCP service for creating and managing cloud resources.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is CI/CD pipeline?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Manual deployment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automated build, test, deployment"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No automation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Email notifications"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CI/CD pipeline automates building, testing, and deploying code changes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Jenkins?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Open-source automation server for CI/CD"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Jenkins is automation server for building, testing, deploying software.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is GitHub Actions?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database feature"
+      },
+      {
+        "option_id": 2,
+        "option_value": "CI/CD feature integrated with GitHub"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GitHub Actions automates workflows directly from GitHub repository.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is GitLab CI?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "GitHub feature"
+      },
+      {
+        "option_id": 2,
+        "option_value": "CI/CD feature integrated with GitLab"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Jenkins plugin"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CircleCI"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GitLab CI is integrated CI/CD feature of GitLab for automated pipelines.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is CircleCI?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Version control system"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cloud-based CI/CD platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Message queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CircleCI is cloud-based CI/CD platform for automated testing and deployment.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Travis CI?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cloud-based CI/CD service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Travis CI is hosted continuous integration service for building and testing.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Azure DevOps?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Microsoft CI/CD and DevOps platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "AWS service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "GCP service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Azure DevOps provides CI/CD pipelines, repos, boards, artifacts for DevOps.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS CodePipeline?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS CI/CD service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "GCP service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CodePipeline is AWS continuous delivery service for release automation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS CodeBuild?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS fully managed build service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "GCP service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CodeBuild is AWS fully managed continuous integration service for building code.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS CodeDeploy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database deployment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS automated deployment service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Manual deployment"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CodeDeploy automates code deployments to EC2, Lambda, on-premises servers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Google Cloud Build?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "AWS service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "GCP CI/CD platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Jenkins plugin"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cloud Build is GCP service for building, testing, deploying applications.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Spinnaker?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multi-cloud continuous delivery platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Spinnaker is open-source multi-cloud continuous delivery platform.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Argo Workflows?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Kubernetes-native workflow engine"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Argo Workflows is container-native workflow engine for orchestrating jobs on Kubernetes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Tekton?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cloud-native CI/CD framework for Kubernetes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tekton is flexible, cloud-native framework for CI/CD on Kubernetes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is build artifact?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source code"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compiled/bundled output of build process"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Documentation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Test results"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Build artifact is output of build process (executable, library, Docker image).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is artifact repository?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source code repo"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storage for build artifacts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Artifact repository stores and manages build artifacts (Nexus, Artifactory, ECR).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Docker registry?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Docker container"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storage for Docker images"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dockerfile"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Docker compose"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Docker registry stores and distributes Docker images (Docker Hub, ECR, GCR).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is container image scanning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Performance testing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Security vulnerability scanning"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Unit testing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load testing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Container scanning identifies security vulnerabilities in container images.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Trivy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Container image vulnerability scanner"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Trivy is simple and comprehensive vulnerability scanner for containers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Clair?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Container vulnerability static analyzer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Clair is open-source project for static analysis of vulnerabilities in containers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Snyk?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Security platform for finding/fixing vulnerabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Snyk finds and fixes vulnerabilities in dependencies, containers, code.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is SonarQube?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Code quality and security analysis platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SonarQube continuously inspects code quality and security.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is static application security testing (SAST)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime testing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Analyzing source code for vulnerabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network testing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Penetration testing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SAST analyzes source code to find security vulnerabilities without execution.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is dynamic application security testing (DAST)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source code analysis"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Testing running application for vulnerabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual review"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unit testing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DAST tests running application from outside to find security vulnerabilities.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is software composition analysis (SCA)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source code analysis"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Analyzing open-source dependencies for vulnerabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Performance analysis"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network analysis"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SCA identifies security vulnerabilities and license issues in dependencies.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is penetration testing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Automated scanning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Simulated cyberattack to find vulnerabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Code review"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unit testing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Penetration testing simulates attacks to identify security weaknesses.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is threat modeling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Performance modeling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Identifying security threats and mitigations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "User modeling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data modeling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Threat modeling systematically identifies threats and defines countermeasures.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is STRIDE threat model?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Performance framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Microsoft threat classification framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Development framework"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "STRIDE: Spoofing, Tampering, Repudiation, Information disclosure, DoS, Elevation.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is OWASP Top 10?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Performance standards"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Standard awareness document for web app security"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database standards"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network standards"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OWASP Top 10 lists most critical web application security risks.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SQL injection (OWASP Top 10)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Injecting malicious SQL"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CSRF"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broken auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SQL injection is #1 OWASP risk: inserting malicious SQL via user input.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is broken authentication (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Authentication weaknesses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Insecure deserialization"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Broken authentication: attackers compromise passwords, keys, session tokens.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sensitive data exposure (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inadequate protection of sensitive data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security misconfiguration"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sensitive data exposure: inadequate protection of financial, healthcare, PII data.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is XML external entities (XXE)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Processing XML with external entity references"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSRF"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XXE attacks exploit XML parsers processing external entity references.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is broken access control (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Restrictions on authenticated users not enforced"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Insecure deserialization"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Broken access control: users can act outside intended permissions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is security misconfiguration (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Insecure default configs, incomplete configs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broken auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Security misconfiguration: insecure defaults, incomplete/misconfigured configs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is XSS (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cross-site scripting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CSRF"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broken auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XSS: injecting client-side scripts into web pages viewed by others.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is insecure deserialization (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Deserializing untrusted data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broken auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Insecure deserialization leads to remote code execution, replay attacks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is using components with known vulnerabilities?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using outdated/vulnerable libraries"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broken auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Using components (libraries, frameworks) with known security vulnerabilities.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is insufficient logging and monitoring (OWASP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inadequate logging to detect breaches"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broken auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Insufficient logging/monitoring delays breach detection and incident response.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Content Security Policy (CSP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Caching policy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mitigating XSS and data injection attacks"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compression policy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Connection policy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CSP header controls resources browser can load, mitigating XSS.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is HSTS (HTTP Strict Transport Security)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Caching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Forcing HTTPS connections"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CORS"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HSTS header forces browsers to use HTTPS instead of HTTP.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is X-Frame-Options header?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "CSP"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Preventing clickjacking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CORS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "X-Frame-Options controls whether page can be embedded in iframe/frame.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is X-XSS-Protection header?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "CSP replacement"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Browser XSS filter (deprecated)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CORS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "HSTS"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "X-XSS-Protection enabled browser XSS filter (now deprecated in favor of CSP).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is secure cookie attribute?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cookie size"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cookie only sent over HTTPS"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cookie expiration"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cookie domain"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Secure attribute ensures cookie only sent over HTTPS connections.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HttpOnly cookie attribute?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cookie expiration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cookie inaccessible to JavaScript"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cookie domain"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cookie path"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HttpOnly prevents JavaScript access to cookie, mitigating XSS theft.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SameSite cookie attribute?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cookie size"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Controlling cross-site cookie sending"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cookie expiration"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cookie encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SameSite (Strict, Lax, None) controls when cookies sent in cross-site requests.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is WAF (Web Application Firewall)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Network firewall"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Protecting web applications from attacks"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database firewall"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Email filter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WAF filters and monitors HTTP traffic to protect web applications.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is AWS WAF?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS web application firewall"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "GCP service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "AWS WAF protects web applications from common web exploits.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Cloudflare WAF?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cloudflare's web application firewall"
+      },
+      {
+        "option_id": 3,
+        "option_value": "AWS service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Azure service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cloudflare WAF protects against SQL injection, XSS, and other attacks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is DDoS mitigation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Increasing traffic"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Protecting against distributed denial of service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Speed optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DDoS mitigation protects against attacks overwhelming systems with traffic.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS Shield?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS DDoS protection service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "WAF"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CDN"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "AWS Shield provides DDoS protection for AWS-hosted applications.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is rate limiting for security?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unlimited requests"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Limiting requests to prevent abuse"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Speed optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Rate limiting restricts request rate to prevent brute force, DDoS, abuse.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is account lockout?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unlimited attempts"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Locking account after failed login attempts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Password reset"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Two-factor auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Account lockout temporarily disables account after failed login attempts.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is CAPTCHA?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Password"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Test to distinguish humans from bots"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Two-factor auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CAPTCHA is challenge-response test to determine if user is human.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is reCAPTCHA?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Google's CAPTCHA service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "reCAPTCHA is Google's CAPTCHA service to protect websites from spam/abuse.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is two-factor authentication (2FA)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single password"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two different authentication factors"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No authentication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Biometric only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "2FA requires two different factors: something you know, have, or are.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is multi-factor authentication (MFA)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single factor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two or more authentication factors"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No authentication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Password only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "MFA requires multiple authentication factors for stronger security.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TOTP (Time-based One-Time Password)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static password"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Time-based code for 2FA"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Biometric"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hardware token"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TOTP generates temporary codes based on current time (Google Authenticator).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is HOTP (HMAC-based One-Time Password)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static password"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counter-based code for 2FA"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Biometric"
+      },
+      {
+        "option_id": 4,
+        "option_value": "SMS code"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HOTP generates codes based on counter that increments with each use.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is FIDO2/WebAuthn?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Password authentication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Passwordless authentication standard"
+      },
+      {
+        "option_id": 3,
+        "option_value": "OAuth"
+      },
+      {
+        "option_id": 4,
+        "option_value": "SAML"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WebAuthn is web standard for passwordless authentication using biometrics/security keys.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is zero trust security?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Trust internal network"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Never trust, always verify"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Trust everyone"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No security"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Zero trust: verify every access request regardless of network location.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is principle of defense in depth?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single security layer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple overlapping security controls"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No security"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Perimeter only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Defense in depth: multiple security layers so if one fails, others protect.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is network segmentation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single network"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dividing network into isolated segments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No network"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Public network"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Network segmentation divides network into segments to limit attack spread.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is VPC (Virtual Private Cloud)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public cloud"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Isolated private network in cloud"
+      },
+      {
+        "option_id": 3,
+        "option_value": "On-premises network"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No network"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "VPC is isolated private network within public cloud (AWS, GCP, Azure).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is security group?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "User group"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Virtual firewall for cloud resources"
+      },
+      {
+        "option_id": 3,
+        "option_value": "AD group"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Email group"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Security group acts as virtual firewall controlling inbound/outbound traffic.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is network ACL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Security group"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Subnet-level firewall rules"
+      },
+      {
+        "option_id": 3,
+        "option_value": "User ACL"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database ACL"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Network ACL provides stateless subnet-level firewall (vs stateful security groups).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is NAT gateway?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Load balancer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Allowing private subnet internet access"
+      },
+      {
+        "option_id": 3,
+        "option_value": "VPN gateway"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct Connect"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "NAT gateway allows private subnet instances to connect to internet without public IPs.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is bastion host?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database server"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Jump server for accessing private network"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bastion host (jump box) provides access to private network from external network.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is VPN (Virtual Private Network)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public network"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypted connection over public network"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Physical network"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No network"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "VPN creates encrypted tunnel for secure communication over public network.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is AWS Direct Connect?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "VPN"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dedicated network connection to AWS"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Internet connection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CDN"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Direct Connect provides dedicated private network connection to AWS.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is private link/private endpoint?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public endpoint"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Private access to cloud services"
+      },
+      {
+        "option_id": 3,
+        "option_value": "VPN"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct Connect"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Private Link/Endpoint provides private connectivity to cloud services without internet.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is secrets rotation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static secrets"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Regularly changing secrets/credentials"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No rotation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Public secrets"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Secrets rotation regularly changes passwords, keys, tokens to limit exposure.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS Secrets Manager rotation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Manual rotation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatic secrets rotation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No rotation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Public secrets"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Secrets Manager can automatically rotate secrets on schedule.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database encryption at rest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "In-transit encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypting stored data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Application encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Encryption at rest protects data stored on disk from physical access.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database encryption in transit?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "At-rest encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypting data over network (TLS)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Application encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Encryption in transit (TLS/SSL) protects data moving between systems.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is field-level encryption?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Full database encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypting specific sensitive fields"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Disk encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Field-level encryption encrypts specific sensitive fields (SSN, credit card).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is tokenization vs encryption?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tokenization replaces data with token, encryption scrambles"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tokenization is encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tokenization replaces sensitive data with non-sensitive token; encryption is reversible with key.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is KMS (Key Management Service)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Managed service for cryptographic keys"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "KMS is managed service for creating and controlling encryption keys.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS KMS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS key management service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Azure service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "GCP service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "AWS KMS creates and manages cryptographic keys and controls their use.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is envelope encryption?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single key"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypting data key with master key"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Public key only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Envelope encryption: data encrypted with data key, data key encrypted with master key.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is HSM (Hardware Security Module)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Software module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Physical device safeguarding digital keys"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cloud service"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HSM is physical computing device that safeguards and manages digital keys.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is AWS CloudHSM?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS hardware security module service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "KMS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Secrets Manager"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CloudHSM provides HSMs in AWS cloud for key storage and operations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is certificate management?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No certificates"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Managing SSL/TLS certificates lifecycle"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Self-signed only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No management"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Certificate management handles issuance, renewal, revocation of SSL/TLS certificates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Let's Encrypt?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Paid CA"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Free, automated certificate authority"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Commercial CA"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Self-signed"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Let's Encrypt is free, automated, open certificate authority.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is cert-manager?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Kubernetes certificate management controller"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "cert-manager automates management and issuance of TLS certificates for Kubernetes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is AWS Certificate Manager?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "AWS service for SSL/TLS certificates"
+      },
+      {
+        "option_id": 3,
+        "option_value": "KMS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Secrets Manager"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ACM provisions, manages, deploys SSL/TLS certificates for AWS services.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is audit logging?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No logging"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Recording security-relevant events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Performance logging"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Error logging only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Audit logging records security-relevant events for compliance and investigation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is log retention policy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No retention"
+      },
+      {
+        "option_id": 2,
+        "option_value": "How long logs are kept"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Log creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Log encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Log retention policy defines how long log data should be stored.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SIEM (Security Information and Event Management)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Security event collection and analysis"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SIEM collects, analyzes, reports on security events from across environment.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Splunk?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Platform for searching, monitoring, analyzing machine data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Splunk searches, monitors, analyzes machine-generated big data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ELK for security?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using ELK stack for security monitoring"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ELK stack can be used for security log aggregation and analysis.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is intrusion detection system (IDS)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Firewall"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Monitoring network for malicious activity"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Antivirus"
+      },
+      {
+        "option_id": 4,
+        "option_value": "VPN"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "IDS monitors network traffic for signs of malicious activity.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is intrusion prevention system (IPS)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "IDS only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "IDS with ability to block threats"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Firewall only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Antivirus"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "IPS is IDS with capability to actively block detected threats.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is endpoint detection and response (EDR)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Network monitoring"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Monitoring and responding to endpoint threats"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Firewall"
+      },
+      {
+        "option_id": 4,
+        "option_value": "VPN"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "EDR monitors endpoints for threats and enables incident response.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is vulnerability management?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No scanning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Identifying, prioritizing, remediating vulnerabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only patching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only scanning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Vulnerability management: identify, evaluate, remediate, report vulnerabilities.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is patch management?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No patching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Process of applying updates to systems"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only security patches"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only feature updates"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Patch management ensures systems are updated with latest security patches.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is incident response plan?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No plan"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Documented procedure for security incidents"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Development plan"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing plan"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Incident response plan defines how to respond to security incidents.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is disaster recovery plan?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No plan"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Procedure for recovering from disasters"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Development plan"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing plan"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DR plan defines how to restore systems after catastrophic events.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is business continuity plan?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No plan"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maintaining operations during disruptions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Development plan"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Marketing plan"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BCP ensures critical business functions continue during disruptions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is backup strategy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No backups"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Regular data copying for recovery"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Backup strategy defines what, when, how to backup for recovery.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is RTO (Recovery Time Objective)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data loss"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximum acceptable downtime"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup frequency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Test frequency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RTO is maximum time allowed to restore service after outage.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is RPO (Recovery Point Objective)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Downtime"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximum acceptable data loss"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup size"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Recovery time"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RPO is maximum amount of data loss acceptable measured in time.",
+    "difficulty_level": 2
+  }
+]

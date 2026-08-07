@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is database materialized view?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Virtual table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Precomputed query result stored physically"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Temporary table"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Index"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Materialized view stores query result physically for faster access, refreshed periodically.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database covering index?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Index on all columns"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Index containing all columns needed for query"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Primary key"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Foreign key"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Covering index includes all columns query needs, avoiding table lookup.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database composite index?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Index on single column"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Index on multiple columns"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Primary key"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unique index"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Composite index spans multiple columns for queries filtering on those columns.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database index selectivity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Index size"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ratio of distinct values to total rows"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Query speed"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Storage used"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "High selectivity means many distinct values, making index more effective.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database query execution plan?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL query"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Steps database takes to execute query"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Table schema"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Index definition"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Execution plan shows how database will execute query, helping optimization.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database full table scan?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Reading index only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reading every row in table"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reading specific columns"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Reading from cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Full table scan reads all rows when index cannot be used effectively.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database query optimizer?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Tool writing SQL"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Component choosing best execution plan"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Index creator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data loader"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Query optimizer analyzes queries and chooses most efficient execution plan.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is N+1 query problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single efficient query"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Executing many queries instead of one"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database connection issue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Indexing problem"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "N+1 problem executes query for parent then N queries for children instead of join.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to solve N+1 query problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More indexes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Eager loading / JOIN fetch"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database sharding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Eager loading fetches related data in single query using JOINs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database transaction isolation level?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Number of transactions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Degree of interaction between concurrent transactions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Transaction speed"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Transaction size"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Isolation levels control visibility of uncommitted changes between transactions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is read uncommitted isolation level?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Highest isolation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Lowest isolation, allows dirty reads"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Prevents all anomalies"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Default level"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Read uncommitted allows reading uncommitted changes (dirty reads).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is read committed isolation level?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allows dirty reads"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prevents dirty reads only"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Prevents all anomalies"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Serializable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Read committed prevents dirty reads but allows non-repeatable reads.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is repeatable read isolation level?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allows non-repeatable reads"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prevents dirty and non-repeatable reads"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Serializable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read uncommitted"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Repeatable read ensures same query returns same results during transaction.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is serializable isolation level?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Lowest isolation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Highest isolation, transactions execute serially"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read committed"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Repeatable read"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Serializable provides highest isolation, executing transactions as if serial.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is phantom read?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Reading uncommitted data"
+      },
+      {
+        "option_id": 2,
+        "option_value": "New rows appearing in repeated query"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Same row different values"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Reading deleted rows"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Phantom read occurs when new rows appear in repeated query due to other transaction.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is database write skew?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Reading invalid data"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two transactions read same data and update based on it"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single transaction failure"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Index corruption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Write skew: concurrent transactions read overlapping data and update inconsistently.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is database MVCC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multi-Version Concurrency Control"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multi-Value Cache Control"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimum Viable Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Maximum Volume Control"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "MVCC maintains multiple versions of data for concurrent access without locking.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is database vacuum/analyze?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Query execution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maintenance operations for performance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup operations"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security operations"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Vacuum reclaims storage, analyze updates statistics for query optimization.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database table bloat?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Small table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Table with wasted space from updates/deletes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Table with many rows"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Table with many columns"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Table bloat occurs when updates/deletes leave unused space not reclaimed.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database hot standby?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Offline backup"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read replica accepting read queries"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Primary database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Hot standby is active read replica that can quickly become primary if needed.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database warm standby?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Active read replica"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Standby not actively serving queries"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Primary database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Backup file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Warm standby is running but not serving queries, faster recovery than cold backup.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database cold backup?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Active replication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Offline backup not running"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Hot standby"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read replica"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cold backup is offline copy of database, not actively running.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is point-in-time recovery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Current state only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Restoring to specific moment using backups and logs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Real-time replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Automatic failover"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PITR restores database to specific point using base backup and WAL logs.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database WAL (Write-Ahead Logging)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Reading before writing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Logging changes before applying to data files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache writing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Async writing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WAL logs changes before modifying data files for durability and recovery.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database checkpoint?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Transaction commit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Writing WAL changes to data files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Query execution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Index creation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Checkpoint writes dirty buffers and WAL records to permanent storage.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database replication lag?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No delay"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Delay between primary and replica"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Query execution time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network latency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Replication lag is time delay for changes to reach replica from primary.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is synchronous replication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Async commit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Primary waits for replica acknowledgment"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delayed replication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Synchronous replication waits for replica to confirm before committing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is asynchronous replication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Primary waits for replica"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Primary commits without waiting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Asynchronous replication commits on primary without waiting for replica.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database failover?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Planned maintenance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatic switch to standby on failure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Query routing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Failover automatically switches to standby database when primary fails.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database switchover?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Automatic failover"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Planned manual switch to standby"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup restore"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Replication setup"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Switchover is planned manual transition from primary to standby.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is split-brain in distributed systems?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single system"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two nodes believing they are primary"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network partition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data consistency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Split-brain occurs when network partition causes multiple nodes to act as primary.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "How to prevent split-brain?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More replicas"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Quorum-based voting / fencing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Faster network"
+      },
+      {
+        "option_id": 4,
+        "option_value": "More memory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Quorum requires majority agreement; fencing isolates failed nodes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is database federation vs sharding?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same concept"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Federation: heterogeneous, Sharding: homogeneous partitioning"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sharding is older"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Federation is faster"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Federation unifies heterogeneous databases; sharding partitions homogeneous database.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is database functional partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random partitioning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Partitioning by function/bounded context"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Range partitioning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hash partitioning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Functional partitioning splits by business function (users, orders, products).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is multi-tenant architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single user system"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple customers sharing same infrastructure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dedicated per customer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No sharing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Multi-tenancy serves multiple customers (tenants) on shared infrastructure.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is tenant isolation in multi-tenancy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No isolation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ensuring tenant data separation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shared everything"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tenant isolation ensures one tenant cannot access another's data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is shared database multi-tenancy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database per tenant"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shared database with tenant ID column"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Schema per tenant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Separate servers"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Shared database adds tenant_id column to distinguish tenant data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is schema-per-tenant multi-tenancy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Shared table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Separate schema per tenant in same database"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database per tenant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Shared everything"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Schema-per-tenant provides separate schemas within shared database.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database-per-tenant multi-tenancy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Shared database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Separate database per tenant"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Schema per tenant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Shared schema"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Database-per-tenant provides highest isolation with separate databases.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data retention policy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data creation policy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Rules for how long data is kept"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup policy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security policy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data retention policy defines how long different data types must be kept.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is data archival strategy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Moving old data to cheaper storage"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data archival moves infrequently accessed data to cheaper, slower storage.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is time-series database?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Optimized for time-stamped data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Document database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Time-series databases optimize storage and queries for time-series data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is InfluxDB?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Time-series database"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Document database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "InfluxDB is open-source time-series database for metrics and events.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TimescaleDB?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Pure time-series database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "PostgreSQL extension for time-series"
+      },
+      {
+        "option_id": 3,
+        "option_value": "NoSQL database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "In-memory database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TimescaleDB extends PostgreSQL with time-series capabilities.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Prometheus TSDB?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Time-series database for metrics"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Document store"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prometheus has built-in TSDB for storing time-series metrics data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data compression in databases?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reducing storage size"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data replication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data compression reduces storage size at cost of CPU for compression/decompression.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is columnar storage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Row-based storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing data by columns"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Key-value storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Document storage"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Columnar storage stores each column together, efficient for analytical queries.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is row-based storage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Column-based storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing data by rows"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Key-value storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph storage"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Row-based storage stores entire rows together, efficient for transactional queries.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Apache Parquet?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Row-based format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Columnar storage format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Text format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JSON format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Parquet is columnar storage format optimized for complex nested data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Apache ORC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Row-based format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Columnar storage format for Hadoop"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Text format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "XML format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ORC is columnar storage format optimized for Hive workloads.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data serialization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Converting data to storable/transmittable format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Serialization converts data structures to format for storage or transmission.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Protocol Buffers?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Text format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Binary serialization format by Google"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XML format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JSON format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Protocol Buffers is language-neutral binary serialization format.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Apache Avro?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Text format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Row-based serialization format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Columnar format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JSON only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Avro is row-based serialization format with schema evolution support.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Apache Thrift?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "RPC framework with serialization"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Thrift provides RPC framework and binary serialization.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is MessagePack?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Text format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Binary JSON-like serialization"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XML format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSV format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "MessagePack is efficient binary serialization format similar to JSON.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between JSON and binary formats?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Binary is more compact and faster"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JSON is faster"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary is human-readable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Binary formats (Protobuf, Avro) are more compact and faster than JSON.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is schema evolution?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Deleting schema"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handling changes to data structure over time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Schema creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Schema validation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Schema evolution allows data format changes while maintaining compatibility.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is backward compatibility in schemas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "New code reads old data"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Old code reads new data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No compatibility"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Same version"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Backward compatibility: new code can read data written by old code.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is forward compatibility in schemas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "New code reads old data"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Old code reads new data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No compatibility"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Same version"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Forward compatibility: old code can read data written by new code.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data lineage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tracking data origin and transformations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data lineage tracks data flow from source through transformations to destination.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data governance?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Management of data availability, usability, integrity, security"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data governance manages data quality, security, compliance across organization.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data catalog?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database schema"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inventory of data assets with metadata"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data catalog provides searchable inventory of data assets and their metadata.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is PII (Personally Identifiable Information)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public information"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data identifying specific individual"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Anonymous data"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encrypted data"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PII is any data that could identify a specific person.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is data masking?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hiding sensitive data with modified values"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data masking replaces sensitive data with realistic but fake values.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is data tokenization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Replacing sensitive data with non-sensitive tokens"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tokenization replaces sensitive data with tokens that can be mapped back.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the difference between encryption and tokenization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encryption is reversible with key, tokenization uses token vault"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Same concept"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encryption is one-way"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Encryption uses keys for reversibility; tokenization requires token vault lookup.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is at-rest encryption?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data in transit encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypting stored data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "At-rest encryption protects data stored on disk or other storage.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is in-transit encryption?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Storage encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypting data being transmitted"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Backup encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "In-transit encryption (TLS/SSL) protects data moving between systems.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TLS (Transport Layer Security)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Storage encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cryptographic protocol for secure communication"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database protocol"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compression protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TLS encrypts data in transit between client and server.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is mTLS (mutual TLS)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-way authentication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Both client and server authenticate"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No authentication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Token authentication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "mTLS requires both parties to present and verify certificates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is certificate authority (CA)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web server"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Trusted entity issuing digital certificates"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CA issues and verifies digital certificates for secure communication.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is certificate pinning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple certificates"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hardcoding expected certificate/public key"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Certificate rotation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Certificate deletion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Certificate pinning hardcodes expected certificate to prevent MITM attacks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is HSTS (HTTP Strict Transport Security)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "HTTP compression"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Forcing HTTPS connections"
+      },
+      {
+        "option_id": 3,
+        "option_value": "HTTP caching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HSTS header forces browsers to use HTTPS for specified duration.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is CSP (Content Security Policy)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Caching policy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Preventing XSS by controlling resources"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compression policy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Connection policy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CSP header controls which resources browser can load, preventing XSS.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is WAF (Web Application Firewall)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Network firewall"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Protecting web applications from attacks"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database firewall"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Email filter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WAF filters and monitors HTTP traffic to protect web applications.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is DDoS attack?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data theft"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Overwhelming system with traffic"
+      },
+      {
+        "option_id": 3,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "XSS attack"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DDoS (Distributed Denial of Service) floods system with traffic to make it unavailable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to mitigate DDoS attacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More databases"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Rate limiting, CDN, WAF, scrubbing centers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "More servers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DDoS mitigation uses rate limiting, CDN, WAF, and traffic scrubbing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is rate limiting algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unlimited requests"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Token bucket, leaky bucket, sliding window"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database query"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache eviction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Common algorithms: token bucket, leaky bucket, fixed/sliding window.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is API gateway rate limiting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No limiting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Limiting requests at entry point"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database limiting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Client-side limiting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API gateway rate limiting controls request rate before reaching services.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is per-client rate limiting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Global limiting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Limiting per user/API key"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database limiting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server limiting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Per-client rate limiting tracks and limits requests per individual client.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is distributed rate limiting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single server limiting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Coordinated rate limiting across servers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Client-side limiting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No limiting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Distributed rate limiting coordinates limits across multiple servers using shared storage.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Redis used for in rate limiting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed counter storage"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Redis stores distributed counters for cross-server rate limiting.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the thundering herd problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single request"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Many processes waking for same event"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database lock"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache hit"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Thundering herd: many processes wake up for same event, causing spike.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to prevent thundering herd?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More servers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Request coalescing, jitter, exponential backoff"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database sharding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "More caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prevent with request coalescing, jitter, exponential backoff, cache warming.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is cache stampede?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cache hit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple requests for expired cache key simultaneously"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache eviction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache warming"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache stampede occurs when many requests hit expired key simultaneously.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to prevent cache stampede?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Locks, probabilistic early expiration, per-item expiration"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Smaller cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prevent with locks, probabilistic early expiration, staggered expiration times.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is cache warming?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cache eviction"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pre-populating cache before traffic hits"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache clearing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache warming pre-populates cache with expected data before peak traffic.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is write-through caching?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cache updated asynchronously"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data written to cache and DB simultaneously"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache updated on read"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Write-through: data written to cache and backing store synchronously.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is write-back caching?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Immediate DB write"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data written to cache, async DB write"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No caching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read-only cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Write-back (write-behind): data written to cache, asynchronously to DB.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is cache-aside (lazy loading)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Automatic cache population"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Application manages cache population"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Write-through"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Write-back"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache-aside: application checks cache, loads from DB on miss, populates cache.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is read-through caching?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Application manages cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cache library handles loading"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Write-through"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Write-back"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Read-through: cache library automatically loads from backing store on miss.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the cold start problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cache full"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cache empty at startup causing many misses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache eviction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache warming"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cold start: empty cache causes database overload from initial requests.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is cache fragmentation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cache too small"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Wasted space from variable-sized objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache eviction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Fragmentation occurs when variable-sized cache entries leave unusable gaps.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is memory-mapped file?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "File mapped to memory for fast access"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compressed file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Memory-mapped files allow applications to access files as if in memory.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is zero-copy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data copying"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Avoiding data copy between kernel and user space"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data compression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Zero-copy techniques avoid expensive data copies between memory spaces.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is kernel bypass?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Using kernel for I/O"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Direct hardware access avoiding kernel"
+      },
+      {
+        "option_id": 3,
+        "option_value": "System calls"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Memory management"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Kernel bypass (DPDK, RDMA) allows direct hardware access for performance.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is RDMA (Remote Direct Memory Access)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Local memory access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Direct memory access over network"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Disk access"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CPU access"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RDMA allows direct memory access between servers without CPU involvement.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is DPDK (Data Plane Development Kit)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database toolkit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Kernel bypass networking library"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graphics library"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security library"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DPDK provides kernel bypass for high-speed packet processing.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is NUMA (Non-Uniform Memory Access)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Uniform memory access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Memory access time depends on memory location"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache system"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Disk storage"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "NUMA: memory access time varies based on which CPU accesses which memory.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is CPU cache coherence?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single CPU cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Consistency of cached data across CPUs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory size"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Disk speed"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache coherence ensures multiple CPUs see consistent memory values.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is false sharing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "True data sharing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Performance degradation from cache line sharing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory leak"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data race"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "False sharing occurs when unrelated variables share cache line, causing invalidation.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is memory barrier/fence?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Memory allocation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Synchronization ensuring memory operation ordering"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory deallocation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Memory copy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Memory barriers prevent compiler/CPU reordering of memory operations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is lock-free programming?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Using locks"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Algorithms without traditional locking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No threading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single-threaded"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lock-free algorithms use atomic operations (CAS) instead of locks.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is CAS (Compare-And-Swap)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database operation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Atomic instruction for lock-free programming"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network protocol"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File operation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CAS atomically compares and updates value if unchanged, enabling lock-free algorithms.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is ABA problem in lock-free programming?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No problem"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Value changes twice, appearing unchanged"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Deadlock"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Livelock"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ABA problem: value changes A\u2192B\u2192A, CAS succeeds incorrectly.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is RCU (Read-Copy-Update)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database update"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Synchronization allowing lock-free reads"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache update"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File update"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RCU allows extremely fast, lock-free read-side critical sections.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is seqlock (sequential lock)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database lock"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Lock allowing fast reads with sequence counter"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Mutex"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Semaphore"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Seqlock uses sequence counter for lock-free reads, write coordination.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is memory pool?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database pool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pre-allocated memory blocks for reuse"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Thread pool"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Connection pool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Memory pools pre-allocate fixed-size blocks, reducing allocation overhead.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is object pool pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database pool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reusing expensive-to-create objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Thread pool"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Connection pool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object pool reuses expensive objects (database connections, threads) instead of recreating.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is connection pooling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single connection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of reusable database connections"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Thread pooling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Memory pooling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Connection pool maintains reusable database connections to avoid creation overhead.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HikariCP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "High-performance JDBC connection pool"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HikariCP is fast, lightweight JDBC connection pool for Java.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is thread pool?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single thread"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of worker threads for task execution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Process pool"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Connection pool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Thread pool maintains pool of worker threads to execute submitted tasks.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is work stealing in thread pools?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Task assignment by manager"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Idle threads stealing tasks from busy threads"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Random task assignment"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Priority queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Work stealing: idle threads steal tasks from busy threads' queues for load balancing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Fork/Join framework?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Divide-and-conquer parallel processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Fork/Join recursively splits tasks, processes in parallel, joins results.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is backpressure in reactive systems?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No flow control"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Controlling data flow when consumer slower"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data compression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache eviction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Backpressure signals upstream to slow down when downstream cannot keep up.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Reactive Streams?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Standard for async stream processing with backpressure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File API"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Reactive Streams standardizes async stream processing with non-blocking backpressure.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Project Reactor?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reactive library for Java"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing tool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Project Reactor is reactive library for building non-blocking applications on JVM.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is RxJava?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reactive Extensions for Java"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RxJava implements Reactive Extensions for composing async, event-based programs.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Akka?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Toolkit for concurrent, distributed, resilient applications"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Akka provides actor model for building concurrent, distributed systems.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is actor model?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database model"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Concurrency model with actors sending messages"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network model"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Storage model"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Actor model: actors are fundamental units that communicate via async message passing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Erlang/OTP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Programming language for fault-tolerant systems"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Operating system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Erlang with OTP provides platform for building highly available systems.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is let-it-crash philosophy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Prevent all crashes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Allow crashes, supervise and restart"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No error handling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Let-it-crash: allow components to fail, supervisors restart them.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is supervision tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database tree"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hierarchical process monitoring and restart"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File system tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network topology"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Supervision tree organizes processes hierarchically for fault tolerance.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is hot code reloading?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Stopping system to update"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Updating code without stopping system"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database migration"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache refresh"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Hot code reloading updates running system without downtime.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is blue-green deployment strategy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single environment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two identical environments, instant switch"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Gradual rollout"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database migration"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Blue-green: deploy to green, test, instantly switch traffic from blue.",
+    "difficulty_level": 3
+  }
+]

@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "What is JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compiled language"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Interpreted scripting language"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Machine language"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Assembly language"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JavaScript is an interpreted, high-level, just-in-time compiled programming language.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is TypeScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "JavaScript framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Typed superset of JavaScript"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JavaScript library"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSS preprocessor"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "let is block-scoped, var is function-scoped"
+      },
+      {
+        "option_id": 3,
+        "option_value": "var is block-scoped"
+      },
+      {
+        "option_id": 4,
+        "option_value": "let is global"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "let has block scope; var has function scope and is hoisted.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is const in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constant value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Block-scoped variable that cannot be reassigned"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Global constant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function scope"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "const declares block-scoped variable that cannot be reassigned (but object contents can change).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is hoisting in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No hoisting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Moving declarations to top of scope"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable deletion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function execution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Hoisting moves variable and function declarations to top of their scope.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between == and ===?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "== checks equality with coercion, === checks strict equality"
+      },
+      {
+        "option_id": 3,
+        "option_value": "=== is faster"
+      },
+      {
+        "option_id": 4,
+        "option_value": "== is strict"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "== checks equality with type coercion; === checks strict equality without coercion.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is type coercion in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No coercion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatic type conversion"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual conversion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Type checking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Type coercion is automatic or implicit conversion of values from one type to another.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is truthy and falsy in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same as true/false"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Values that evaluate to true/false in boolean context"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only booleans"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No concept"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Truthy values evaluate to true; falsy values (0, '', null, undefined, NaN, false) evaluate to false.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are falsy values in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Only false"
+      },
+      {
+        "option_id": 2,
+        "option_value": "false, 0, '', null, undefined, NaN"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only null"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only undefined"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Falsy: false, 0, -0, 0n, '', null, undefined, NaN.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is null in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same as undefined"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Intentional absence of value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Zero"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Empty string"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "null represents intentional absence of any object value.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is undefined in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same as null"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Variable declared but not assigned"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Zero"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Empty string"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "undefined means variable has been declared but not assigned a value.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the difference between null and undefined?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "null is intentional, undefined is not assigned"
+      },
+      {
+        "option_id": 3,
+        "option_value": "undefined is intentional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "null is intentional absence; undefined means variable not initialized.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is typeof operator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sets type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns string indicating operand's type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Creates type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Checks equality"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "typeof returns string indicating the type of unevaluated operand.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is typeof null in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "'null'"
+      },
+      {
+        "option_id": 2,
+        "option_value": "'object' (bug in JS)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "'undefined'"
+      },
+      {
+        "option_id": 4,
+        "option_value": "'number'"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "typeof null returns 'object' - this is a known bug in JavaScript.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is NaN in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Null value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Not-a-Number, result of invalid math operation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Zero"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Infinity"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "NaN (Not-a-Number) represents result of invalid or unreliable math operation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to check if value is NaN?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "value === NaN"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Number.isNaN(value) or isNaN()"
+      },
+      {
+        "option_id": 3,
+        "option_value": "value == NaN"
+      },
+      {
+        "option_id": 4,
+        "option_value": "typeof value"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Number.isNaN() or global isNaN() checks if value is NaN (NaN !== NaN).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Infinity in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Zero"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Represents mathematical Infinity"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Null"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Undefined"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Infinity represents positive infinity; -Infinity represents negative infinity.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Loop structure"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function with access to outer scope even after outer function returns"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Conditional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Closure is function that remembers and accesses variables from outer scope even after outer function completes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is scope in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No scope"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Current context of execution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable value"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function name"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Scope is current context of execution determining variable accessibility.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are the types of scope in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Only global"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Global, function, block (ES6+)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only local"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only block"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JavaScript has global scope, function scope, and block scope (let/const).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is lexical scope?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime scope"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scope determined by position in source code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dynamic scope"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No scope"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lexical (static) scope is determined by variable's position in source code.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the scope chain?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single scope"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hierarchy of scopes for variable lookup"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No chain"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function chain"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Scope chain is hierarchy of scopes JavaScript uses for variable lookup.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is this keyword in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Current file"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reference to current execution context"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Global object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Null"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "this refers to current execution context, value depends on how function is called.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What does this refer to in global scope?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Null"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Global object (window in browser, global in Node)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Undefined"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Current function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "In global scope, this refers to global object (window/global).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What does this refer to in object method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Global object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "The object the method belongs to"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Null"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Undefined"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "In object method, this refers to the object the method was called on.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What does this refer to in arrow function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Current object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inherits this from enclosing lexical scope"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Global object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Null"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Arrow functions don't have their own this; they inherit from enclosing scope.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is call() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Function call"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Calls function with given this and arguments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delete function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "call() calls function with given this value and arguments provided individually.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is apply() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same as call"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Like call but arguments as array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bind function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "apply() is like call() but arguments provided as array.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is bind() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Call immediately"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creates new function with fixed this"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Apply immediately"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delete function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "bind() creates new function that, when called, has its this set to provided value.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the difference between call, apply, and bind?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "call/apply invoke immediately, bind returns function; call-individual args, apply-array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "bind invokes immediately"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "call/apply invoke immediately; bind returns function. call-individual args, apply-array.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a prototype in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No prototype"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object that other objects inherit from"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Class definition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prototype is object from which other objects inherit properties and methods.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is prototype chain?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single prototype"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Chain of prototypes for property lookup"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No chain"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class chain"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prototype chain is series of linked prototypes JavaScript uses for property lookup.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is __proto__?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Standard property"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Non-standard way to access object's prototype"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__proto__ is non-standard way to access object's prototype (use Object.getPrototypeOf()).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is prototype property of function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Object prototype"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prototype object for instances created by constructor"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No property"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Function's prototype property is prototype for instances created with new.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Object.create()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Create variable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Create new object with specified prototype"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Create array"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object.create() creates new object with specified prototype object and properties.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Object.assign()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Create object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Copy enumerable own properties to target object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Delete properties"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Merge arrays"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object.assign() copies enumerable own properties from sources to target object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Object.keys()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get values"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return array of object's own property names"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get prototype"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get methods"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object.keys() returns array of object's own enumerable property names.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Object.values()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get keys"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return array of object's own property values"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get entries"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get prototype"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object.values() returns array of object's own enumerable property values.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Object.entries()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get keys"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return array of [key, value] pairs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get values"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get prototype"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object.entries() returns array of object's own enumerable [key, value] pairs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is hasOwnProperty()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check prototype"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if property is object's own property"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check value"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "hasOwnProperty() returns boolean indicating if object has property as own property.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is instanceof operator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if object is instance of constructor"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check equality"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check prototype"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "instanceof tests if prototype property of constructor appears anywhere in object's prototype chain.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is in operator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if property exists in object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check equality"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "in operator returns true if specified property is in specified object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is destructuring in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No destructuring"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extracting values from arrays/objects into variables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Creating objects"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Merging objects"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Destructuring extracts values from arrays or properties from objects into distinct variables.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is array destructuring?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Object destructuring"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extracting array elements into variables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No destructuring"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Creating arrays"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Array destructuring: const [a, b] = [1, 2]; extracts elements into variables.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is object destructuring?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array destructuring"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extracting object properties into variables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No destructuring"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Creating objects"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object destructuring: const {a, b} = {a: 1, b: 2}; extracts properties into variables.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is spread operator (...) in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Rest operator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Expands iterable/object into individual elements"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Multiplication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No operator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Spread operator (...) expands iterable into individual elements or object into key-value pairs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is rest parameter (...) in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Spread operator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Collects remaining arguments into array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No parameter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Optional parameter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Rest parameter (...) collects remaining arguments into array: function(...args).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between spread and rest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Spread expands, rest collects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Rest expands"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Spread expands iterables; rest collects remaining arguments into array.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is default parameter in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No default"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parameter with default value if not provided"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Required parameter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Rest parameter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Default parameter: function(a = 1) sets default value if argument not provided.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is template literal in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular string"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String with embedded expressions using backticks"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JSON string"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Regex"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Template literals (``) allow embedded expressions: `Hello ${name}`.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is tagged template literal?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular template"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function call with template literal parts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No tagging"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JSON template"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tagged template: function`template` allows function to process template literal.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Promise in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Synchronous code"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object representing eventual completion/failure of async operation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Callback function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Promise is object representing eventual completion or failure of asynchronous operation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What are Promise states?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One state"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pending, Fulfilled, Rejected"
+      },
+      {
+        "option_id": 3,
+        "option_value": "True/False"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Success/Failure"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Promise states: pending (initial), fulfilled (completed), rejected (failed).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Promise.then()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Catch errors"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handle fulfilled promise"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create promise"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Reject promise"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "then() adds fulfillment and rejection handlers to promise.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Promise.catch()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Handle success"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handle rejected promise"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create promise"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Chain promises"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "catch() adds rejection handler to promise (shorthand for .then(null, onRejected)).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Promise.finally()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Handle success"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Execute regardless of promise fate"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Handle rejection only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Create promise"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "finally() adds handler to be called when promise settles (success or failure).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Promise.all()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single promise"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns promise when all promises resolve"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Race promises"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Chain promises"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Promise.all() returns promise that resolves when all input promises resolve.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Promise.race()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All promises"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns promise when first promise settles"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Chain promises"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Create promise"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Promise.race() returns promise that settles when first input promise settles.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Promise.allSettled()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All resolve"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns when all promises settle (resolve or reject)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Race promises"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Chain promises"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Promise.allSettled() returns when all promises settle, regardless of outcome.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is async function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Synchronous function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function that returns a Promise"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Regular function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Callback function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "async function returns Promise, allows await keyword within it.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is await keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No waiting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pauses async function until Promise settles"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Block thread"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Skip execution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "await pauses async function execution until Promise settles, then resumes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the difference between Promise and async/await?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "async/await is syntactic sugar over Promises"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Different concepts"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No relation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "async/await is syntactic sugar making Promise code look more synchronous.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is callback function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Synchronous function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function passed as argument to another function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Async only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No callback"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Callback is function passed as argument to another function, executed later.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is callback hell?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Good pattern"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Nested callbacks making code hard to read"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No callbacks"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Simple pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Callback hell: deeply nested callbacks making code difficult to read and maintain.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to avoid callback hell?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More callbacks"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Use Promises or async/await"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No solution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous code"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Avoid callback hell using Promises, async/await, or modularizing code.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is event loop in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mechanism for handling async operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Synchronous loop"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Infinite loop"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event loop is mechanism that handles executing code, collecting events, executing queued sub-tasks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is call stack?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Event queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stack tracking function execution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory heap"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No stack"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Call stack tracks function calls - last in, first out (LIFO).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is task queue (macrotask)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Call stack"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Queue for macrotasks (setTimeout, I/O)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Microtask queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Task queue holds macrotasks: setTimeout, setInterval, I/O, UI rendering.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is microtask queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Macrotask queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Queue for microtasks (Promises, queueMicrotask)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Call stack"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Microtask queue holds microtasks: Promise callbacks, queueMicrotask, MutationObserver.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What executes first: microtasks or macrotasks?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Macrotasks"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Microtasks execute before next macrotask"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Same time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Microtasks execute before next macrotask and after current call stack clears.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is setTimeout()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Immediate execution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Executes function after specified delay"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Synchronous delay"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No delay"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "setTimeout() executes function once after specified delay (in milliseconds).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is setInterval()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single execution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Repeatedly executes function with fixed delay"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Immediate execution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No execution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "setInterval() repeatedly executes function with fixed time delay between calls.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is clearTimeout()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Start timeout"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cancels timeout set by setTimeout"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create interval"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Clear interval"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "clearTimeout() cancels timeout previously established by calling setTimeout.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is clearInterval()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Start interval"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cancels interval set by setInterval"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create timeout"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Clear timeout"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "clearInterval() cancels timed, repeating action previously established by setInterval.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is requestAnimationFrame()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Set timeout"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tells browser to perform animation before repaint"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Set interval"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No animation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "requestAnimationFrame() tells browser to execute animation before next repaint.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Fetch API?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "jQuery method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Modern interface for fetching resources"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XMLHttpRequest"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No API"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Fetch API provides modern interface for fetching resources across network.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What does fetch() return?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data directly"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Promise that resolves to Response"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Callback"
+      },
+      {
+        "option_id": 4,
+        "option_value": "XML"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "fetch() returns Promise that resolves to Response object representing response.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Response.json()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Returns string"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns Promise resolving to parsed JSON"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Returns object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Returns array"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "response.json() returns Promise resolving to parsed JSON from response body.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is XMLHttpRequest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Modern API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Legacy API for HTTP requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Fetch API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No API"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XMLHttpRequest is legacy API for HTTP requests, largely replaced by fetch.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is localStorage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Server storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Web storage for persistent data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Session storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cookie"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "localStorage stores data with no expiration time, persists across sessions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sessionStorage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Persistent storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Web storage for session-only data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Local storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cookie"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "sessionStorage stores data for one session, cleared when page session ends.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between localStorage and sessionStorage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "localStorage persists, sessionStorage cleared on session end"
+      },
+      {
+        "option_id": 3,
+        "option_value": "sessionStorage persists"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "localStorage persists indefinitely; sessionStorage cleared when tab/window closes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a cookie?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Local storage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Small data stored on client sent with HTTP requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Session storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cookie is small piece of data stored on client and sent with HTTP requests.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is document in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Window object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Root node of HTML document"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Body element"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Head element"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "document represents entire HTML document loaded in browser window.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is window in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Document"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Global object representing browser window"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Body element"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Head element"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "window is global object representing browser window containing DOM document.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is DOM?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "JavaScript engine"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Document Object Model - tree structure of HTML"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Browser API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Style sheet"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DOM (Document Object Model) is programming interface for HTML documents.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is document.getElementById()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get by class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Get element by its id attribute"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get by tag"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get by name"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "getElementById() returns element with specified id.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is document.querySelector()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get all elements"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Get first element matching CSS selector"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get by id"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get by class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "querySelector() returns first element matching specified CSS selector.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is document.querySelectorAll()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get first element"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Get all elements matching CSS selector"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get by id"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get by class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "querySelectorAll() returns all elements matching specified CSS selector.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is addEventListener()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Remove event"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Attach event handler to element"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create event"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Trigger event"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "addEventListener() attaches event handler to specified element.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is removeEventListener()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Add event"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Remove event handler from element"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create event"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Trigger event"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "removeEventListener() removes event handler previously registered.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is event bubbling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No bubbling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Event propagates from target up to ancestors"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Event stops"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Event down"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event bubbling: event propagates from target element up through ancestors.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event capturing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No capturing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Event propagates from ancestors down to target"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Event up"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Event stops"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event capturing: event propagates from outermost ancestor down to target.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event delegation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct binding"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using single listener on parent for child events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No delegation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple listeners"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event delegation uses single event listener on parent to handle events for children.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event.preventDefault()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Stop propagation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prevent default browser action"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Trigger default"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No effect"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "preventDefault() prevents browser's default action for event.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is event.stopPropagation()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Prevent default"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stop event bubbling/capturing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Trigger event"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No effect"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "stopPropagation() stops event from bubbling up or capturing further.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is JSON?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "JavaScript function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Lightweight data interchange format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JavaScript method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "XML format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JSON (JavaScript Object Notation) is lightweight data interchange format.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is JSON.parse()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Stringify object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parse JSON string to JavaScript object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create JSON"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Validate JSON"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JSON.parse() parses JSON string, constructing JavaScript value/object.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is JSON.stringify()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parse JSON"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Convert JavaScript object to JSON string"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Parse string"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JSON.stringify() converts JavaScript value to JSON string.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is ES6/ES2015?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Old JavaScript"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Major JavaScript update in 2015"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Browser API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ES6 (ES2015) was major JavaScript update adding classes, modules, arrow functions, etc.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is ESModule (import/export)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "CommonJS"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Standard JavaScript module system"
+      },
+      {
+        "option_id": 3,
+        "option_value": "AMD"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No modules"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ESModules (import/export) are standard JavaScript module system (ES6+).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is CommonJS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "ESModule"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Module system used in Node.js (require/module.exports)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "AMD"
+      },
+      {
+        "option_id": 4,
+        "option_value": "UMD"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CommonJS is module system using require() and module.exports (Node.js).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between import and require?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "import is ES6 static, require is CommonJS dynamic"
+      },
+      {
+        "option_id": 3,
+        "option_value": "require is ES6"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "import is ES6 static module loading; require is CommonJS dynamic loading.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is arrow function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Concise function syntax with lexical this"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Generator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Arrow functions provide concise syntax and lexical this binding.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is class in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "True class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Syntactic sugar over prototype-based inheritance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Interface"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstract class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ES6 class is syntactic sugar over JavaScript's prototype-based inheritance.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is constructor in class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Special method for creating/initializing object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Getter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "constructor is special method for creating and initializing object created with class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What extends keyword does?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Implements interface"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creates class that is child of another class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Creates object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No use"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "extends creates class that is child of another class (inheritance).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is super() in class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parent class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Calls parent class constructor/methods"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Child class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "super() calls parent class constructor; super.method() calls parent method.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is static method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Instance method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method called on class, not instance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Private method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Getter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "static methods are called on class itself, not on instances of class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is getter in class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method that gets value of property"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Setter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "getter (get keyword) gets value of specific property.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is setter in class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method that sets value of property"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Getter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "setter (set keyword) sets value of specific property.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is private class field (#)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public field"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Truly private class field (ES2022)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Protected"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No privacy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "# prefix creates truly private class field, accessible only within class.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Symbol in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "String"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unique, immutable primitive value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Number"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Symbol is unique, immutable primitive value, often used as object key.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is unique about Symbol?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Can be stringified"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Each Symbol is unique, even with same description"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Can be duplicated"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Is mutable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Each Symbol is unique; Symbol('a') !== Symbol('a').",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Map in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Plain object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Collection of keyed data with any key type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Set"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Map holds key-value pairs where keys can be any type (unlike plain objects).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is difference between Map and Object?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Map allows any key type, maintains insertion order, has size"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Object is better"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Map: any key type, maintains order, has size property, iterable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Set in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Collection of unique values"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Map"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Set is collection of values where each value must be unique.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is WeakMap?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strong map"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Map that doesn't prevent garbage collection of keys"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Regular map"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No map"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WeakMap holds weak references to keys, allowing garbage collection.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is WeakSet?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strong set"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Set that doesn't prevent garbage collection of objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Regular set"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No set"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WeakSet holds weak references to objects, allowing garbage collection.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is BigInt in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular number"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Arbitrary-precision integer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Decimal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Float"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BigInt is built-in object for representing integers larger than 2^53 - 1.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to create BigInt?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Number(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "n or BigInt(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "parseInt(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String(n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Create BigInt by appending n to integer or using BigInt() function.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Intl object?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No internationalization"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Internationalization API"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Internet API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Internal API"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Intl object is namespace for ECMAScript Internationalization API.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Intl.DateTimeFormat?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Number format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Date and time formatting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Currency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Intl.DateTimeFormat enables language-sensitive date and time formatting.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Intl.NumberFormat?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Date format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Number formatting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Collator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Intl.NumberFormat enables language-sensitive number formatting.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is regular expression (RegExp)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "String method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pattern for matching character combinations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Object type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Regular expression is pattern used to match character combinations in strings.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is regex literal syntax?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "/pattern/modifiers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "new RegExp(pattern)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "regex(pattern)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "pattern"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Regex literal: /pattern/modifiers (e.g., /abc/g).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is test() in RegExp?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Execute match"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Test for match, returns true/false"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Replace"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "test() tests for match in string, returns true or false.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is match() in String?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Test match"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return matches as array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Replace"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "match() retrieves result of matching string against regular expression.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is replace() in String?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Find match"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Replace matches with new substring"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Test match"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "replace() returns new string with matches replaced by replacement.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is search() in String?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Replace"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Search for match, return index"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Test match"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "search() executes search for match, returns index of match or -1.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is split() in String?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Join strings"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Split string into array by separator"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Replace"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Search"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "split() divides string into ordered list of substrings.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is try-catch in JavaScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error handling mechanism"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "try-catch statement marks block of statements to try with catch for errors.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is throw statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Catch error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Throw custom exception"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Handle error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Ignore error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "throw statement throws user-defined exception.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is finally block?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Optional block"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Always executes after try/catch"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only on error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only on success"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "finally block executes after try and catch blocks regardless of result.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is Error object?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Success object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Runtime error information"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Warning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Log"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Error object represents runtime error with message and stack trace.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeError?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Syntax error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error when value is not expected type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reference error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Range error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TypeError is thrown when operation is performed on wrong type.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is ReferenceError?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Type error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error when referencing non-existent variable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Syntax error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Range error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ReferenceError is thrown when referencing variable that doesn't exist.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SyntaxError?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error in parsing code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Type error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Logic error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SyntaxError is thrown when code has syntax error that prevents parsing.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is RangeError?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Type error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error when value not in allowed range"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Syntax error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Reference error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RangeError is thrown when numeric variable/parameter is outside valid range.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript's type annotation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No types"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Explicitly specifying type: let x: number"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Implicit types"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JavaScript types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Type annotation explicitly specifies type: let x: number = 5;",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript's type inference?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No inference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compiler infers type from value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Runtime inference"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TypeScript infers type when not explicitly annotated based on assigned value.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript interface?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Contract defining shape of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Interface defines contract for object shape (properties and methods).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript type alias?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Interface"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Name for any type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "type alias creates new name for type: type ID = number;",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is difference between interface and type alias?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "interface can be extended/merged, type can define unions/intersections"
+      },
+      {
+        "option_id": 3,
+        "option_value": "type can be extended"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Interface: extendable, declaration merging. Type: unions, intersections, primitives.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript generic?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Specific type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type that works with any type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No generics"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only number"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Generics create reusable components that work with multiple types: <T>.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is generic syntax?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "T only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "<T> or <Type>"
+      },
+      {
+        "option_id": 3,
+        "option_value": "any"
+      },
+      {
+        "option_id": 4,
+        "option_value": "unknown"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Generic syntax: function identity<T>(arg: T): T { return arg; }",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript enum?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Named constants"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "enum defines set of named constants: enum Color { Red, Green, Blue }.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript tuple?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Array with fixed number of elements with known types"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Set"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tuple: [string, number] - array with fixed length and specific types per position.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript union type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Value can be one of several types: string | number"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Intersection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Generic"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Union type: string | number - value can be any of specified types.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript intersection type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Combines multiple types: Type1 & Type2"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Union"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Generic"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Intersection type: Type1 & Type2 - combines all properties of both types.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript any type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strict type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Opt-out of type checking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Unknown type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Never type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "any opts out of type checking - can be anything, no type safety.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript unknown type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same as any"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type-safe counterpart of any"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Never type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Void type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "unknown is type-safe counterpart to any - must check type before using.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript never type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Value that never occurs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Unknown"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Void"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "never represents value that never occurs (function that always throws, infinite loop).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript void type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "No return value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Null"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Undefined"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "void represents absence of return value (functions that don't return).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript readonly modifier?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Writable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Property cannot be reassigned"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Optional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Private"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "readonly prevents property from being reassigned after initialization.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript optional parameter?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Required"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parameter with ? that may be omitted"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Default"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Rest"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Optional parameter: function(a: number, b?: number) - b may be omitted.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript access modifiers?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No modifiers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "public, private, protected"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only public"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only private"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Access modifiers: public (default), private, protected for class members.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript abstract class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Concrete class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class that cannot be instantiated, meant to be extended"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Interface"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "abstract class cannot be instantiated, contains abstract methods for subclasses.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript implements keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Extends class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class implements interface"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Creates instance"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No use"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "implements makes class satisfy contract of interface: class X implements Y.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript declaration file (.d.ts)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source file"
+      },
+      {
+        "option_id": 2,
+        "option_value": "File providing type information for JS library"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Config file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Test file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": ".d.ts declaration file provides TypeScript type info for existing JavaScript.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript tsconfig.json?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source file"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Configuration file for TypeScript project"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Test config"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Build script"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "tsconfig.json specifies root files and compiler options for TypeScript project.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript strict mode?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Lenient mode"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enables stricter type checking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No checking"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JavaScript mode"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "strict mode enables comprehensive strictness flags for stronger type safety.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript decorators?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No decorators"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Experimental feature for annotations/modifying classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Functions only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variables only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Decorators are experimental feature for annotating/modifying classes and members.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript namespace?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Way to organize code with internal modules"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "namespace (internal module) organizes code within single global namespace.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Namespace"
+      },
+      {
+        "option_id": 2,
+        "option_value": "External module with import/export"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Module (external) is file with its own scope, using import/export.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript triple-slash directive?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Comment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "XML tag for compiler directives"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Number"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Triple-slash directives (/// <reference ... />) are compiler directives.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript discriminated union?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular union"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Union with common literal property for narrowing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Intersection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Generic"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Discriminated union has common literal property to discriminate between members.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript type narrowing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Broadening"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Refining type to more specific type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No narrowing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Any type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Type narrowing refines type through type guards (if checks, typeof, instanceof).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript type guard?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No guards"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Expression that narrows type within scope"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Generic"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Type guard is expression that performs runtime check to narrow type.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is typeof type guard?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No guard"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Narrows type based on typeof check"
+      },
+      {
+        "option_id": 3,
+        "option_value": "instanceof only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No narrowing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "typeof type guard: if (typeof x === 'string') narrows x to string.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is instanceof type guard?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No guard"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Narrows type based on instanceof check"
+      },
+      {
+        "option_id": 3,
+        "option_value": "typeof only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No narrowing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "instanceof type guard: if (x instanceof Class) narrows x to Class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is in type guard?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No guard"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Narrows type based on property existence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "typeof only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No narrowing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "in type guard: if ('prop' in x) narrows based on property existence.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is custom type guard function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No custom guards"
+      },
+      {
+        "option_id": 2,
+        "option_value": "User-defined function returning type predicate"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Built-in only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No guards"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Custom type guard: function isType(x): x is Type { return ... }",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript mapped type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type created by mapping over properties"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Generic only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Union"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Mapped type creates new type by transforming properties of existing type.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript conditional type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type selecting based on condition"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Union only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Intersection"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Conditional type: T extends U ? X : Y - selects type based on condition.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript infer keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No infer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Infers type within conditional type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Generic"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "infer declares type variable to be inferred within true branch of conditional.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript utility types?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No utilities"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Built-in type helpers (Partial, Required, etc.)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only Partial"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only Required"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Utility types: Partial, Required, Readonly, Record, Pick, Omit, etc.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Partial<T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All required"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Makes all properties optional"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Makes readonly"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Makes required"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Partial<T> makes all properties of T optional.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Required<T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All optional"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Makes all properties required"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Makes readonly"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Makes optional"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Required<T> makes all properties of T required.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Readonly<T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Writable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Makes all properties readonly"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Makes optional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Makes required"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Readonly<T> makes all properties of T readonly.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Pick<T, K>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All properties"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Picks subset of properties from T"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Omits properties"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Combines types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pick<T, K> constructs type by picking set of properties K from T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Omit<T, K>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All properties"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Constructs type without specified properties"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Picks properties"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Combines types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Omit<T, K> constructs type by omitting set of properties K from T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Record<K, T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object type with keys K and values T"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Union"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Intersection"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Record<K, T> constructs object type with property keys K and values T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Exclude<T, U>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Include types"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Exclude types from T assignable to U"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Extract types"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Combine types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Exclude<T, U> excludes from T those types assignable to U.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Extract<T, U>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exclude types"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extract types from T assignable to U"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Combine types"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No extraction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Extract<T, U> extracts from T those types assignable to U.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is NonNullable<T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Nullable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Exclude null and undefined from T"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Include null"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No change"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "NonNullable<T> excludes null and undefined from T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ReturnType<T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parameter types"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extract return type of function type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No extraction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Argument type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ReturnType<T> extracts return type of function type T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Parameters<T>?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Return type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extract parameter types of function type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No extraction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No parameters"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Parameters<T> extracts parameter types of function type T as tuple.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is keyof operator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Valueof"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Union of property names of type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Typeof"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Instanceof"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "keyof T produces union of known public property names of T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is typeof operator in TypeScript?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "JavaScript typeof"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Get type of variable/function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Instanceof"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Keyof"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "typeof in type context gets type of variable or function.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is indexed access type?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Access property type: T[K]"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Generic only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Union only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Indexed access type T[K] gets type of property at key K in T.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript const assertion?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No assertion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mark literal type as readonly with as const"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Any assertion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unknown assertion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "as const marks literal type as readonly, narrows to most specific type.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript satisfies operator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No operator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check expression matches type without widening"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Any operator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unknown operator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "satisfies checks if expression matches type while preserving specific type.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript noImplicitAny?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow any"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Raise error on expressions/declarations with implied any"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All any"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "noImplicitAny raises error when TypeScript cannot infer type (implies any).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript strictNullChecks?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow null"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Make null and undefined distinct types"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No null"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All null"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "strictNullChecks makes null and undefined distinct types, must handle explicitly.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript target option?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No target"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Specify ECMAScript target version"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Source map"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "target specifies ECMAScript target version (ES3, ES5, ES6/ES2015, etc.).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript module option?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Specify module code generation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Target"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Source map"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "module specifies module code generation (CommonJS, AMD, ES6, etc.).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript outDir?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Source directory"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Output directory for compiled files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No output"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Root directory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "outDir specifies output directory for compiled JavaScript files.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript rootDir?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Output directory"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Root directory of source files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No root"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Current directory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "rootDir specifies root directory of input source files.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript sourceMap?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No map"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Generate source map files for debugging"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No debug"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Minify"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "sourceMap generates .map files for debugging TypeScript in browser.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript declaration option?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No declaration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Generate .d.ts declaration files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No types"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Source only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "declaration generates .d.ts declaration files for library consumers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript strict option?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No strictness"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enable all strict type-checking options"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Some strictness"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "strict enables all strict type-checking options.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript esModuleInterop?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No interop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enable interoperability between CommonJS and ES Modules"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No modules"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All CommonJS"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "esModuleInterop enables emit interoperability between CommonJS and ES Modules.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript skipLibCheck?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check all"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Skip type checking of declaration files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No checking"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strict checking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "skipLibCheck skips type checking of all declaration files (*.d.ts).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript forceConsistentCasingInFileNames?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No forcing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Disallow inconsistently-cased references"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Allow any case"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No checking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "forceConsistentCasingInFileNames disallows inconsistently-cased file references.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript resolveJsonModule?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No JSON"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Allow importing JSON files"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No modules"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All JSON"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "resolveJsonModule allows importing modules with .json extension.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript baseUrl?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No base"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Base directory for non-relative module resolution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Current directory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Root directory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "baseUrl specifies base directory to resolve non-relative module names.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript paths?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No paths"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Module name to path mappings"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only baseUrl"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No mapping"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "paths specifies module name to path mappings relative to baseUrl.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript include?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exclude files"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Specify files to include in compilation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All files"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No files"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "include specifies array of filenames/patterns to include in compilation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript exclude?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Include files"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Specify files to exclude from compilation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All files"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No files"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "exclude specifies array of filenames/patterns to exclude from compilation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript extends?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No extension"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inherit configuration from another file"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Override only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No config"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "extends allows inheriting configuration from another tsconfig.json file.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript compiler API?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Programmatic access to TypeScript compiler"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only CLI"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only IDE"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TypeScript compiler API provides programmatic access to compiler functionality.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript language service?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No service"
+      },
+      {
+        "option_id": 2,
+        "option_value": "API for editor features like autocomplete"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only compiler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only runtime"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TypeScript language service provides API for editor intelligence features.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript watch mode?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No watch"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatically recompile on file changes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No compile"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Watch mode (--watch) watches files and recompiles on changes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is TypeScript project references?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No references"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Split project into multiple projects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single project"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Project references allow splitting code into multiple projects for faster builds.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript composite option?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No composite"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enable project references on project"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single project"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No references"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "composite enables project references and ensures build output is valid.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript incremental?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Full build"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enable incremental compilation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No build"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Clean build"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "incremental enables incremental compilation, storing build info for faster rebuilds.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is babel-loader?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "TypeScript loader"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Webpack loader for transpiling with Babel"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No loader"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSS loader"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "babel-loader transpiles JavaScript/TypeScript files using Babel and webpack.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ts-loader?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Babel loader"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Webpack loader for TypeScript"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No loader"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSS loader"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ts-loader loads TypeScript files and compiles to JavaScript using webpack.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is esbuild?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Slow bundler"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extremely fast JavaScript bundler and minifier"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No bundler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only minifier"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "esbuild is extremely fast JavaScript bundler and minifier written in Go.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is SWC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Slow compiler"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Super-fast JavaScript/TypeScript compiler"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No compiler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only bundler"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SWC is Rust-based super-fast compiler for JavaScript and TypeScript.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Vite?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Slow tool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Next generation frontend tooling"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Old tool"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Backend tool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Vite is next generation frontend tooling with fast dev server and optimized build.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is esbuild vs tsc?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "esbuild is faster but less type checking, tsc is slower with full checking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "tsc is faster"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "esbuild is faster for transpilation; tsc provides full type checking.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript strictFunctionTypes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Lenient functions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enforce strict checking of function types"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No checking"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All functions"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "strictFunctionTypes enforces stricter checking of function type parameters.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript noImplicitReturns?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow missing returns"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error when not all code paths return value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No returns"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All returns"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "noImplicitReturns errors when function doesn't return value on all code paths.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript noImplicitThis?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow implicit this"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error when this has implicit any type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No this"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All this"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "noImplicitThis raises error when this expression has implicit any type.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript alwaysStrict?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No strict"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parse in strict mode and emit 'use strict'"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No parsing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No emit"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "alwaysStrict ensures files are parsed in ECMAScript strict mode.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript noUnusedLocals?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow unused"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error on unused local variables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No locals"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All unused"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "noUnusedLocals reports error on unused local variables.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript noUnusedParameters?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow unused"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error on unused parameters"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No parameters"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All unused"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "noUnusedParameters reports error on unused parameters in function.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript exactOptionalPropertyTypes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow undefined"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Treat optional properties as exactly present or not"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All optional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No optional"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "exactOptionalPropertyTypes ensures optional properties cannot be explicitly set to undefined.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript noUncheckedIndexedAccess?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Checked access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Add undefined to indexed access result"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No access"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All access"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "noUncheckedIndexedAccess adds undefined to un-declared field of indexed access.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript jsx option?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No JSX"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Specify JSX code generation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No React"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All JSX"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "jsx specifies JSX code generation: preserve, react, react-jsx, etc.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript experimentalDecorators?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No decorators"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enable experimental decorator support"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Standard decorators"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No support"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "experimentalDecorators enables experimental support for decorators.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript emitDecoratorMetadata?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No metadata"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Emit design-type metadata for decorators"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No decorators"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All metadata"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "emitDecoratorMetadata emits design-type metadata for decorated declarations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript useDefineForClassFields?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No fields"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Emit class fields with define semantics"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No classes"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All fields"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "useDefineForClassFields emits class fields with Object.defineProperty semantics.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript isolatedModules?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No isolation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ensure files can be transpiled independently"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All modules"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No modules"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "isolatedModules ensures each file can be safely transpiled without dependencies.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TypeScript preserveConstEnums?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Remove enums"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Don't erase const enum declarations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All enums"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No enums"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "preserveConstEnums doesn't erase const enum declarations in generated code.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is TypeScript allowSyntheticDefaultImports?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No imports"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Allow default imports from modules without default"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All imports"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No default"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "allowSyntheticDefaultImports allows default imports from modules without default export.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "JS+TS Concept 239",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for JS+TS concept 239",
+    "difficulty_level": 5
+  },
+  {
+    "question": "JS+TS Concept 240",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for JS+TS concept 240",
+    "difficulty_level": 1
+  },
+  {
+    "question": "JS+TS Concept 241",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for JS+TS concept 241",
+    "difficulty_level": 2
+  },
+  {
+    "question": "JS+TS Concept 242",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for JS+TS concept 242",
+    "difficulty_level": 3
+  },
+  {
+    "question": "JS+TS Concept 243",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for JS+TS concept 243",
+    "difficulty_level": 4
+  },
+  {
+    "question": "JS+TS Concept 244",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for JS+TS concept 244",
+    "difficulty_level": 5
+  },
+  {
+    "question": "JS+TS Concept 245",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for JS+TS concept 245",
+    "difficulty_level": 1
+  },
+  {
+    "question": "JS+TS Concept 246",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for JS+TS concept 246",
+    "difficulty_level": 2
+  },
+  {
+    "question": "JS+TS Concept 247",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for JS+TS concept 247",
+    "difficulty_level": 3
+  },
+  {
+    "question": "JS+TS Concept 248",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for JS+TS concept 248",
+    "difficulty_level": 4
+  },
+  {
+    "question": "JS+TS Concept 249",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for JS+TS concept 249",
+    "difficulty_level": 5
+  },
+  {
+    "question": "JS+TS Concept 250",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for JS+TS concept 250",
+    "difficulty_level": 1
+  }
+]

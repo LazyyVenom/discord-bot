@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Binary search divides the search space in half with each iteration, resulting in logarithmic time complexity.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which data structure follows LIFO (Last In First Out) principle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stack"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Linked List"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Stack follows LIFO where the last element added is the first one to be removed.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the space complexity of recursive DFS on a binary tree with n nodes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "In the worst case (skewed tree), the recursion stack can go up to n levels deep.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bubble Sort"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Insertion Sort"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Quick Sort"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Merge Sort"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Merge Sort guarantees O(n log n) time complexity in all cases, while Quick Sort can degrade to O(n\u00b2).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a hash collision?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "When two keys produce the same hash value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "When hash table is full"
+      },
+      {
+        "option_id": 3,
+        "option_value": "When hash function fails"
+      },
+      {
+        "option_id": 4,
+        "option_value": "When key is null"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "A collision occurs when two different keys hash to the same index in the hash table.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which data structure is best for implementing a priority queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Linked List"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Heap"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Stack"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Heaps provide O(log n) insertion and extraction of min/max elements, making them ideal for priority queues.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the time complexity of accessing an element in an array by index?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Arrays provide constant-time access to elements using index calculation (base address + index \u00d7 size).",
+    "difficulty_level": 1
+  },
+  {
+    "question": "In a binary search tree, where is the smallest element located?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Root"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Leftmost node"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Rightmost node"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Leaf node"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "In BST, all left descendants are smaller, so the minimum is at the leftmost node.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What algorithm is used to find the shortest path in an unweighted graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dijkstra's Algorithm"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bellman-Ford"
+      },
+      {
+        "option_id": 3,
+        "option_value": "BFS"
+      },
+      {
+        "option_id": 4,
+        "option_value": "DFS"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "BFS explores level by level, guaranteeing shortest path in unweighted graphs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the time complexity of inserting at the beginning of a linked list?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Linked list insertion at head only requires updating a few pointers, taking constant time.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "Which of the following is NOT a self-balancing binary search tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "AVL Tree"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Red-Black Tree"
+      },
+      {
+        "option_id": 3,
+        "option_value": "B-Tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary Heap"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Binary Heap is a complete tree used for priority queues, not a self-balancing BST.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the worst-case time complexity of QuickSort?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(log n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "With poor pivot selection (already sorted array), QuickSort degrades to O(n\u00b2).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "Dynamic Programming is primarily used for problems with:",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Overlapping subproblems and optimal substructure"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Greedy choice property"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Linear structure only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sorting requirements"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "DP solves problems by breaking them into overlapping subproblems with optimal substructure.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What data structure would you use to check for balanced parentheses?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stack"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Stack naturally handles nested structures - push on opening, pop on closing brackets.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the height of a complete binary tree with n nodes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(\u221an)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Complete binary trees maintain height proportional to log(n) due to their balanced nature.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which traversal gives nodes in non-decreasing order for a BST?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Preorder"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inorder"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Postorder"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Level order"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Inorder traversal (Left-Root-Right) visits nodes in sorted order for BSTs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the time complexity of building a heap from n elements?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(log n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Heapify process can build a heap in O(n) time using bottom-up approach.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "In graph theory, what does a topological sort produce?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Linear ordering of vertices"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Minimum spanning tree"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shortest paths"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strongly connected components"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Topological sort creates a linear ordering where for every edge (u,v), u comes before v.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the main advantage of doubly linked lists over singly linked lists?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Less memory usage"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bidirectional traversal"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Faster insertion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Simpler implementation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Doubly linked lists allow traversal in both directions due to previous pointers.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "Which algorithm finds minimum spanning tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dijkstra's"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prim's"
+      },
+      {
+        "option_id": 3,
+        "option_value": "A*"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Floyd-Warshall"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prim's algorithm greedily adds minimum weight edges to build MST.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is amortized analysis used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Worst-case per operation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Average time over sequence of operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Best-case scenario"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Space complexity"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Amortized analysis gives average performance over a sequence of operations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What data structure supports O(1) insert, delete, and getRandom?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hash Map + Array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Linked List"
+      },
+      {
+        "option_id": 4,
+        "option_value": "BST"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Hash map provides O(1) access, array provides O(1) random access - combined they achieve all operations in O(1).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the time complexity of Union-Find with path compression?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(\u03b1(n))"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "With path compression, Union-Find approaches inverse Ackermann complexity, effectively constant.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "Which problem cannot be solved by greedy algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Fractional Knapsack"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Huffman Coding"
+      },
+      {
+        "option_id": 3,
+        "option_value": "0/1 Knapsack"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Activity Selection"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "0/1 Knapsack requires DP as greedy choice doesn't guarantee optimal solution.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a red-black tree's color property purpose?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Aesthetics"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ensure height balance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Faster search"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Color properties ensure the tree remains approximately balanced, guaranteeing O(log n) operations.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the best-case time complexity of Bubble Sort?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "When array is already sorted, Bubble Sort with optimization runs in O(n).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Heap"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stack"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Array"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Call stack uses stack data structure to manage function calls.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is tail recursion?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Recursion at the end of function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Infinite recursion"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Multiple recursive calls"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Recursive data structure"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Tail recursion occurs when recursive call is the last operation in function.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of deleting from a max heap?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n log n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Deletion requires heapify operation which takes O(log n) time.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which graph representation is better for sparse graphs?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Adjacency Matrix"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Adjacency List"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Edge List"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Incidence Matrix"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Adjacency list uses O(V+E) space vs O(V\u00b2) for matrix.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What does Dijkstra's algorithm fail on?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unweighted graphs"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Negative weight edges"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Directed graphs"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Disconnected graphs"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dijkstra's greedy approach fails with negative edge weights.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Floyd-Warshall algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single source shortest path"
+      },
+      {
+        "option_id": 2,
+        "option_value": "All pairs shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimum spanning tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Topological sort"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Floyd-Warshall finds shortest paths between all pairs of vertices.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the load factor in hashing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Number of collisions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ratio of elements to slots"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Hash function quality"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Table size"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Load factor = n/m where n is elements and m is table size.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which sorting is stable by default?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Quick Sort"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Merge Sort"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Heap Sort"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Selection Sort"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Merge Sort preserves relative order of equal elements.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a B-Tree primarily used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Memory sorting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Database indexing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String matching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "B-Trees optimized for disk access are used in database indexing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of binary search tree search?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n) average"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n) always"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Balanced BST gives O(log n), but skewed tree gives O(n).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What characterizes a complete binary tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All levels filled except last"
+      },
+      {
+        "option_id": 2,
+        "option_value": "All nodes have 2 children"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Height is minimum"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All leaves at same level"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Complete binary tree has all levels filled except possibly the last, filled from left.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is memoization in dynamic programming?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bottom-up approach"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing subproblem solutions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Greedy selection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Recursive division"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Memoization stores results of expensive function calls to avoid recomputation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which algorithm uses divide and conquer?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bubble Sort"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Merge Sort"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Insertion Sort"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Selection Sort"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Merge Sort divides array, sorts subarrays, then merges them.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the space complexity of iterative BFS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "BFS queue can hold up to O(n) nodes in worst case.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is an AVL tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Self-balancing BST"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B-tree variant"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Heap structure"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph representation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "AVL tree is a self-balancing binary search tree with balance factor constraint.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of accessing middle element in linked list?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Linked list requires traversal to reach middle element.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "Which problem exhibits optimal substructure?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding maximum element"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Linear search"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Printing array"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Shortest path problems have optimal substructure - optimal solution contains optimal subsolutions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a trie data structure used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sorting numbers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String retrieval"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Priority queuing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Trie (prefix tree) efficiently stores and retrieves strings.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kruskal's algorithm time complexity with union-find?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(E log E)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(E log V)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(VE)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sorting edges takes O(E log E) = O(E log V), union-find operations are nearly constant.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the main disadvantage of separate chaining?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Memory overhead of pointers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Slower lookup"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Complex implementation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Fixed size"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Separate chaining uses extra memory for linked list pointers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is interpolation search time complexity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(log log n) best case"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "For uniformly distributed data, interpolation search can achieve O(log log n).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What data structure supports LRU cache implementation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Hash Map + Doubly Linked List"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Stack"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Queue"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Hash map provides O(1) access, doubly linked list maintains order for O(1) removal.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the height of an AVL tree with n nodes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(\u221an)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "AVL tree maintains height O(log n) through rotations.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "Which traversal is used to create a copy of a tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inorder"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Preorder"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Postorder"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Level order"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Preorder (Root-Left-Right) is used to create a copy of the tree.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of heapify operation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Heapify operation takes O(log n) time as it may need to traverse the height of heap.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a spanning tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Tree with all vertices and minimum edges"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree with minimum weight"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Binary tree variant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Balanced tree"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Spanning tree connects all vertices with exactly V-1 edges without cycles.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the maximum number of edges in a simple undirected graph with n vertices?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "n(n-1)/2"
+      },
+      {
+        "option_id": 2,
+        "option_value": "n(n-1)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "n\u00b2"
+      },
+      {
+        "option_id": 4,
+        "option_value": "2n"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Maximum edges in simple undirected graph is n(n-1)/2.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which sorting algorithm is in-place but not stable?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Merge Sort"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Heap Sort"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Insertion Sort"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bubble Sort"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Heap Sort is in-place but not stable due to element swapping.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the recurrence relation for Merge Sort?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "T(n) = 2T(n/2) + O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "T(n) = T(n-1) + O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "T(n) = 2T(n/2) + O(1)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "T(n) = T(n/2) + O(n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Merge Sort divides into 2 halves (2T(n/2)) and merges in O(n) time.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a bipartite graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Graph with two connected components"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Graph whose vertices can be divided into two disjoint sets"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph with two edges"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary tree"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bipartite graph vertices can be divided into two independent sets U and V.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of finding LCA in a BST?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(h)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "LCA in BST can be found in O(h) where h is height of tree.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Knuth-Morris-Pratt algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sorting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pattern matching"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Matrix multiplication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "KMP algorithm efficiently searches for patterns in text.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a deque?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Double-ended queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Double queue"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Priority queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Circular queue"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Deque (double-ended queue) allows insertion and deletion at both ends.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the time complexity of Counting Sort?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n+k)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Counting Sort takes O(n+k) where k is range of input.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the main advantage of Radix Sort?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "In-place sorting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Linear time for integers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Stable sorting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Simple implementation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Radix Sort can sort integers in O(nk) time where k is number of digits.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a strongly connected component?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Component with maximum edges"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Subgraph with path between every pair"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Complete subgraph"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree subgraph"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SCC is maximal subgraph where every vertex is reachable from every other vertex.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What algorithm finds strongly connected components?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dijkstra's"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Kosaraju's"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Prim's"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Kruskal's"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Kosaraju's algorithm uses two DFS passes to find SCCs.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the time complexity of Bellman-Ford?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(V log E)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(VE)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(E log V)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bellman-Ford relaxes all edges V-1 times, giving O(VE) complexity.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the main advantage of Bellman-Ford over Dijkstra?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Faster"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handles negative weights"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Less memory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Simpler"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bellman-Ford can handle negative weight edges and detect negative cycles.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a minimum cut in a flow network?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cut with minimum capacity"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cut with minimum edges"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimum spanning tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Shortest path"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Minimum cut is the partition that minimizes the capacity of crossing edges.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the max-flow min-cut theorem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Maximum flow equals minimum cut capacity"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximum edges equals minimum vertices"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Maximum capacity equals minimum flow"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Maximum path equals minimum edge"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "The theorem states maximum flow through network equals capacity of minimum cut.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What data structure is used in BFS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Stack"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Queue"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Priority Queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BFS uses a queue to explore nodes level by level.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the time complexity of inserting in a balanced BST?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Balanced BST maintains height O(log n), so insertion takes O(log n).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is an articulation point in a graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Vertex whose removal increases connected components"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Vertex with maximum degree"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Center vertex"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Leaf vertex"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Articulation point (cut vertex) is vertex whose removal disconnects the graph.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the purpose of Tarjan's algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Find MST"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Find SCCs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Find shortest path"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort vertices"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tarjan's algorithm finds strongly connected components in linear time.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the time complexity of Radix Sort for n integers with d digits?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(nd)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(d log n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Radix Sort processes each digit, taking O(nd) time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a topological sort possible only for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Connected graphs"
+      },
+      {
+        "option_id": 2,
+        "option_value": "DAGs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Complete graphs"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Trees"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Topological sort is only possible for Directed Acyclic Graphs (DAGs).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Dutch National Flag problem related to?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Graph coloring"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting 0s, 1s, and 2s"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Tree balancing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hash collision resolution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dutch National Flag problem involves sorting array of 0s, 1s, and 2s.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of finding kth smallest element using QuickSelect average case?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(log n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "QuickSelect has O(n) average case time complexity.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 76",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 76",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 77",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 77",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 78",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 78",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 79",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 79",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 80",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 80",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 81",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 81",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 82",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 82",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 83",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 83",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 84",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 84",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 85",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 85",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 86",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 86",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 87",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 87",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 88",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 88",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 89",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 89",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 90",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 90",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 91",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 91",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 92",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 92",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 93",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 93",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 94",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 94",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 95",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 95",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 96",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 96",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 97",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 97",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 98",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 98",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 99",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 99",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 100",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 100",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 101",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 101",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 102",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 102",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 103",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 103",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 104",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 104",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 105",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 105",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 106",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 106",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 107",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 107",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 108",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 108",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 109",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 109",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 110",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 110",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 111",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 111",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 112",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 112",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 113",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 113",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 114",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 114",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 115",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 115",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 116",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 116",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 117",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 117",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 118",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 118",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 119",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 119",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 120",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 120",
+    "difficulty_level": 1
+  },
+  {
+    "question": "DSA Advanced Concept 121",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 121",
+    "difficulty_level": 2
+  },
+  {
+    "question": "DSA Advanced Concept 122",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 122",
+    "difficulty_level": 3
+  },
+  {
+    "question": "DSA Advanced Concept 123",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 123",
+    "difficulty_level": 4
+  },
+  {
+    "question": "DSA Advanced Concept 124",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 124",
+    "difficulty_level": 5
+  },
+  {
+    "question": "DSA Advanced Concept 125",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Detailed explanation for advanced DSA concept 125",
+    "difficulty_level": 1
+  }
+]

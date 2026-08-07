@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is CQRS pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single model"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Command Query Responsibility Segregation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No separation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CQRS separates read and write operations to different models for optimization.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is event sourcing pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Storing current state"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing state changes as events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Snapshot only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event Sourcing stores changes as events, reconstructs state by replaying events.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is saga pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single transaction"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Managing distributed transactions as sequence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No transaction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Local transaction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Saga manages distributed transaction as sequence of local transactions with compensation.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is outbox pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct publishing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Atomic database write and message publishing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No publishing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Inbox pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Outbox pattern ensures atomic database update and message publishing.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is inbox pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Idempotent message processing with deduplication"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No processing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Outbox pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Inbox pattern ensures idempotent message processing with deduplication.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is circuit breaker pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Preventing cascade failures by failing fast"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Retry forever"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No timeout"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Circuit breaker stops calls to failing service, returning error immediately.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is retry pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single attempt"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Retrying failed operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No retry"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Infinite retry"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Retry pattern retries failed operations with backoff for transient failures.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is bulkhead pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single resource pool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Isolating failures to prevent cascade"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shared resources"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No isolation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bulkhead isolates resources so failure in one doesn't exhaust others.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is timeout pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Infinite wait"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Setting maximum wait time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No timeout"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Immediate timeout"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Timeout pattern sets upper bound on operation wait time.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is fallback pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No fallback"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Providing alternative when service fails"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Retry only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Timeout only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Fallback provides alternative response when primary service fails.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is cache-aside pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write-through"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Application manages cache population"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read-through"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Write-behind"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache-aside: application checks cache, loads from DB on miss, populates cache.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is read-through pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cache-aside"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cache library handles loading"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Write-through"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Write-behind"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Read-through: cache library automatically loads from backing store on miss.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is write-through pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write-behind"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Synchronous write to cache and DB"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache-aside"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read-through"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Write-through: data written to cache and backing store synchronously.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is write-behind pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write-through"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Async write to DB, sync to cache"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No write"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read-only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Write-behind: written to cache immediately, asynchronously to backing store.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is cache invalidation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No invalidation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Removing stale data from cache"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Adding data"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache invalidation removes stale data to ensure consistency with source.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is time-based cache expiration?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No expiration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Expiring cache entries after time period"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Immediate expiration"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Time-based expiration removes entries after specified time-to-live (TTL).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is write-invalidation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No invalidation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Invalidating cache when data changes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read invalidation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No writes"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Write-invalidation removes or updates cache entries when underlying data changes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is memoization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No caching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Caching function results to avoid recomputation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database caching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Memoization caches function results for given inputs to avoid repeated computation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is object pool pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Create new each time"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reusing expensive-to-create objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No pooling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Singleton"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Object pool reuses expensive objects (DB connections, threads) instead of recreating.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is connection pool?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single connection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of reusable database connections"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No pooling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "New connection each time"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Connection pool maintains reusable database connections to reduce overhead.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is thread pool?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single thread"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of worker threads for task execution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No pooling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Process pool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Thread pool maintains pool of worker threads to execute submitted tasks.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is worker pool pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single worker"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of workers processing tasks from queue"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No workers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Main thread only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Worker pool: multiple workers process tasks from shared queue concurrently.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is leader election pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No leader"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Electing one instance as coordinator"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All leaders"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random leader"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Leader election selects one instance as coordinator for distributed tasks.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is sharding pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Splitting data across multiple databases"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No splitting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sharding splits data horizontally across multiple databases based on shard key.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is replication pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single copy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Copying data to multiple servers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sharding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No copies"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Replication copies data to multiple servers for read scaling and availability.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is read replica pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write to all"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read from replicas, write to primary"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read from primary"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No replicas"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Read replica: write to primary, read from replicas to distribute load.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is multi-master replication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single master"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple servers accepting writes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read-only replicas"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No replication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Multi-master replication: multiple servers accept writes, replicate to each other.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is CQRS with event sourcing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Separate read/write"
+      },
+      {
+        "option_id": 2,
+        "option_value": "CQRS combined with storing events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No events"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only CQRS"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CQRS with Event Sourcing: separate models, write model stored as events.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is materialized view pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular view"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Precomputed view for query performance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No view"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Virtual view"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Materialized view stores precomputed query results for faster reads.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is index table pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No index"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating indexes for frequently queried fields"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Full scan"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No table"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Index table creates indexes on frequently queried fields for performance.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is data partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single partition"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Splitting data into smaller parts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No partitioning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random partitioning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data partitioning divides large dataset into smaller, manageable pieces.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is vertical partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Horizontal split"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Splitting table by columns"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No split"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Vertical partitioning splits table by columns into separate tables.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is horizontal partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Vertical split"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Splitting table by rows"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No split"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random split"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Horizontal partitioning (sharding) splits table by rows across multiple tables.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is functional partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random partitioning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Partitioning by function/bounded context"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Range partitioning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hash partitioning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Functional partitioning splits by business function (users, orders, products).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is strangler fig pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Big bang rewrite"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Gradually replacing system component by component"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No replacement"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Full rewrite"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Strangler fig incrementally replaces legacy system with new components.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is anti-corruption layer pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct integration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Translation layer between legacy and new"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No layer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Full rewrite"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Anti-corruption layer isolates new system from legacy system semantics.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is gateway pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single entry point for external systems"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No gateway"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple entry points"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Gateway provides single entry point for external systems to access internal services.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is API gateway pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct service calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single entry point for client requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No gateway"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple gateways"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API gateway is single entry point handling routing, auth, rate limiting.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is backend-for-frontend pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single backend"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dedicated backend per frontend type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No backend"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple frontends"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BFF creates dedicated backend optimized for specific frontend needs.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is aggregator pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Combining multiple service responses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No aggregation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Aggregator pattern combines data from multiple services into single response.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is proxy pattern in microservices?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Intermediary controlling access to service"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No proxy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct call"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Proxy controls access to service, adding cross-cutting concerns.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sidecar pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single container"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Helper container alongside main container"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Main container only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Init container"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sidecar deploys helper container (logging, monitoring) alongside main container.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ambassador pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Proxy handling service communication concerns"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No proxy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct connection"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Ambassador is proxy handling routing, circuit breaking, retry for service.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is scatter-gather pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single request"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sending request to multiple services, aggregating"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No scatter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Scatter-gather sends request to multiple services, aggregates responses.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is queue-based load leveling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using queue to handle load spikes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Queue-based load leveling buffers work in queue to handle load spikes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is competing consumers pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single consumer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple consumers processing from same queue"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No consumers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Competing consumers: multiple consumers process messages from same queue.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is priority queue pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "FIFO queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Processing messages by priority"
+      },
+      {
+        "option_id": 3,
+        "option_value": "LIFO queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Priority queue processes higher priority messages before lower priority.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is scheduler agent supervisor pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct execution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scheduling tasks with monitoring and retry"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No scheduling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Immediate execution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Scheduler Agent Supervisor schedules tasks, monitors execution, handles failures.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is compute resource consolidation pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Separate resources"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Consolidating multiple tasks to single resource"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No consolidation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Maximum resources"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Compute resource consolidation combines multiple tasks to single compute unit.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is valet key pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Full access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Giving limited direct access to clients"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No access"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Full control"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Valet key gives clients time-limited, restricted direct access to resources.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is claim check pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Send full message"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Store payload, send reference only"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No message"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Full payload"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Claim check stores large payload, sends small reference through messaging system.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is sequential convoy pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No ordering"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Processing related messages in order"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Random order"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sequential convoy processes set of related messages in order, not concurrently.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is choreography pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Central orchestrator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Services react to events independently"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No coordination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Choreography: services publish and subscribe to events, no central controller.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is orchestration pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Independent services"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Central coordinator manages workflow"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No coordination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Event-driven only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Orchestration: central coordinator directs participants through workflow.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is compensating transaction pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Forward transaction"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Undoing completed transaction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No undo"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read-only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Compensating transaction undoes changes made by completed transaction.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database per service pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Shared database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Each service has own database"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Database per Service: each microservice has its own private database.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is shared database anti-pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Good practice"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple services sharing same database"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Best practice"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Recommended approach"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Shared database is anti-pattern: services become tightly coupled.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is saga orchestration pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Choreography"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Central coordinator managing saga"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No coordination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single transaction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Saga orchestration: central coordinator directs saga participants.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is saga choreography pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Orchestration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Participants react to each other's events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No coordination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single transaction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Saga choreography: participants publish events, others subscribe and react.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is API composition pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Combining multiple APIs for client"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No composition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct access"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API composition combines data from multiple services for client.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is command-side in CQRS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Read operations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Write operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Both"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Neither"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Command-side in CQRS handles write operations and business logic.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is query-side in CQRS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write operations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Both"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Neither"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Query-side in CQRS handles read operations, optimized for queries.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event in event sourcing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Current state"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Immutable record of something that happened"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Mutable record"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No record"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event is immutable record of something that happened in the past.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event store?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Database optimized for storing events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event store is specialized database for storing and querying events.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is aggregate in DDD?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single entity"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cluster of entities and value objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database table"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Aggregate is cluster of domain objects treated as single unit for data changes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is aggregate root?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any entity"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Entity through which aggregate is accessed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Value object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Service"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Aggregate root is only entity outside objects can hold reference to.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is domain event?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "UI event"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Something that happened in domain"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database event"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network event"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Domain event is something that happened in domain that domain experts care about.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event handler?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Event creator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Code that responds to domain events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Event store"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No handler"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event handler is code that executes in response to domain event.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event projector?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Event creator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creates read model from events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Event store"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Command handler"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event projector (read model projector) creates read model from stream of events.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is snapshot in event sourcing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Event log"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Periodic save of aggregate state"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No snapshot"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Full replay"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Snapshot saves aggregate state at point in time to reduce event replay.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is optimistic concurrency control?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Locking"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Detecting conflicts at commit time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No control"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pessimistic locking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Optimistic concurrency: detect conflicts when saving, retry if needed.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is pessimistic concurrency control?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No locking"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Locking resources during transaction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Optimistic"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No control"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pessimistic concurrency: lock resources when reading to prevent conflicts.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is versioning in event sourcing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No versioning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handling schema changes in events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single version"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No events"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event versioning handles changes to event schema over time.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is upcasting in event sourcing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Downcasting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Transforming old events to new schema"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No transformation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Event deletion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Upcasting transforms old event versions to current schema when reading.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is event migration?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No migration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Transforming stored events to new schema"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Event creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No events"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event migration transforms stored events when schema changes significantly.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is two-phase commit?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single phase"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prepare then commit/abort"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No coordination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Async only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Two-phase commit ensures atomic transaction across multiple resources.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is SAGA vs 2PC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Saga is long-running with compensation, 2PC is atomic"
+      },
+      {
+        "option_id": 3,
+        "option_value": "2PC is better"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Saga is synchronous"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Saga is long-running transaction with compensation; 2PC is atomic commit protocol.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is eventual consistency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Immediate consistency"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data becomes consistent over time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Strong consistency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No consistency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Eventual consistency: replicas converge to same value if no new updates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is strong consistency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Eventual consistency"
+      },
+      {
+        "option_id": 2,
+        "option_value": "All reads see latest write"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Weak consistency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No consistency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Strong consistency: all nodes see same data at same time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is BASE in distributed systems?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "ACID alternative"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Basically Available, Soft state, Eventual consistency"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database name"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Transaction type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BASE: Basically Available, Soft state, Eventual consistency (vs ACID).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is CAP theorem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Performance theorem"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Consistency, Availability, Partition tolerance trade-off"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Security theorem"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Scalability theorem"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CAP: in distributed system, can only guarantee two of Consistency, Availability, Partition tolerance.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is PACELC theorem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "CAP alternative"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extended CAP with latency and consistency trade-off"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Security theorem"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Performance theorem"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PACELC extends CAP: if partitioned, choose availability/consistency; else latency/consistency.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is idempotent consumer?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Processing same message multiple times has same effect"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No idempotency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Idempotent consumer: processing same message multiple times has same effect as once.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is message deduplication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Duplicate processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Detecting and removing duplicate messages"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No deduplication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single message"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Message deduplication ensures duplicate messages are not processed multiple times.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is exactly-once semantics?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "At least once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message processed exactly one time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At most once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No guarantee"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Exactly-once semantics ensure message is processed exactly one time despite failures.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is at-least-once semantics?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exactly once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message delivered one or more times"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At most once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No delivery"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "At-least-once: message delivered, but possible duplicates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is at-most-once semantics?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exactly once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message delivered zero or one times"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At least once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No delivery"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "At-most-once: no duplicates possible, but message may be lost.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is distributed transaction?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single database transaction"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Transaction spanning multiple databases"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Local transaction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No transaction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Distributed transaction spans multiple databases or services.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is TCC (Try-Confirm-Cancel)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Two-phase commit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Try phase reserves, Confirm commits, Cancel releases"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Saga"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TCC: Try reserves resources, Confirm commits, Cancel releases reservations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is SAGA execution coordinator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No coordinator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Central component managing saga"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Message queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Saga Execution Coordinator manages saga execution and compensation.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is process manager in sagas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No manager"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Central component routing saga messages"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Event store"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Process Manager (Routing Slip) centralizes saga logic, routes messages to next step.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is timeout in sagas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No timeout"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Limiting time for saga step completion"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Infinite time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No saga"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Timeout limits how long saga waits for step completion before compensation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is compensation in sagas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Forward action"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Undoing completed step"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No undo"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read-only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Compensating transaction undoes changes made by completed saga step.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is semantic lock?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database lock"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Application-level lock preventing inconsistent state"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No lock"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pessimistic lock"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Semantic lock (reserved state) prevents saga from seeing inconsistent intermediate state.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is commutative updates?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Order matters"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Updates that can be applied in any order"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No updates"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sequential only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Commutative updates produce same result regardless of execution order.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is pessimistic view in sagas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Optimistic approach"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reordering saga steps to reduce conflicts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No reordering"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random order"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pessimistic view reorders saga steps to minimize business risk from conflicts.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is value-based concurrency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Lock-based"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Detecting conflicts by comparing values"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No concurrency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Timestamp-based"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Value-based concurrency detects conflicts by comparing before and after values.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 223",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 223",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 224",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 224",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 225",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 225",
+    "difficulty_level": 1
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 226",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 226",
+    "difficulty_level": 2
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 227",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 227",
+    "difficulty_level": 3
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 228",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 228",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 229",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 229",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 230",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 230",
+    "difficulty_level": 1
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 231",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 231",
+    "difficulty_level": 2
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 232",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 232",
+    "difficulty_level": 3
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 233",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 233",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 234",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 234",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 235",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 235",
+    "difficulty_level": 1
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 236",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 236",
+    "difficulty_level": 2
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 237",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 237",
+    "difficulty_level": 3
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 238",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 238",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 239",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 239",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 240",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 240",
+    "difficulty_level": 1
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 241",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 241",
+    "difficulty_level": 2
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 242",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 242",
+    "difficulty_level": 3
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 243",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 243",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 244",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 244",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 245",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 245",
+    "difficulty_level": 1
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 246",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 246",
+    "difficulty_level": 2
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 247",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 247",
+    "difficulty_level": 3
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 248",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 248",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 249",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 249",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Advanced Topic 250",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Explanation for advanced OOPS+LLD topic 250",
+    "difficulty_level": 1
+  }
+]

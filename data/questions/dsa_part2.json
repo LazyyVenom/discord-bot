@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is the time complexity of Sieve of Eratosthenes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n log log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(\u221an)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sieve of Eratosthenes has O(n log log n) time complexity for finding primes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a segment tree used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Range queries and updates"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String matching"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Segment tree efficiently handles range queries and updates in O(log n) time.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the space complexity of segment tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(2n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(4n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n log n)"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "Segment tree typically requires 4n space for an array of size n.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is lazy propagation in segment trees?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Delayed updates"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Faster queries"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree balancing"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Lazy propagation defers updates to improve efficiency in range update operations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a Fenwick Tree (Binary Indexed Tree) used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Prefix sum queries"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String operations"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Fenwick Tree efficiently calculates prefix sums and range queries.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of updating a Fenwick Tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Fenwick Tree updates take O(log n) time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Mo's algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Range queries offline processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pattern matching"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Mo's algorithm efficiently answers range queries by reordering them.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the square root decomposition technique?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dividing array into \u221an blocks"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree splitting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Hash table resizing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph partitioning"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Square root decomposition divides array into blocks of size \u221an for efficient queries.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a suffix array?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sorted array of all suffixes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prefix storage"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Tree structure"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hash table"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Suffix array contains all suffixes of a string sorted lexicographically.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the time complexity of building a suffix array?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2 log n)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Suffix array can be built in O(n log n) using sorting algorithms.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is LCP array in suffix arrays?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Longest Common Prefix array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Lowest Common Parent"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Length of Common Path"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Longest Circular Path"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LCP array stores lengths of longest common prefixes between consecutive suffixes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Aho-Corasick algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multi-pattern string matching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Matrix operation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Aho-Corasick finds multiple patterns in text efficiently using automaton.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a suffix tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compressed trie of all suffixes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Binary tree"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Heap structure"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph representation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Suffix tree is a compressed trie containing all suffixes of a string.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the space complexity of suffix tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(2n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Suffix tree can be built in O(n) space using Ukkonen's algorithm.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a treap data structure?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Tree + Heap hybrid"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Triple heap"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree stack"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Treap combines binary search tree and heap properties using priorities.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a splay tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Self-adjusting BST"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Balanced BST"
+      },
+      {
+        "option_id": 3,
+        "option_value": "B-tree variant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Heap structure"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Splay tree moves accessed nodes to root through splaying operations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the amortized time complexity of splay tree operations?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n log n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Splay tree operations have O(log n) amortized time complexity.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a B+ tree used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database indexing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Memory sorting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String matching"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "B+ trees with all data in leaves are optimized for database file systems.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the order of a B-tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Maximum children per node"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Height of tree"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Number of leaves"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree depth"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Order of B-tree is the maximum number of children a node can have.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a skip list?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Linked list with express lanes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree structure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array variant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph representation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Skip list uses multiple levels of linked lists for O(log n) search.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the expected time complexity of skip list search?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(\u221an)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Skip list provides O(log n) expected search time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a disjoint set union (DSU)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data structure for tracking set partitions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting algorithm"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String structure"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "DSU (Union-Find) tracks elements partitioned into disjoint sets.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is path compression in Union-Find?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Flattening structure during find"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compressing edges"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Node removal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree balancing"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Path compression flattens the structure making nodes point directly to root.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is union by rank/size?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Attaching smaller tree under larger"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting by value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Height balancing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Node ordering"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Union by rank attaches the smaller tree under the root of larger tree.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a heavy-light decomposition?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Decomposing tree into chains"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Graph partitioning"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array splitting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree compression"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Heavy-light decomposition breaks tree into heavy and light edges for efficient queries.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is centroid decomposition?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Recursive tree splitting at centroids"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Graph coloring"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Tree balancing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Node removal"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Centroid decomposition recursively splits tree at centroid nodes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a centroid of a tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Node whose removal splits tree into subtrees of size \u2264 n/2"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Center node"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Root node"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Leaf node"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Centroid is node where removal leaves no subtree with more than n/2 nodes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Euler Tour of a tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Recording entry/exit times during DFS"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree traversal"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph coloring"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Node ordering"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Euler Tour records when we enter and exit nodes during DFS traversal.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a sparse table used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static range queries"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dynamic updates"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sorting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph storage"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Sparse table answers static range queries like RMQ in O(1) after O(n log n) preprocessing.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the time complexity of sparse table query?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(1)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Sparse table provides O(1) query time for static range queries.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Lowest Common Ancestor (LCA)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Deepest node that is ancestor of two nodes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Root node"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Parent node"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Leaf node"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LCA is the deepest node that has both nodes as descendants.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is binary lifting for LCA?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Precomputing 2^j ancestors"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree doubling"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Node cloning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Edge splitting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Binary lifting precomputes ancestors at powers of 2 for O(log n) LCA queries.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a bridge in a graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Edge whose removal increases connected components"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Longest edge"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shortest edge"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Central edge"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Bridge (cut edge) is edge whose removal disconnects the graph.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Tarjan's bridge-finding algorithm time complexity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(V+E)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(VE)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(E log V)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Tarjan's algorithm finds bridges in O(V+E) using DFS.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a back edge in DFS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Edge to ancestor in DFS tree"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Edge to descendant"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cross edge"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Tree edge"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Back edge connects a node to an ancestor in the DFS tree, indicating a cycle.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a cross edge in DFS of directed graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Edge between non-ancestor-related subtrees"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Edge to ancestor"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Edge to parent"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Self loop"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Cross edge connects nodes in different subtrees with no ancestor relationship.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kosaraju's algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding strongly connected components"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding MST"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shortest path"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Topological sort"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Kosaraju's algorithm finds SCCs using two DFS passes on original and transposed graph.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a transitive closure of a graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Matrix showing reachability between all pairs"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shortest paths"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimum spanning tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph coloring"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Transitive closure matrix indicates if vertex j is reachable from vertex i.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Floyd-Warshall algorithm time complexity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(V\u00b3)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(VE)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(V\u00b2 log V)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Floyd-Warshall uses three nested loops giving O(V\u00b3) complexity.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Johnson's algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All-pairs shortest path for sparse graphs"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single source shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimum spanning tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Topological sort"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Johnson's algorithm uses reweighting and Dijkstra for O(V\u00b2 log V + VE) all-pairs shortest path.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the Bellman-Ford algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single source shortest path with negative weights"
+      },
+      {
+        "option_id": 2,
+        "option_value": "All pairs shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimum spanning tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Topological sort"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Bellman-Ford handles negative edge weights and detects negative cycles.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a negative cycle in a graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cycle with total negative weight"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cycle with minimum edges"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Self loop"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bidirectional cycle"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Negative cycle has sum of edge weights less than zero, making shortest path undefined.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Dijkstra's algorithm time complexity with binary heap?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(E log V)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(V log V)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(VE)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "With binary heap, Dijkstra's algorithm runs in O(E log V) time.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Dial's algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dijkstra's for integer weights using bucket"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String matching"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph coloring"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Topological sort"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Dial's algorithm implements Dijkstra using buckets for small integer weights in O(E + V\u00d7C).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a minimum spanning forest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "MST for disconnected graph"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Forest with minimum edges"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shortest path tree"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Maximum spanning tree"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Minimum spanning forest is the union of MSTs for each connected component.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Prim's algorithm time complexity with adjacency matrix?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(E log V)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(VE)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(V log V)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "With adjacency matrix, Prim's algorithm takes O(V\u00b2) time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Boruvka's algorithm used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding MST"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Topological sort"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strongly connected components"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Boruvka's algorithm finds MST by repeatedly adding minimum outgoing edge from each component.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a cut in a graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Partition of vertices into two disjoint sets"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Edge removal"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Vertex deletion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph division"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "A cut partitions vertices into two disjoint sets with edges crossing between them.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of Kruskal's algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(E log E)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(V\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(VE)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(E)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Kruskal's algorithm takes O(E log E) time dominated by sorting edges.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a Hamiltonian path?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Path visiting each vertex exactly once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Longest path"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Path with minimum edges"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Hamiltonian path visits every vertex exactly once.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is an Eulerian path?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Path using every edge exactly once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shortest path"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Longest path"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Path visiting all vertices"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Eulerian path traverses every edge exactly once.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What condition is necessary for an Eulerian circuit?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All vertices have even degree"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Graph is connected"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No isolated vertices"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All of the above"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Eulerian circuit requires connected graph (except isolated vertices) with all even degrees.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the traveling salesman problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding shortest route visiting all cities"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding MST"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shortest path between two cities"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph coloring"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "TSP seeks shortest possible route visiting each city exactly once and returning to origin.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the complexity class of TSP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "NP-hard"
+      },
+      {
+        "option_id": 2,
+        "option_value": "P"
+      },
+      {
+        "option_id": 3,
+        "option_value": "NP-complete"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Both NP-hard and NP-complete"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "TSP decision version is NP-complete, optimization version is NP-hard.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is dynamic programming?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Solving problems by breaking into subproblems"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Greedy approach"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Divide and conquer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Backtracking"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "DP solves complex problems by breaking them into overlapping subproblems and storing results.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is memoization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Storing results of expensive function calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Writing notes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory allocation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching pages"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Memoization stores function results to avoid recomputation of same inputs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is tabulation in DP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bottom-up approach"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Top-down approach"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Recursive approach"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Greedy approach"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Tabulation is bottom-up DP where we fill table iteratively from base cases.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the 0/1 Knapsack problem time complexity with DP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(nW)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(2^n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n log n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "0/1 Knapsack DP solution takes O(n\u00d7W) time where n is items and W is capacity.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the difference between 0/1 Knapsack and Fractional Knapsack?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Items can be broken in fractional"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Different objectives"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Different constraints"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Different input types"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "In Fractional Knapsack, items can be divided, solvable by greedy. 0/1 requires DP.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Longest Common Subsequence (LCS) problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding longest sequence present in both strings"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding common substring"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String matching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pattern recognition"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LCS finds longest sequence of characters appearing left-to-right in both strings.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of LCS using DP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(m\u00d7n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(m+n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(m\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(2^m)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LCS DP solution fills m\u00d7n table giving O(mn) time complexity.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Longest Increasing Subsequence (LIS) problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding longest subsequence in increasing order"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting sequence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding maximum element"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Finding minimum element"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LIS finds longest subsequence where elements are in strictly increasing order.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the optimal LIS algorithm time complexity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n\u00b2 log n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LIS can be solved in O(n log n) using binary search on tails table.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the Edit Distance (Levenshtein distance) problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Minimum operations to convert string"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String matching"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Longest common substring"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pattern recognition"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Edit distance is minimum insertions, deletions, substitutions to convert one string to another.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Matrix Chain Multiplication problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding optimal parenthesization"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiplying matrices"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Matrix addition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Matrix inversion"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Matrix Chain Multiplication finds optimal way to parenthesize matrix multiplication to minimize operations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the time complexity of Matrix Chain Multiplication using DP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n\u00b3)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(2^n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n!)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Matrix Chain Multiplication DP solution takes O(n\u00b3) time.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the Coin Change problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding minimum coins for amount"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting coins"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Making change greedily"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Coin collection"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Coin Change finds minimum number of coins needed to make a given amount.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Rod Cutting problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Maximizing value from cutting rod"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cutting rod into equal pieces"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding rod length"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Rod manufacturing"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Rod Cutting determines optimal way to cut rod to maximize selling price.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Subset Sum problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Determining if subset sums to target"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding maximum subset"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding minimum subset"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Counting subsets"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Subset Sum determines if any subset of given set sums to target value.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the complexity of Subset Sum using DP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n\u00d7sum)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(2^n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Subset Sum DP solution takes O(n\u00d7sum) time and space.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Partition Equal Subset Sum problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dividing array into two equal sum subsets"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding maximum sum"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Finding minimum sum"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Partition problem checks if array can be divided into two subsets with equal sum.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Word Break problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Determining if string can be segmented"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Breaking words"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String reversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Word counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Word Break determines if input string can be segmented into dictionary words.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Palindrome Partitioning problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Minimum cuts for palindrome substrings"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating palindromes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Checking palindrome"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String reversal"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Palindrome Partitioning finds minimum cuts needed so every substring is palindrome.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the Maximum Subarray problem (Kadane's algorithm)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding contiguous subarray with maximum sum"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding maximum element"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sorting array"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Finding minimum subarray"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Maximum Subarray finds contiguous subarray with largest sum using Kadane's algorithm.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the time complexity of Kadane's algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Kadane's algorithm solves maximum subarray in O(n) time with O(1) space.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Climbing Stairs problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Counting ways to climb n stairs"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding minimum steps"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Maximum steps"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Step optimization"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Climbing Stairs counts distinct ways to climb n stairs taking 1 or 2 steps at a time.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the House Robber problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Maximum money without robbing adjacent houses"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Robbing all houses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding richest house"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Minimum robbery"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "House Robber finds maximum money that can be robbed without alerting police (no adjacent houses).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Jump Game problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Determining if end is reachable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding minimum jumps"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Maximum jumps"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Jump counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Jump Game determines if last index is reachable from first given jump lengths.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Merge Intervals problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Combining overlapping intervals"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting intervals"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding gap"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Interval counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Merge Intervals combines all overlapping intervals into disjoint intervals.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Insert Interval problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inserting new interval into sorted intervals"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating intervals"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Deleting intervals"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Merging all intervals"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Insert Interval inserts new interval into sorted non-overlapping intervals, merging if necessary.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Meeting Rooms problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Determining if person can attend all meetings"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scheduling maximum meetings"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding free time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Room allocation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Meeting Rooms checks if a person can attend all given meetings without overlap.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the time complexity of Merge Intervals?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(log n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Merge Intervals takes O(n log n) due to sorting, merging is O(n).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Non-overlapping Intervals problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Minimum intervals to remove"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximum intervals to keep"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Interval merging"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Interval sorting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Non-overlapping Intervals finds minimum intervals to remove for remaining to be non-overlapping.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What greedy strategy works for Non-overlapping Intervals?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Remove interval with latest end time"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Remove longest interval"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Remove shortest interval"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random removal"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Greedy approach removes interval with earliest end time to maximize remaining space.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Gas Station problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding starting gas station's index to complete circuit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximizing gas"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Minimizing cost"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Station counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Gas Station finds starting station index to travel around circuit once.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Candy distribution problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Minimum candies to distribute to children"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximum candy"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Equal distribution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Candy counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Candy problem distributes minimum candies where children with higher rating get more than neighbors.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Trapping Rain Water problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Computing trapped water between bars"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding maximum water"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Water flow"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bar height"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Trapping Rain Water calculates water trapped after raining given bar heights.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of Trapping Rain Water optimal solution?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Optimal solution uses two pointers with O(n) time and O(1) space.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Container With Most Water problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding two lines containing most water"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maximum container"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Water filling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Line drawing"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Container With Most Water finds two lines that form container holding most water.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the 3Sum problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding triplets that sum to zero"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Finding maximum sum"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Finding minimum sum"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Triple counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "3Sum finds all unique triplets in array giving sum of zero.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of 3Sum?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n\u00b3)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "3Sum can be solved in O(n\u00b2) using sorting and two pointers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Next Permutation problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding next lexicographical permutation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Previous permutation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Random permutation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All permutations"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Next Permutation rearranges numbers into lexicographically next greater permutation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Permutations problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Generating all possible arrangements"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting permutations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single permutation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random permutation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Permutations generates all possible arrangements of array elements.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Combinations problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Generating all k-sized combinations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting combinations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single combination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random combination"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Combinations generates all possible k-sized combinations from n elements.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Subsets problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Generating all possible subsets"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting subsets"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Maximum subset"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Minimum subset"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Subsets generates all possible subsets (power set) of given set.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the time complexity of generating all subsets?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(2^n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(n!)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "There are 2^n subsets, so generation takes O(2^n) time.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the N-Queens problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Placing N queens on N\u00d7N board"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Queen movement"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Board games"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Chess strategy"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "N-Queens places N chess queens on N\u00d7N board so no two queens threaten each other.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What algorithm is used for N-Queens?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Backtracking"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Greedy"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dynamic Programming"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Divide and Conquer"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "N-Queens is solved using backtracking to try different placements.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Sudoku Solver problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Filling 9\u00d79 grid following rules"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating Sudoku"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Solving puzzles"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Grid validation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Sudoku Solver fills empty cells so each row, column, and 3\u00d73 box contains 1-9.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Combination Sum problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding combinations that sum to target"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting combinations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Maximum sum"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Minimum sum"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Combination Sum finds all unique combinations where chosen numbers sum to target.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Letter Combinations of Phone Number problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Generating all possible letter combinations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Phone number validation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Letter counting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Digit mapping"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Maps digits to letters like phone keypad and generates all possible letter combinations.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Generate Parentheses problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Generating all valid parentheses combinations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting parentheses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Validating parentheses"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Parentheses matching"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Generate Parentheses generates all combinations of well-formed parentheses for given n.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Word Search problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding word in 2D grid"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Word counting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Grid traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String matching"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Word Search checks if word exists in 2D board by adjacent cell traversal.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the time complexity of Word Search?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(N\u00d74^L)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(N\u00d7L)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(N\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(4^L)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Word Search has O(N\u00d74^L) where N is board cells and L is word length.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Number of Islands problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Counting connected land components"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting water bodies"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Island size"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Grid counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Number of Islands counts connected land ('1's) surrounded by water in 2D grid.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What algorithm is used for Number of Islands?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "BFS/DFS"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dijkstra's"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Union-Find"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary Search"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Number of Islands uses BFS or DFS to explore connected components.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Clone Graph problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Creating deep copy of connected undirected graph"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph validation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Node copying"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Clone Graph creates deep copy of graph with new node objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Course Schedule problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Determining if all courses can be finished"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scheduling courses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Course ordering"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Prerequisite validation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Course Schedule checks if it's possible to finish all courses given prerequisites (cycle detection).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What algorithm detects cycle in directed graph?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "DFS with recursion stack"
+      },
+      {
+        "option_id": 2,
+        "option_value": "BFS"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dijkstra's"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Union-Find"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "DFS with tracking vertices in current recursion stack detects cycles in directed graphs.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Pacific Atlantic Water Flow problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding cells where water can flow to both oceans"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Water flow simulation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Ocean modeling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Grid traversal"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Finds cells where rain water can flow to both Pacific and Atlantic oceans.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Longest Consecutive Sequence problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding longest consecutive elements sequence"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting sequence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Maximum element"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sequence counting"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Longest Consecutive Sequence finds longest sequence of consecutive numbers in unsorted array.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the optimal time complexity for Longest Consecutive Sequence?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "O(n)"
+      },
+      {
+        "option_id": 2,
+        "option_value": "O(n log n)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "O(n\u00b2)"
+      },
+      {
+        "option_id": 4,
+        "option_value": "O(1)"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Using hash set, Longest Consecutive Sequence can be solved in O(n) time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Alien Dictionary problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Deriving letter order from alien words"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dictionary sorting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Word ordering"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Character mapping"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Alien Dictionary determines order of letters in alien language given list of words.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the Graph Valid Tree problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Checking if graph is valid tree"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree validation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph traversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cycle detection"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Graph Valid Tree checks if graph is valid tree (connected and no cycles).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What conditions make a graph a valid tree?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Connected and n-1 edges"
+      },
+      {
+        "option_id": 2,
+        "option_value": "No cycles"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single component"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All of the above"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Valid tree must be connected, have exactly n-1 edges, and no cycles.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Encode and Decode Strings problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Serializing and deserializing string list"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String compression"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "List manipulation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Design algorithm to encode string list to single string and decode it back.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Counting Bits problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Counting number of 1 bits for all numbers 0 to n"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bit manipulation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Number counting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary conversion"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Counting Bits counts number of 1 bits in binary representation for each number 0 to n.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Missing Number problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding missing number in range 0 to n"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Number counting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Range validation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sum calculation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Missing Number finds number missing from array containing 0 to n numbers.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the Reverse Bits problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Reversing bits of unsigned integer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bit shifting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Number reversal"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary operation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Reverse Bits reverses bits of given 32-bit unsigned integer.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the Number of 1 Bits problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Counting set bits in integer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bit manipulation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Number counting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Binary conversion"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Number of 1 Bits (Hamming Weight) counts number of '1' bits in binary representation.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is Brian Kernighan's algorithm for counting bits?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Subtracting 1 and ANDing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Shifting bits"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Checking each bit"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Using lookup table"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Brian Kernighan's algorithm: n & (n-1) clears least significant set bit.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Power of Two problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Checking if number is power of 2"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Calculating power"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Exponentiation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Logarithm calculation"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Power of Two checks if integer is power of two (single bit set in binary).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What bit manipulation checks if n is power of 2?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "n & (n-1) == 0"
+      },
+      {
+        "option_id": 2,
+        "option_value": "n & 1 == 0"
+      },
+      {
+        "option_id": 3,
+        "option_value": "n >> 1 == 0"
+      },
+      {
+        "option_id": 4,
+        "option_value": "n << 1 == 0"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "n & (n-1) == 0 checks if only one bit is set (power of 2).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the Find Duplicate Number problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding duplicate in array of n+1 integers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Duplicate counting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Array sorting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Number search"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Find Duplicate finds duplicate number in array containing n+1 integers where each is in [1, n].",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Floyd's Cycle Detection used for in Find Duplicate?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Finding cycle in sequence"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sorting array"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Binary search"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hashing"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Floyd's Tortoise and Hare algorithm finds cycle in sequence of values.",
+    "difficulty_level": 4
+  }
+]

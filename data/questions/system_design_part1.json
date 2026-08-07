@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is horizontal scaling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Adding more machines"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Upgrading existing machine"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Horizontal scaling (scale out) adds more machines to distribute load.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is vertical scaling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Adding more machines"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Upgrading CPU/RAM on existing machine"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database sharding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Vertical scaling (scale up) increases resources on existing machine.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the primary purpose of a load balancer?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database replication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributing traffic across servers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Caching responses"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Load balancer distributes incoming network traffic across multiple servers.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is round-robin load balancing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random server selection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sequential server selection"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Least connections first"
+      },
+      {
+        "option_id": 4,
+        "option_value": "IP-based routing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Round-robin cycles through servers sequentially to distribute requests evenly.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sticky session in load balancing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Session stored in database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Session persisted on same server"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Session cached in CDN"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Session encrypted"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sticky session (session affinity) routes user to same server for session duration.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a CDN (Content Delivery Network)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database cluster"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed server network for content delivery"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Load balancer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CDN is geographically distributed network of servers delivering cached content.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the main benefit of using CDN?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database consistency"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reduced latency by serving content from edge locations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Increased security"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Better data integrity"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CDN reduces latency by serving content from geographically closer edge servers.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is caching?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Storing data in database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing frequently accessed data in fast storage"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compressing data"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encrypting data"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Caching stores frequently accessed data in fast, temporary storage.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is cache hit?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data found in cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cache miss"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache eviction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache update"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Cache hit occurs when requested data is found in cache.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is cache miss?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data found in cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data not found in cache"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache cleared"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache full"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache miss occurs when requested data is not in cache and must be fetched.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is cache eviction policy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "How data is added to cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "How data is removed when cache is full"
+      },
+      {
+        "option_id": 3,
+        "option_value": "How cache is synchronized"
+      },
+      {
+        "option_id": 4,
+        "option_value": "How cache is secured"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cache eviction policy determines which items to remove when cache reaches capacity.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is LRU cache eviction?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Least Recently Used"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Least Frequently Used"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Last Recently Updated"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Latest Request Used"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "LRU evicts least recently accessed items first.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database sharding?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database replication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Horizontal partitioning of data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database indexing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database normalization"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sharding splits data horizontally across multiple databases based on shard key.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database replication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Splitting data across servers"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Copying data to multiple servers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compressing database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encrypting database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Replication copies data to multiple servers for read scaling and availability.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is master-slave replication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Equal servers sharing writes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Master handles writes, slaves handle reads"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Random write distribution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single server architecture"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Master-slave: master processes writes, slaves replicate and serve read requests.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the CAP theorem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Consistency, Availability, Partition tolerance trade-off"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cache, API, Performance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compute, Access, Process"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Create, Apply, Purge"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "CAP theorem states you can only guarantee two of: Consistency, Availability, Partition tolerance.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is eventual consistency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Immediate consistency"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data will be consistent over time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Strong consistency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No consistency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Eventual consistency guarantees data will become consistent if no new updates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is strong consistency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All reads see latest write immediately"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reads may see stale data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Eventual consistency"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Weak consistency"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Strong consistency ensures all nodes see same data at same time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a message queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Asynchronous communication mechanism"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Synchronous API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache storage"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Message queue enables asynchronous communication between services via messages.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the purpose of message queues?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Synchronous processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Decoupling services and handling load spikes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "User authentication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Message queues decouple producers/consumers and buffer requests during load spikes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Kafka primarily used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed event streaming platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Apache Kafka is distributed event streaming platform for high-throughput data pipelines.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is RabbitMQ?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database system"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message broker implementing AMQP"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RabbitMQ is open-source message broker supporting multiple messaging protocols.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the publish-subscribe pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-to-one communication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "One-to-many message distribution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Request-response"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct messaging"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pub-sub: publishers send messages to topics, multiple subscribers receive them.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a reverse proxy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Client-side proxy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server-side proxy handling client requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database proxy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API gateway"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Reverse proxy sits in front of servers, forwarding client requests to backend.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is an API gateway?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database connector"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single entry point for client requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache layer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API gateway provides single entry point, routing, authentication, rate limiting.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is rate limiting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unlimited requests"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Controlling number of requests per time period"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Speed optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Rate limiting restricts number of API requests to prevent abuse and ensure fairness.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is token bucket algorithm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database indexing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Rate limiting using tokens"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Load balancing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Token bucket allows requests if tokens available, refilling bucket over time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is circuit breaker pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Electrical circuit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Failing fast when service is down"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database connection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API versioning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Circuit breaker prevents cascade failures by failing fast when service unhealthy.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is service discovery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Manual service configuration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatic detection of service locations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database lookup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "DNS resolution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Service discovery enables services to find and communicate with each other automatically.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a microservices architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single monolithic application"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Application composed of small independent services"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Serverless architecture"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single database system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Microservices decompose application into small, independently deployable services.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a monolithic architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple independent services"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single unified application"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Serverless functions"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Microservices"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Monolithic architecture builds application as single unified unit.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the main advantage of microservices?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Simpler deployment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Independent scaling and deployment of services"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single codebase"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Shared database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Microservices enable independent scaling, deployment, and technology choices per service.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the main challenge of microservices?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Simple testing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed system complexity"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single point of failure"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Limited scalability"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Microservices introduce complexity: distributed transactions, service communication, monitoring.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is service mesh?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database network"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Infrastructure layer for service-to-service communication"
+      },
+      {
+        "option_id": 3,
+        "option_value": "API gateway"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Service mesh handles service communication, security, observability without code changes.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Istio?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Service mesh implementation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Istio is open-source service mesh providing traffic management, security, observability.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Docker used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database management"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Containerization of applications"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Load balancing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Message queuing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Docker packages applications into containers with dependencies for consistent deployment.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Kubernetes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database system"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Container orchestration platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Kubernetes automates deployment, scaling, and management of containerized applications.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a pod in Kubernetes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single container"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Smallest deployable unit containing one or more containers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Load balancer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pod is Kubernetes' smallest deployable unit, can contain multiple containers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is auto-scaling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Manual scaling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatically adjusting resources based on demand"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Fixed capacity"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database replication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Auto-scaling automatically adjusts compute resources based on load metrics.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is horizontal pod autoscaling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Vertical scaling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Scaling number of pod replicas"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database sharding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache scaling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HPA automatically scales number of pod replicas based on CPU/memory utilization.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is database indexing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Replicating database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data structure improving query speed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database compression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Indexes speed up data retrieval at cost of additional storage and write performance.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a primary key?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Foreign key reference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unique identifier for table rows"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Index name"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Column type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Primary key uniquely identifies each row in table, cannot contain NULL.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a foreign key?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Primary key"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Field linking to primary key in another table"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Index"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Constraint"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Foreign key establishes relationship between tables by referencing primary key.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is database normalization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Adding redundancy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Organizing data to reduce redundancy"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Normalization organizes data to minimize redundancy and improve integrity.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is denormalization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Reducing redundancy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Adding redundancy for read performance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Denormalization intentionally adds redundancy to improve read query performance.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ACID in databases?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "API, Cache, Index, Data"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Atomicity, Consistency, Isolation, Durability"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Access, Control, Integration, Deployment"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Availability, Consistency, Integrity, Distribution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ACID properties ensure reliable database transactions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is BASE in NoSQL databases?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Basic, Advanced, Standard, Extended"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Basically Available, Soft state, Eventually consistent"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Backup, Archive, Store, Export"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Big data, Analytics, Storage, Engine"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BASE properties describe NoSQL database behavior: availability over consistency.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the difference between SQL and NoSQL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "SQL is relational, NoSQL is non-relational"
+      },
+      {
+        "option_id": 3,
+        "option_value": "SQL is faster"
+      },
+      {
+        "option_id": 4,
+        "option_value": "NoSQL is older"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SQL databases are relational with structured schema; NoSQL handles unstructured data.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is MongoDB?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Document-oriented NoSQL database"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Graph database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Time-series database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "MongoDB stores data as flexible JSON-like documents.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Redis?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "In-memory data structure store"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Document database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Graph database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Redis is in-memory key-value store supporting strings, lists, sets, sorted sets, hashes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Cassandra?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed wide-column store"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Document database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "In-memory cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cassandra is distributed wide-column store designed for high availability.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Elasticsearch?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed search and analytics engine"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Elasticsearch is distributed search engine for full-text search and analytics.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the purpose of connection pooling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reusing database connections to reduce overhead"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Query optimization"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Connection pool maintains cached connections for reuse, reducing connection overhead.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database connection leak?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Too many queries"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Connections not properly closed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database crash"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network failure"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Connection leak occurs when connections are opened but not closed, exhausting pool.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a deadlock in databases?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Fast query execution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two transactions waiting for each other"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Index corruption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Deadlock occurs when two transactions block each other, waiting for resources.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is optimistic locking?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Pessimistic approach"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Checking for conflicts before commit"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Table-level locking"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Optimistic locking checks for conflicts at commit time using version numbers/timestamps.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is pessimistic locking?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Optimistic approach"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Locking resources during transaction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No locking"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Automatic locking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pessimistic locking locks resources when accessed, preventing concurrent modifications.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is two-phase commit (2PC)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single-phase commit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed transaction protocol"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache update"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "2PC ensures distributed transactions commit atomically across multiple databases.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Saga pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single database transaction"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sequence of local transactions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Two-phase commit"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database locking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Saga pattern manages distributed transactions as sequence of local transactions with compensations.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is idempotency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple operations have different effects"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiple operations have same effect as single operation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Operation cannot be repeated"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single operation effect"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Idempotent operations produce same result whether executed once or multiple times.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "Why is idempotency important in distributed systems?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Faster operations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handling retries without side effects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reduced storage"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Better security"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Idempotency ensures retries due to network failures don't cause duplicate effects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a webhook?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database trigger"
+      },
+      {
+        "option_id": 2,
+        "option_value": "HTTP callback for event notification"
+      },
+      {
+        "option_id": 3,
+        "option_value": "API endpoint"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Authentication method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Webhook is HTTP callback triggered by events, sending data to subscriber.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is polling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Push-based communication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Client periodically checking for updates"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Server-initiated updates"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database query"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Polling involves client repeatedly requesting updates from server at intervals.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is long polling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Short polling interval"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server holds request until data available"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No polling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database polling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Long polling keeps connection open until server has data to send.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Server-Sent Events (SSE)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Client-to-server streaming"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server-to-client streaming over HTTP"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Bidirectional streaming"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database streaming"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SSE enables server to push updates to client over single HTTP connection.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is WebSocket?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "HTTP request-response"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Full-duplex communication protocol"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database protocol"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Email protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WebSocket provides full-duplex, persistent connection for real-time communication.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is gRPC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "REST API framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "High-performance RPC framework using Protocol Buffers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database connector"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "gRPC uses HTTP/2 and Protocol Buffers for efficient service communication.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is GraphQL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Query language for APIs"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Database query language"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Programming language"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Markup language"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "GraphQL is query language allowing clients to request exactly what they need.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the main advantage of GraphQL over REST?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Caching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Clients specify exact data needed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Simpler implementation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Better security"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GraphQL allows clients to request specific fields, reducing over/under-fetching.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is REST API?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Graph-based API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Representational State Transfer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Real-time API"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Remote execution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "REST uses HTTP methods (GET, POST, PUT, DELETE) on resource URLs.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is idempotency in HTTP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "GET and POST are idempotent"
+      },
+      {
+        "option_id": 2,
+        "option_value": "GET, PUT, DELETE should be idempotent"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only GET is idempotent"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No methods are idempotent"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GET, PUT, DELETE should be idempotent; POST is not.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HTTP status code 200?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 2,
+        "option_value": "OK - Success"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Server Error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unauthorized"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 200 indicates request succeeded.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 404?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Server Error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Unauthorized"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bad Request"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 404 indicates requested resource not found.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 500?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Client Error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Internal Server Error"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unauthorized"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 500 indicates server encountered unexpected error.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is OAuth 2.0?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database protocol"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Authorization framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption algorithm"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OAuth 2.0 is authorization framework for delegated access to resources.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is JWT (JSON Web Token)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compact token format for claims"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JWT encodes claims as JSON object, used for authentication/authorization.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the structure of JWT?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Header, Body, Footer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Header, Payload, Signature"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Start, Middle, End"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Key, Value, Signature"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JWT consists of three parts: Header, Payload, Signature separated by dots.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SSO (Single Sign-On)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple logins"
+      },
+      {
+        "option_id": 2,
+        "option_value": "One login for multiple applications"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No login required"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database authentication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SSO allows user to log in once and access multiple applications.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is mutual TLS (mTLS)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-way authentication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Two-way authentication with certificates"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Token-based auth"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Password auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "mTLS requires both client and server to authenticate with X.509 certificates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database optimization"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Attack injecting malicious SQL code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Query caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SQL injection inserts malicious SQL through user input to manipulate database.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "String concatenation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parameterized queries/prepared statements"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "More memory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Parameterized queries separate SQL code from data, preventing injection.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is XSS (Cross-Site Scripting)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database attack"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Injecting malicious scripts into web pages"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network attack"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server attack"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XSS injects client-side scripts into web pages viewed by other users.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to prevent XSS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow all scripts"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Input validation and output encoding"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Disable JavaScript"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Use HTTP"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XSS prevention requires input validation, output encoding, Content Security Policy.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is CSRF (Cross-Site Request Forgery)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database attack"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unauthorized commands from authenticated user"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network sniffing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Password cracking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CSRF tricks authenticated users into executing unwanted actions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to prevent CSRF?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Disable cookies"
+      },
+      {
+        "option_id": 2,
+        "option_value": "CSRF tokens"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Use GET for all requests"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No authentication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CSRF tokens validate that request originated from legitimate source.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is CORS (Cross-Origin Resource Sharing)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database sharing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mechanism to allow/restrict cross-origin requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache sharing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server sharing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CORS controls which cross-origin requests browser should allow.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a preflight request?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "GET request"
+      },
+      {
+        "option_id": 2,
+        "option_value": "OPTIONS request before actual request"
+      },
+      {
+        "option_id": 3,
+        "option_value": "POST request"
+      },
+      {
+        "option_id": 4,
+        "option_value": "DELETE request"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Preflight OPTIONS request checks if actual cross-origin request is safe.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database replication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Splitting data into smaller parts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data compression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Partitioning divides large tables into smaller, manageable pieces.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is range partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random data distribution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Partitioning by range of values"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Hash-based distribution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Round-robin distribution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Range partitioning splits data based on value ranges (e.g., date ranges).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is hash partitioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Range-based distribution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Partitioning by hash function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List partitioning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random partitioning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Hash partitioning uses hash function to distribute data across partitions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is database federation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Querying across multiple databases as one"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database backup"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Federation provides unified query interface across multiple heterogeneous databases.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is data warehousing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Transactional database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Centralized data repository for analytics"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache storage"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data warehouse centralizes data from multiple sources for reporting and analytics.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ETL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Extract, Transform, Load"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encrypt, Transfer, Load"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Extract, Transfer, Link"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Evaluate, Test, Launch"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "ETL extracts data from sources, transforms it, and loads into data warehouse.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is OLAP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Online Analytical Processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Online Transaction Processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Offline Analysis"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Open Link Access"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "OLAP supports complex analytical queries on multidimensional data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is OLTP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Online Analytical Processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Online Transaction Processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Offline Transaction"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Open Link Transfer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OLTP handles high-volume transactional operations with fast response times.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a data lake?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Structured data warehouse"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storage for raw structured/unstructured data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data backup"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data lake stores raw data in native format until needed for processing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is MapReduce?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database query language"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Programming model for parallel processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network protocol"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "MapReduce processes large datasets in parallel across distributed cluster.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Hadoop?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Relational database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed storage and processing framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Hadoop provides distributed storage (HDFS) and processing (MapReduce) for big data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Spark?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database system"
+      },
+      {
+        "option_id": 2,
+        "option_value": "In-memory distributed processing engine"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Apache Spark provides fast in-memory data processing for big data workloads.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the difference between Hadoop and Spark?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Spark processes in-memory, Hadoop uses disk"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Hadoop is faster"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Spark only does batch processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Spark's in-memory processing is faster than Hadoop's disk-based MapReduce.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is stream processing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Batch processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Real-time data processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database backup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Stream processing analyzes and acts on data in real-time as it arrives.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Apache Flink?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stream processing framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Batch processing only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Apache Flink is distributed stream processing framework with batch capabilities.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Apache Storm?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Real-time stream processing system"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Batch processing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Apache Storm is distributed real-time computation system for stream processing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Lambda architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single-layer architecture"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Batch + speed layer architecture"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Microservices"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Serverless"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lambda architecture combines batch layer (accuracy) and speed layer (latency).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Kappa architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Batch-only processing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Stream-only processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Lambda variant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database architecture"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Kappa architecture uses single stream processing layer, simplifying Lambda.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is backpressure in stream processing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Increased throughput"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handling when producer faster than consumer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data compression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network latency"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Backpressure handles situation when data producer outpaces consumer processing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is exactly-once semantics?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "At-most-once delivery"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Guaranteed single processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At-least-once delivery"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No guarantee"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Exactly-once ensures data is processed once despite failures (idempotent operations).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is at-least-once semantics?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exactly-once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data may be processed multiple times"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At-most-once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "At-least-once ensures data is processed but may have duplicates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is idempotency key?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Encryption key"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unique identifier for idempotent operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "API key"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Session key"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Idempotency key identifies operation to prevent duplicate processing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a dead letter queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Main message queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Queue for failed message processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Priority queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dead letter queue stores messages that couldn't be processed successfully.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is poison pill message?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Valid message"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message causing consumer to fail"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Empty message"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Large message"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Poison pill is message that causes consumer to fail/crash repeatedly.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is request deduplication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sending duplicate requests"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Identifying and removing duplicate requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Request caching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Request logging"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Deduplication identifies and eliminates duplicate requests to prevent double processing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a bloom filter?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database index"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Probabilistic data structure for membership testing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache eviction policy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Hash table"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bloom filter tests set membership with possible false positives but no false negatives.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is consistent hashing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random hashing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hashing minimizing remapping when cluster changes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Consistent hashing minimizes key remapping when nodes added/removed from cluster.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Rendezvous hashing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random node selection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Highest scoring node wins"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Round-robin"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Least connections"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Rendezvous hashing (HRW) assigns to node with highest hash score for key.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is vector clock?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single timestamp"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Versioning for distributed events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CPU clock"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network time"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Vector clocks track event ordering across distributed systems without synchronized clocks.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is CRDT (Conflict-free Replicated Data Type)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data structure for strong eventual consistency"
+      },
+      {
+        "option_id": 3,
+        "option_value": "API type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CRDTs ensure convergence without coordination in distributed systems.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the difference between push and pull models?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Push: server sends, Pull: client requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Push is slower"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pull is real-time"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Push model: server pushes updates; Pull model: client polls for updates.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is event sourcing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Storing current state only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing state changes as events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database normalization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event sourcing stores state changes as events, reconstructing state by replaying.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is CQRS (Command Query Responsibility Segregation)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single model for read/write"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Separate models for reading and writing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database replication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API design"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CQRS separates read and write operations to different models for optimization.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event-driven architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Request-response pattern"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Producing and consuming events"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Batch processing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Synchronous processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event-driven architecture uses events to trigger and communicate between services.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is choreography in microservices?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Centralized orchestrator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Services reacting to events independently"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual coordination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database coordination"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Choreography: services independently react to events without central orchestrator.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is orchestration in microservices?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Independent service reactions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Central coordinator managing workflow"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual process"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database triggers"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Orchestration: central coordinator (orchestrator) manages service interactions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is strangler fig pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database pattern"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Gradually replacing monolith with microservices"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Caching pattern"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Strangler fig incrementally replaces monolith functionality with microservices.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is bulkhead pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database partitioning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Isolating failures to prevent cascade"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Caching strategy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bulkhead isolates components so failure in one doesn't affect others.",
+    "difficulty_level": 3
+  }
+]

@@ -228,7 +228,8 @@ The old database has been discarded — no migration is written, and `models.py`
 final schema directly. The previous `app.db` is retained out-of-tree as
 `app.db.discarded-20260807` and is gitignored.
 
-Content comes from 1,500 MCQs in `for_claude/JSON_Qus/*.json`. The set was validated against
+Content comes from 1,500 MCQs in `data/questions/*.json`, tracked in version control so the
+repo can rebuild its own content from a fresh clone. The set was validated against
 the schema before this spec was finalised: every question has exactly four options with
 `option_id` 1–4, an `answer_id` within that range, non-empty question text, and a non-empty
 `answer_explanation`. Zero defects across all 1,500.
@@ -266,11 +267,8 @@ rerunning updates existing rows in place instead of duplicating them. It runs as
 
 `seed.py` is reduced to resources only; its 6 hand-written questions are superseded.
 
-### Consequence: the question bank is gitignored
-
-`for_claude/` is excluded from version control at your request, so the repo cannot rebuild its
-own content from a fresh clone. This is a deliberate accepted trade-off, not an oversight —
-see the open question at the end of this spec.
+The importer defaults to `data/questions/`, so `python -m db.import_questions` with no argument
+does the right thing. `for_claude/` stays gitignored for scratch material.
 
 ## Testing
 
@@ -327,11 +325,4 @@ Multi-server support is explicitly not built and not designed around; adding it 
 - A bot restart mid-question leaves the buttons working.
 - Malformed input to any command yields a readable message, not a traceback.
 - `pytest` passes with every rule in the Decisions table covered.
-
-## Open question
-
-`for_claude/` is gitignored, so the 1,500 questions (852 KB) live only on this machine. If that
-directory is lost, the bot's entire content is lost with it, and a fresh clone seeds an empty
-database. Moving the JSON into a tracked `data/questions/` directory would fix that at the cost
-of 852 KB in the repo. Flagged for a decision before implementation; the spec assumes the
-gitignored arrangement until told otherwise.
+- A fresh clone can rebuild the full question bank with no files from outside the repo.

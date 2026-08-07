@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is REST API?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database protocol"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Architectural style using HTTP methods"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Messaging protocol"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File transfer protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "REST (Representational State Transfer) uses HTTP methods (GET, POST, PUT, DELETE) on resources.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the difference between PUT and PATCH?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "PUT replaces entire resource, PATCH partial update"
+      },
+      {
+        "option_id": 3,
+        "option_value": "PATCH is for creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "PUT is for deletion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PUT is idempotent full replacement; PATCH applies partial modifications.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is idempotency in HTTP methods?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Different results each time"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Same result for multiple identical requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Faster execution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Idempotent methods (GET, PUT, DELETE) produce same result when repeated.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HTTP status code 201?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "OK"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Created"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No Content"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Accepted"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 201 indicates request succeeded and new resource was created.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 204?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "OK"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Created"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No Content"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bad Request"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "HTTP 204 indicates success with no content to return.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 400?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unauthorized"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bad Request"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server Error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 400 indicates client sent malformed request.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 401?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Forbidden"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unauthorized"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Bad Request"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 401 indicates authentication is required or has failed.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 403?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unauthorized"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Forbidden"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server Error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 403 indicates server understood request but refuses to authorize it.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is HTTP status code 409?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Conflict"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Bad Request"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server Error"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 409 indicates request conflicts with current server state.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HTTP status code 429?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Server Error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Too Many Requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Bad Request"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unauthorized"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 429 indicates user sent too many requests (rate limiting).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HTTP status code 502?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Client Error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bad Gateway"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Timeout"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 502 indicates gateway received invalid response from upstream.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HTTP status code 503?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bad Gateway"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Service Unavailable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Not Found"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Timeout"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTP 503 indicates server temporarily unable to handle request.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is API versioning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No versioning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Managing changes to API over time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Version control for code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database versioning"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API versioning allows evolving API while maintaining backward compatibility.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are common API versioning strategies?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No versioning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "URL path, query param, header, content negotiation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only URL path"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only headers"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Common strategies: URL path (/v1/), query param (?version=1), header (API-Version).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HATEOAS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database concept"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hypermedia as the Engine of Application State"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Caching strategy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HATEOAS includes links in responses for client to navigate API dynamically.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is content negotiation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Fixed format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Client and server agreeing on response format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "URL routing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Authentication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Content negotiation uses Accept header to agree on response format (JSON, XML).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is API pagination?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Returning all data"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returning data in chunks/pages"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data sorting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data filtering"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pagination returns large datasets in manageable chunks using offset/limit or cursor.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is offset-based pagination?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cursor-based"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using offset and limit parameters"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Keyset pagination"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Infinite scroll"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Offset pagination uses ?offset=0&limit=10 to specify page position.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is cursor-based pagination?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Offset-based"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using opaque pointer to next page"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Page numbers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pagination"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cursor pagination uses opaque token (after=xyz) for stable ordering.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is API rate limiting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unlimited requests"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Restricting number of requests per time window"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Speed optimization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Rate limiting controls API usage to prevent abuse and ensure fair access.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is API throttling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unlimited speed"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Controlling processing rate of requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Request caching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Throttling controls rate at which requests are processed, queueing excess.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is API gateway?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database gateway"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single entry point for API requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache layer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API gateway routes requests, handles auth, rate limiting, protocol translation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is request/response logging?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No logging"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Recording API requests and responses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Error logging only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Security logging"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Request/response logging captures API traffic for debugging and auditing.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is API authentication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No authentication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Verifying client identity"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Rate limiting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Authentication verifies who is making the API request.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is API authorization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Authentication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Determining what actions are allowed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data validation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Logging"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Authorization determines what authenticated user is permitted to do.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Basic Authentication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "OAuth"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Username:password base64 encoded in header"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Token auth"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Certificate auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Basic Auth sends base64-encoded credentials in Authorization header.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is Bearer Token authentication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Basic auth"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Token in Authorization header"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Session cookies"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API keys in URL"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bearer token sent in Authorization: Bearer <token> header.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is API key authentication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Username/password"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unique key identifying client"
+      },
+      {
+        "option_id": 3,
+        "option_value": "OAuth token"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Certificate"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "API keys are unique identifiers passed in header or query parameter.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is JWT (JSON Web Token)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database token"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compact, self-contained token format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Session ID"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API key"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JWT encodes claims as JSON, signed for verification, used for stateless auth.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are JWT claims?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database records"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Statements about entity and additional data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "HTTP headers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "URL parameters"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JWT claims are statements like issuer, expiration, subject, custom data.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is JWT signature?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Header only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Verification that token hasn't been altered"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Payload data"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Signature verifies token integrity using secret or public/private key.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is OAuth 2.0?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Authentication protocol"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Authorization framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption standard"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OAuth 2.0 is authorization framework for delegated access to resources.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is OAuth 2.0 authorization code flow?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Implicit flow"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server exchanges code for token"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Password flow"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Client credentials"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Authorization code flow: client gets code, server exchanges for access token.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is OAuth 2.0 implicit flow?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Authorization code"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Token returned directly to client"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Password flow"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Device flow"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Implicit flow returns access token directly (deprecated, less secure).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is OAuth 2.0 client credentials flow?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "User authorization"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Machine-to-machine authentication"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Authorization code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Implicit"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Client credentials flow for service-to-service authentication without user.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is refresh token?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Access token"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Long-lived token to get new access tokens"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Authorization code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "ID token"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Refresh tokens obtain new access tokens without re-authenticating user.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is OpenID Connect?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "OAuth 2.0"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Authentication layer on top of OAuth 2.0"
+      },
+      {
+        "option_id": 3,
+        "option_value": "SAML"
+      },
+      {
+        "option_id": 4,
+        "option_value": "LDAP"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OpenID Connect adds identity verification (ID token) to OAuth 2.0.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is SAML?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "OAuth 2.0"
+      },
+      {
+        "option_id": 2,
+        "option_value": "XML-based authentication standard"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JWT"
+      },
+      {
+        "option_id": 4,
+        "option_value": "OpenID Connect"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SAML (Security Assertion Markup Language) is XML standard for SSO.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is SSO (Single Sign-On)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple logins"
+      },
+      {
+        "option_id": 2,
+        "option_value": "One authentication for multiple applications"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No authentication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Two-factor auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SSO allows users to authenticate once and access multiple applications.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is session-based authentication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Token-based"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server-side session storage"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JWT"
+      },
+      {
+        "option_id": 4,
+        "option_value": "API keys"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Session auth stores session data server-side, session ID in cookie.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is stateless authentication?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Server-side sessions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Each request contains all auth info (JWT)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cookies only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database lookup"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Stateless auth (JWT) includes all auth info, no server session storage needed.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is CORS (Cross-Origin Resource Sharing)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same-origin policy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mechanism for cross-origin requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Authentication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CORS allows servers to specify who can access resources from different origins.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is preflight CORS request?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "GET request"
+      },
+      {
+        "option_id": 2,
+        "option_value": "OPTIONS request before actual request"
+      },
+      {
+        "option_id": 3,
+        "option_value": "POST request"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Simple request"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Preflight OPTIONS request checks if actual cross-origin request is safe.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is simple CORS request?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any request"
+      },
+      {
+        "option_id": 2,
+        "option_value": "GET/POST with specific content types, no custom headers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "PUT/DELETE"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Any with auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Simple requests (GET/HEAD/POST with safe headers) don't trigger preflight.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is CSRF (Cross-Site Request Forgery)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unauthorized actions on behalf of authenticated user"
+      },
+      {
+        "option_id": 3,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Man-in-the-middle"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CSRF tricks user's browser into performing unwanted actions on authenticated site.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to prevent CSRF?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Disable cookies"
+      },
+      {
+        "option_id": 2,
+        "option_value": "CSRF tokens, SameSite cookies"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CORS headers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "CSRF tokens validate request origin; SameSite cookies prevent cross-site sending.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is XSS (Cross-Site Scripting)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "SQL injection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Injecting malicious scripts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CSRF"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Session hijacking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XSS injects client-side scripts into web pages viewed by other users.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to prevent XSS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Allow all input"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Input validation, output encoding, CSP"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSRF tokens"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XSS prevention: sanitize input, encode output, Content Security Policy.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "XSS"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Injecting malicious SQL code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CSRF"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Session fixation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SQL injection inserts malicious SQL through user input to manipulate database.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "String concatenation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parameterized queries, ORM"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Input validation only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Parameterized queries separate SQL from data, preventing injection attacks.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is input validation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Accepting all input"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Verifying input meets expected format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Output encoding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Input validation ensures data meets format, type, length, range requirements.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is output encoding?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Input validation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encoding data for safe display"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Output encoding converts special characters to prevent injection attacks.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is HTTPS?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Unencrypted HTTP"
+      },
+      {
+        "option_id": 2,
+        "option_value": "HTTP over TLS/SSL encryption"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Faster HTTP"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Different protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HTTPS encrypts HTTP traffic using TLS/SSL for secure communication.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is TLS handshake?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data transfer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Process establishing encrypted connection"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Certificate validation only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Key generation only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TLS handshake negotiates encryption parameters and establishes secure connection.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is certificate pinning?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple certificates"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hardcoding expected certificate/public key"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Certificate rotation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No validation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Certificate pinning prevents MITM by hardcoding expected certificate in app.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is mutual TLS (mTLS)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-way authentication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Both client and server authenticate"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No authentication"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Token only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "mTLS requires both parties to present and verify X.509 certificates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is request signing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No verification"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cryptographically signing requests"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Basic auth"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Token auth"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Request signing uses HMAC or signatures to verify request authenticity.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is HMAC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Encryption algorithm"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hash-based message authentication code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Digital signature"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Checksum"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "HMAC uses cryptographic hash function and secret key for message authentication.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is API request signing with AWS Signature?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Basic auth"
+      },
+      {
+        "option_id": 2,
+        "option_value": "HMAC-SHA256 signing of request"
+      },
+      {
+        "option_id": 3,
+        "option_value": "OAuth"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JWT"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "AWS Signature Version 4 signs requests with HMAC-SHA256 using secret key.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is webhooks security?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No security needed"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Signature verification, HTTPS, IP allowlisting"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Basic auth only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No HTTPS"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Webhook security: HTTPS, verify signatures, whitelist IPs, validate payload.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is request replay attack?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "New request"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Replaying intercepted valid request"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Modified request"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Fake request"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Replay attack intercepts and retransmits valid request to perform unauthorized action.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to prevent replay attacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No prevention"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Nonces, timestamps, request signing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encryption only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "HTTPS only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Nonces (unique tokens), timestamps, and signatures prevent replay attacks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is request idempotency key?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random value"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unique key ensuring idempotent processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Timestamp"
+      },
+      {
+        "option_id": 4,
+        "option_value": "User ID"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Idempotency key identifies request so duplicate submissions have same effect.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is middleware in web frameworks?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database layer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Code processing requests/responses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Frontend code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network layer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Middleware intercepts requests/responses for logging, auth, modification.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is request interceptor?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database trigger"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Code executed before/after request handling"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Frontend component"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network router"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Interceptors execute code before request reaches handler or before response sent.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is dependency injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Hardcoded dependencies"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Supplying dependencies from outside"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Global variables"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Singleton pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dependency injection provides objects with their dependencies rather than constructing them.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is inversion of control?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct control"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Framework calls application code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual memory management"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct instantiation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "IoC inverts control flow: framework calls application code rather than vice versa.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is service layer pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No services"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Business logic in dedicated service classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All in controllers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All in models"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Service layer encapsulates business logic separate from controllers and models.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is repository pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct database access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Abstracting data access layer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No data access"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct SQL in code"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Repository pattern abstracts data access, allowing swapping implementations.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is unit of work pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single operation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tracking changes and committing as single transaction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No transactions"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple transactions"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Unit of work tracks changes to objects and commits them as single transaction.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data mapper pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct database access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mapping between objects and database without domain knowing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Active record"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No mapping"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data mapper separates in-memory objects from database (unlike active record).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is active record pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data mapper"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Domain object encapsulates database access"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Repository only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Active record: domain object has CRUD methods, knows about database.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is DTO (Data Transfer Object)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database entity"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object for transferring data between layers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Domain model"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Controller"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DTO carries data between processes/layers without business logic.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between DTO and Entity?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "DTO transfers data, Entity has identity and business logic"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "DTO has logic"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Entities have identity and behavior; DTOs are simple data containers.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is serialization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Converting object to format for storage/transmission"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data encryption"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data compression"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Serialization converts objects to JSON, XML, binary for storage or network.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is deserialization?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Serialization"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Converting serialized data back to object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data deletion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encryption"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Deserialization reconstructs objects from serialized format.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is JSON?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Binary format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Lightweight text data interchange format"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XML variant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "JSON (JavaScript Object Notation) is human-readable text format for data.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is XML?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Binary format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extensible Markup Language"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JSON variant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "XML is markup language defining rules for encoding documents.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is Protocol Buffers?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Text format"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Binary serialization format by Google"
+      },
+      {
+        "option_id": 3,
+        "option_value": "JSON format"
+      },
+      {
+        "option_id": 4,
+        "option_value": "XML format"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Protocol Buffers is language-neutral binary serialization format.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is gRPC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "REST API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "High-performance RPC framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database protocol"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "gRPC uses HTTP/2 and Protocol Buffers for efficient service communication.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is GraphQL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "REST API"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Query language for APIs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database query"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Programming language"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GraphQL allows clients to request exactly the data they need.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is GraphQL resolver?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function providing value for GraphQL field"
+      },
+      {
+        "option_id": 3,
+        "option_value": "REST endpoint"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Middleware"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Resolvers are functions that resolve value for each field in GraphQL schema.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is GraphQL schema?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database schema"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type system defining API capabilities"
+      },
+      {
+        "option_id": 3,
+        "option_value": "REST specification"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JSON document"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GraphQL schema defines types, queries, mutations available in API.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is GraphQL query?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database query"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Client request for specific data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "REST GET"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Mutation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GraphQL query is read operation requesting specific fields.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is GraphQL mutation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Read operation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Write operation modifying data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Query"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Subscription"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GraphQL mutation modifies data (create, update, delete).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is GraphQL subscription?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-time query"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Real-time updates via WebSocket"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Mutation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "REST endpoint"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GraphQL subscription maintains connection for real-time data updates.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is N+1 problem in GraphQL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single query"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Executing many queries for nested data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Pagination issue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Caching issue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "N+1 problem: resolver makes N additional queries for each of N parent items.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How to solve GraphQL N+1 problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More indexes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "DataLoader for batching and deduplication"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No nested queries"
+      },
+      {
+        "option_id": 4,
+        "option_value": "REST instead"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DataLoader batches multiple requests into single query and caches results.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is DataLoader?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database loader"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Batching and caching library for GraphQL"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File loader"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Config loader"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DataLoader batches multiple loads into single request and caches results.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is WebSocket?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "HTTP request-response"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Full-duplex persistent connection"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Polling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Server-sent events"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WebSocket provides bidirectional, real-time communication over single connection.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Server-Sent Events (SSE)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bidirectional"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server-to-client streaming"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Client-to-server"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Polling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SSE enables server push of real-time updates over HTTP connection.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is long polling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Short polling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Server holds request until data available"
+      },
+      {
+        "option_id": 3,
+        "option_value": "WebSocket"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No polling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Long polling keeps HTTP request open until server has data to send.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is difference between WebSocket and SSE?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "WebSocket bidirectional, SSE server-to-client only"
+      },
+      {
+        "option_id": 3,
+        "option_value": "SSE bidirectional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "WebSocket HTTP only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "WebSocket is bidirectional; SSE is server-to-client over HTTP.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is webhook?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Polling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "HTTP callback triggered by event"
+      },
+      {
+        "option_id": 3,
+        "option_value": "WebSocket"
+      },
+      {
+        "option_id": 4,
+        "option_value": "SSE"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Webhook is HTTP POST request sent to URL when specific event occurs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is event-driven architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Request-response"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reacting to events asynchronously"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Synchronous only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Batch processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event-driven architecture produces, detects, consumes, reacts to events.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is message queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Asynchronous message storage and delivery"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File system"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Message queue temporarily stores messages for asynchronous processing.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is message broker?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Middleware for message routing and transformation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load balancer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Message broker receives, routes, and delivers messages between systems.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is RabbitMQ?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message broker implementing AMQP"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache system"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RabbitMQ is open-source message broker supporting multiple protocols.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Apache Kafka?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed event streaming platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Kafka is distributed streaming platform for high-throughput data pipelines.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kafka topic?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database table"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Category/feed name to which records are published"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Kafka topic is category name to which producers publish records.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Kafka partition?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database index"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ordered, immutable sequence of records"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Topic name"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Consumer group"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Topic split into partitions for parallelism; each partition ordered log.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kafka consumer group?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single consumer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Group of consumers sharing workload"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Producer group"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Topic group"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Consumer group: consumers cooperate to consume from topic partitions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kafka offset?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Timestamp"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Position of consumer in partition"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Message size"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Partition number"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Offset is position of next record to be consumed in partition.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is message persistence?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "In-memory only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Storing messages durably"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Transient messages"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Message persistence stores messages durably to survive broker restarts.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is message acknowledgment?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No confirmation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Consumer confirming message processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Producer confirmation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broker confirmation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Acknowledgment confirms message was received and processed successfully.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is at-least-once delivery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exactly once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message delivered one or more times"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At most once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No delivery"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "At-least-once: message delivered, but possible duplicates (ack after processing).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is at-most-once delivery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exactly once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message delivered zero or one times"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At least once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No delivery"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "At-most-once: no duplicates possible, but message may be lost (ack before processing).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is exactly-once delivery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "At least once"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message delivered exactly one time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "At most once"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No delivery"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Exactly-once semantics ensure message processed once despite failures.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is message ordering guarantee?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random order"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Messages processed in order sent"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reverse order"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No guarantee"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Ordering guarantee ensures messages consumed in same order as produced.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is dead letter queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Main queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Queue for messages that fail processing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Priority queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delay queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dead letter queue receives messages that couldn't be processed after retries.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is message TTL (Time To Live)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Infinite time"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message expiration time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Processing time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Queue size"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "TTL specifies how long message remains in queue before expiration.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is delayed message queue?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Immediate delivery"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Delivering messages after specified delay"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Priority queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Dead letter queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Delayed queue holds messages and delivers after specified delay period.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is priority queue in messaging?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "FIFO queue"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Messages processed by priority"
+      },
+      {
+        "option_id": 3,
+        "option_value": "LIFO queue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Random queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Priority queue delivers higher priority messages before lower priority.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is message batching?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single message"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Grouping multiple messages together"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No grouping"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Individual processing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Batching groups multiple messages to improve throughput and reduce overhead.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is request-response pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-way"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Synchronous request waiting for response"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Fire-and-forget"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Pub-sub"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Request-response: client sends request, blocks waiting for server response.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is fire-and-forget pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Request-response"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Send message without waiting for response"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Pub-sub"
+      },
+      {
+        "option_id": 4,
+        "option_value": "RPC"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Fire-and-forget sends message without expecting or waiting for response.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is publish-subscribe pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-to-one"
+      },
+      {
+        "option_id": 2,
+        "option_value": "One-to-many message distribution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Request-response"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Point-to-point"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pub-sub: publishers send to topics, multiple subscribers receive independently.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is point-to-point messaging?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-to-many"
+      },
+      {
+        "option_id": 2,
+        "option_value": "One-to-one message delivery"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Pub-sub"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Broadcast"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Point-to-point: message consumed by exactly one consumer from queue.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is RPC (Remote Procedure Call)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Local function call"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Executing function on remote server"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database query"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Message queue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RPC makes remote server function call appear as local function call.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is difference between RPC and REST?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "RPC is operation-focused, REST is resource-focused"
+      },
+      {
+        "option_id": 3,
+        "option_value": "REST is faster"
+      },
+      {
+        "option_id": 4,
+        "option_value": "RPC is newer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "REST models resources with HTTP methods; RPC models operations/actions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is service mesh?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Load balancer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Infrastructure layer for service communication"
+      },
+      {
+        "option_id": 3,
+        "option_value": "API gateway"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Service mesh handles service-to-service communication, security, observability.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is sidecar pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single container"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Helper container alongside main container"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Main container only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Init container"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Sidecar pattern deploys helper container (proxy, logger) with main container.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is circuit breaker pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct calls"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Preventing cascade failures by failing fast"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Retry forever"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No timeout"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Circuit breaker stops calls to failing service, returning error immediately.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What are circuit breaker states?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One state"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Closed, Open, Half-Open"
+      },
+      {
+        "option_id": 3,
+        "option_value": "On, Off"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Active, Inactive"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Circuit breaker: Closed (normal), Open (failing), Half-Open (testing).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is retry pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single attempt"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Retrying failed operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No retry"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Infinite retry"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Retry pattern retries failed operations with backoff for transient failures.",
+    "difficulty_level": 2
+  }
+]

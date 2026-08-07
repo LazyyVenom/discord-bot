@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What is a class in OOP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Blueprint for creating objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "A class is a blueprint/template that defines properties and behaviors of objects.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is an object in OOP?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Instance of a class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "An object is an instance of a class with its own state and behavior.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is encapsulation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inheritance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Bundling data and methods that operate on data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Polymorphism"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstraction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Encapsulation bundles data and methods together, restricting direct access to some components.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the benefit of encapsulation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Code duplication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data hiding and controlled access"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Tight coupling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No benefits"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Encapsulation provides data hiding, controlled access, and modularity.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is inheritance?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Encapsulation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mechanism for creating new class from existing class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Polymorphism"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstraction"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Inheritance allows new class to inherit properties and methods from existing class.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the parent class also called?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Child class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Base class or Superclass"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Derived class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Subclass"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Parent class is also called base class, superclass, or parent class.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the child class also called?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parent class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Derived class or Subclass"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Base class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Superclass"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Child class is also called derived class, subclass, or child class.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is polymorphism?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single form"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Many forms - same interface, different implementations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single inheritance"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No inheritance"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Polymorphism allows objects of different classes to be treated as objects of common parent class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are types of polymorphism?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Only runtime"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compile-time (overloading) and Runtime (overriding)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only compile-time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Polymorphism types: compile-time (method overloading) and runtime (method overriding).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is method overloading?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime polymorphism"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compile-time polymorphism with same name, different parameters"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method overriding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No polymorphism"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Method overloading: multiple methods with same name but different parameters in same class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is method overriding?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compile-time polymorphism"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Runtime polymorphism with same signature in parent and child"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method overloading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No polymorphism"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Method overriding: child class provides specific implementation of parent method.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is abstraction?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Concrete implementation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Hiding complex implementation details, showing only essential features"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Inheritance"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Encapsulation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Abstraction hides complex reality while exposing only necessary parts.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is an abstract class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class that can be instantiated"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class that cannot be instantiated, meant to be subclassed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Concrete class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Final class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Abstract class cannot be instantiated and is designed to be subclassed.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is an interface?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class with implementation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Contract specifying methods a class must implement"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Abstract class with implementation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Concrete class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Interface defines contract - methods a class must implement without providing implementation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between abstract class and interface?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Abstract class can have implementation, interface typically cannot"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Interface can be instantiated"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstract class cannot have methods"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Abstract class can have method implementations; interface typically defines only method signatures.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is multiple inheritance?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inheriting from one class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Inheriting from multiple classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No inheritance"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single inheritance"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Multiple inheritance: class inherits from more than one parent class.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the diamond problem?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No problem"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ambiguity in multiple inheritance when two parents have same method"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single inheritance issue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No inheritance"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Diamond problem: ambiguity when class inherits from two classes that share a common ancestor.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "How is diamond problem solved?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Not solvable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using virtual inheritance or interface implementation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Using single inheritance only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No solution needed"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Diamond problem solved with virtual inheritance (C++) or interface-based design (Java).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is composition?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inheritance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Has-a relationship where one class contains object of another"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Is-a relationship"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No relationship"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Composition: class contains objects of other classes (has-a relationship).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is aggregation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strong ownership"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Weak ownership where parts can exist independently"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Composition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Inheritance"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Aggregation: weak association where contained object can exist independently of container.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is association?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inheritance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Relationship between two independent classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Composition only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No relationship"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Association: relationship where one class uses or interacts with another.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is dependency?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strong relationship"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Weaker relationship where one class depends on another"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Inheritance"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Composition"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dependency: one class depends on another (uses it as parameter, local variable, etc.).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is coupling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Independence"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Degree of interdependence between modules"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Encapsulation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cohesion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Coupling measures how closely connected two modules/classes are.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is cohesion?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Interdependence"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Degree to which elements of a module belong together"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Coupling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Inheritance"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Cohesion measures how closely related and focused responsibilities of a module are.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is preferred: high or low coupling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "High coupling"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Low coupling"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No coupling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Maximum coupling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Low coupling is preferred - modules are more independent and easier to maintain.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is preferred: high or low cohesion?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Low cohesion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "High cohesion"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No cohesion"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Minimum cohesion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "High cohesion is preferred - module has focused, related responsibilities.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is tight coupling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Good design"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Modules highly dependent on each other"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Loose coupling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No coupling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tight coupling: modules are highly dependent, changes in one affect others.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is loose coupling?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Bad design"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Modules with minimal dependencies"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Tight coupling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No coupling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Loose coupling: modules have minimal dependencies, easier to change independently.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a constructor?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Special method called when object is created"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Destructor"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Constructor is special method automatically called when object is instantiated.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a destructor?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Special method called when object is destroyed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Regular method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Destructor is special method called when object is about to be destroyed.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is this/self keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static reference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reference to current object instance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Parent class reference"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Global reference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "this/self refers to current object instance in methods.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is super/parent keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Current object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reference to parent class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Child class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static reference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "super/parent refers to parent class, used to call parent methods/constructors.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is static keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Instance member"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class-level member shared across all instances"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Local variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Global variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Static members belong to class rather than instance, shared across all objects.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is final/const/readonly keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Mutable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Cannot be changed after initialization"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstract"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Final/const/readonly indicates value cannot be modified after initialization.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is method signature?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Method body"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method name and parameter list"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Return type only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Access modifier only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Method signature consists of method name and parameter types/number/order.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is method overloading resolution?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Random selection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compiler selects based on parameters at compile time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Runtime selection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No resolution"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Overloading resolution: compiler selects appropriate method based on arguments at compile time.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is dynamic method dispatch?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compile-time binding"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Runtime binding of method call to implementation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static binding"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No binding"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dynamic dispatch: method call bound to implementation at runtime (polymorphism).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is upcasting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Downcasting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Casting subclass to superclass type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No casting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Primitive casting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Upcasting: casting from subclass to superclass (implicit, safe).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is downcasting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Upcasting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Casting superclass to subclass type"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No casting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Implicit casting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Downcasting: casting from superclass to subclass (explicit, may fail at runtime).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is instanceof/type checking?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Type conversion"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Checking if object is instance of class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method calling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable assignment"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "instanceof checks if object is instance of specified class or its subclass.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a package/namespace?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Organizational unit grouping related classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Package/namespace organizes related classes and prevents naming conflicts.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is access modifier?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Return type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Keyword controlling visibility of class/members"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method name"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Access modifiers (public, private, protected) control visibility and accessibility.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is public access modifier?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Private access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Accessible from anywhere"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Package-private"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Protected only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Public members are accessible from any other class.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is private access modifier?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Accessible only within declaring class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Package access"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Subclass access"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Private members are accessible only within the class they are declared.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is protected access modifier?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Accessible within package and subclasses"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Private only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Package only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Protected members accessible within package and by subclasses (even in different package).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is default/package-private access?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Accessible only within same package"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Private"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Protected"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Default (no modifier): accessible only within same package.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is immutable object?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Mutable object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object whose state cannot be changed after creation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstract object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Immutable object cannot be modified after creation (String in Java, tuple in Python).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How to create immutable class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public fields"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Private final fields, no setters, defensive copies"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Public setters"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Mutable fields"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Make class immutable: private final fields, no setters, return copies of mutable objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is mutable object?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Immutable object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object whose state can be changed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Final object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Mutable object can be modified after creation (StringBuilder, most objects).",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a singleton pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple instances"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Only one instance of class exists"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No instances"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Two instances"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Singleton ensures class has only one instance and provides global access to it.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "How is singleton implemented?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Public constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Private constructor, static instance method"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Abstract class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Interface"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Singleton: private constructor, static method to get single instance.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is lazy initialization in singleton?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Early creation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating instance when first requested"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No initialization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple instances"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lazy initialization creates singleton instance only when first requested.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is eager initialization in singleton?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Delayed creation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating instance at class loading"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No initialization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Lazy creation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Eager initialization creates singleton instance when class is loaded.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is thread-safe singleton?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Non-thread-safe"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Singleton safe for concurrent access"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Multiple instances"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No singleton"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Thread-safe singleton ensures only one instance created even with multiple threads.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is double-checked locking?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single check"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Checking instance twice for thread-safe lazy initialization"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No locking"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Eager initialization"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Double-checked locking optimizes thread-safe singleton by checking instance twice.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is Bill Pugh singleton?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Double-checked locking"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using static inner class for lazy initialization"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Eager initialization"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Enum singleton"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bill Pugh uses static inner class that loads only when referenced (lazy, thread-safe).",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is enum singleton?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class-based"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Using enum for singleton (Java)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Interface-based"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstract class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Enum singleton: single-element enum, inherently serializable, thread-safe.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is factory pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct instantiation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating objects without specifying exact class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Singleton"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Builder"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Factory pattern creates objects without exposing instantiation logic to client.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is simple factory?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple factories"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single factory class with creation method"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Abstract factory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Factory method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Simple factory: single class with method that creates objects based on input.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is factory method pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Simple factory"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Defining interface for creating object, subclasses decide class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Abstract factory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Builder"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Factory Method: define interface for creating object, let subclasses decide which class.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is abstract factory pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single factory"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Factory of factories for related objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Factory method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Builder"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Abstract Factory provides interface for creating families of related objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is builder pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct construction"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Constructing complex objects step by step"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Factory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Singleton"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Builder constructs complex objects step by step, separating construction from representation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "When to use builder pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Simple objects"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Complex objects with many optional parameters"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single instance"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No objects"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Use builder when object has many optional parameters or complex construction.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is prototype pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Creating from scratch"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creating new objects by copying existing ones"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Factory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Singleton"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Prototype creates new objects by copying/cloning existing prototype object.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is shallow copy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Deep copy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Copying object references, not referenced objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No copy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Clone all"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Shallow copy: new object with copies of primitive values and references to original objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is deep copy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Shallow copy"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Copying object and all objects it references"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No copy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Reference copy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Deep copy: new object with copies of all objects, including nested objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is adapter pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Creating objects"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Allowing incompatible interfaces to work together"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Singleton"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Factory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Adapter allows incompatible interfaces to collaborate by wrapping one with expected interface.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is bridge pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Connecting databases"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Separating abstraction from implementation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Adapter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Proxy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Bridge separates abstraction from implementation so both can vary independently.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is decorator pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Inheritance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Adding behavior dynamically without affecting other objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Factory"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Singleton"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Decorator adds responsibilities to objects dynamically without subclassing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is facade pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Complex interface"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Simplified interface to complex subsystem"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Decorator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Adapter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Facade provides simplified interface to complex library, framework, or subsystem.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is proxy pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Placeholder controlling access to another object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Adapter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Proxy provides placeholder/surrogate for another object to control access to it.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What are types of proxies?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Virtual, Protection, Remote, Smart"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only virtual"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only remote"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Proxy types: Virtual (lazy loading), Protection (access control), Remote (network), Smart (additional actions).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is composite pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tree structure of individual and composite objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Adapter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Composite composes objects into tree structures to represent part-whole hierarchies.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is flyweight pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Heavy objects"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sharing data to support large numbers of similar objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Singleton"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Factory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Flyweight minimizes memory by sharing data among similar objects.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is chain of responsibility pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single handler"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Passing request along chain of handlers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Chain of Responsibility passes requests along chain until handler handles it.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is command pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct method call"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Encapsulating request as object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Command encapsulates request as object, parameterizing clients with different requests.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is iterator pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sequential access to elements without exposing representation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Iterator provides way to access elements sequentially without exposing underlying structure.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is mediator pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct communication"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object encapsulating how set of objects interact"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Mediator defines object that encapsulates how set of objects interact.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is memento pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No state saving"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Capturing and restoring object internal state"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Memento captures and externalizes object's internal state without violating encapsulation.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is observer pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One-to-one"
+      },
+      {
+        "option_id": 2,
+        "option_value": "One-to-many dependency, notify dependents automatically"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Mediator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Observer: subject notifies multiple observers automatically of state changes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is publish-subscribe pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct call"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message broker between publishers and subscribers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pub-sub uses message broker, decoupling publishers from subscribers.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is state pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single state"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Altering object behavior when internal state changes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Strategy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Observer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "State allows object to alter behavior when its internal state changes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is strategy pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single algorithm"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Family of algorithms, making them interchangeable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "State"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Observer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Strategy defines family of algorithms, encapsulates each one, makes them interchangeable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is template method pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No template"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Skeleton method, subclasses override steps"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Strategy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Observer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Template Method defines skeleton of algorithm, subclasses override specific steps.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is visitor pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct operation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Separating algorithm from object structure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Observer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Strategy"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Visitor separates algorithm from objects on which it operates.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is dependency injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct instantiation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Supplying dependencies from outside"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Singleton"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Factory"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dependency Injection provides objects with their dependencies rather than constructing them.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are types of dependency injection?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Constructor, Setter, Interface injection"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only constructor"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only setter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DI types: Constructor (most common), Setter, Interface injection.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is inversion of control (IoC)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct control"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Framework calls application code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No control"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct instantiation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "IoC inverts control flow - framework calls application code rather than vice versa.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is IoC container?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No container"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Framework managing object creation and dependencies"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "IoC container manages object lifecycle and dependency injection automatically.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is SOLID principles?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single principle"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Five design principles for maintainable software"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Three principles"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Ten principles"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SOLID: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Single Responsibility Principle (SRP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Multiple responsibilities"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class should have one reason to change"
+      },
+      {
+        "option_id": 3,
+        "option_value": "One method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "One variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SRP: class should have only one reason to change, one responsibility.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Open/Closed Principle (OCP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Open for modification"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Open for extension, closed for modification"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Closed for extension"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Open for both"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OCP: classes should be open for extension but closed for modification.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Liskov Substitution Principle (LSP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any substitution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Subtypes must be substitutable for base types"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No substitution"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only inheritance"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "LSP: objects of superclass should be replaceable with subclass objects without breaking.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Interface Segregation Principle (ISP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Large interfaces"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Clients shouldn't depend on methods they don't use"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single interface"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No interfaces"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ISP: split large interfaces into smaller ones so clients only depend on what they use.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Dependency Inversion Principle (DIP)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Depend on concrete classes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Depend on abstractions, not concretions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No dependencies"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct dependencies"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DIP: high-level modules shouldn't depend on low-level modules; both should depend on abstractions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is DRY principle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Repeat yourself"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Don't Repeat Yourself"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sometimes repeat"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Always repeat"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "DRY: Don't Repeat Yourself - avoid code duplication.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is KISS principle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Complex design"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Keep It Simple, Stupid"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Complicated is better"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No simplicity"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "KISS: Keep It Simple, Stupid - simplicity should be key goal.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is YAGNI principle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Build everything"
+      },
+      {
+        "option_id": 2,
+        "option_value": "You Aren't Gonna Need It"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Build for future"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Over-engineer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "YAGNI: don't add functionality until it's necessary.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Law of Demeter?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Talk to everyone"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Only talk to immediate friends"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Talk to strangers"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No communication"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Law of Demeter: object should only call methods on itself, its fields, parameters, or local objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is composition over inheritance?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Always inherit"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Favor composition for flexibility"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Never compose"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only inherit"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Favor composition over inheritance for more flexible, less coupled design.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is interface segregation?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Fat interfaces"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Splitting large interfaces into smaller ones"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single interface"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No interfaces"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Interface segregation: clients shouldn't be forced to depend on methods they don't use.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is programming to interface?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Concrete classes"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Depend on interfaces/abstractions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Implementation details"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No interfaces"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Program to interface, not implementation for flexibility and testability.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is separation of concerns?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single concern"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dividing program into distinct sections"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No separation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Mixed concerns"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Separation of concerns: divide program into sections, each addressing separate concern.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is MVC architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single component"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Model-View-Controller separation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No separation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "MVC separates application into Model (data), View (UI), Controller (logic).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Model in MVC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "User interface"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data and business logic"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Request handling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "View rendering"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Model represents data, business rules, logic, and functions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is View in MVC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data layer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "User interface and presentation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Business logic"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Controller"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "View renders presentation of data (UI components).",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is Controller in MVC?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data layer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Handles input and coordinates Model/View"
+      },
+      {
+        "option_id": 3,
+        "option_value": "UI rendering"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Controller receives input, processes it using Model, selects View for output.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is MVP architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Model-View-Presenter"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Model-View-Controller"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Model-View-ViewModel"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "MVP: Model-View-Presenter where Presenter intermediates between Model and View.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is MVVM architecture?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Model-View-Presenter"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Model-View-Controller"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Model-View-ViewModel"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 3,
+    "answer_explanation": "MVVM: Model-View-ViewModel with two-way data binding between View and ViewModel.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is repository pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Direct DB access"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Abstracting data access layer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No pattern"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct SQL"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Repository pattern abstracts data access, mediates between domain and data mapping.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is unit of work pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single operation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Maintaining list of affected objects, committing as unit"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No pattern"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple transactions"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Unit of Work maintains list of objects affected by transaction, coordinates writing out changes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is data mapper pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Active record"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Moving data between objects and database while keeping them independent"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No mapping"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Direct access"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Data Mapper moves data between objects and database while keeping them independent.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is active record pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Data mapper"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object wrapping row in database table"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No pattern"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Repository only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Active Record: object wraps row in database table, encapsulates database access.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is lazy loading?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Eager loading"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Delaying loading of data until needed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No loading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Immediate loading"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lazy loading delays loading of related data until it's explicitly accessed.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is eager loading?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Lazy loading"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Loading related data with parent object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No loading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "On-demand loading"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Eager loading loads related data together with parent object in single query.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is identity map pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No caching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Ensuring each object loaded only once per transaction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Multiple loads"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Identity Map ensures each object loaded only once by keeping map of loaded objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is domain model pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Transaction script"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object model of domain incorporating behavior and data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Table module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Domain Model: object model of domain that incorporates both behavior and data.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is anemic domain model?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Rich model"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Domain objects with little behavior, mostly getters/setters"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No model"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Full model"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Anemic Domain Model: domain objects with little to no behavior, just data holders.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is rich domain model?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Anemic model"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Domain objects with both data and behavior"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No model"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Data only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Rich Domain Model: domain objects encapsulate both data and business logic.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is service layer pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No services"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Defining application's boundary and set of available operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Data layer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "UI layer"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Service Layer defines application's boundary and set of available operations from client layer.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is transaction script pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Domain model"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Organizing business logic by each transaction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Table module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Transaction Script organizes business logic into procedures, each handling single request.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is table module pattern?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Domain model"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Single instance handling business logic for all rows in table"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Transaction script"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Table Module: single instance that handles business logic for all rows in database table.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "OOPS+LLD Concept 123",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 4,
+    "answer_explanation": "Explanation for OOPS+LLD concept 123",
+    "difficulty_level": 4
+  },
+  {
+    "question": "OOPS+LLD Concept 124",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 1,
+    "answer_explanation": "Explanation for OOPS+LLD concept 124",
+    "difficulty_level": 5
+  },
+  {
+    "question": "OOPS+LLD Concept 125",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "A"
+      },
+      {
+        "option_id": 2,
+        "option_value": "B"
+      },
+      {
+        "option_id": 3,
+        "option_value": "C"
+      },
+      {
+        "option_id": 4,
+        "option_value": "D"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Explanation for OOPS+LLD concept 125",
+    "difficulty_level": 1
+  }
+]

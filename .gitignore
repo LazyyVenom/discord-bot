@@ -22,7 +22,7 @@ temp*
 app.db.bak*
 app.db.discarded-*
 
-# Working material for Claude (question banks, scratch notes)
+# Scratch working material (question banks live in data/questions/, tracked)
 for_claude/
 
 # IDEs

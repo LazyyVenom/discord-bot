@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "What is Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compiled language"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Interpreted high-level language"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Machine language"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Assembly language"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Python is an interpreted, high-level, general-purpose programming language.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is PEP 8?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Python compiler"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Style guide for Python code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Python interpreter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Package manager"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PEP 8 is the style guide for writing Python code.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a Python list?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Fixed-size array"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mutable ordered sequence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Immutable sequence"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Key-value pairs"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "List is a mutable, ordered sequence of elements in Python.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a Python tuple?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Mutable sequence"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Immutable ordered sequence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Key-value pairs"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Unordered collection"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Tuple is an immutable, ordered sequence of elements.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a Python dictionary?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Ordered list"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Key-value pairs mapping"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Immutable sequence"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Fixed array"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Dictionary is a mutable mapping of keys to values.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a Python set?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Ordered collection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unordered collection of unique elements"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Key-value pairs"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Immutable list"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Set is an unordered collection of unique elements.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is list comprehension?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "For loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Concise way to create lists"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function definition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class creation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "List comprehension provides concise syntax for creating lists from iterables.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No difference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "List is mutable, tuple is immutable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Tuple is mutable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "List is faster"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lists are mutable (can be modified), tuples are immutable (cannot be modified).",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is Python slicing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cutting objects"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Extracting portion of sequence"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Deleting elements"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Adding elements"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Slicing extracts a portion of a sequence using [start:stop:step] syntax.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is negative indexing in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Index from beginning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Index from end"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Invalid index"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Zero indexing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Negative indexing starts from the end: -1 is last element, -2 is second last.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the difference between append() and extend()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "append adds single element, extend adds iterable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "extend adds single"
+      },
+      {
+        "option_id": 4,
+        "option_value": "append is faster"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "append() adds single element; extend() adds all elements from an iterable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between remove() and pop()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "remove by value, pop by index"
+      },
+      {
+        "option_id": 3,
+        "option_value": "pop by value"
+      },
+      {
+        "option_id": 4,
+        "option_value": "remove returns value"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "remove() deletes by value; pop() deletes by index and returns the value.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a Python generator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function that yields values lazily"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List comprehension"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Generator is a function that uses yield to produce a sequence of values lazily.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the yield keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Returns and exits"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Yields value and pauses, saves state"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Prints value"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Raises exception"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "yield produces a value and pauses function, saving state for next iteration.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python iterator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Index counter"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object implementing __iter__ and __next__"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Dictionary"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Iterator is object implementing __iter__() and __next__() for iteration.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between iterator and iterable?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Iterable can be iterated, iterator does iteration"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Iterator is list"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Iterable can be looped over; iterator is object that produces next value.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the __iter__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Returns length"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns iterator object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Returns string"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Returns index"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__iter__() returns the iterator object itself.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the __next__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Returns iterator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns next value or raises StopIteration"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Returns length"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Returns first value"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__next__() returns next value in sequence or raises StopIteration when exhausted.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python decorator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function that modifies another function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Decorator is a function that takes another function and extends its behavior.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How do you define a decorator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "def decorator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "@decorator syntax or function wrapping"
+      },
+      {
+        "option_id": 3,
+        "option_value": "class decorator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "import decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Decorators use @decorator syntax or manually wrap functions.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is functools.wraps used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Speed optimization"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Preserving original function metadata"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory management"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Error handling"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "functools.wraps preserves original function's name, docstring when decorating.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is a lambda function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Named function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Anonymous inline function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Generator function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lambda is an anonymous, inline function defined with lambda keyword.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the syntax of lambda?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "def name():"
+      },
+      {
+        "option_id": 2,
+        "option_value": "lambda arguments: expression"
+      },
+      {
+        "option_id": 3,
+        "option_value": "function name()"
+      },
+      {
+        "option_id": 4,
+        "option_value": "anonymous()"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Lambda syntax: lambda arguments: expression",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is map() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Dictionary mapping"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Applies function to all items in iterable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List creation"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Filter function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "map() applies a function to every item in an iterable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is filter() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Maps values"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Filters items based on condition"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sorts items"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Reduces items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "filter() creates iterator of elements for which function returns True.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is reduce() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Maps values"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reduces iterable to single value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Filters items"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sorts items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "reduce() applies function cumulatively to reduce iterable to single value.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is zip() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compress files"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Aggregates elements from multiple iterables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Unzip files"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort iterables"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "zip() aggregates elements from multiple iterables into tuples.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is enumerate() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Count items"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Returns index and value pairs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List items"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "enumerate() adds counter to iterable, returns (index, value) pairs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between *args and **kwargs?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "*args for positional, **kwargs for keyword arguments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "**args for positional"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "*args collects positional arguments; **kwargs collects keyword arguments.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What does *args represent?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Keyword arguments"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Variable number of positional arguments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Fixed arguments"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No arguments"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "*args allows passing variable number of positional arguments as tuple.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What does **kwargs represent?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Positional arguments"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Variable number of keyword arguments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Fixed arguments"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No arguments"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "**kwargs allows passing variable number of keyword arguments as dictionary.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Python's GIL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Global Index List"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Global Interpreter Lock"
+      },
+      {
+        "option_id": 3,
+        "option_value": "General Interface Lock"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Global Input Lock"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GIL (Global Interpreter Lock) allows only one thread to execute Python bytecode at a time.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the impact of GIL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No impact"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Limits true parallelism in CPU-bound multi-threading"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Speeds up threads"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No threading"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GIL prevents multiple threads from executing Python bytecode simultaneously.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "How to achieve parallelism in Python despite GIL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "More threads"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Multiprocessing or C extensions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "More locks"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No way"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Multiprocessing uses separate processes (not threads) to bypass GIL.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is the difference between threading and multiprocessing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same thing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Threads share memory, processes have separate memory"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Processes are threads"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Threading: shared memory; Multiprocessing: separate memory, bypasses GIL.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "File containing Python code"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Module is a file containing Python definitions and statements.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is a Python package?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Directory with modules and __init__.py"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Package is directory containing modules and __init__.py file.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is __init__.py?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Main module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Marks directory as Python package"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Entry point"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Configuration file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__init__.py marks directory as Python package (optional in Python 3.3+).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between import module and from module import?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "import module needs module.name, from imports directly"
+      },
+      {
+        "option_id": 3,
+        "option_value": "from is slower"
+      },
+      {
+        "option_id": 4,
+        "option_value": "import is deprecated"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "import module requires module.name; from module import name imports directly.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is __name__ == '__main__'?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class name"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Checks if module is run directly"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function name"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module version"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__name__ == '__main__' checks if script is run directly (not imported).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is pip?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Python interpreter"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Package installer for Python"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Python compiler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "IDE"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pip is the package installer for Python.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is virtualenv/venv?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Python editor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tool to create isolated Python environments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Python debugger"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Python linter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "virtualenv/venv creates isolated Python environments for different projects.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is requirements.txt?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Python script"
+      },
+      {
+        "option_id": 2,
+        "option_value": "File listing package dependencies"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Configuration file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Documentation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "requirements.txt lists package dependencies with versions for pip installation.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a Python class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Blueprint for creating objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Class is a blueprint for creating objects with shared attributes and methods.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is __init__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Destructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Constructor method called when object created"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Main method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__init__ is constructor method called when new object is instantiated.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is self in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static keyword"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Reference to instance of class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Global variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Constant"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "self refers to instance of class, passed as first parameter to methods.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is __str__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String representation of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Destructor"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Comparator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__str__ returns human-readable string representation of object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is __repr__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Official string representation for debugging"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Destructor"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String for users"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__repr__ returns official string representation, ideally valid Python expression.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between __str__ and __repr__?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "__str__ for users, __repr__ for developers/debugging"
+      },
+      {
+        "option_id": 3,
+        "option_value": "__repr__ for users"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__str__ is informal for users; __repr__ is formal for debugging.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is inheritance in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No inheritance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class deriving from another class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function calling"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module importing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Inheritance allows class to inherit attributes and methods from parent class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is super() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parent class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Calls parent class methods"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Child class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "super() returns temporary object of parent class for calling parent methods.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is method overriding?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Child class redefining parent method"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method overloading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Method overriding: child class provides specific implementation of parent method.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is method overloading in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same as Java"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Not directly supported, use default args or *args"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Fully supported"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Not possible"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Python doesn't support true method overloading; use default args or *args.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is @staticmethod?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Instance method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method that doesn't access instance or class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Class method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Abstract method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@staticmethod defines method that doesn't access instance (self) or class (cls).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is @classmethod?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Instance method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method that receives class as first argument"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Private method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@classmethod receives class (cls) as first argument, can access class state.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is @property decorator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Makes method act like attribute"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Class method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Private method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@property allows method to be accessed like attribute without parentheses.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a getter?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Setter method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method to get attribute value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Private method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Getter is method that returns value of private attribute (often as @property).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a setter?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Getter method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Method to set attribute value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Private method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Setter is method that sets value of private attribute (@property.setter).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is name mangling in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Name formatting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "__name becomes _Class__name for pseudo-private"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Name shortening"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Name expansion"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Name mangling: __name becomes _Class__name to make attribute class-private.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python metaclass?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class of a class that creates classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Abstract class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Interface"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Metaclass is class whose instances are classes; controls class creation.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is type in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Function only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Built-in metaclass"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "type is the built-in metaclass used to create all classes in Python.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is __new__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Creates and returns new instance"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Initializer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Destructor"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__new__ creates and returns new instance; __init__ initializes it.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is __call__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Makes instance callable like function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Destructor"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__call__ allows instance to be called as function: obj().",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python abstract class?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Concrete class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class that cannot be instantiated, meant to be subclassed"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Final class"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Abstract class cannot be instantiated; subclasses must implement abstract methods.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ABC module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Array module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Abstract Base Classes module"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Math module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "abc module provides infrastructure for defining Abstract Base Classes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is @abstractmethod?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Static method"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Decorator for abstract methods"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Class method"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Property"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@abstractmethod decorator declares method as abstract; subclasses must implement.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python exception?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Normal execution"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error that disrupts normal program flow"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function call"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Loop"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Exception is error that occurs during execution, disrupting normal flow.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is try-except block?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Loop structure"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Error handling structure"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function definition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class definition"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "try-except catches and handles exceptions gracefully.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is finally block?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Optional block"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Always executes regardless of exception"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only on error"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only on success"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "finally block always executes, used for cleanup (closing files, etc.).",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is raise keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Catch exception"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Explicitly raise an exception"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Ignore exception"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Handle exception"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "raise explicitly triggers an exception with specified error.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is custom exception?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Built-in exception"
+      },
+      {
+        "option_id": 2,
+        "option_value": "User-defined exception class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "System exception"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No exception"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Custom exception is user-defined class inheriting from Exception.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is exception chaining?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single exception"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Linking exceptions with 'from'"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No chaining"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Multiple catches"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Exception chaining links exceptions using 'raise NewException from old_exception'.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is assert statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exception handler"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Debug assertion that raises AssertionError"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Loop"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "assert tests condition, raises AssertionError if False (removed with -O).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is with statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Context manager for resource management"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "with statement simplifies exception handling by encapsulating common preparation/cleanup.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is a context manager?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object with __enter__ and __exit__ methods"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Class"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Context manager defines runtime context with __enter__ and __exit__ methods.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is __enter__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exit context"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enter runtime context"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Initialize object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Destroy object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__enter__ enters runtime context, returns object bound to as variable.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is __exit__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Enter context"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Exit runtime context, handles exceptions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No action"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__exit__ exits runtime context, handles any exceptions that occurred.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is contextlib module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "String context"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Utilities for with-statement contexts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math context"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File context"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "contextlib provides utilities for working with context managers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is @contextmanager?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class decorator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Decorator to create context manager from generator"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function decorator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@contextmanager decorator creates context manager from generator function.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is a Python file object?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "String"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object for file I/O operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Integer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "List"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "File object provides methods for reading from and writing to files.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the difference between 'r', 'w', 'a' modes?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same mode"
+      },
+      {
+        "option_id": 2,
+        "option_value": "read, write (truncate), append"
+      },
+      {
+        "option_id": 3,
+        "option_value": "write, read, append"
+      },
+      {
+        "option_id": 4,
+        "option_value": "append, write, read"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "'r' = read, 'w' = write (truncates), 'a' = append to end.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is read() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write to file"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read entire file or specified bytes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Close file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Open file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "read() reads entire file or specified number of bytes.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is readline() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Read all lines"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read single line"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Write line"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Close file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "readline() reads single line from file.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is readlines() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Read single line"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read all lines into list"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Write lines"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Close file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "readlines() reads all lines, returns list of lines.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is write() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Read from file"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Write string to file"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Close file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Open file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "write() writes string to file.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is writelines() method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Write single line"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Write list of strings to file"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read lines"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Close file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "writelines() writes list of strings to file.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is JSON module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "XML parser"
+      },
+      {
+        "option_id": 2,
+        "option_value": "JSON encoder and decoder"
+      },
+      {
+        "option_id": 3,
+        "option_value": "CSV parser"
+      },
+      {
+        "option_id": 4,
+        "option_value": "YAML parser"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "json module provides functions for parsing JSON and serializing to JSON.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is json.dumps()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parse JSON"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Convert Python object to JSON string"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Load from file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Read JSON"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "json.dumps() serializes Python object to JSON formatted string.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is json.loads()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Convert to JSON"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parse JSON string to Python object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Write to file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Load file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "json.loads() deserializes JSON string to Python object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is csv module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "JSON parser"
+      },
+      {
+        "option_id": 2,
+        "option_value": "CSV file reader and writer"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XML parser"
+      },
+      {
+        "option_id": 4,
+        "option_value": "YAML parser"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "csv module provides classes for reading and writing CSV files.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is pickle module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "JSON serializer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Python object serialization"
+      },
+      {
+        "option_id": 3,
+        "option_value": "XML parser"
+      },
+      {
+        "option_id": 4,
+        "option_value": "CSV parser"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pickle module serializes and deserializes Python object structures.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is the risk of using pickle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No risk"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Security risk - only unpickle trusted data"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Speed issue"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Memory issue"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pickle can execute arbitrary code; only unpickle data you trust.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is re module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Regular expression operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "re module provides regular expression matching operations.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is match() vs search() in re?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "match at beginning, search anywhere"
+      },
+      {
+        "option_id": 3,
+        "option_value": "search at beginning"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "re.match() matches at string beginning; re.search() searches entire string.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is findall() in re?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Find single match"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Find all non-overlapping matches"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Replace matches"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Split string"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "re.findall() returns all non-overlapping matches as list.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is re.sub()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Find matches"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Replace matches with string"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Split string"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Match pattern"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "re.sub() replaces occurrences of pattern with replacement string.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is collections module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Garbage collection"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Specialized container datatypes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Memory collection"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File collection"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "collections module provides specialized container datatypes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Counter in collections?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Timer"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dict subclass for counting hashable objects"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List counter"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Set counter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Counter is dict subclass for counting hashable objects.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is defaultdict?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular dict"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dict with default value for missing keys"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Ordered dict"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Counter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "defaultdict calls factory function to supply missing values.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is OrderedDict?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular dict"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Dict that remembers insertion order"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sorted dict"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Default dict"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "OrderedDict remembers order items were added (less relevant in Python 3.7+).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is deque in collections?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "List"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Double-ended queue"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Stack"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Heap"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "deque is list-like container with fast appends/pops from both ends.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is namedtuple?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular tuple"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tuple with named fields"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Dict"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "namedtuple creates tuple subclasses with named fields.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is itertools module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math operations"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Iterator building blocks"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File operations"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String operations"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "itertools provides fast, memory-efficient iterator building blocks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is functools module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math functions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Higher-order functions and operations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File functions"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String functions"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "functools provides higher-order functions and operations on callable objects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is lru_cache?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database cache"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Decorator for memoization with least-recently-used eviction"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No cache"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@lru_cache decorator memoizes function results with LRU eviction policy.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is partial in functools?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Complete function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function with pre-filled arguments"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No arguments"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All arguments"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "partial creates new function with partial application of given arguments.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is operator module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Standard operators as functions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File operators"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String operators"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "operator module exports set of efficient functions corresponding to operators.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is datetime module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Classes for manipulating dates and times"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "datetime module supplies classes for manipulating dates and times.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the difference between datetime and date?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "datetime has time, date is date only"
+      },
+      {
+        "option_id": 3,
+        "option_value": "date has time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "date is year/month/day; datetime adds hour/minute/second/microsecond.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is strftime()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parse string to date"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Format date as string"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get current time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Set timezone"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "strftime() formats date/time as string according to format codes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is strptime()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Format date as string"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Parse string to datetime"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get current time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Set timezone"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "strptime() parses string to datetime according to format.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is time module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Date module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Time-related functions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "time module provides time-related functions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sleep() in time module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Wake up"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pause execution for given seconds"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get time"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Set time"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "time.sleep() pauses execution for specified number of seconds.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is os module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Operating system interface"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Network module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "os module provides portable way of using operating system dependent functionality.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sys module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "System-specific parameters and functions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "sys module provides access to system-specific parameters and functions.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is argparse module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Command-line argument parser"
+      },
+      {
+        "option_id": 3,
+        "option_value": "File parser"
+      },
+      {
+        "option_id": 4,
+        "option_value": "JSON parser"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "argparse module provides easy way to write user-friendly command-line interfaces.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is logging module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Print module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Flexible event logging system"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "logging module provides flexible framework for emitting log messages.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What are logging levels?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "One level"
+      },
+      {
+        "option_id": 2,
+        "option_value": "DEBUG, INFO, WARNING, ERROR, CRITICAL"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only ERROR"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only INFO"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Logging levels: DEBUG < INFO < WARNING < ERROR < CRITICAL.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is unittest module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Documentation"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Unit testing framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "unittest is unit testing framework inspired by JUnit.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is pytest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Documentation tool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Third-party testing framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Build tool"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Deployment tool"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pytest is mature full-featured Python testing tool.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is setUp method in unittest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Tear down"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Prepare test fixture before each test"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Run tests"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Report results"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "setUp() prepares test fixture, called before each test method.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is tearDown method in unittest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Set up"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Clean up after each test"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Run tests"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Report results"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "tearDown() cleans up after test, called after each test method.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is assert statement in testing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exception handler"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Verify condition is true"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Skip test"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Run test"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "assert verifies condition, raises AssertionError if condition is false.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is mock in testing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Real object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Simulated object for testing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Real database"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Real API"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "mock objects simulate real objects for isolated unit testing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is unittest.mock?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Real objects"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Mocking library in standard library"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Database library"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Network library"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "unittest.mock provides core mock class and patching decorators.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is patch decorator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No patching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Temporarily replace object with mock"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Permanent replace"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No mock"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@patch temporarily replaces target with Mock object during test.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is list vs generator memory usage?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Generator uses less memory (lazy evaluation)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List uses less"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Generators use lazy evaluation, yielding items one at a time, using less memory.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is sys.getsizeof()?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get length"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Get memory size of object in bytes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get name"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "sys.getsizeof() returns size of object in bytes.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is memoryview in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "File view"
+      },
+      {
+        "option_id": 2,
+        "option_value": "View of memory buffer without copying"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String view"
+      },
+      {
+        "option_id": 4,
+        "option_value": "List view"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "memoryview allows Python code to access internal data of object supporting buffer protocol without copying.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is __slots__?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No slots"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Restricts attributes, saves memory"
+      },
+      {
+        "option_id": 3,
+        "option_value": "More attributes"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Dynamic attributes"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__slots__ restricts allowed attributes, saves memory by not using __dict__.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is weakref module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strong references"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Weak references that don't prevent garbage collection"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No references"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Memory leak"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "weakref allows creating weak references that don't increase reference count.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is garbage collection in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Manual memory management"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Automatic memory management"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No memory management"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static allocation"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Python uses automatic garbage collection (reference counting + cycle detector).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is gc module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Graphics module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Garbage collection interface"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "gc module provides interface to garbage collection facility.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is reference counting?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No counting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Counting references to object for deallocation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual counting"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static counting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Reference counting tracks number of references to object; deallocates when zero.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is circular reference?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Linear reference"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Objects referencing each other forming cycle"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No reference"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single reference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Circular reference: objects reference each other, creating reference cycle.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "How does Python handle circular references?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Doesn't handle"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Generational garbage collector"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Manual cleanup"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No cleanup"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Python's generational garbage collector detects and collects circular references.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is __del__ method?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Constructor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Destructor called when object is garbage collected"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Initializer"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String method"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__del__ is destructor method called when object is about to be destroyed.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is atexit module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Entry module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Register functions to run at normal interpreter termination"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Start module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No exit"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "atexit registers functions to be executed upon normal interpreter termination.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is __all__ in Python module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All functions"
+      },
+      {
+        "option_id": 2,
+        "option_value": "List of public objects when 'from module import *'"
+      },
+      {
+        "option_id": 3,
+        "option_value": "All variables"
+      },
+      {
+        "option_id": 4,
+        "option_value": "All classes"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__all__ defines list of names imported when 'from module import *' is used.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is if __name__ == '__main__': used for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class definition"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Run code only when script executed directly"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function definition"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module import"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Ensures code runs only when script is executed directly, not when imported.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Python's Zen (PEP 20)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Coding standard"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Guiding principles for Python's design"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Syntax rules"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Performance tips"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "PEP 20 (The Zen of Python) provides guiding aphorisms for Python design.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is EAFP principle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Look before you leap"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Easier to Ask for Forgiveness than Permission"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No principle"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Ask permission"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "EAFP: try operations and handle exceptions rather than checking first.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is LBYL principle?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Easier to ask forgiveness"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Look Before You Leap"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No principle"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Python principle"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "LBYL: check conditions before performing operations.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "Which is more Pythonic: EAFP or LBYL?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "LBYL"
+      },
+      {
+        "option_id": 2,
+        "option_value": "EAFP"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Neither"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Both equally"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "EAFP is generally considered more Pythonic, using exceptions for control flow.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is duck typing?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Strong typing"
+      },
+      {
+        "option_id": 2,
+        "option_value": "If it walks like duck, it's a duck"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static typing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No typing"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Duck typing: object's suitability determined by presence of methods, not type.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is monkey patching?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No patching"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Modifying code at runtime"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Static patching"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compile-time patching"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Monkey patching modifies or extends code at runtime without changing source.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Python's None?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Zero"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Null object, singleton of NoneType"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Empty string"
+      },
+      {
+        "option_id": 4,
+        "option_value": "False"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "None is singleton object of NoneType, often used to signify absence of value.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is truthiness in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Only True/False"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Objects evaluated as True or False in boolean context"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only booleans"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No truthiness"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Truthiness: how objects evaluate when used in boolean context (if, while).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What values are falsy in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Only False"
+      },
+      {
+        "option_id": 2,
+        "option_value": "None, 0, empty sequences, False"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only None"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only 0"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Falsy: None, False, 0, 0.0, '', [], {}, (), set(), range(0).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Python's Ellipsis (...)?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Syntax error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Special value used in various contexts"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Comment"
+      },
+      {
+        "option_id": 4,
+        "option_value": "String"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Ellipsis (...) is special value used in NumPy, type hints, pass statements.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is pass statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Skip loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Null operation, does nothing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Break loop"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Return value"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pass is null operation used when statement required syntactically.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is continue statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Exit loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Skip to next iteration"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Break loop"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Return value"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "continue skips rest of current iteration, continues with next iteration.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is break statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Skip iteration"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Exit loop entirely"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Continue loop"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Return value"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "break terminates loop prematurely, exits innermost loop.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is else clause in for/while loop?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Error"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Executes when loop completes normally (no break)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Always executes"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Never executes"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Loop else executes when loop completes without encountering break.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is global keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Local variable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Declares variable as global"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Constant"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "global declares variable references global (module-level) variable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is nonlocal keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Global variable"
+      },
+      {
+        "option_id": 2,
+        "option_value": "References variable in nearest enclosing scope"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Local variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static variable"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "nonlocal references variable in nearest enclosing scope (not global).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Python's del statement?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Create object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Delete object or object attribute"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Copy object"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Move object"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "del deletes objects, variables, list items, dictionary keys, slices.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is exec() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Evaluate expression"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Execute Python code dynamically"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compile code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Import module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "exec() executes Python code dynamically (string or object code).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is eval() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Execute statement"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Evaluate expression and return result"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compile code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Import module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "eval() evaluates expression and returns result (security risk with untrusted input).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is compile() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Execute code"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Compile source into code object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Evaluate expression"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Import module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "compile() compiles source into code or AST object.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is exec vs eval?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "exec for statements, eval for expressions"
+      },
+      {
+        "option_id": 3,
+        "option_value": "eval for statements"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "exec executes statements; eval evaluates expressions and returns value.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is hash() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Encryption"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return hash value of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Sort objects"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compare objects"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "hash() returns hash value of object (integer used for dictionary keys).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is id() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Object name"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return unique identifier (memory address) of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Object type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Object size"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "id() returns identity (memory address) of object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is isinstance() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check identity"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if object is instance of class"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check equality"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "isinstance() checks if object is instance of specified class or its subclass.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is issubclass() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check instance"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if class is subclass of another"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check equality"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check identity"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "issubclass() checks if class is subclass of another class.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is hasattr() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get attribute"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if object has attribute"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Set attribute"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delete attribute"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "hasattr() returns True if object has specified attribute.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is getattr() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Set attribute"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Get attribute value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check attribute"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delete attribute"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "getattr() returns value of named attribute of object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is setattr() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get attribute"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Set attribute value"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check attribute"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Delete attribute"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "setattr() sets named attribute of object to specified value.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is delattr() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get attribute"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Delete attribute"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Set attribute"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check attribute"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "delattr() deletes named attribute from object.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is vars() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Return class"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return __dict__ attribute"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Return methods"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Return type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "vars() returns __dict__ attribute of module, class, instance, or object.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is dir() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Change directory"
+      },
+      {
+        "option_id": 2,
+        "option_value": "List attributes and methods of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List files"
+      },
+      {
+        "option_id": 4,
+        "option_value": "List modules"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "dir() returns list of valid attributes for object (or current scope).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is help() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Print message"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Invoke built-in help system"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Run program"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Debug code"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "help() invokes built-in help system (introspection).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is type() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get name"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return type of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get size"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get id"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "type() returns type of object or creates new type.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is callable() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Check type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Check if object is callable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Check identity"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Check equality"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "callable() returns True if object appears callable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is len() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return length (number of items) of object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get size"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get capacity"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "len() returns number of items in container.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is range() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Create list"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return immutable sequence of numbers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Create set"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Create dict"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "range() returns immutable sequence of numbers, commonly used for looping.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is the difference between range and xrange?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Same"
+      },
+      {
+        "option_id": 2,
+        "option_value": "xrange is Python 2 lazy version, range is Python 3 lazy"
+      },
+      {
+        "option_id": 3,
+        "option_value": "range is lazy"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No difference"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Python 2: range creates list, xrange is lazy. Python 3: range is lazy (like xrange).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is sorted() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sort in place"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return new sorted list"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reverse list"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Shuffle list"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "sorted() returns new sorted list from items in iterable.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is reversed() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sort list"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return reverse iterator"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Shuffle list"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort in place"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "reversed() returns reverse iterator over sequence.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is sum() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Product"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Sum of items in iterable"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Average"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Maximum"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "sum() sums items in iterable from left to right.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is min() and max() functions?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Sum items"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return smallest/largest item"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Average items"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Count items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "min() returns smallest item; max() returns largest item.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is any() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "All true"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return True if any element is true"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Count true"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Find true"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "any() returns True if any element of iterable is true.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is all() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any true"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return True if all elements are true"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Count all"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Find all"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "all() returns True if all elements of iterable are true.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is zip() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Compress"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Aggregate elements from iterables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Unzip"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "zip() aggregates elements from multiple iterables into tuples.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is enumerate() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Count only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return index and value pairs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "enumerate() returns iterator producing (index, value) pairs.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is filter() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Map values"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Filter items based on function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reduce values"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "filter() constructs iterator from elements for which function returns true.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is map() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Filter items"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Apply function to every item"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Reduce items"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Sort items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "map() applies function to every item of iterable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is next() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Previous item"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Retrieve next item from iterator"
+      },
+      {
+        "option_id": 3,
+        "option_value": "First item"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Last item"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "next() retrieves next item from iterator, default if exhausted.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is iter() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Get item"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return iterator object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Get length"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Get type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "iter() returns iterator object from iterable.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is slice() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Cut string"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return slice object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Split list"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Join items"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "slice() returns slice object representing set of indices.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is open() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Close file"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Open file and return file object"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Write file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "open() opens file and returns corresponding file object.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is input() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Print output"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Read string from standard input"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Read file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Write file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "input() reads line from input, converts to string.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is print() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Read input"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Print objects to text stream"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Open file"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Close file"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "print() prints objects to text stream (default sys.stdout).",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is format() function?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Parse string"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Format string"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Split string"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Join string"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "format() formats specified values and inserts them in string's placeholder.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is f-string in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Old formatting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Formatted string literals (Python 3.6+)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Template string"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No formatting"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "f-strings (formatted string literals) embed expressions inside string literals.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is the syntax of f-string?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "'string'"
+      },
+      {
+        "option_id": 2,
+        "option_value": "f'string {expression}'"
+      },
+      {
+        "option_id": 3,
+        "option_value": "'string %s'"
+      },
+      {
+        "option_id": 4,
+        "option_value": "'string {}'.format()"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "f-string syntax: f'string {expression}' with expressions in curly braces.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is __doc__ attribute?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Function name"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Module's documentation string"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Function code"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Module version"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "__doc__ is module's, class's, or function's documentation string.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is docstring?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Comment"
+      },
+      {
+        "option_id": 2,
+        "option_value": "String literal occurring as first statement for documentation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Variable"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Constant"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Docstring is string literal as first statement in module, function, class for documentation.",
+    "difficulty_level": 1
+  },
+  {
+    "question": "What is type hinting in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime type checking"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Optional static type annotations"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dynamic typing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Type hints (PEP 484) provide optional static type annotations.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is typing module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Support for type hints"
+      },
+      {
+        "option_id": 3,
+        "option_value": "String module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "typing module provides runtime support for type hints.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is List[int] in type hints?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime check"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type hint for list of integers"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cast to list"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Create list"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "List[int] is type hint indicating list containing integers.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Optional[int] in type hints?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Required int"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type hint for int or None"
+      },
+      {
+        "option_id": 3,
+        "option_value": "List of int"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Union of types"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Optional[int] is equivalent to Union[int, None] - int or None.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Union[type1, type2] in type hints?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Single type"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Type that can be any of specified types"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Combined type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No type"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Union[type1, type2] indicates value can be type1 or type2.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is -> in function definition?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No meaning"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Return type annotation"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Parameter type"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "-> specifies return type annotation: def func() -> int:",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is mypy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Python interpreter"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Static type checker for Python"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Python compiler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Python debugger"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "mypy is optional static type checker for Python.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is dataclasses module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Decorator for automatically adding special methods"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math module"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File module"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@dataclass decorator automatically generates __init__, __repr__, __eq__, etc.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is @dataclass decorator?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Property decorator"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Class decorator for data classes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method decorator"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Static decorator"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "@dataclass decorator adds generated special methods to user-defined classes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is field() in dataclasses?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Class field"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function to customize dataclass field"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Method field"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Property field"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "field() allows customizing dataclass field (default, default_factory, etc.).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is attrs library?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database library"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Python classes without boilerplate"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Math library"
+      },
+      {
+        "option_id": 4,
+        "option_value": "File library"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "attrs is Python package for creating classes without boilerplate.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Pydantic?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data validation using Python type hints"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pydantic validates data using Python type hints.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is FastAPI?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Modern, fast web framework for building APIs"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "FastAPI is modern, fast web framework for building APIs with Python 3.6+.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Flask?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Micro web framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Flask is micro web framework for Python.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Django?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "High-level Python web framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Django is high-level Python web framework encouraging rapid development.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is SQLAlchemy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "SQL toolkit and ORM"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Testing framework"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Template engine"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "SQLAlchemy is SQL toolkit and Object-Relational Mapping library.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Django ORM?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Django's built-in ORM"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Template engine"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Django ORM is Django's built-in Object-Relational Mapping.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Alembic?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Database migration tool for SQLAlchemy"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Testing framework"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Alembic is lightweight database migration tool for SQLAlchemy.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Celery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed task queue"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Template engine"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Celery is asynchronous task queue/job queue based on distributed message passing.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Redis used with Celery?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message broker and result backend"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No use"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Redis is commonly used as message broker and result backend for Celery.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is RabbitMQ?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Message broker"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "RabbitMQ is message broker supporting multiple messaging protocols.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Kafka?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Database"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Distributed streaming platform"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Cache"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Web server"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Apache Kafka is distributed event streaming platform.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is NumPy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Fundamental package for scientific computing"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "NumPy is fundamental package for scientific computing with Python.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Pandas?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Data analysis and manipulation library"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pandas is fast, powerful, flexible data analysis and manipulation library.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Matplotlib?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Plotting library"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Matplotlib is comprehensive library for creating static, animated, visualizations.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Requests library?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "HTTP library for Python"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Requests is elegant and simple HTTP library for Python.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is BeautifulSoup?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Library for parsing HTML and XML"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "BeautifulSoup is library for pulling data out of HTML and XML files.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Scrapy?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Web scraping framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Scrapy is fast high-level web crawling and web scraping framework.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Pytest?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Testing framework"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pytest is mature full-featured Python testing tool.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Tox?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Generic virtualenv management and test command tool"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "tox is generic virtualenv management and test command line tool.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Black?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Uncompromising Python code formatter"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Black is uncompromising Python code formatter.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is isort?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Python utility to sort imports"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "isort is Python utility to sort imports alphabetically and automatically separate into sections.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Flake8?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Tool for style guide enforcement"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Flake8 is tool for style guide enforcement (wrapper around pyflakes, pycodestyle, mccabe).",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Pylint?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Python static code analysis tool"
+      },
+      {
+        "option_id": 3,
+        "option_value": "ORM"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Database"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Pylint is Python static code analysis tool looking for programming errors and style issues.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is mypy for?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Runtime checking"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Static type checking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Dynamic typing"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No checking"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "mypy is static type checker for Python.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is pipenv?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Package only"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Python packaging tool that brings best of pip and virtualenv"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compiler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Interpreter"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "pipenv automatically creates and manages virtualenv for projects.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is poetry?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Poetry library"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Python dependency management and packaging"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Web framework"
+      },
+      {
+        "option_id": 4,
+        "option_value": "ORM"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Poetry is Python dependency management and packaging made easy.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is conda?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Only Python"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Package, dependency and environment manager"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only pip"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only virtualenv"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "conda is open-source package management and environment management system.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is Jupyter Notebook?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Text editor"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Web-based interactive computing environment"
+      },
+      {
+        "option_id": 3,
+        "option_value": "IDE only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Compiler"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Jupyter Notebook is web-based interactive computing environment.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is IPython?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular Python"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Enhanced interactive Python shell"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Compiler"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Debugger only"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "IPython is enhanced interactive Python shell with additional features.",
+    "difficulty_level": 2
+  },
+  {
+    "question": "What is Python's GIL impact on threading?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No impact"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Only one thread executes Python bytecode at a time"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Faster threading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No threading"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "GIL prevents multiple threads from executing Python bytecode simultaneously.",
+    "difficulty_level": 4
+  },
+  {
+    "question": "What is multiprocessing module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Threading module"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Process-based parallelism"
+      },
+      {
+        "option_id": 3,
+        "option_value": "No parallelism"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Single process"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "multiprocessing provides process-based parallelism, bypassing GIL.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is concurrent.futures module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No concurrency"
+      },
+      {
+        "option_id": 2,
+        "option_value": "High-level interface for asynchronously executing callables"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Low-level only"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No futures"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "concurrent.futures provides high-level interface for async execution.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ThreadPoolExecutor?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Process pool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of threads for executing calls asynchronously"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single thread"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No threads"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ThreadPoolExecutor manages pool of threads for async execution.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is ProcessPoolExecutor?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Thread pool"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Pool of processes for executing calls asynchronously"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single process"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No processes"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "ProcessPoolExecutor manages pool of processes for CPU-bound tasks.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is async/await in Python?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Synchronous code"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Asynchronous programming syntax"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Threading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No async"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "async/await syntax for asynchronous programming (asyncio).",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is asyncio module?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Synchronous I/O"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Asynchronous I/O, event loop, coroutines"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Threading"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No I/O"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "asyncio provides infrastructure for writing single-threaded concurrent code.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is coroutine?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Function that can suspend and resume execution"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Thread"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Process"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Coroutine is function that can suspend execution before returning, maintaining state.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is event loop in asyncio?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No loop"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Central execution device providing multitasking"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Single task"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No async"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Event loop is core of asyncio, managing and distributing events.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is async def?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Regular function"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Define coroutine function"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Define thread"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Define process"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "async def defines coroutine function that can use await.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is await keyword?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "No waiting"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Suspend coroutine until awaitable completes"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Block thread"
+      },
+      {
+        "option_id": 4,
+        "option_value": "No async"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "await suspends coroutine execution until awaitable completes.",
+    "difficulty_level": 3
+  },
+  {
+    "question": "What is an awaitable?",
+    "options": [
+      {
+        "option_id": 1,
+        "option_value": "Any object"
+      },
+      {
+        "option_id": 2,
+        "option_value": "Object with __await__ method (coroutine, task, future)"
+      },
+      {
+        "option_id": 3,
+        "option_value": "Only coroutine"
+      },
+      {
+        "option_id": 4,
+        "option_value": "Only function"
+      }
+    ],
+    "answer_id": 2,
+    "answer_explanation": "Awaitable is object with __await__ method: coroutines, Tasks, Futures.",
+    "difficulty_level": 3
+  }
+]
