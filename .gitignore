@@ -25,6 +25,9 @@ app.db.discarded-*
 # Scratch working material (question banks live in data/questions/, tracked)
 for_claude/
 
+# Generated docs, specs and plans - not part of the repo
+docs/
+
 # IDEs
 .vscode/
 .idea/
