@@ -2,3 +2,4 @@ SQLAlchemy==2.0.45
 discord.py==2.6.4
 python-dotenv==1.2.1
 aiosqlite==0.21.0
+greenlet==3.5.4
