@@ -13,7 +13,11 @@ __pycache__/
 temp*
 
 # Environment Variables
+# .env* so backups and variants can never be committed either.
+# .env.example is already tracked and stays that way.
 .env
+.env.*
+!.env.example
 
 # Database files
 *.db
