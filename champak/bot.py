@@ -72,6 +72,20 @@ class ChampakBot(commands.Bot):
         log.info("online as %s (id %s)", self.user, self.user.id)
         await self.change_presence(activity=discord.Game(name="/ask"))
 
+    async def on_app_command_completion(
+        self, interaction: discord.Interaction, command: app_commands.Command
+    ) -> None:
+        # Without this, only answers were logged, so a /ask that was refused
+        # or returned nothing left no trace and looked like the bot ignoring
+        # the user.
+        log.info(
+            "/%s by %s (%s) in #%s",
+            command.qualified_name,
+            interaction.user,
+            interaction.user.id,
+            getattr(interaction.channel, "name", interaction.channel_id),
+        )
+
     def is_admin(self, interaction: discord.Interaction) -> bool:
         perms = getattr(interaction.user, "guild_permissions", None)
         if perms is not None and perms.manage_guild:
@@ -92,12 +106,20 @@ class ChampakBot(commands.Bot):
     async def on_app_command_error(
         self, interaction: discord.Interaction, error: app_commands.AppCommandError
     ) -> None:
+        name = interaction.command.qualified_name if interaction.command else "?"
+        who = f"{interaction.user} ({interaction.user.id})"
+
+        # Handled rejections are logged too: a silently-refused command is
+        # indistinguishable from a broken one when you are reading logs.
         if isinstance(error, app_commands.CommandOnCooldown):
             message = f"Slow down — try again in {error.retry_after:.0f}s."
+            log.info("/%s refused for %s: cooldown %.0fs", name, who, error.retry_after)
         elif isinstance(error, app_commands.MissingPermissions):
             message = "You do not have permission to do that."
+            log.info("/%s refused for %s: missing permissions", name, who)
         elif isinstance(error, app_commands.CheckFailure):
             message = "You cannot use that command here."
+            log.info("/%s refused for %s: check failed", name, who)
         else:
             # Never surface str(error): it can carry internals.
             log.exception("unhandled error in /%s",
