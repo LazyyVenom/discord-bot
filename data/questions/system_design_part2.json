@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Virtual table"
+        "option_value": "A saved query run afresh each time"
       },
       {
         "option_id": 2,
-        "option_value": "Precomputed query result stored physically"
+        "option_value": "A query whose result is stored on disk"
       },
       {
         "option_id": 3,
-        "option_value": "Temporary table"
+        "option_value": "A table living only for one session"
       },
       {
         "option_id": 4,
-        "option_value": "Index"
+        "option_value": "A structure speeding up row lookups"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Index on all columns"
+        "option_value": "An index built over every column"
       },
       {
         "option_id": 2,
-        "option_value": "Index containing all columns needed for query"
+        "option_value": "An index holding all a query needs"
       },
       {
         "option_id": 3,
-        "option_value": "Primary key"
+        "option_value": "The column uniquely identifying a row"
       },
       {
         "option_id": 4,
-        "option_value": "Foreign key"
+        "option_value": "A column pointing at another table"
       }
     ],
     "answer_id": 2,
@@ -76,19 +76,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Index size"
+        "option_value": "How much space the index occupies"
       },
       {
         "option_id": 2,
-        "option_value": "Ratio of distinct values to total rows"
+        "option_value": "How many distinct values it holds"
       },
       {
         "option_id": 3,
-        "option_value": "Query speed"
+        "option_value": "How quickly a query comes back"
       },
       {
         "option_id": 4,
-        "option_value": "Storage used"
+        "option_value": "How much disk the table consumes"
       }
     ],
     "answer_id": 2,
@@ -100,19 +100,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL query"
+        "option_value": "The statement text the caller sent"
       },
       {
         "option_id": 2,
-        "option_value": "Steps database takes to execute query"
+        "option_value": "The steps chosen to answer the query"
       },
       {
         "option_id": 3,
-        "option_value": "Table schema"
+        "option_value": "The layout of the columns in a table"
       },
       {
         "option_id": 4,
-        "option_value": "Index definition"
+        "option_value": "The definition of a lookup structure"
       }
     ],
     "answer_id": 2,
@@ -148,19 +148,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Tool writing SQL"
+        "option_value": "A tool that writes statements for you"
       },
       {
         "option_id": 2,
-        "option_value": "Component choosing best execution plan"
+        "option_value": "The part choosing how to run a query"
       },
       {
         "option_id": 3,
-        "option_value": "Index creator"
+        "option_value": "The part that builds lookup structures"
       },
       {
         "option_id": 4,
-        "option_value": "Data loader"
+        "option_value": "The part that bulk loads rows in"
       }
     ],
     "answer_id": 2,
@@ -172,19 +172,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single efficient query"
+        "option_value": "One statement answering the whole request"
       },
       {
         "option_id": 2,
-        "option_value": "Executing many queries instead of one"
+        "option_value": "One statement per row already fetched"
       },
       {
         "option_id": 3,
-        "option_value": "Database connection issue"
+        "option_value": "Handles opened and never given back"
       },
       {
         "option_id": 4,
-        "option_value": "Indexing problem"
+        "option_value": "A missing structure over a column"
       }
     ],
     "answer_id": 2,
@@ -196,19 +196,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More indexes"
+        "option_value": "Build more lookup structures"
       },
       {
         "option_id": 2,
-        "option_value": "Eager loading / JOIN fetch"
+        "option_value": "Fetch the related rows in one join"
       },
       {
         "option_id": 3,
-        "option_value": "Database sharding"
+        "option_value": "Split the rows across more machines"
       },
       {
         "option_id": 4,
-        "option_value": "Caching"
+        "option_value": "Serve repeat reads from memory"
       }
     ],
     "answer_id": 2,
@@ -220,19 +220,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Number of transactions"
+        "option_value": "How many transactions may run at once"
       },
       {
         "option_id": 2,
-        "option_value": "Degree of interaction between concurrent transactions"
+        "option_value": "How much concurrent transactions may see"
       },
       {
         "option_id": 3,
-        "option_value": "Transaction speed"
+        "option_value": "How quickly a transaction completes"
       },
       {
         "option_id": 4,
-        "option_value": "Transaction size"
+        "option_value": "How many rows a transaction may touch"
       }
     ],
     "answer_id": 2,
@@ -244,19 +244,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Highest isolation"
+        "option_value": "The strictest level on offer"
       },
       {
         "option_id": 2,
-        "option_value": "Lowest isolation, allows dirty reads"
+        "option_value": "The loosest level, permitting dirty reads"
       },
       {
         "option_id": 3,
-        "option_value": "Prevents all anomalies"
+        "option_value": "The level preventing every anomaly"
       },
       {
         "option_id": 4,
-        "option_value": "Default level"
+        "option_value": "The level chosen by default everywhere"
       }
     ],
     "answer_id": 2,
@@ -292,19 +292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allows non-repeatable reads"
+        "option_value": "The level permitting non-repeatable reads"
       },
       {
         "option_id": 2,
-        "option_value": "Prevents dirty and non-repeatable reads"
+        "option_value": "The level preventing dirty and repeat reads"
       },
       {
         "option_id": 3,
-        "option_value": "Serializable"
+        "option_value": "The strictest level available on offer"
       },
       {
         "option_id": 4,
-        "option_value": "Read uncommitted"
+        "option_value": "The loosest level available on offer"
       }
     ],
     "answer_id": 2,
@@ -316,19 +316,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Lowest isolation"
+        "option_value": "The loosest level available on offer"
       },
       {
         "option_id": 2,
-        "option_value": "Highest isolation, transactions execute serially"
+        "option_value": "The strictest level, as if run in turn"
       },
       {
         "option_id": 3,
-        "option_value": "Read committed"
+        "option_value": "The level preventing only dirty reads"
       },
       {
         "option_id": 4,
-        "option_value": "Repeatable read"
+        "option_value": "The level preventing non-repeatable reads"
       }
     ],
     "answer_id": 2,
@@ -340,19 +340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Reading uncommitted data"
+        "option_value": "Seeing a change nobody has committed"
       },
       {
         "option_id": 2,
-        "option_value": "New rows appearing in repeated query"
+        "option_value": "New rows appearing on a repeated query"
       },
       {
         "option_id": 3,
-        "option_value": "Same row different values"
+        "option_value": "One row showing two different values"
       },
       {
         "option_id": 4,
-        "option_value": "Reading deleted rows"
+        "option_value": "Seeing rows that have been removed"
       }
     ],
     "answer_id": 2,
@@ -364,19 +364,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Reading invalid data"
+        "option_value": "Reading a value that was never written"
       },
       {
         "option_id": 2,
-        "option_value": "Two transactions read same data and update based on it"
+        "option_value": "Two transactions deciding on stale reads"
       },
       {
         "option_id": 3,
-        "option_value": "Single transaction failure"
+        "option_value": "A single transaction failing to commit"
       },
       {
         "option_id": 4,
-        "option_value": "Index corruption"
+        "option_value": "A lookup structure that has gone bad"
       }
     ],
     "answer_id": 2,
@@ -388,22 +388,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multi-Version Concurrency Control"
+        "option_value": "Multi-value cache control internally"
       },
       {
         "option_id": 2,
-        "option_value": "Multi-Value Cache Control"
+        "option_value": "Multi-version concurrency control"
       },
       {
         "option_id": 3,
-        "option_value": "Minimum Viable Cache"
+        "option_value": "A minimum viable cache arrangement"
       },
       {
         "option_id": 4,
-        "option_value": "Maximum Volume Control"
+        "option_value": "A maximum volume control setting"
       }
     ],
-    "answer_id": 1,
+    "answer_id": 2,
     "answer_explanation": "MVCC maintains multiple versions of data for concurrent access without locking.",
     "difficulty_level": 4
   },
@@ -412,19 +412,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Query execution"
+        "option_value": "Statements the application runs itself"
       },
       {
         "option_id": 2,
-        "option_value": "Maintenance operations for performance"
+        "option_value": "Housekeeping that keeps performance up"
       },
       {
         "option_id": 3,
-        "option_value": "Backup operations"
+        "option_value": "Taking periodic copies of the data"
       },
       {
         "option_id": 4,
-        "option_value": "Security operations"
+        "option_value": "Checking who is allowed to read what"
       }
     ],
     "answer_id": 2,
@@ -436,19 +436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Small table"
+        "option_value": "A table holding very few rows"
       },
       {
         "option_id": 2,
-        "option_value": "Table with wasted space from updates/deletes"
+        "option_value": "A table wasting space after churn"
       },
       {
         "option_id": 3,
-        "option_value": "Table with many rows"
+        "option_value": "A table holding a great many rows"
       },
       {
         "option_id": 4,
-        "option_value": "Table with many columns"
+        "option_value": "A table holding a great many columns"
       }
     ],
     "answer_id": 2,
@@ -460,19 +460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Offline backup"
+        "option_value": "A copy kept offline and unopened"
       },
       {
         "option_id": 2,
-        "option_value": "Read replica accepting read queries"
+        "option_value": "A copy already answering read queries"
       },
       {
         "option_id": 3,
-        "option_value": "Primary database"
+        "option_value": "The node that accepts all the writes"
       },
       {
         "option_id": 4,
-        "option_value": "Cache server"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -484,19 +484,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Active read replica"
+        "option_value": "A copy already answering read queries"
       },
       {
         "option_id": 2,
-        "option_value": "Standby not actively serving queries"
+        "option_value": "A copy running but serving nobody"
       },
       {
         "option_id": 3,
-        "option_value": "Primary database"
+        "option_value": "The node that accepts all the writes"
       },
       {
         "option_id": 4,
-        "option_value": "Backup file"
+        "option_value": "A file written out and left on disk"
       }
     ],
     "answer_id": 2,
@@ -508,19 +508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Active replication"
+        "option_value": "A copy kept continuously in step"
       },
       {
         "option_id": 2,
-        "option_value": "Offline backup not running"
+        "option_value": "A copy taken with the system stopped"
       },
       {
         "option_id": 3,
-        "option_value": "Hot standby"
+        "option_value": "A copy already answering read queries"
       },
       {
         "option_id": 4,
-        "option_value": "Read replica"
+        "option_value": "A copy that lags the primary slightly"
       }
     ],
     "answer_id": 2,
@@ -532,19 +532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Current state only"
+        "option_value": "Restoring only the most recent state"
       },
       {
         "option_id": 2,
-        "option_value": "Restoring to specific moment using backups and logs"
+        "option_value": "Restoring to any chosen moment in time"
       },
       {
         "option_id": 3,
-        "option_value": "Real-time replication"
+        "option_value": "Keeping a copy continuously in step"
       },
       {
         "option_id": 4,
-        "option_value": "Automatic failover"
+        "option_value": "Switching to a standby automatically"
       }
     ],
     "answer_id": 2,
@@ -556,19 +556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Reading before writing"
+        "option_value": "Reading each page before writing it"
       },
       {
         "option_id": 2,
-        "option_value": "Logging changes before applying to data files"
+        "option_value": "Recording the change before applying it"
       },
       {
         "option_id": 3,
-        "option_value": "Cache writing"
+        "option_value": "Writing the change into a memory cache"
       },
       {
         "option_id": 4,
-        "option_value": "Async writing"
+        "option_value": "Writing the change without waiting"
       }
     ],
     "answer_id": 2,
@@ -580,19 +580,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Transaction commit"
+        "option_value": "The moment a transaction is committed"
       },
       {
         "option_id": 2,
-        "option_value": "Writing WAL changes to data files"
+        "option_value": "Flushing logged changes into data files"
       },
       {
         "option_id": 3,
-        "option_value": "Query execution"
+        "option_value": "The moment a query begins executing"
       },
       {
         "option_id": 4,
-        "option_value": "Index creation"
+        "option_value": "The moment a lookup structure is built"
       }
     ],
     "answer_id": 2,
@@ -604,19 +604,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No delay"
+        "option_value": "The copy is always perfectly in step"
       },
       {
         "option_id": 2,
-        "option_value": "Delay between primary and replica"
+        "option_value": "How far the copy trails the primary"
       },
       {
         "option_id": 3,
-        "option_value": "Query execution time"
+        "option_value": "How long a single query takes to run"
       },
       {
         "option_id": 4,
-        "option_value": "Network latency"
+        "option_value": "How long a packet takes to cross"
       }
     ],
     "answer_id": 2,
@@ -628,19 +628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Async commit"
+        "option_value": "The primary commits without waiting"
       },
       {
         "option_id": 2,
-        "option_value": "Primary waits for replica acknowledgment"
+        "option_value": "The primary waits for the copy to confirm"
       },
       {
         "option_id": 3,
-        "option_value": "No replication"
+        "option_value": "No copying takes place at any point"
       },
       {
         "option_id": 4,
-        "option_value": "Delayed replication"
+        "option_value": "Copying is deliberately held back a while"
       }
     ],
     "answer_id": 2,
@@ -652,19 +652,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Primary waits for replica"
+        "option_value": "The primary waits for the copy to confirm"
       },
       {
         "option_id": 2,
-        "option_value": "Primary commits without waiting"
+        "option_value": "The primary commits without waiting"
       },
       {
         "option_id": 3,
-        "option_value": "No replication"
+        "option_value": "No copying takes place at any point"
       },
       {
         "option_id": 4,
-        "option_value": "Synchronous only"
+        "option_value": "Copying happens only during maintenance"
       }
     ],
     "answer_id": 2,
@@ -676,19 +676,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Planned maintenance"
+        "option_value": "A switch planned during maintenance"
       },
       {
         "option_id": 2,
-        "option_value": "Automatic switch to standby on failure"
+        "option_value": "An automatic switch after a failure"
       },
       {
         "option_id": 3,
-        "option_value": "Backup creation"
+        "option_value": "Taking a periodic copy of the data"
       },
       {
         "option_id": 4,
-        "option_value": "Query routing"
+        "option_value": "Sending each query to the right node"
       }
     ],
     "answer_id": 2,
@@ -700,19 +700,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Automatic failover"
+        "option_value": "An automatic switch after a failure"
       },
       {
         "option_id": 2,
-        "option_value": "Planned manual switch to standby"
+        "option_value": "A deliberate switch made on purpose"
       },
       {
         "option_id": 3,
-        "option_value": "Backup restore"
+        "option_value": "Restoring a copy taken earlier"
       },
       {
         "option_id": 4,
-        "option_value": "Replication setup"
+        "option_value": "Configuring copies for the first time"
       }
     ],
     "answer_id": 2,
@@ -724,19 +724,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single system"
+        "option_value": "Only one node exists in the cluster"
       },
       {
         "option_id": 2,
-        "option_value": "Two nodes believing they are primary"
+        "option_value": "Two nodes each believing they lead"
       },
       {
         "option_id": 3,
-        "option_value": "Network partition"
+        "option_value": "The network splitting into two halves"
       },
       {
         "option_id": 4,
-        "option_value": "Data consistency"
+        "option_value": "Replicas disagreeing about a value"
       }
     ],
     "answer_id": 2,
@@ -748,19 +748,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More replicas"
+        "option_value": "Run a larger number of replicas"
       },
       {
         "option_id": 2,
-        "option_value": "Quorum-based voting / fencing"
+        "option_value": "Require a quorum, and fence the loser"
       },
       {
         "option_id": 3,
-        "option_value": "Faster network"
+        "option_value": "Provision a faster network between nodes"
       },
       {
         "option_id": 4,
-        "option_value": "More memory"
+        "option_value": "Give every node considerably more memory"
       }
     ],
     "answer_id": 2,
@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same concept"
+        "option_value": "The two words mean exactly the same thing"
       },
       {
         "option_id": 2,
-        "option_value": "Federation: heterogeneous, Sharding: homogeneous partitioning"
+        "option_value": "Federation spans unlike stores; sharding one"
       },
       {
         "option_id": 3,
-        "option_value": "Sharding is older"
+        "option_value": "Sharding is much the older idea of the two"
       },
       {
         "option_id": 4,
-        "option_value": "Federation is faster"
+        "option_value": "Federation is always the faster in practice"
       }
     ],
     "answer_id": 2,
@@ -796,19 +796,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Random partitioning"
+        "option_value": "Rows assigned to pieces at random"
       },
       {
         "option_id": 2,
-        "option_value": "Partitioning by function/bounded context"
+        "option_value": "Splitting by business capability"
       },
       {
         "option_id": 3,
-        "option_value": "Range partitioning"
+        "option_value": "Rows split on a range of key values"
       },
       {
         "option_id": 4,
-        "option_value": "Hash partitioning"
+        "option_value": "Rows split on a hash of the key"
       }
     ],
     "answer_id": 2,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single user system"
+        "option_value": "A system serving exactly one customer"
       },
       {
         "option_id": 2,
-        "option_value": "Multiple customers sharing same infrastructure"
+        "option_value": "Many customers sharing one deployment"
       },
       {
         "option_id": 3,
-        "option_value": "Dedicated per customer"
+        "option_value": "A separate deployment per customer"
       },
       {
         "option_id": 4,
-        "option_value": "No sharing"
+        "option_value": "Nothing at all is shared between them"
       }
     ],
     "answer_id": 2,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No isolation"
+        "option_value": "Customers can read each other's rows"
       },
       {
         "option_id": 2,
-        "option_value": "Ensuring tenant data separation"
+        "option_value": "Keeping each customer's data apart"
       },
       {
         "option_id": 3,
-        "option_value": "Shared everything"
+        "option_value": "Everything is shared between customers"
       },
       {
         "option_id": 4,
-        "option_value": "Single database"
+        "option_value": "All customers write to one single table"
       }
     ],
     "answer_id": 2,
@@ -868,19 +868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database per tenant"
+        "option_value": "A separate store for each customer"
       },
       {
         "option_id": 2,
-        "option_value": "Shared database with tenant ID column"
+        "option_value": "One store with a customer id column"
       },
       {
         "option_id": 3,
-        "option_value": "Schema per tenant"
+        "option_value": "A separate schema for each customer"
       },
       {
         "option_id": 4,
-        "option_value": "Separate servers"
+        "option_value": "A separate machine for each customer"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Shared table"
+        "option_value": "One table shared by every customer"
       },
       {
         "option_id": 2,
-        "option_value": "Separate schema per tenant in same database"
+        "option_value": "A separate schema inside one store"
       },
       {
         "option_id": 3,
-        "option_value": "Database per tenant"
+        "option_value": "A separate store for each customer"
       },
       {
         "option_id": 4,
-        "option_value": "Shared everything"
+        "option_value": "Everything is shared between customers"
       }
     ],
     "answer_id": 2,
@@ -916,19 +916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Shared database"
+        "option_value": "One store shared by every customer"
       },
       {
         "option_id": 2,
-        "option_value": "Separate database per tenant"
+        "option_value": "A separate store for each customer"
       },
       {
         "option_id": 3,
-        "option_value": "Schema per tenant"
+        "option_value": "A separate schema inside one store"
       },
       {
         "option_id": 4,
-        "option_value": "Shared schema"
+        "option_value": "One schema shared by every customer"
       }
     ],
     "answer_id": 2,
@@ -940,7 +940,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data creation policy"
+        "option_value": "Rules for how data first gets written"
       },
       {
         "option_id": 2,
@@ -948,11 +948,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "Backup policy"
+        "option_value": "Rules for how copies are taken"
       },
       {
         "option_id": 4,
-        "option_value": "Security policy"
+        "option_value": "Rules for who may read what data"
       }
     ],
     "answer_id": 2,
@@ -964,7 +964,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data deletion"
+        "option_value": "Deleting old data once it ages out"
       },
       {
         "option_id": 2,
@@ -972,11 +972,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "Data replication"
+        "option_value": "Copying the data to more machines"
       },
       {
         "option_id": 4,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling the data before storing it"
       }
     ],
     "answer_id": 2,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Relational database"
+        "option_value": "A store built on tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "Optimized for time-stamped data"
+        "option_value": "A store tuned for time-stamped points"
       },
       {
         "option_id": 3,
-        "option_value": "Graph database"
+        "option_value": "A store built on nodes and edges"
       },
       {
         "option_id": 4,
-        "option_value": "Document database"
+        "option_value": "A store built on schemaless documents"
       }
     ],
     "answer_id": 2,
@@ -1036,19 +1036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Pure time-series database"
+        "option_value": "A store written from scratch for metrics"
       },
       {
         "option_id": 2,
-        "option_value": "PostgreSQL extension for time-series"
+        "option_value": "A PostgreSQL extension for time series"
       },
       {
         "option_id": 3,
-        "option_value": "NoSQL database"
+        "option_value": "A store built on schemaless documents"
       },
       {
         "option_id": 4,
-        "option_value": "In-memory database"
+        "option_value": "A store keeping structures in memory"
       }
     ],
     "answer_id": 2,
@@ -1060,19 +1060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Relational database"
+        "option_value": "A store built on tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "Time-series database for metrics"
+        "option_value": "A store tuned for metric time series"
       },
       {
         "option_id": 3,
-        "option_value": "Document store"
+        "option_value": "A store built on schemaless documents"
       },
       {
         "option_id": 4,
-        "option_value": "Graph database"
+        "option_value": "A store built on nodes and edges"
       }
     ],
     "answer_id": 2,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Row-based storage"
+        "option_value": "Storing each record together as a row"
       },
       {
         "option_id": 2,
-        "option_value": "Storing data by columns"
+        "option_value": "Storing each field together as a column"
       },
       {
         "option_id": 3,
-        "option_value": "Key-value storage"
+        "option_value": "Storing pairs of keys and their values"
       },
       {
         "option_id": 4,
-        "option_value": "Document storage"
+        "option_value": "Storing whole documents as single blobs"
       }
     ],
     "answer_id": 2,
@@ -1156,19 +1156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Row-based format"
+        "option_value": "A file format storing whole rows"
       },
       {
         "option_id": 2,
-        "option_value": "Columnar storage format"
+        "option_value": "A file format storing whole columns"
       },
       {
         "option_id": 3,
-        "option_value": "Text format"
+        "option_value": "A plain text format read by humans"
       },
       {
         "option_id": 4,
-        "option_value": "JSON format"
+        "option_value": "A format built on nested JSON objects"
       }
     ],
     "answer_id": 2,
@@ -1180,19 +1180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Row-based format"
+        "option_value": "A file format storing whole rows"
       },
       {
         "option_id": 2,
-        "option_value": "Columnar storage format for Hadoop"
+        "option_value": "A columnar format built for Hadoop"
       },
       {
         "option_id": 3,
-        "option_value": "Text format"
+        "option_value": "A plain text format read by humans"
       },
       {
         "option_id": 4,
-        "option_value": "XML format"
+        "option_value": "A format built on nested XML tags"
       }
     ],
     "answer_id": 2,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data deletion"
+        "option_value": "Removing data once it is finished with"
       },
       {
         "option_id": 2,
-        "option_value": "Converting data to storable/transmittable format"
+        "option_value": "Turning data into a storable form"
       },
       {
         "option_id": 3,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling data with a secret key"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking data down to fewer bytes"
       }
     ],
     "answer_id": 2,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Text format"
+        "option_value": "A plain text format read by humans"
       },
       {
         "option_id": 2,
-        "option_value": "Binary serialization format by Google"
+        "option_value": "A compact schema-driven binary encoding"
       },
       {
         "option_id": 3,
-        "option_value": "XML format"
+        "option_value": "A format built on nested XML tags"
       },
       {
         "option_id": 4,
-        "option_value": "JSON format"
+        "option_value": "A format built on nested JSON objects"
       }
     ],
     "answer_id": 2,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Text format"
+        "option_value": "A plain text format read by humans"
       },
       {
         "option_id": 2,
-        "option_value": "Row-based serialization format"
+        "option_value": "A row-based binary format carrying schema"
       },
       {
         "option_id": 3,
-        "option_value": "Columnar format"
+        "option_value": "A file format storing whole columns"
       },
       {
         "option_id": 4,
-        "option_value": "JSON only"
+        "option_value": "A format built on nested JSON objects"
       }
     ],
     "answer_id": 2,
@@ -1276,19 +1276,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store built on tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "RPC framework with serialization"
+        "option_value": "An RPC framework with its own encoding"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache system"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Text format"
+        "option_value": "A plain text format read by humans"
       },
       {
         "option_id": 2,
-        "option_value": "Binary JSON-like serialization"
+        "option_value": "A compact binary form of JSON-like data"
       },
       {
         "option_id": 3,
-        "option_value": "XML format"
+        "option_value": "A format built on nested XML tags"
       },
       {
         "option_id": 4,
-        "option_value": "CSV format"
+        "option_value": "A format of comma-separated values"
       }
     ],
     "answer_id": 2,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "There is no real difference between them"
       },
       {
         "option_id": 2,
-        "option_value": "Binary is more compact and faster"
+        "option_value": "Binary is smaller and quicker to parse"
       },
       {
         "option_id": 3,
-        "option_value": "JSON is faster"
+        "option_value": "Text is the quicker of the two to parse"
       },
       {
         "option_id": 4,
-        "option_value": "Binary is human-readable"
+        "option_value": "Binary is the easier one for a human"
       }
     ],
     "answer_id": 2,
@@ -1348,19 +1348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Deleting schema"
+        "option_value": "Discarding the schema entirely"
       },
       {
         "option_id": 2,
-        "option_value": "Handling changes to data structure over time"
+        "option_value": "Coping as the data's shape changes"
       },
       {
         "option_id": 3,
-        "option_value": "Schema creation"
+        "option_value": "Defining the schema for the first time"
       },
       {
         "option_id": 4,
-        "option_value": "Schema validation"
+        "option_value": "Checking records against the schema"
       }
     ],
     "answer_id": 2,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling data with a secret key"
       },
       {
         "option_id": 2,
-        "option_value": "Tracking data origin and transformations"
+        "option_value": "Tracking where data came from and why"
       },
       {
         "option_id": 3,
-        "option_value": "Data backup"
+        "option_value": "Taking periodic copies of the data"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking data down to fewer bytes"
       }
     ],
     "answer_id": 2,
@@ -1444,19 +1444,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data deletion"
+        "option_value": "Deleting data once it is finished with"
       },
       {
         "option_id": 2,
-        "option_value": "Management of data availability, usability, integrity, security"
+        "option_value": "Managing data quality, access and integrity"
       },
       {
         "option_id": 3,
-        "option_value": "Data creation"
+        "option_value": "Creating the data in the first place"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking data down to fewer bytes"
       }
     ],
     "answer_id": 2,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database schema"
+        "option_value": "The layout of the columns in a table"
       },
       {
         "option_id": 2,
-        "option_value": "Inventory of data assets with metadata"
+        "option_value": "An inventory of data assets and metadata"
       },
       {
         "option_id": 3,
-        "option_value": "Data backup"
+        "option_value": "A periodic copy taken of the data"
       },
       {
         "option_id": 4,
-        "option_value": "Data encryption"
+        "option_value": "A cipher hiding the stored contents"
       }
     ],
     "answer_id": 2,
@@ -1492,19 +1492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public information"
+        "option_value": "Information already published openly"
       },
       {
         "option_id": 2,
-        "option_value": "Data identifying specific individual"
+        "option_value": "Information identifying a specific person"
       },
       {
         "option_id": 3,
-        "option_value": "Anonymous data"
+        "option_value": "Information stripped of all identifiers"
       },
       {
         "option_id": 4,
-        "option_value": "Encrypted data"
+        "option_value": "Information already scrambled at rest"
       }
     ],
     "answer_id": 2,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data deletion"
+        "option_value": "Removing sensitive data altogether"
       },
       {
         "option_id": 2,
-        "option_value": "Hiding sensitive data with modified values"
+        "option_value": "Showing altered values in place of real"
       },
       {
         "option_id": 3,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling values with a secret key"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking values down to fewer bytes"
       }
     ],
     "answer_id": 2,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling values with a secret key"
       },
       {
         "option_id": 2,
-        "option_value": "Replacing sensitive data with non-sensitive tokens"
+        "option_value": "Swapping values for meaningless stand-ins"
       },
       {
         "option_id": 3,
-        "option_value": "Data deletion"
+        "option_value": "Removing sensitive values altogether"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking values down to fewer bytes"
       }
     ],
     "answer_id": 2,
@@ -1564,19 +1564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "The two techniques are interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "Encryption is reversible with key, tokenization uses token vault"
+        "option_value": "A cipher reverses with a key; tokens need a vault"
       },
       {
         "option_id": 3,
-        "option_value": "Same concept"
+        "option_value": "A token reverses with a key; ciphers need a vault"
       },
       {
         "option_id": 4,
-        "option_value": "Encryption is one-way"
+        "option_value": "Encryption cannot be reversed at all"
       }
     ],
     "answer_id": 2,
@@ -1612,19 +1612,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Storage encryption"
+        "option_value": "Scrambling the bytes written to disk"
       },
       {
         "option_id": 2,
-        "option_value": "Encrypting data being transmitted"
+        "option_value": "Scrambling the bytes crossing the wire"
       },
       {
         "option_id": 3,
-        "option_value": "Memory encryption"
+        "option_value": "Scrambling the bytes held in memory"
       },
       {
         "option_id": 4,
-        "option_value": "Backup encryption"
+        "option_value": "Scrambling the bytes in a stored copy"
       }
     ],
     "answer_id": 2,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Storage encryption"
+        "option_value": "A scheme for scrambling stored files"
       },
       {
         "option_id": 2,
-        "option_value": "Cryptographic protocol for secure communication"
+        "option_value": "A protocol securing traffic in flight"
       },
       {
         "option_id": 3,
-        "option_value": "Database protocol"
+        "option_value": "A wire protocol used by databases"
       },
       {
         "option_id": 4,
-        "option_value": "Compression protocol"
+        "option_value": "A scheme for shrinking payloads"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-way authentication"
+        "option_value": "Only the server proves who it is"
       },
       {
         "option_id": 2,
-        "option_value": "Both client and server authenticate"
+        "option_value": "Both ends prove who they are"
       },
       {
         "option_id": 3,
-        "option_value": "No authentication"
+        "option_value": "Neither end proves who it is"
       },
       {
         "option_id": 4,
-        "option_value": "Token authentication"
+        "option_value": "Identity is carried in a bearer token"
       }
     ],
     "answer_id": 2,
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web server"
+        "option_value": "A machine that answers HTTP requests"
       },
       {
         "option_id": 2,
-        "option_value": "Trusted entity issuing digital certificates"
+        "option_value": "A trusted party that issues certificates"
       },
       {
         "option_id": 3,
-        "option_value": "Database server"
+        "option_value": "A machine that stores relational rows"
       },
       {
         "option_id": 4,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across servers"
       }
     ],
     "answer_id": 2,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multiple certificates"
+        "option_value": "Trusting any certificate a CA signs"
       },
       {
         "option_id": 2,
-        "option_value": "Hardcoding expected certificate/public key"
+        "option_value": "Trusting only one known key up front"
       },
       {
         "option_id": 3,
-        "option_value": "Certificate rotation"
+        "option_value": "Swapping certificates on a schedule"
       },
       {
         "option_id": 4,
-        "option_value": "Certificate deletion"
+        "option_value": "Discarding certificates once expired"
       }
     ],
     "answer_id": 2,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "HTTP compression"
+        "option_value": "A header controlling response caching"
       },
       {
         "option_id": 2,
-        "option_value": "Forcing HTTPS connections"
+        "option_value": "A header demanding future visits use TLS"
       },
       {
         "option_id": 3,
-        "option_value": "HTTP caching"
+        "option_value": "A header controlling response encoding"
       },
       {
         "option_id": 4,
-        "option_value": "Load balancing"
+        "option_value": "A header controlling connection reuse"
       }
     ],
     "answer_id": 2,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Caching policy"
+        "option_value": "Rules for how long responses are cached"
       },
       {
         "option_id": 2,
-        "option_value": "Preventing XSS by controlling resources"
+        "option_value": "Rules limiting what a page may load"
       },
       {
         "option_id": 3,
-        "option_value": "Compression policy"
+        "option_value": "Rules for compressing the response body"
       },
       {
         "option_id": 4,
-        "option_value": "Connection policy"
+        "option_value": "Rules for reusing network connections"
       }
     ],
     "answer_id": 2,
@@ -1780,19 +1780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Network firewall"
+        "option_value": "A filter working at the packet level"
       },
       {
         "option_id": 2,
-        "option_value": "Protecting web applications from attacks"
+        "option_value": "A filter inspecting HTTP requests"
       },
       {
         "option_id": 3,
-        "option_value": "Database firewall"
+        "option_value": "A filter sitting in front of a database"
       },
       {
         "option_id": 4,
-        "option_value": "Email filter"
+        "option_value": "A filter applied to inbound email"
       }
     ],
     "answer_id": 2,
@@ -1804,19 +1804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data theft"
+        "option_value": "Quietly copying data out of a system"
       },
       {
         "option_id": 2,
-        "option_value": "Overwhelming system with traffic"
+        "option_value": "Burying a system under sheer traffic"
       },
       {
         "option_id": 3,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 4,
-        "option_value": "XSS attack"
+        "option_value": "Running attacker script in the page"
       }
     ],
     "answer_id": 2,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More databases"
+        "option_value": "Add more database read replicas"
       },
       {
         "option_id": 2,
-        "option_value": "Rate limiting, CDN, WAF, scrubbing centers"
+        "option_value": "Rate limits, a CDN, a WAF and scrubbing"
       },
       {
         "option_id": 3,
-        "option_value": "More servers"
+        "option_value": "Add more application servers behind it"
       },
       {
         "option_id": 4,
-        "option_value": "Data encryption"
+        "option_value": "Scramble the payloads crossing the wire"
       }
     ],
     "answer_id": 2,
@@ -1852,7 +1852,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Unlimited requests"
+        "option_value": "Callers may send as much as they like"
       },
       {
         "option_id": 2,
@@ -1860,11 +1860,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "Database query"
+        "option_value": "A statement run against a database"
       },
       {
         "option_id": 4,
-        "option_value": "Cache eviction"
+        "option_value": "A rule for dropping entries from a cache"
       }
     ],
     "answer_id": 2,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No limiting"
+        "option_value": "No cap is applied at any point"
       },
       {
         "option_id": 2,
-        "option_value": "Limiting requests at entry point"
+        "option_value": "Capping requests at the front door"
       },
       {
         "option_id": 3,
-        "option_value": "Database limiting"
+        "option_value": "Capping the queries reaching the store"
       },
       {
         "option_id": 4,
-        "option_value": "Client-side limiting"
+        "option_value": "Asking the client to cap itself"
       }
     ],
     "answer_id": 2,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Global limiting"
+        "option_value": "One cap shared by every caller"
       },
       {
         "option_id": 2,
-        "option_value": "Limiting per user/API key"
+        "option_value": "A separate cap per user or key"
       },
       {
         "option_id": 3,
-        "option_value": "Database limiting"
+        "option_value": "Capping the queries reaching the store"
       },
       {
         "option_id": 4,
-        "option_value": "Server limiting"
+        "option_value": "Capping how many servers may run"
       }
     ],
     "answer_id": 2,
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single server limiting"
+        "option_value": "Each server keeps its own count alone"
       },
       {
         "option_id": 2,
-        "option_value": "Coordinated rate limiting across servers"
+        "option_value": "Servers sharing one count between them"
       },
       {
         "option_id": 3,
-        "option_value": "Client-side limiting"
+        "option_value": "Asking the client to cap itself instead"
       },
       {
         "option_id": 4,
-        "option_value": "No limiting"
+        "option_value": "No cap is applied at any point at all"
       }
     ],
     "answer_id": 2,
@@ -1948,19 +1948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database storage"
+        "option_value": "It stores the application's main data"
       },
       {
         "option_id": 2,
-        "option_value": "Distributed counter storage"
+        "option_value": "It holds the shared counters"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "It carries messages between services"
       },
       {
         "option_id": 4,
-        "option_value": "Cache only"
+        "option_value": "It caches rendered pages and nothing else"
       }
     ],
     "answer_id": 2,
@@ -1972,19 +1972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single request"
+        "option_value": "One request arriving on its own"
       },
       {
         "option_id": 2,
-        "option_value": "Many processes waking for same event"
+        "option_value": "Many waiters woken by a single event"
       },
       {
         "option_id": 3,
-        "option_value": "Database lock"
+        "option_value": "A row lock held for a long time"
       },
       {
         "option_id": 4,
-        "option_value": "Cache hit"
+        "option_value": "A lookup that is answered from cache"
       }
     ],
     "answer_id": 2,
@@ -1996,19 +1996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More servers"
+        "option_value": "Provision a larger number of servers"
       },
       {
         "option_id": 2,
-        "option_value": "Request coalescing, jitter, exponential backoff"
+        "option_value": "Coalesce requests, add jitter and backoff"
       },
       {
         "option_id": 3,
-        "option_value": "Database sharding"
+        "option_value": "Split the rows across more machines"
       },
       {
         "option_id": 4,
-        "option_value": "More caching"
+        "option_value": "Add another layer of caching in front"
       }
     ],
     "answer_id": 2,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cache hit"
+        "option_value": "A lookup answered straight from cache"
       },
       {
         "option_id": 2,
-        "option_value": "Multiple requests for expired cache key simultaneously"
+        "option_value": "Many callers missing one expired key at once"
       },
       {
         "option_id": 3,
-        "option_value": "Cache eviction"
+        "option_value": "An entry dropped to make room for another"
       },
       {
         "option_id": 4,
-        "option_value": "Cache warming"
+        "option_value": "Filling the cache before traffic arrives"
       }
     ],
     "answer_id": 2,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More cache"
+        "option_value": "Simply provision a much larger cache"
       },
       {
         "option_id": 2,
-        "option_value": "Locks, probabilistic early expiration, per-item expiration"
+        "option_value": "A lock, early expiry, or staggered TTLs"
       },
       {
         "option_id": 3,
-        "option_value": "No cache"
+        "option_value": "Remove the caching layer altogether"
       },
       {
         "option_id": 4,
-        "option_value": "Smaller cache"
+        "option_value": "Simply provision a much smaller cache"
       }
     ],
     "answer_id": 2,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cache eviction"
+        "option_value": "Dropping entries to make room"
       },
       {
         "option_id": 2,
-        "option_value": "Pre-populating cache before traffic hits"
+        "option_value": "Filling the cache before traffic arrives"
       },
       {
         "option_id": 3,
-        "option_value": "Cache clearing"
+        "option_value": "Emptying the cache of every entry"
       },
       {
         "option_id": 4,
-        "option_value": "Cache compression"
+        "option_value": "Shrinking the entries held in cache"
       }
     ],
     "answer_id": 2,
@@ -2092,19 +2092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cache updated asynchronously"
+        "option_value": "Writes reach the store some time later"
       },
       {
         "option_id": 2,
-        "option_value": "Data written to cache and DB simultaneously"
+        "option_value": "Writes land in cache and store together"
       },
       {
         "option_id": 3,
-        "option_value": "Cache updated on read"
+        "option_value": "The cache is filled only when read"
       },
       {
         "option_id": 4,
-        "option_value": "No caching"
+        "option_value": "No caching takes place at any point"
       }
     ],
     "answer_id": 2,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Immediate DB write"
+        "option_value": "Writes reach the store straight away"
       },
       {
         "option_id": 2,
-        "option_value": "Data written to cache, async DB write"
+        "option_value": "Writes hit the cache and drain later"
       },
       {
         "option_id": 3,
-        "option_value": "No caching"
+        "option_value": "No caching takes place at any point"
       },
       {
         "option_id": 4,
-        "option_value": "Read-only cache"
+        "option_value": "The cache is only ever read from"
       }
     ],
     "answer_id": 2,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Automatic cache population"
+        "option_value": "The cache fetches on a miss itself"
       },
       {
         "option_id": 2,
-        "option_value": "Application manages cache population"
+        "option_value": "The caller fills the cache on a miss"
       },
       {
         "option_id": 3,
-        "option_value": "Write-through"
+        "option_value": "Writes land in cache and store together"
       },
       {
         "option_id": 4,
-        "option_value": "Write-back"
+        "option_value": "Writes hit the cache and drain later"
       }
     ],
     "answer_id": 2,
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cache full"
+        "option_value": "The cache has run out of room entirely"
       },
       {
         "option_id": 2,
-        "option_value": "Cache empty at startup causing many misses"
+        "option_value": "An empty cache missing on every read"
       },
       {
         "option_id": 3,
-        "option_value": "Cache eviction"
+        "option_value": "An entry dropped to make room"
       },
       {
         "option_id": 4,
-        "option_value": "Cache warming"
+        "option_value": "Filling the cache before traffic arrives"
       }
     ],
     "answer_id": 2,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cache too small"
+        "option_value": "The cache is simply too small overall"
       },
       {
         "option_id": 2,
-        "option_value": "Wasted space from variable-sized objects"
+        "option_value": "Space wasted between odd-sized entries"
       },
       {
         "option_id": 3,
-        "option_value": "Cache eviction"
+        "option_value": "An entry dropped to make room"
       },
       {
         "option_id": 4,
-        "option_value": "Cache compression"
+        "option_value": "Shrinking the entries held in cache"
       }
     ],
     "answer_id": 2,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database table"
+        "option_value": "A table stored inside a relational database"
       },
       {
         "option_id": 2,
-        "option_value": "File mapped to memory for fast access"
+        "option_value": "A file exposed through the address space"
       },
       {
         "option_id": 3,
-        "option_value": "Network file"
+        "option_value": "A file fetched across the network first"
       },
       {
         "option_id": 4,
-        "option_value": "Compressed file"
+        "option_value": "A file shrunk down before being stored"
       }
     ],
     "answer_id": 2,
@@ -2260,19 +2260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data copying"
+        "option_value": "Copying the bytes an extra time"
       },
       {
         "option_id": 2,
-        "option_value": "Avoiding data copy between kernel and user space"
+        "option_value": "Moving bytes without copying them twice"
       },
       {
         "option_id": 3,
-        "option_value": "Data compression"
+        "option_value": "Shrinking the bytes before sending"
       },
       {
         "option_id": 4,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling the bytes before sending"
       }
     ],
     "answer_id": 2,
@@ -2284,19 +2284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Using kernel for I/O"
+        "option_value": "Letting the kernel handle every packet"
       },
       {
         "option_id": 2,
-        "option_value": "Direct hardware access avoiding kernel"
+        "option_value": "Talking to the hardware directly instead"
       },
       {
         "option_id": 3,
-        "option_value": "System calls"
+        "option_value": "Making a system call for each packet"
       },
       {
         "option_id": 4,
-        "option_value": "Memory management"
+        "option_value": "Letting the kernel manage the memory"
       }
     ],
     "answer_id": 2,
@@ -2308,19 +2308,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Local memory access"
+        "option_value": "Reading memory on the local machine"
       },
       {
         "option_id": 2,
-        "option_value": "Direct memory access over network"
+        "option_value": "Reading another machine's memory directly"
       },
       {
         "option_id": 3,
-        "option_value": "Disk access"
+        "option_value": "Reading blocks straight off a disk"
       },
       {
         "option_id": 4,
-        "option_value": "CPU access"
+        "option_value": "Reading registers inside the processor"
       }
     ],
     "answer_id": 2,
@@ -2332,19 +2332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database toolkit"
+        "option_value": "A toolkit for talking to relational stores"
       },
       {
         "option_id": 2,
-        "option_value": "Kernel bypass networking library"
+        "option_value": "A library bypassing the kernel network path"
       },
       {
         "option_id": 3,
-        "option_value": "Graphics library"
+        "option_value": "A library for drawing onto the screen"
       },
       {
         "option_id": 4,
-        "option_value": "Security library"
+        "option_value": "A library of cryptographic primitives only"
       }
     ],
     "answer_id": 2,
@@ -2356,19 +2356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Uniform memory access"
+        "option_value": "Every address costs the same to reach"
       },
       {
         "option_id": 2,
-        "option_value": "Memory access time depends on memory location"
+        "option_value": "Cost depends on which bank holds it"
       },
       {
         "option_id": 3,
-        "option_value": "Cache system"
+        "option_value": "A layer of fast memory near the core"
       },
       {
         "option_id": 4,
-        "option_value": "Disk storage"
+        "option_value": "A tier of long-term block storage"
       }
     ],
     "answer_id": 2,
@@ -2380,19 +2380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single CPU cache"
+        "option_value": "Only one core keeps a cache at all"
       },
       {
         "option_id": 2,
-        "option_value": "Consistency of cached data across CPUs"
+        "option_value": "Keeping each core's copies in agreement"
       },
       {
         "option_id": 3,
-        "option_value": "Memory size"
+        "option_value": "How much memory the machine holds"
       },
       {
         "option_id": 4,
-        "option_value": "Disk speed"
+        "option_value": "How quickly the disk can be read"
       }
     ],
     "answer_id": 2,
@@ -2404,19 +2404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "True data sharing"
+        "option_value": "Two cores genuinely sharing one value"
       },
       {
         "option_id": 2,
-        "option_value": "Performance degradation from cache line sharing"
+        "option_value": "Two values sharing one cache line"
       },
       {
         "option_id": 3,
-        "option_value": "Memory leak"
+        "option_value": "Memory allocated and never released"
       },
       {
         "option_id": 4,
-        "option_value": "Data race"
+        "option_value": "Two threads racing on the same value"
       }
     ],
     "answer_id": 2,
@@ -2428,19 +2428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Memory allocation"
+        "option_value": "Reserving a block of memory to use"
       },
       {
         "option_id": 2,
-        "option_value": "Synchronization ensuring memory operation ordering"
+        "option_value": "An instruction fixing the order of accesses"
       },
       {
         "option_id": 3,
-        "option_value": "Memory deallocation"
+        "option_value": "Releasing a block of memory again"
       },
       {
         "option_id": 4,
-        "option_value": "Memory copy"
+        "option_value": "Copying bytes from one place to another"
       }
     ],
     "answer_id": 2,
@@ -2452,19 +2452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Using locks"
+        "option_value": "Guarding shared state with mutexes"
       },
       {
         "option_id": 2,
-        "option_value": "Algorithms without traditional locking"
+        "option_value": "Algorithms that never block on a lock"
       },
       {
         "option_id": 3,
-        "option_value": "No threading"
+        "option_value": "Running everything on one thread"
       },
       {
         "option_id": 4,
-        "option_value": "Single-threaded"
+        "option_value": "Avoiding threads altogether by design"
       }
     ],
     "answer_id": 2,
@@ -2476,19 +2476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database operation"
+        "option_value": "A statement run against a database"
       },
       {
         "option_id": 2,
-        "option_value": "Atomic instruction for lock-free programming"
+        "option_value": "An atomic swap used to build lock-free code"
       },
       {
         "option_id": 3,
-        "option_value": "Network protocol"
+        "option_value": "A protocol for moving bytes about"
       },
       {
         "option_id": 4,
-        "option_value": "File operation"
+        "option_value": "An operation performed on a stored file"
       }
     ],
     "answer_id": 2,
@@ -2500,23 +2500,23 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No problem"
+        "option_value": "It causes no difficulty in practice"
       },
       {
         "option_id": 2,
-        "option_value": "Value changes twice, appearing unchanged"
+        "option_value": "A value changing back before you look"
       },
       {
         "option_id": 3,
-        "option_value": "Deadlock"
+        "option_value": "Two threads each awaiting the other"
       },
       {
         "option_id": 4,
-        "option_value": "Livelock"
+        "option_value": "Threads busy but making no progress"
       }
     ],
     "answer_id": 2,
-    "answer_explanation": "ABA problem: value changes A\u2192B\u2192A, CAS succeeds incorrectly.",
+    "answer_explanation": "ABA problem: value changes A→B→A, CAS succeeds incorrectly.",
     "difficulty_level": 4
   },
   {
@@ -2524,19 +2524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database update"
+        "option_value": "A statement that updates the stored rows"
       },
       {
         "option_id": 2,
-        "option_value": "Synchronization allowing lock-free reads"
+        "option_value": "A scheme letting readers proceed unblocked"
       },
       {
         "option_id": 3,
-        "option_value": "Cache update"
+        "option_value": "A refresh applied to a cached entry only"
       },
       {
         "option_id": 4,
-        "option_value": "File update"
+        "option_value": "A rewrite applied to an already-stored file"
       }
     ],
     "answer_id": 2,
@@ -2548,19 +2548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database lock"
+        "option_value": "A row lock taken in the database"
       },
       {
         "option_id": 2,
-        "option_value": "Lock allowing fast reads with sequence counter"
+        "option_value": "A counter letting readers retry cheaply"
       },
       {
         "option_id": 3,
-        "option_value": "Mutex"
+        "option_value": "A lock permitting exactly one holder"
       },
       {
         "option_id": 4,
-        "option_value": "Semaphore"
+        "option_value": "A counter limiting concurrent holders"
       }
     ],
     "answer_id": 2,
@@ -2572,19 +2572,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database pool"
+        "option_value": "A set of handles onto a database"
       },
       {
         "option_id": 2,
-        "option_value": "Pre-allocated memory blocks for reuse"
+        "option_value": "Blocks reserved up front and reused"
       },
       {
         "option_id": 3,
-        "option_value": "Thread pool"
+        "option_value": "A set of workers handed queued tasks"
       },
       {
         "option_id": 4,
-        "option_value": "Connection pool"
+        "option_value": "A set of connections handed out and back"
       }
     ],
     "answer_id": 2,
@@ -2596,19 +2596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database pool"
+        "option_value": "A set of handles onto a database"
       },
       {
         "option_id": 2,
-        "option_value": "Reusing expensive-to-create objects"
+        "option_value": "Handing back objects that cost a lot"
       },
       {
         "option_id": 3,
-        "option_value": "Thread pool"
+        "option_value": "A set of workers handed queued tasks"
       },
       {
         "option_id": 4,
-        "option_value": "Connection pool"
+        "option_value": "Blocks reserved up front and reused"
       }
     ],
     "answer_id": 2,
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single connection"
+        "option_value": "A single connection shared by everyone"
       },
       {
         "option_id": 2,
-        "option_value": "Pool of reusable database connections"
+        "option_value": "A set of connections handed out and back"
       },
       {
         "option_id": 3,
-        "option_value": "Thread pooling"
+        "option_value": "A set of workers handed queued tasks"
       },
       {
         "option_id": 4,
-        "option_value": "Memory pooling"
+        "option_value": "Blocks of memory reserved and reused"
       }
     ],
     "answer_id": 2,
@@ -2644,19 +2644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store built on tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "High-performance JDBC connection pool"
+        "option_value": "A fast pool of JDBC connections"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache system"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2668,19 +2668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single thread"
+        "option_value": "A single thread handling every task"
       },
       {
         "option_id": 2,
-        "option_value": "Pool of worker threads for task execution"
+        "option_value": "A set of workers handed queued tasks"
       },
       {
         "option_id": 3,
-        "option_value": "Process pool"
+        "option_value": "A set of separate operating processes"
       },
       {
         "option_id": 4,
-        "option_value": "Connection pool"
+        "option_value": "A set of connections handed out and back"
       }
     ],
     "answer_id": 2,
@@ -2692,19 +2692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Task assignment by manager"
+        "option_value": "A manager handing out every task"
       },
       {
         "option_id": 2,
-        "option_value": "Idle threads stealing tasks from busy threads"
+        "option_value": "Idle workers taking tasks from busy ones"
       },
       {
         "option_id": 3,
-        "option_value": "Random task assignment"
+        "option_value": "Tasks handed out entirely at random"
       },
       {
         "option_id": 4,
-        "option_value": "Priority queue"
+        "option_value": "Tasks served in order of importance"
       }
     ],
     "answer_id": 2,
@@ -2716,19 +2716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database framework"
+        "option_value": "A toolkit for talking to databases"
       },
       {
         "option_id": 2,
-        "option_value": "Divide-and-conquer parallel processing"
+        "option_value": "Splitting work, then combining the parts"
       },
       {
         "option_id": 3,
-        "option_value": "Web framework"
+        "option_value": "A toolkit for building web applications"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A toolkit for writing automated tests"
       }
     ],
     "answer_id": 2,
@@ -2740,19 +2740,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No flow control"
+        "option_value": "Records are pushed with no restraint"
       },
       {
         "option_id": 2,
-        "option_value": "Controlling data flow when consumer slower"
+        "option_value": "Slowing the producer when the reader lags"
       },
       {
         "option_id": 3,
-        "option_value": "Data compression"
+        "option_value": "Shrinking records before sending them on"
       },
       {
         "option_id": 4,
-        "option_value": "Cache eviction"
+        "option_value": "Dropping entries to make room in a cache"
       }
     ],
     "answer_id": 2,
@@ -2764,19 +2764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database API"
+        "option_value": "An interface for querying stored rows"
       },
       {
         "option_id": 2,
-        "option_value": "Standard for async stream processing with backpressure"
+        "option_value": "A standard for async streams with backpressure"
       },
       {
         "option_id": 3,
-        "option_value": "Web API"
+        "option_value": "An interface for serving web requests"
       },
       {
         "option_id": 4,
-        "option_value": "File API"
+        "option_value": "An interface for reading and writing files"
       }
     ],
     "answer_id": 2,
@@ -2788,19 +2788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store built on tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "Reactive library for Java"
+        "option_value": "A reactive streams library for Java"
       },
       {
         "option_id": 3,
-        "option_value": "Web server"
+        "option_value": "A process that answers HTTP requests"
       },
       {
         "option_id": 4,
-        "option_value": "Testing tool"
+        "option_value": "A toolkit for writing automated tests"
       }
     ],
     "answer_id": 2,
@@ -2812,19 +2812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store built on tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "Reactive Extensions for Java"
+        "option_value": "The reactive extensions ported to Java"
       },
       {
         "option_id": 3,
-        "option_value": "Web framework"
+        "option_value": "A toolkit for building web applications"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A toolkit for writing automated tests"
       }
     ],
     "answer_id": 2,
@@ -2836,19 +2836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store built on plain tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "Toolkit for concurrent, distributed, resilient applications"
+        "option_value": "A toolkit for concurrent, resilient systems"
       },
       {
         "option_id": 3,
-        "option_value": "Web server"
+        "option_value": "A process that simply answers HTTP requests"
       },
       {
         "option_id": 4,
-        "option_value": "Cache system"
+        "option_value": "A store holding frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2860,19 +2860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database model"
+        "option_value": "A way of laying out database tables"
       },
       {
         "option_id": 2,
-        "option_value": "Concurrency model with actors sending messages"
+        "option_value": "Isolated units communicating by message"
       },
       {
         "option_id": 3,
-        "option_value": "Network model"
+        "option_value": "A way of describing network topology"
       },
       {
         "option_id": 4,
-        "option_value": "Storage model"
+        "option_value": "A way of laying out data on disk"
       }
     ],
     "answer_id": 2,
@@ -2884,19 +2884,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store built on plain tables and rows"
       },
       {
         "option_id": 2,
-        "option_value": "Programming language for fault-tolerant systems"
+        "option_value": "A language built for fault-tolerant systems"
       },
       {
         "option_id": 3,
-        "option_value": "Web server"
+        "option_value": "A process that simply answers HTTP requests"
       },
       {
         "option_id": 4,
-        "option_value": "Operating system"
+        "option_value": "A kernel that manages hardware resources"
       }
     ],
     "answer_id": 2,
@@ -2908,19 +2908,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Prevent all crashes"
+        "option_value": "Guard against every possible failure"
       },
       {
         "option_id": 2,
-        "option_value": "Allow crashes, supervise and restart"
+        "option_value": "Let it fail, then supervise and restart"
       },
       {
         "option_id": 3,
-        "option_value": "No error handling"
+        "option_value": "Handle no errors of any kind at all"
       },
       {
         "option_id": 4,
-        "option_value": "Synchronous processing"
+        "option_value": "Run every step one after another"
       }
     ],
     "answer_id": 2,
@@ -2932,19 +2932,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database tree"
+        "option_value": "A structure for indexing stored rows"
       },
       {
         "option_id": 2,
-        "option_value": "Hierarchical process monitoring and restart"
+        "option_value": "A hierarchy watching and restarting workers"
       },
       {
         "option_id": 3,
-        "option_value": "File system tree"
+        "option_value": "A structure for laying out files on disk"
       },
       {
         "option_id": 4,
-        "option_value": "Network topology"
+        "option_value": "A structure describing network topology"
       }
     ],
     "answer_id": 2,
@@ -2956,19 +2956,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Stopping system to update"
+        "option_value": "Halting the system to apply an update"
       },
       {
         "option_id": 2,
-        "option_value": "Updating code without stopping system"
+        "option_value": "Replacing code while the system runs"
       },
       {
         "option_id": 3,
-        "option_value": "Database migration"
+        "option_value": "Applying a change to a database schema"
       },
       {
         "option_id": 4,
-        "option_value": "Cache refresh"
+        "option_value": "Refreshing the entries held in a cache"
       }
     ],
     "answer_id": 2,
@@ -2980,19 +2980,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single environment"
+        "option_value": "A single environment updated where it sits"
       },
       {
         "option_id": 2,
-        "option_value": "Two identical environments, instant switch"
+        "option_value": "Two identical environments, switched at once"
       },
       {
         "option_id": 3,
-        "option_value": "Gradual rollout"
+        "option_value": "A rollout reaching only a few users first"
       },
       {
         "option_id": 4,
-        "option_value": "Database migration"
+        "option_value": "Applying a change to a database schema"
       }
     ],
     "answer_id": 2,

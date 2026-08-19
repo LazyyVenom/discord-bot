@@ -113,9 +113,13 @@ async def audit(session) -> None:
         print(f"  {L}: {n:5d}  {n / total * 100:5.1f}%  {'#' * int(n / total * 60)}{flag}")
 
     share = longest_is_correct / total
+    big = sum(1 for gap, *_ in worst if gap > 10)
     print("\nLength giveaway  (25% = no signal)")
     print("=" * 52)
     print(f"  correct option is the longest : {longest_is_correct:5d}  {share * 100:5.1f}%")
+    # "Is longest" counts a 1-character lead the same as a 40-character one.
+    # A margin a reader could actually notice is the number that matters.
+    print(f"  ...longest by over 10 chars   : {big:5d}  {big / total * 100:5.1f}%")
     print(f"  mean length, correct          : {statistics.mean(corr_len):5.1f} chars")
     print(f"  mean length, wrong            : {statistics.mean(wrong_len):5.1f} chars")
     ratio = statistics.mean(corr_len) / max(statistics.mean(wrong_len), 1)
