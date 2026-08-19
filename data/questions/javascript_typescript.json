@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Compiled language"
+        "option_value": "A compiled, statically typed language"
       },
       {
         "option_id": 2,
-        "option_value": "Interpreted scripting language"
+        "option_value": "An interpreted, dynamically typed language"
       },
       {
         "option_id": 3,
-        "option_value": "Machine language"
+        "option_value": "A low-level language run by the CPU"
       },
       {
         "option_id": 4,
-        "option_value": "Assembly language"
+        "option_value": "A markup language for describing pages"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "JavaScript framework"
+        "option_value": "A UI framework built on JavaScript"
       },
       {
         "option_id": 2,
-        "option_value": "Typed superset of JavaScript"
+        "option_value": "A typed superset compiled to JavaScript"
       },
       {
         "option_id": 3,
-        "option_value": "JavaScript library"
+        "option_value": "A utility library bundled with Node"
       },
       {
         "option_id": 4,
-        "option_value": "CSS preprocessor"
+        "option_value": "A preprocessor that compiles to CSS"
       }
     ],
     "answer_id": 2,
@@ -52,7 +52,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "They behave identically in every case"
       },
       {
         "option_id": 2,
@@ -60,11 +60,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "var is block-scoped"
+        "option_value": "var is block-scoped, let is function-scoped"
       },
       {
         "option_id": 4,
-        "option_value": "let is global"
+        "option_value": "let attaches to the global object, var does not"
       }
     ],
     "answer_id": 2,
@@ -76,19 +76,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Constant value"
+        "option_value": "A value that can never change at all"
       },
       {
         "option_id": 2,
-        "option_value": "Block-scoped variable that cannot be reassigned"
+        "option_value": "A binding that cannot be reassigned"
       },
       {
         "option_id": 3,
-        "option_value": "Global constant"
+        "option_value": "A constant visible across every module"
       },
       {
         "option_id": 4,
-        "option_value": "Function scope"
+        "option_value": "A variable scoped to the whole function"
       }
     ],
     "answer_id": 2,
@@ -100,22 +100,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No hoisting"
+        "option_value": "Declarations being moved to the top of scope"
       },
       {
         "option_id": 2,
-        "option_value": "Moving declarations to top of scope"
+        "option_value": "Nothing is moved; order is always literal"
       },
       {
         "option_id": 3,
-        "option_value": "Variable deletion"
+        "option_value": "Unused variables being removed at parse time"
       },
       {
         "option_id": 4,
-        "option_value": "Function execution"
+        "option_value": "Functions being executed before they are read"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Hoisting moves variable and function declarations to top of their scope.",
     "difficulty_level": 2
   },
@@ -124,19 +124,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "They are identical in behaviour"
       },
       {
         "option_id": 2,
-        "option_value": "== checks equality with coercion, === checks strict equality"
+        "option_value": "== coerces types, === compares strictly"
       },
       {
         "option_id": 3,
-        "option_value": "=== is faster"
+        "option_value": "=== coerces types, == compares strictly"
       },
       {
         "option_id": 4,
-        "option_value": "== is strict"
+        "option_value": "=== is simply the faster of the two"
       }
     ],
     "answer_id": 2,
@@ -148,22 +148,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No coercion"
+        "option_value": "Types being converted automatically"
       },
       {
         "option_id": 2,
-        "option_value": "Automatic type conversion"
+        "option_value": "Types being converted only explicitly"
       },
       {
         "option_id": 3,
-        "option_value": "Manual conversion"
+        "option_value": "Types being checked without converting"
       },
       {
         "option_id": 4,
-        "option_value": "Type checking"
+        "option_value": "Types being fixed at declaration time"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Type coercion is automatic or implicit conversion of values from one type to another.",
     "difficulty_level": 2
   },
@@ -172,22 +172,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same as true/false"
+        "option_value": "Values that coerce to true or false"
       },
       {
         "option_id": 2,
-        "option_value": "Values that evaluate to true/false in boolean context"
+        "option_value": "Only the literals true and false"
       },
       {
         "option_id": 3,
-        "option_value": "Only booleans"
+        "option_value": "Only values of the boolean type"
       },
       {
         "option_id": 4,
-        "option_value": "No concept"
+        "option_value": "Values that cannot be coerced at all"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Truthy values evaluate to true; falsy values (0, '', null, undefined, NaN, false) evaluate to false.",
     "difficulty_level": 2
   },
@@ -196,22 +196,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Only false"
+        "option_value": "false, 0, '', null, undefined and NaN"
       },
       {
         "option_id": 2,
-        "option_value": "false, 0, '', null, undefined, NaN"
+        "option_value": "Only the literal false itself"
       },
       {
         "option_id": 3,
-        "option_value": "Only null"
+        "option_value": "Only null and undefined values"
       },
       {
         "option_id": 4,
-        "option_value": "Only undefined"
+        "option_value": "false, 0, '[]', '{}' and undefined"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Falsy: false, 0, -0, 0n, '', null, undefined, NaN.",
     "difficulty_level": 2
   },
@@ -220,22 +220,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same as undefined"
+        "option_value": "A deliberate absence of any value"
       },
       {
         "option_id": 2,
-        "option_value": "Intentional absence of value"
+        "option_value": "A variable declared but not assigned"
       },
       {
         "option_id": 3,
-        "option_value": "Zero"
+        "option_value": "The numeric value zero in disguise"
       },
       {
         "option_id": 4,
-        "option_value": "Empty string"
+        "option_value": "An empty string of zero length"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "null represents intentional absence of any object value.",
     "difficulty_level": 1
   },
@@ -244,22 +244,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same as null"
+        "option_value": "A variable declared but not assigned"
       },
       {
         "option_id": 2,
-        "option_value": "Variable declared but not assigned"
+        "option_value": "A deliberate absence of any value"
       },
       {
         "option_id": 3,
-        "option_value": "Zero"
+        "option_value": "The numeric value zero in disguise"
       },
       {
         "option_id": 4,
-        "option_value": "Empty string"
+        "option_value": "An empty string of zero length"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "undefined means variable has been declared but not assigned a value.",
     "difficulty_level": 1
   },
@@ -268,22 +268,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "null is deliberate, undefined is not"
       },
       {
         "option_id": 2,
-        "option_value": "null is intentional, undefined is not assigned"
+        "option_value": "undefined is deliberate, null is not"
       },
       {
         "option_id": 3,
-        "option_value": "undefined is intentional"
+        "option_value": "They are interchangeable in all cases"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "null is a number, undefined an object"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "null is intentional absence; undefined means variable not initialized.",
     "difficulty_level": 2
   },
@@ -292,22 +292,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Sets type"
+        "option_value": "Returns a string naming the operand type"
       },
       {
         "option_id": 2,
-        "option_value": "Returns string indicating operand's type"
+        "option_value": "Assigns a new type to the operand"
       },
       {
         "option_id": 3,
-        "option_value": "Creates type"
+        "option_value": "Defines a brand-new type at runtime"
       },
       {
         "option_id": 4,
-        "option_value": "Checks equality"
+        "option_value": "Compares two operands for strict equality"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "typeof returns string indicating the type of unevaluated operand.",
     "difficulty_level": 1
   },
@@ -316,22 +316,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "'null'"
+        "option_value": "'object', a long-standing language bug"
       },
       {
         "option_id": 2,
-        "option_value": "'object' (bug in JS)"
+        "option_value": "'null', as you would reasonably expect"
       },
       {
         "option_id": 3,
-        "option_value": "'undefined'"
+        "option_value": "'undefined', since null is unassigned"
       },
       {
         "option_id": 4,
-        "option_value": "'number'"
+        "option_value": "'number', because null coerces to zero"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "typeof null returns 'object' - this is a known bug in JavaScript.",
     "difficulty_level": 2
   },
@@ -340,22 +340,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Null value"
+        "option_value": "The result of an invalid maths operation"
       },
       {
         "option_id": 2,
-        "option_value": "Not-a-Number, result of invalid math operation"
+        "option_value": "A null value produced by a failed cast"
       },
       {
         "option_id": 3,
-        "option_value": "Zero"
+        "option_value": "The numeric value zero after overflow"
       },
       {
         "option_id": 4,
-        "option_value": "Infinity"
+        "option_value": "A value larger than any finite number"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "NaN (Not-a-Number) represents result of invalid or unreliable math operation.",
     "difficulty_level": 2
   },
@@ -364,22 +364,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "value === NaN"
+        "option_value": "Number.isNaN(value), since NaN != NaN"
       },
       {
         "option_id": 2,
-        "option_value": "Number.isNaN(value) or isNaN()"
+        "option_value": "value === NaN, the strict comparison"
       },
       {
         "option_id": 3,
-        "option_value": "value == NaN"
+        "option_value": "value == NaN, the loose comparison"
       },
       {
         "option_id": 4,
-        "option_value": "typeof value"
+        "option_value": "typeof value, which returns 'nan'"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Number.isNaN() or global isNaN() checks if value is NaN (NaN !== NaN).",
     "difficulty_level": 2
   },
@@ -388,22 +388,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Zero"
+        "option_value": "A value greater than any finite number"
       },
       {
         "option_id": 2,
-        "option_value": "Represents mathematical Infinity"
+        "option_value": "The numeric value zero after underflow"
       },
       {
         "option_id": 3,
-        "option_value": "Null"
+        "option_value": "A null produced by dividing by zero"
       },
       {
         "option_id": 4,
-        "option_value": "Undefined"
+        "option_value": "An undefined result of bad arithmetic"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Infinity represents positive infinity; -Infinity represents negative infinity.",
     "difficulty_level": 2
   },
@@ -412,22 +412,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Loop structure"
+        "option_value": "A function keeping access to its outer scope"
       },
       {
         "option_id": 2,
-        "option_value": "Function with access to outer scope even after outer function returns"
+        "option_value": "A loop that repeats a fixed number of times"
       },
       {
         "option_id": 3,
-        "option_value": "Conditional"
+        "option_value": "A branch taken when a condition holds"
       },
       {
         "option_id": 4,
-        "option_value": "Object"
+        "option_value": "A container mapping keys to stored values"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Closure is function that remembers and accesses variables from outer scope even after outer function completes.",
     "difficulty_level": 3
   },
@@ -436,22 +436,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No scope"
+        "option_value": "The current context variables resolve in"
       },
       {
         "option_id": 2,
-        "option_value": "Current context of execution"
+        "option_value": "The value currently held by a variable"
       },
       {
         "option_id": 3,
-        "option_value": "Variable value"
+        "option_value": "The identifier a function was declared with"
       },
       {
         "option_id": 4,
-        "option_value": "Function name"
+        "option_value": "The file a declaration happens to sit in"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Scope is current context of execution determining variable accessibility.",
     "difficulty_level": 2
   },
@@ -460,22 +460,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Only global"
+        "option_value": "Global, function and block scope"
       },
       {
         "option_id": 2,
-        "option_value": "Global, function, block (ES6+)"
+        "option_value": "Global scope and nothing else"
       },
       {
         "option_id": 3,
-        "option_value": "Only local"
+        "option_value": "Function scope and nothing else"
       },
       {
         "option_id": 4,
-        "option_value": "Only block"
+        "option_value": "Block scope and module scope only"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "JavaScript has global scope, function scope, and block scope (let/const).",
     "difficulty_level": 2
   },
@@ -484,22 +484,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Runtime scope"
+        "option_value": "Scope fixed by position in the source"
       },
       {
         "option_id": 2,
-        "option_value": "Scope determined by position in source code"
+        "option_value": "Scope resolved by the call stack at runtime"
       },
       {
         "option_id": 3,
-        "option_value": "Dynamic scope"
+        "option_value": "Scope that changes as the program runs"
       },
       {
         "option_id": 4,
-        "option_value": "No scope"
+        "option_value": "Scope shared by every function equally"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Lexical (static) scope is determined by variable's position in source code.",
     "difficulty_level": 3
   },
@@ -508,22 +508,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single scope"
+        "option_value": "The hierarchy searched for an identifier"
       },
       {
         "option_id": 2,
-        "option_value": "Hierarchy of scopes for variable lookup"
+        "option_value": "A single flat scope holding everything"
       },
       {
         "option_id": 3,
-        "option_value": "No chain"
+        "option_value": "The order in which functions were called"
       },
       {
         "option_id": 4,
-        "option_value": "Function chain"
+        "option_value": "The list of files loaded by the module"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Scope chain is hierarchy of scopes JavaScript uses for variable lookup.",
     "difficulty_level": 3
   },
@@ -532,22 +532,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Current file"
+        "option_value": "A reference to the current execution context"
       },
       {
         "option_id": 2,
-        "option_value": "Reference to current execution context"
+        "option_value": "A reference to the file currently running"
       },
       {
         "option_id": 3,
-        "option_value": "Global object"
+        "option_value": "A reference to the global object always"
       },
       {
         "option_id": 4,
-        "option_value": "Null"
+        "option_value": "A reference that is null inside functions"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "this refers to current execution context, value depends on how function is called.",
     "difficulty_level": 3
   },
@@ -556,22 +556,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Null"
+        "option_value": "The global object: window or globalThis"
       },
       {
         "option_id": 2,
-        "option_value": "Global object (window in browser, global in Node)"
+        "option_value": "null, until a value is explicitly bound"
       },
       {
         "option_id": 3,
-        "option_value": "Undefined"
+        "option_value": "undefined, in both scripts and modules"
       },
       {
         "option_id": 4,
-        "option_value": "Current function"
+        "option_value": "The function that is currently running"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "In global scope, this refers to global object (window/global).",
     "difficulty_level": 2
   },
@@ -580,22 +580,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Global object"
+        "option_value": "The object the method was called on"
       },
       {
         "option_id": 2,
-        "option_value": "The object the method belongs to"
+        "option_value": "The global object, regardless of caller"
       },
       {
         "option_id": 3,
-        "option_value": "Null"
+        "option_value": "null, unless bind was used beforehand"
       },
       {
         "option_id": 4,
-        "option_value": "Undefined"
+        "option_value": "undefined, in every execution mode"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "In object method, this refers to the object the method was called on.",
     "difficulty_level": 2
   },
@@ -604,22 +604,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Current object"
+        "option_value": "Inherited from the enclosing lexical scope"
       },
       {
         "option_id": 2,
-        "option_value": "Inherits this from enclosing lexical scope"
+        "option_value": "Bound to the object that owns the arrow"
       },
       {
         "option_id": 3,
-        "option_value": "Global object"
+        "option_value": "Always the global object, never the owner"
       },
       {
         "option_id": 4,
-        "option_value": "Null"
+        "option_value": "null until the arrow is invoked once"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Arrow functions don't have their own this; they inherit from enclosing scope.",
     "difficulty_level": 3
   },
@@ -628,22 +628,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Function call"
+        "option_value": "Invokes at once with a given this and args"
       },
       {
         "option_id": 2,
-        "option_value": "Calls function with given this and arguments"
+        "option_value": "Returns a new function with this fixed"
       },
       {
         "option_id": 3,
-        "option_value": "Create function"
+        "option_value": "Defines a function without invoking it"
       },
       {
         "option_id": 4,
-        "option_value": "Delete function"
+        "option_value": "Removes a method from its owning object"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "call() calls function with given this value and arguments provided individually.",
     "difficulty_level": 3
   },
@@ -652,22 +652,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same as call"
+        "option_value": "Like call, but arguments come as an array"
       },
       {
         "option_id": 2,
-        "option_value": "Like call but arguments as array"
+        "option_value": "Like bind, but arguments come as an array"
       },
       {
         "option_id": 3,
-        "option_value": "Create function"
+        "option_value": "Defines a function without invoking it"
       },
       {
         "option_id": 4,
-        "option_value": "Bind function"
+        "option_value": "Returns a new function with this fixed"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "apply() is like call() but arguments provided as array.",
     "difficulty_level": 3
   },
@@ -676,22 +676,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Call immediately"
+        "option_value": "Returns a new function with this fixed"
       },
       {
         "option_id": 2,
-        "option_value": "Creates new function with fixed this"
+        "option_value": "Invokes the function straight away"
       },
       {
         "option_id": 3,
-        "option_value": "Apply immediately"
+        "option_value": "Invokes it with arguments as an array"
       },
       {
         "option_id": 4,
-        "option_value": "Delete function"
+        "option_value": "Removes a method from its owning object"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "bind() creates new function that, when called, has its this set to provided value.",
     "difficulty_level": 3
   },
@@ -700,22 +700,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "call and apply invoke now; bind returns one"
       },
       {
         "option_id": 2,
-        "option_value": "call/apply invoke immediately, bind returns function; call-individual args, apply-array"
+        "option_value": "bind invokes now; call and apply return one"
       },
       {
         "option_id": 3,
-        "option_value": "bind invokes immediately"
+        "option_value": "All three return a new function to call"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "All three invoke the function immediately"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "call/apply invoke immediately; bind returns function. call-individual args, apply-array.",
     "difficulty_level": 3
   },
@@ -724,22 +724,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No prototype"
+        "option_value": "An object others inherit properties from"
       },
       {
         "option_id": 2,
-        "option_value": "Object that other objects inherit from"
+        "option_value": "A class declaration in disguise"
       },
       {
         "option_id": 3,
-        "option_value": "Class definition"
+        "option_value": "A blueprint checked at compile time only"
       },
       {
         "option_id": 4,
-        "option_value": "Function type"
+        "option_value": "A tag naming the type of a function"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Prototype is object from which other objects inherit properties and methods.",
     "difficulty_level": 3
   },
@@ -748,22 +748,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single prototype"
+        "option_value": "The chain searched for a missing property"
       },
       {
         "option_id": 2,
-        "option_value": "Chain of prototypes for property lookup"
+        "option_value": "A single prototype shared by everything"
       },
       {
         "option_id": 3,
-        "option_value": "No chain"
+        "option_value": "The order classes were declared in"
       },
       {
         "option_id": 4,
-        "option_value": "Class chain"
+        "option_value": "The list of methods a class defines"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Prototype chain is series of linked prototypes JavaScript uses for property lookup.",
     "difficulty_level": 3
   },
