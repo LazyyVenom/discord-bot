@@ -11,6 +11,7 @@ from champak.db.import_questions import (
     import_key_for,
     letter_for,
     parse_file,
+    shuffled_options,
 )
 from champak.db.models import Question
 
@@ -117,8 +118,10 @@ async def test_import_maps_all_fields(session, tmp_path):
 
     q = (await session.execute(select(Question))).scalar_one()
     assert q.title == "What is 2+2?"
-    assert (q.option_a, q.option_b, q.option_c, q.option_d) == ("3", "4", "5", "6")
-    assert q.correct_option == "B"
+    # Options are deliberately shuffled, so assert on content and on the
+    # correct letter pointing at the right text -- never on a fixed order.
+    assert sorted([q.option_a, q.option_b, q.option_c, q.option_d]) == ["3", "4", "5", "6"]
+    assert getattr(q, f"option_{q.correct_option.lower()}") == "4"
     assert q.explanation == "Two plus two is four."
     assert q.category == "dsa"
     assert q.difficulty == 1
@@ -224,3 +227,61 @@ async def test_real_bank_imports_cleanly(session):
         )
     )).scalar_one()
     assert bad == 0
+
+
+# ---- option shuffling ----
+
+def test_shuffle_keeps_all_four_options():
+    values = {1: "w", 2: "x", 3: "y", 4: "z"}
+    ordered, _ = shuffled_options(values, 2, "seed")
+    assert sorted(ordered) == ["w", "x", "y", "z"]
+
+
+def test_shuffle_letter_points_at_the_correct_text():
+    values = {1: "w", 2: "x", 3: "y", 4: "z"}
+    for answer_id, text in values.items():
+        ordered, letter = shuffled_options(values, answer_id, f"seed{answer_id}")
+        assert ordered["ABCD".index(letter)] == text
+
+
+def test_shuffle_is_deterministic_for_the_same_key():
+    values = {1: "w", 2: "x", 3: "y", 4: "z"}
+    a = shuffled_options(values, 2, "same-key")
+    b = shuffled_options(values, 2, "same-key")
+    assert a == b
+
+
+def test_shuffle_differs_across_keys():
+    values = {1: "w", 2: "x", 3: "y", 4: "z"}
+    letters = {shuffled_options(values, 2, f"k{i}")[1] for i in range(40)}
+    assert len(letters) > 1, "shuffle produced the same position for every question"
+
+
+def test_shuffle_handles_duplicate_option_text():
+    # Two identical strings must not make us track the wrong one.
+    values = {1: "same", 2: "same", 3: "y", 4: "z"}
+    ordered, letter = shuffled_options(values, 3, "seed")
+    assert ordered["ABCD".index(letter)] == "y"
+
+
+async def test_reimport_keeps_the_same_arrangement(session, tmp_path):
+    # A user retrying after the cooldown must see the options where they were.
+    write(tmp_path, "dsa_part1.json", [record()])
+    await import_all(session, tmp_path)
+    q = (await session.execute(select(Question))).scalar_one()
+    before = (q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option)
+    await import_all(session, tmp_path)
+    q = (await session.execute(select(Question))).scalar_one()
+    assert (q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option) == before
+
+
+@pytest.mark.skipif(not REAL_DATA.exists(), reason="question bank not present")
+async def test_real_bank_answer_positions_are_balanced(session):
+    """The whole point: 'always click B' must stop working."""
+    await import_all(session, REAL_DATA)
+    rows = (await session.execute(select(Question.correct_option))).scalars().all()
+    counts = {L: rows.count(L) for L in "ABCD"}
+    total = len(rows)
+    for letter, n in counts.items():
+        share = n / total
+        assert 0.20 < share < 0.30, f"{letter} is {share:.1%} of answers: {counts}"

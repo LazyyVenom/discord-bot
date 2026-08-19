@@ -10,6 +10,7 @@ import asyncio
 import hashlib
 import json
 import logging
+import random
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -51,6 +52,25 @@ def import_key_for(question_text: str) -> str:
     return hashlib.sha256(normalised.encode("utf-8")).hexdigest()
 
 
+def shuffled_options(
+    values: dict[int, str], answer_id: int, seed_key: str
+) -> tuple[list[str], str]:
+    """Reorder the four options deterministically.
+
+    The source bank puts the correct answer at B in 84% of questions, so
+    "always click B" scored 84% without reading anything. Seeding the shuffle
+    with the question's import_key keeps it stable across reimports: the same
+    question always lands on the same arrangement, so a user who retries after
+    the cooldown sees what they saw before.
+
+    Shuffles the option *ids* rather than the strings so duplicate option text
+    cannot make us track the wrong one.
+    """
+    order = [1, 2, 3, 4]
+    random.Random(seed_key).shuffle(order)
+    return [values[i] for i in order], LETTERS[order.index(answer_id)]
+
+
 def _validate(record: object, source: str, index: int) -> dict:
     where = f"{source} index {index}"
 
@@ -86,18 +106,21 @@ def _validate(record: object, source: str, index: int) -> dict:
     if not isinstance(difficulty, int) or not 1 <= difficulty <= 5:
         raise QuestionImportError(f"{where}: difficulty must be 1-5, got {difficulty!r}")
 
+    key = import_key_for(text)
+    ordered, correct_letter = shuffled_options(values, answer_id, key)
+
     return {
         "title": text,
-        "option_a": values[1],
-        "option_b": values[2],
-        "option_c": values[3],
-        "option_d": values[4],
-        "correct_option": letter_for(answer_id),
+        "option_a": ordered[0],
+        "option_b": ordered[1],
+        "option_c": ordered[2],
+        "option_d": ordered[3],
+        "correct_option": correct_letter,
         "explanation": explanation,
         "difficulty": difficulty,
         "points": difficulty * 10,
         "category": category_for_filename(source),
-        "import_key": import_key_for(text),
+        "import_key": key,
     }
 
 
