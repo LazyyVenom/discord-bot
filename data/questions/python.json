@@ -4948,19 +4948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Property decorator"
+        "option_value": "A decorator applied to a property"
       },
       {
         "option_id": 2,
-        "option_value": "Class decorator for data classes"
+        "option_value": "A decorator applied to a whole class"
       },
       {
         "option_id": 3,
-        "option_value": "Method decorator"
+        "option_value": "A decorator applied to one method"
       },
       {
         "option_id": 4,
-        "option_value": "Static decorator"
+        "option_value": "A decorator applied to a static method"
       }
     ],
     "answer_id": 2,
@@ -4972,19 +4972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class field"
+        "option_value": "A declaration of a class attribute"
       },
       {
         "option_id": 2,
-        "option_value": "Function to customize dataclass field"
+        "option_value": "A call customising one generated field"
       },
       {
         "option_id": 3,
-        "option_value": "Method field"
+        "option_value": "A declaration of an instance method"
       },
       {
         "option_id": 4,
-        "option_value": "Property field"
+        "option_value": "A call that builds a property object"
       }
     ],
     "answer_id": 2,
@@ -4996,19 +4996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database library"
+        "option_value": "A driver for relational databases"
       },
       {
         "option_id": 2,
-        "option_value": "Python classes without boilerplate"
+        "option_value": "A library removing class boilerplate"
       },
       {
         "option_id": 3,
-        "option_value": "Math library"
+        "option_value": "A library for mathematical routines"
       },
       {
         "option_id": 4,
-        "option_value": "File library"
+        "option_value": "A library for reading and writing files"
       }
     ],
     "answer_id": 2,
@@ -5020,19 +5020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Data validation using Python type hints"
+        "option_value": "A validator driven by type annotations"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A framework for running unit tests"
       }
     ],
     "answer_id": 2,
@@ -5044,19 +5044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       },
       {
         "option_id": 2,
-        "option_value": "Modern, fast web framework for building APIs"
+        "option_value": "A fast web framework for building APIs"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A framework for running unit tests"
       }
     ],
     "answer_id": 2,
@@ -5092,19 +5092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       },
       {
         "option_id": 2,
-        "option_value": "High-level Python web framework"
+        "option_value": "A batteries-included web framework"
       },
       {
         "option_id": 3,
-        "option_value": "ORM only"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A framework for running unit tests"
       }
     ],
     "answer_id": 2,
@@ -5164,19 +5164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Database migration tool for SQLAlchemy"
+        "option_value": "A migration tool built for SQLAlchemy"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A framework for running unit tests"
       }
     ],
     "answer_id": 2,
@@ -5188,19 +5188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Distributed task queue"
+        "option_value": "A distributed queue for background jobs"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Template engine"
+        "option_value": "An engine that renders HTML templates"
       }
     ],
     "answer_id": 2,
@@ -5212,19 +5212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "It stores the application's main data"
       },
       {
         "option_id": 2,
-        "option_value": "Message broker and result backend"
+        "option_value": "It carries messages and holds results"
       },
       {
         "option_id": 3,
-        "option_value": "Cache only"
+        "option_value": "It caches rendered pages and nothing else"
       },
       {
         "option_id": 4,
-        "option_value": "No use"
+        "option_value": "It plays no part in a Celery setup"
       }
     ],
     "answer_id": 2,
@@ -5260,19 +5260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A relational database for OLTP work"
       },
       {
         "option_id": 2,
-        "option_value": "Distributed streaming platform"
+        "option_value": "A distributed log for streaming events"
       },
       {
         "option_id": 3,
-        "option_value": "Cache"
+        "option_value": "An in-memory cache for hot values"
       },
       {
         "option_id": 4,
-        "option_value": "Web server"
+        "option_value": "A server that answers HTTP requests"
       }
     ],
     "answer_id": 2,
@@ -5284,19 +5284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Fundamental package for scientific computing"
+        "option_value": "The core package for array computing"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5308,19 +5308,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Data analysis and manipulation library"
+        "option_value": "A library for tabular data analysis"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5356,19 +5356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "HTTP library for Python"
+        "option_value": "A friendly client for HTTP requests"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5380,19 +5380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Library for parsing HTML and XML"
+        "option_value": "A parser for HTML and XML documents"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5404,19 +5404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Web scraping framework"
+        "option_value": "A framework for crawling web sites"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5452,19 +5452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Generic virtualenv management and test command tool"
+        "option_value": "A runner testing across environments"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5476,19 +5476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Uncompromising Python code formatter"
+        "option_value": "An opinionated Python code formatter"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5500,19 +5500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Python utility to sort imports"
+        "option_value": "A tool that orders import statements"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5524,19 +5524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Tool for style guide enforcement"
+        "option_value": "A checker enforcing the style guide"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5548,19 +5548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 2,
-        "option_value": "Python static code analysis tool"
+        "option_value": "A static analyser for Python source"
       },
       {
         "option_id": 3,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A driver for relational databases"
       }
     ],
     "answer_id": 2,
@@ -5596,19 +5596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Package only"
+        "option_value": "It installs packages and nothing else"
       },
       {
         "option_id": 2,
-        "option_value": "Python packaging tool that brings best of pip and virtualenv"
+        "option_value": "It combines package and environment work"
       },
       {
         "option_id": 3,
-        "option_value": "Compiler"
+        "option_value": "It compiles Python source to bytecode"
       },
       {
         "option_id": 4,
-        "option_value": "Interpreter"
+        "option_value": "It executes Python source directly"
       }
     ],
     "answer_id": 2,
@@ -5620,19 +5620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Poetry library"
+        "option_value": "A library for writing verse in Python"
       },
       {
         "option_id": 2,
-        "option_value": "Python dependency management and packaging"
+        "option_value": "A tool for dependencies and packaging"
       },
       {
         "option_id": 3,
-        "option_value": "Web framework"
+        "option_value": "A framework for serving web pages"
       },
       {
         "option_id": 4,
-        "option_value": "ORM"
+        "option_value": "A mapper between objects and tables"
       }
     ],
     "answer_id": 2,
@@ -5644,19 +5644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Only Python"
+        "option_value": "It manages Python packages only"
       },
       {
         "option_id": 2,
-        "option_value": "Package, dependency and environment manager"
+        "option_value": "It manages packages and environments"
       },
       {
         "option_id": 3,
-        "option_value": "Only pip"
+        "option_value": "It is a thin wrapper around pip"
       },
       {
         "option_id": 4,
-        "option_value": "Only virtualenv"
+        "option_value": "It is a thin wrapper around virtualenv"
       }
     ],
     "answer_id": 2,
@@ -5668,19 +5668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Text editor"
+        "option_value": "A plain text editor for source code"
       },
       {
         "option_id": 2,
-        "option_value": "Web-based interactive computing environment"
+        "option_value": "A browser-based computing environment"
       },
       {
         "option_id": 3,
-        "option_value": "IDE only"
+        "option_value": "An integrated development environment"
       },
       {
         "option_id": 4,
-        "option_value": "Compiler"
+        "option_value": "A compiler that emits machine code"
       }
     ],
     "answer_id": 2,
@@ -5692,19 +5692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular Python"
+        "option_value": "The standard interpreter prompt"
       },
       {
         "option_id": 2,
-        "option_value": "Enhanced interactive Python shell"
+        "option_value": "An enhanced interactive Python shell"
       },
       {
         "option_id": 3,
-        "option_value": "Compiler"
+        "option_value": "A compiler that emits machine code"
       },
       {
         "option_id": 4,
-        "option_value": "Debugger only"
+        "option_value": "A debugger and nothing more"
       }
     ],
     "answer_id": 2,
@@ -5716,19 +5716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No impact"
+        "option_value": "Threads are entirely unaffected by it"
       },
       {
         "option_id": 2,
-        "option_value": "Only one thread executes Python bytecode at a time"
+        "option_value": "Only one thread runs bytecode at a time"
       },
       {
         "option_id": 3,
-        "option_value": "Faster threading"
+        "option_value": "Threads run faster because of it"
       },
       {
         "option_id": 4,
-        "option_value": "No threading"
+        "option_value": "Threads cannot be created at all"
       }
     ],
     "answer_id": 2,
@@ -5740,19 +5740,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Threading module"
+        "option_value": "Parallelism built on operating threads"
       },
       {
         "option_id": 2,
-        "option_value": "Process-based parallelism"
+        "option_value": "Parallelism built on separate processes"
       },
       {
         "option_id": 3,
-        "option_value": "No parallelism"
+        "option_value": "A module offering no parallelism"
       },
       {
         "option_id": 4,
-        "option_value": "Single process"
+        "option_value": "A module limited to one process"
       }
     ],
     "answer_id": 2,
@@ -5764,19 +5764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No concurrency"
+        "option_value": "A module offering no concurrency"
       },
       {
         "option_id": 2,
-        "option_value": "High-level interface for asynchronously executing callables"
+        "option_value": "A high-level runner for callables"
       },
       {
         "option_id": 3,
-        "option_value": "Low-level only"
+        "option_value": "A low-level interface to threads only"
       },
       {
         "option_id": 4,
-        "option_value": "No futures"
+        "option_value": "A module without any future objects"
       }
     ],
     "answer_id": 2,
@@ -5788,19 +5788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Process pool"
+        "option_value": "A pool of separate worker processes"
       },
       {
         "option_id": 2,
-        "option_value": "Pool of threads for executing calls asynchronously"
+        "option_value": "A pool of threads running callables"
       },
       {
         "option_id": 3,
-        "option_value": "Single thread"
+        "option_value": "A single thread handling every call"
       },
       {
         "option_id": 4,
-        "option_value": "No threads"
+        "option_value": "A pool that never creates a thread"
       }
     ],
     "answer_id": 2,
@@ -5812,19 +5812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Thread pool"
+        "option_value": "A pool of threads running callables"
       },
       {
         "option_id": 2,
-        "option_value": "Pool of processes for executing calls asynchronously"
+        "option_value": "A pool of processes running callables"
       },
       {
         "option_id": 3,
-        "option_value": "Single process"
+        "option_value": "A single process handling every call"
       },
       {
         "option_id": 4,
-        "option_value": "No processes"
+        "option_value": "A pool that never creates a process"
       }
     ],
     "answer_id": 2,
@@ -5836,19 +5836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Synchronous code"
+        "option_value": "Syntax for strictly sequential code"
       },
       {
         "option_id": 2,
-        "option_value": "Asynchronous programming syntax"
+        "option_value": "Syntax for cooperative concurrency"
       },
       {
         "option_id": 3,
-        "option_value": "Threading"
+        "option_value": "Syntax for operating-system threads"
       },
       {
         "option_id": 4,
-        "option_value": "No async"
+        "option_value": "Syntax the language does not have"
       }
     ],
     "answer_id": 2,
@@ -5860,19 +5860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Synchronous I/O"
+        "option_value": "A library for blocking file input"
       },
       {
         "option_id": 2,
-        "option_value": "Asynchronous I/O, event loop, coroutines"
+        "option_value": "A library with an event loop and tasks"
       },
       {
         "option_id": 3,
-        "option_value": "Threading"
+        "option_value": "A library built on operating threads"
       },
       {
         "option_id": 4,
-        "option_value": "No I/O"
+        "option_value": "A library offering no I/O at all"
       }
     ],
     "answer_id": 2,
@@ -5884,19 +5884,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular function"
+        "option_value": "A routine that runs straight through"
       },
       {
         "option_id": 2,
-        "option_value": "Function that can suspend and resume execution"
+        "option_value": "A routine that can pause and resume"
       },
       {
         "option_id": 3,
-        "option_value": "Thread"
+        "option_value": "A unit scheduled by the kernel"
       },
       {
         "option_id": 4,
-        "option_value": "Process"
+        "option_value": "A separate program with its own memory"
       }
     ],
     "answer_id": 2,
@@ -5908,19 +5908,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No loop"
+        "option_value": "A construct asyncio does not use"
       },
       {
         "option_id": 2,
-        "option_value": "Central execution device providing multitasking"
+        "option_value": "The scheduler that drives the tasks"
       },
       {
         "option_id": 3,
-        "option_value": "Single task"
+        "option_value": "A runner limited to one task at a time"
       },
       {
         "option_id": 4,
-        "option_value": "No async"
+        "option_value": "A construct used only for blocking I/O"
       }
     ],
     "answer_id": 2,
@@ -5932,19 +5932,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular function"
+        "option_value": "Declares an ordinary function"
       },
       {
         "option_id": 2,
-        "option_value": "Define coroutine function"
+        "option_value": "Declares a coroutine function"
       },
       {
         "option_id": 3,
-        "option_value": "Define thread"
+        "option_value": "Declares a new operating thread"
       },
       {
         "option_id": 4,
-        "option_value": "Define process"
+        "option_value": "Declares a new operating process"
       }
     ],
     "answer_id": 2,
@@ -5956,19 +5956,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No waiting"
+        "option_value": "It has no effect at all on flow"
       },
       {
         "option_id": 2,
-        "option_value": "Suspend coroutine until awaitable completes"
+        "option_value": "Suspends until the awaitable finishes"
       },
       {
         "option_id": 3,
-        "option_value": "Block thread"
+        "option_value": "Blocks the entire thread until done"
       },
       {
         "option_id": 4,
-        "option_value": "No async"
+        "option_value": "Skips the expression it is applied to"
       }
     ],
     "answer_id": 2,
@@ -5980,19 +5980,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Any object"
+        "option_value": "Any object at all can be awaited"
       },
       {
         "option_id": 2,
-        "option_value": "Object with __await__ method (coroutine, task, future)"
+        "option_value": "An object supplying an __await__ method"
       },
       {
         "option_id": 3,
-        "option_value": "Only coroutine"
+        "option_value": "Only a coroutine can ever be awaited"
       },
       {
         "option_id": 4,
-        "option_value": "Only function"
+        "option_value": "Only a plain function can be awaited"
       }
     ],
     "answer_id": 2,
