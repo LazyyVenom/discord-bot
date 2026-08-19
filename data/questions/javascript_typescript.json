@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Standard property"
+        "option_value": "A standard, spec-recommended property"
       },
       {
         "option_id": 2,
-        "option_value": "Non-standard way to access object's prototype"
+        "option_value": "A legacy accessor for an object's prototype"
       },
       {
         "option_id": 3,
-        "option_value": "Constructor"
+        "option_value": "The function that constructed the object"
       },
       {
         "option_id": 4,
-        "option_value": "Method"
+        "option_value": "A method copied onto every new instance"
       }
     ],
     "answer_id": 2,
@@ -796,19 +796,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Object prototype"
+        "option_value": "The prototype of the function object itself"
       },
       {
         "option_id": 2,
-        "option_value": "Prototype object for instances created by constructor"
+        "option_value": "The prototype given to instances it creates"
       },
       {
         "option_id": 3,
-        "option_value": "Function code"
+        "option_value": "The source text of the function body"
       },
       {
         "option_id": 4,
-        "option_value": "No property"
+        "option_value": "A property that functions do not have"
       }
     ],
     "answer_id": 2,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Create variable"
+        "option_value": "Declares a variable in the current scope"
       },
       {
         "option_id": 2,
-        "option_value": "Create new object with specified prototype"
+        "option_value": "Makes an object with the prototype you give"
       },
       {
         "option_id": 3,
-        "option_value": "Create class"
+        "option_value": "Defines a class and its constructor"
       },
       {
         "option_id": 4,
-        "option_value": "Create array"
+        "option_value": "Allocates an array of a given length"
       }
     ],
     "answer_id": 2,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Create object"
+        "option_value": "Builds a brand-new empty object"
       },
       {
         "option_id": 2,
-        "option_value": "Copy enumerable own properties to target object"
+        "option_value": "Copies own enumerable props onto a target"
       },
       {
         "option_id": 3,
-        "option_value": "Delete properties"
+        "option_value": "Deletes the listed properties from a target"
       },
       {
         "option_id": 4,
-        "option_value": "Merge arrays"
+        "option_value": "Concatenates two arrays into a new one"
       }
     ],
     "answer_id": 2,
@@ -868,19 +868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Get values"
+        "option_value": "An array of the object's own values"
       },
       {
         "option_id": 2,
-        "option_value": "Return array of object's own property names"
+        "option_value": "An array of the object's own property names"
       },
       {
         "option_id": 3,
-        "option_value": "Get prototype"
+        "option_value": "The prototype the object inherits from"
       },
       {
         "option_id": 4,
-        "option_value": "Get methods"
+        "option_value": "An array of the object's method names"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Get keys"
+        "option_value": "An array of the object's own property keys"
       },
       {
         "option_id": 2,
-        "option_value": "Return array of object's own property values"
+        "option_value": "An array of the object's own property values"
       },
       {
         "option_id": 3,
-        "option_value": "Get entries"
+        "option_value": "An array of key and value pair arrays"
       },
       {
         "option_id": 4,
-        "option_value": "Get prototype"
+        "option_value": "The prototype object it inherits from"
       }
     ],
     "answer_id": 2,
@@ -916,19 +916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Get keys"
+        "option_value": "An array of the object's own keys"
       },
       {
         "option_id": 2,
-        "option_value": "Return array of [key, value] pairs"
+        "option_value": "An array of key and value pair arrays"
       },
       {
         "option_id": 3,
-        "option_value": "Get values"
+        "option_value": "An array of the object's own values"
       },
       {
         "option_id": 4,
-        "option_value": "Get prototype"
+        "option_value": "The prototype the object inherits from"
       }
     ],
     "answer_id": 2,
@@ -940,19 +940,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Check prototype"
+        "option_value": "Whether the prototype defines the property"
       },
       {
         "option_id": 2,
-        "option_value": "Check if property is object's own property"
+        "option_value": "Whether the object itself defines it directly"
       },
       {
         "option_id": 3,
-        "option_value": "Check value"
+        "option_value": "Whether the property holds a truthy value"
       },
       {
         "option_id": 4,
-        "option_value": "Check type"
+        "option_value": "Whether the property has a given type"
       }
     ],
     "answer_id": 2,
@@ -964,19 +964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Check type"
+        "option_value": "Whether a value has a given primitive type"
       },
       {
         "option_id": 2,
-        "option_value": "Check if object is instance of constructor"
+        "option_value": "Whether a constructor appears in the chain"
       },
       {
         "option_id": 3,
-        "option_value": "Check equality"
+        "option_value": "Whether two values are strictly equal"
       },
       {
         "option_id": 4,
-        "option_value": "Check prototype"
+        "option_value": "Whether a property exists on the object"
       }
     ],
     "answer_id": 2,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Check value"
+        "option_value": "Whether a value equals some other value"
       },
       {
         "option_id": 2,
-        "option_value": "Check if property exists in object"
+        "option_value": "Whether a property is reachable on an object"
       },
       {
         "option_id": 3,
-        "option_value": "Check type"
+        "option_value": "Whether a value belongs to a given type"
       },
       {
         "option_id": 4,
-        "option_value": "Check equality"
+        "option_value": "Whether two objects share one prototype"
       }
     ],
     "answer_id": 2,
@@ -1012,19 +1012,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No destructuring"
+        "option_value": "A way to build new objects concisely"
       },
       {
         "option_id": 2,
-        "option_value": "Extracting values from arrays/objects into variables"
+        "option_value": "Pulling values out of arrays or objects"
       },
       {
         "option_id": 3,
-        "option_value": "Creating objects"
+        "option_value": "A way to merge two objects together"
       },
       {
         "option_id": 4,
-        "option_value": "Merging objects"
+        "option_value": "A way to freeze an object's shape"
       }
     ],
     "answer_id": 2,
@@ -1036,19 +1036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Object destructuring"
+        "option_value": "Pulling named properties out of an object"
       },
       {
         "option_id": 2,
-        "option_value": "Extracting array elements into variables"
+        "option_value": "Pulling elements out of an array by position"
       },
       {
         "option_id": 3,
-        "option_value": "No destructuring"
+        "option_value": "A way to build arrays from other arrays"
       },
       {
         "option_id": 4,
-        "option_value": "Creating arrays"
+        "option_value": "A way to sort an array in place"
       }
     ],
     "answer_id": 2,
@@ -1060,19 +1060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Array destructuring"
+        "option_value": "Pulling elements out of an array by position"
       },
       {
         "option_id": 2,
-        "option_value": "Extracting object properties into variables"
+        "option_value": "Pulling named properties out of an object"
       },
       {
         "option_id": 3,
-        "option_value": "No destructuring"
+        "option_value": "A way to build objects from other objects"
       },
       {
         "option_id": 4,
-        "option_value": "Creating objects"
+        "option_value": "A way to freeze an object's shape"
       }
     ],
     "answer_id": 2,
@@ -1084,19 +1084,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Rest operator"
+        "option_value": "Gathers leftover arguments into an array"
       },
       {
         "option_id": 2,
-        "option_value": "Expands iterable/object into individual elements"
+        "option_value": "Expands an iterable into separate elements"
       },
       {
         "option_id": 3,
-        "option_value": "Multiplication"
+        "option_value": "Multiplies each element by a given factor"
       },
       {
         "option_id": 4,
-        "option_value": "No operator"
+        "option_value": "Marks a parameter as being optional"
       }
     ],
     "answer_id": 2,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Spread operator"
+        "option_value": "Expands an iterable into separate elements"
       },
       {
         "option_id": 2,
-        "option_value": "Collects remaining arguments into array"
+        "option_value": "Gathers leftover arguments into an array"
       },
       {
         "option_id": 3,
-        "option_value": "No parameter"
+        "option_value": "Marks a parameter as being optional"
       },
       {
         "option_id": 4,
-        "option_value": "Optional parameter"
+        "option_value": "Gives a parameter a fallback value"
       }
     ],
     "answer_id": 2,
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "They are two names for one operator"
       },
       {
         "option_id": 2,
-        "option_value": "Spread expands, rest collects"
+        "option_value": "Spread expands out, rest gathers in"
       },
       {
         "option_id": 3,
-        "option_value": "Rest expands"
+        "option_value": "Rest expands out, spread gathers in"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "Spread works on arrays, rest on objects"
       }
     ],
     "answer_id": 2,
@@ -1156,19 +1156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No default"
+        "option_value": "A parameter the caller must always supply"
       },
       {
         "option_id": 2,
-        "option_value": "Parameter with default value if not provided"
+        "option_value": "A parameter with a fallback when omitted"
       },
       {
         "option_id": 3,
-        "option_value": "Required parameter"
+        "option_value": "A parameter that gathers the leftovers"
       },
       {
         "option_id": 4,
-        "option_value": "Rest parameter"
+        "option_value": "A parameter whose type is inferred"
       }
     ],
     "answer_id": 2,
@@ -1180,19 +1180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular string"
+        "option_value": "A plain string in single or double quotes"
       },
       {
         "option_id": 2,
-        "option_value": "String with embedded expressions using backticks"
+        "option_value": "A backtick string with embedded expressions"
       },
       {
         "option_id": 3,
-        "option_value": "JSON string"
+        "option_value": "A string holding serialised JSON data"
       },
       {
         "option_id": 4,
-        "option_value": "Regex"
+        "option_value": "A string describing a regular expression"
       }
     ],
     "answer_id": 2,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular template"
+        "option_value": "A template literal with no substitutions"
       },
       {
         "option_id": 2,
-        "option_value": "Function call with template literal parts"
+        "option_value": "A function invoked with the template parts"
       },
       {
         "option_id": 3,
-        "option_value": "No tagging"
+        "option_value": "A literal whose type is tagged at compile"
       },
       {
         "option_id": 4,
-        "option_value": "JSON template"
+        "option_value": "A template stored inside a JSON file"
       }
     ],
     "answer_id": 2,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Synchronous code"
+        "option_value": "A value produced by synchronous code"
       },
       {
         "option_id": 2,
-        "option_value": "Object representing eventual completion/failure of async operation"
+        "option_value": "An object standing for a future result"
       },
       {
         "option_id": 3,
-        "option_value": "Callback function"
+        "option_value": "A function passed in to be called later"
       },
       {
         "option_id": 4,
-        "option_value": "Synchronous function"
+        "option_value": "A function that blocks until it finishes"
       }
     ],
     "answer_id": 2,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One state"
+        "option_value": "A single state that never changes"
       },
       {
         "option_id": 2,
-        "option_value": "Pending, Fulfilled, Rejected"
+        "option_value": "Pending, fulfilled and rejected"
       },
       {
         "option_id": 3,
-        "option_value": "True/False"
+        "option_value": "Only true and false, like a boolean"
       },
       {
         "option_id": 4,
-        "option_value": "Success/Failure"
+        "option_value": "Only success and failure, with no third"
       }
     ],
     "answer_id": 2,
@@ -1276,19 +1276,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Catch errors"
+        "option_value": "Runs when the promise is rejected"
       },
       {
         "option_id": 2,
-        "option_value": "Handle fulfilled promise"
+        "option_value": "Runs when the promise is fulfilled"
       },
       {
         "option_id": 3,
-        "option_value": "Create promise"
+        "option_value": "Creates a promise from a plain value"
       },
       {
         "option_id": 4,
-        "option_value": "Reject promise"
+        "option_value": "Rejects the promise it is called on"
       }
     ],
     "answer_id": 2,
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Handle success"
+        "option_value": "Runs when the promise is fulfilled"
       },
       {
         "option_id": 2,
-        "option_value": "Handle rejected promise"
+        "option_value": "Runs when the promise is rejected"
       },
       {
         "option_id": 3,
-        "option_value": "Create promise"
+        "option_value": "Creates a promise from a plain value"
       },
       {
         "option_id": 4,
-        "option_value": "Chain promises"
+        "option_value": "Joins two promises into a sequence"
       }
     ],
     "answer_id": 2,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Handle success"
+        "option_value": "Runs only when the promise fulfils"
       },
       {
         "option_id": 2,
-        "option_value": "Execute regardless of promise fate"
+        "option_value": "Runs whichever way the promise settles"
       },
       {
         "option_id": 3,
-        "option_value": "Handle rejection only"
+        "option_value": "Runs only when the promise rejects"
       },
       {
         "option_id": 4,
-        "option_value": "Create promise"
+        "option_value": "Creates a promise from a plain value"
       }
     ],
     "answer_id": 2,
@@ -1348,19 +1348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single promise"
+        "option_value": "Settles as soon as the first one does"
       },
       {
         "option_id": 2,
-        "option_value": "Returns promise when all promises resolve"
+        "option_value": "Fulfils once every promise has fulfilled"
       },
       {
         "option_id": 3,
-        "option_value": "Race promises"
+        "option_value": "Rejects only when all of them reject"
       },
       {
         "option_id": 4,
-        "option_value": "Chain promises"
+        "option_value": "Runs the promises strictly in sequence"
       }
     ],
     "answer_id": 2,
@@ -1372,19 +1372,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All promises"
+        "option_value": "Fulfils once every promise has fulfilled"
       },
       {
         "option_id": 2,
-        "option_value": "Returns promise when first promise settles"
+        "option_value": "Settles as soon as the first one settles"
       },
       {
         "option_id": 3,
-        "option_value": "Chain promises"
+        "option_value": "Waits for all of them to settle first"
       },
       {
         "option_id": 4,
-        "option_value": "Create promise"
+        "option_value": "Runs the promises strictly in sequence"
       }
     ],
     "answer_id": 2,
@@ -1396,19 +1396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All resolve"
+        "option_value": "Rejects the moment any one rejects"
       },
       {
         "option_id": 2,
-        "option_value": "Returns when all promises settle (resolve or reject)"
+        "option_value": "Waits for every promise to settle either way"
       },
       {
         "option_id": 3,
-        "option_value": "Race promises"
+        "option_value": "Settles as soon as the first one settles"
       },
       {
         "option_id": 4,
-        "option_value": "Chain promises"
+        "option_value": "Runs the promises strictly in sequence"
       }
     ],
     "answer_id": 2,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Synchronous function"
+        "option_value": "A function that runs entirely synchronously"
       },
       {
         "option_id": 2,
-        "option_value": "Function that returns a Promise"
+        "option_value": "A function that always returns a promise"
       },
       {
         "option_id": 3,
-        "option_value": "Regular function"
+        "option_value": "A function that cannot be awaited at all"
       },
       {
         "option_id": 4,
-        "option_value": "Callback function"
+        "option_value": "A function passed in as a plain callback"
       }
     ],
     "answer_id": 2,
@@ -1444,19 +1444,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No waiting"
+        "option_value": "Has no effect outside of loops"
       },
       {
         "option_id": 2,
-        "option_value": "Pauses async function until Promise settles"
+        "option_value": "Suspends the function until it settles"
       },
       {
         "option_id": 3,
-        "option_value": "Block thread"
+        "option_value": "Blocks the whole thread until it settles"
       },
       {
         "option_id": 4,
-        "option_value": "Skip execution"
+        "option_value": "Skips the expression it is applied to"
       }
     ],
     "answer_id": 2,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "They are unrelated language features"
       },
       {
         "option_id": 2,
-        "option_value": "async/await is syntactic sugar over Promises"
+        "option_value": "async/await is sugar over promises"
       },
       {
         "option_id": 3,
-        "option_value": "Different concepts"
+        "option_value": "Promises are sugar over async/await"
       },
       {
         "option_id": 4,
-        "option_value": "No relation"
+        "option_value": "async/await replaced promises entirely"
       }
     ],
     "answer_id": 2,
@@ -1492,19 +1492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Synchronous function"
+        "option_value": "A function that only runs synchronously"
       },
       {
         "option_id": 2,
-        "option_value": "Function passed as argument to another function"
+        "option_value": "A function handed to another to be called"
       },
       {
         "option_id": 3,
-        "option_value": "Async only"
+        "option_value": "A function that can only be async"
       },
       {
         "option_id": 4,
-        "option_value": "No callback"
+        "option_value": "A function with no arguments at all"
       }
     ],
     "answer_id": 2,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Good pattern"
+        "option_value": "A recommended pattern for async work"
       },
       {
         "option_id": 2,
-        "option_value": "Nested callbacks making code hard to read"
+        "option_value": "Deeply nested callbacks that resist reading"
       },
       {
         "option_id": 3,
-        "option_value": "No callbacks"
+        "option_value": "Code that avoids callbacks entirely"
       },
       {
         "option_id": 4,
-        "option_value": "Simple pattern"
+        "option_value": "A callback that never gets invoked at all"
       }
     ],
     "answer_id": 2,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More callbacks"
+        "option_value": "Add more layers of nested callbacks"
       },
       {
         "option_id": 2,
-        "option_value": "Use Promises or async/await"
+        "option_value": "Use promises or async/await instead"
       },
       {
         "option_id": 3,
-        "option_value": "No solution"
+        "option_value": "Rewrite everything to run synchronously"
       },
       {
         "option_id": 4,
-        "option_value": "Synchronous code"
+        "option_value": "Nothing can be done about it"
       }
     ],
     "answer_id": 2,
@@ -1564,19 +1564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No loop"
+        "option_value": "A loop that never terminates by design"
       },
       {
         "option_id": 2,
-        "option_value": "Mechanism for handling async operations"
+        "option_value": "What schedules queued work onto the stack"
       },
       {
         "option_id": 3,
-        "option_value": "Synchronous loop"
+        "option_value": "A loop that runs strictly synchronously"
       },
       {
         "option_id": 4,
-        "option_value": "Infinite loop"
+        "option_value": "A construct that JavaScript does not have"
       }
     ],
     "answer_id": 2,
@@ -1588,19 +1588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Event queue"
+        "option_value": "The queue holding pending callbacks"
       },
       {
         "option_id": 2,
-        "option_value": "Stack tracking function execution"
+        "option_value": "The stack tracking in-progress calls"
       },
       {
         "option_id": 3,
-        "option_value": "Memory heap"
+        "option_value": "The heap where objects are allocated"
       },
       {
         "option_id": 4,
-        "option_value": "No stack"
+        "option_value": "A structure JavaScript does not use"
       }
     ],
     "answer_id": 2,
@@ -1612,19 +1612,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Call stack"
+        "option_value": "The stack tracking in-progress calls"
       },
       {
         "option_id": 2,
-        "option_value": "Queue for macrotasks (setTimeout, I/O)"
+        "option_value": "The queue holding timers and I/O callbacks"
       },
       {
         "option_id": 3,
-        "option_value": "Microtask queue"
+        "option_value": "The queue holding settled promise jobs"
       },
       {
         "option_id": 4,
-        "option_value": "No queue"
+        "option_value": "A structure JavaScript does not use"
       }
     ],
     "answer_id": 2,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Macrotask queue"
+        "option_value": "The queue holding timers and I/O callbacks"
       },
       {
         "option_id": 2,
-        "option_value": "Queue for microtasks (Promises, queueMicrotask)"
+        "option_value": "The queue holding settled promise jobs"
       },
       {
         "option_id": 3,
-        "option_value": "Call stack"
+        "option_value": "The stack tracking in-progress calls"
       },
       {
         "option_id": 4,
-        "option_value": "No queue"
+        "option_value": "A structure JavaScript does not use"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Macrotasks"
+        "option_value": "Macrotasks always run before microtasks"
       },
       {
         "option_id": 2,
-        "option_value": "Microtasks execute before next macrotask"
+        "option_value": "Microtasks drain before the next macrotask"
       },
       {
         "option_id": 3,
-        "option_value": "Same time"
+        "option_value": "They are interleaved one for one"
       },
       {
         "option_id": 4,
-        "option_value": "Random"
+        "option_value": "The order is not defined by the spec"
       }
     ],
     "answer_id": 2,
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Immediate execution"
+        "option_value": "Runs the function straight away, inline"
       },
       {
         "option_id": 2,
-        "option_value": "Executes function after specified delay"
+        "option_value": "Runs the function once after a delay"
       },
       {
         "option_id": 3,
-        "option_value": "Synchronous delay"
+        "option_value": "Blocks the thread for the given delay"
       },
       {
         "option_id": 4,
-        "option_value": "No delay"
+        "option_value": "Runs the function on every repaint"
       }
     ],
     "answer_id": 2,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single execution"
+        "option_value": "Runs the function exactly once, later"
       },
       {
         "option_id": 2,
-        "option_value": "Repeatedly executes function with fixed delay"
+        "option_value": "Runs the function repeatedly on a delay"
       },
       {
         "option_id": 3,
-        "option_value": "Immediate execution"
+        "option_value": "Runs the function straight away, inline"
       },
       {
         "option_id": 4,
-        "option_value": "No execution"
+        "option_value": "Runs the function on every repaint"
       }
     ],
     "answer_id": 2,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Start timeout"
+        "option_value": "Schedules a new one-shot timer"
       },
       {
         "option_id": 2,
-        "option_value": "Cancels timeout set by setTimeout"
+        "option_value": "Cancels a timer made by setTimeout"
       },
       {
         "option_id": 3,
-        "option_value": "Create interval"
+        "option_value": "Schedules a new repeating timer"
       },
       {
         "option_id": 4,
-        "option_value": "Clear interval"
+        "option_value": "Cancels a timer made by setInterval"
       }
     ],
     "answer_id": 2,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Start interval"
+        "option_value": "Schedules a new repeating timer"
       },
       {
         "option_id": 2,
-        "option_value": "Cancels interval set by setInterval"
+        "option_value": "Cancels a timer made by setInterval"
       },
       {
         "option_id": 3,
-        "option_value": "Create timeout"
+        "option_value": "Schedules a new one-shot timer"
       },
       {
         "option_id": 4,
-        "option_value": "Clear timeout"
+        "option_value": "Cancels a timer made by setTimeout"
       }
     ],
     "answer_id": 2,
@@ -1780,19 +1780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Set timeout"
+        "option_value": "Schedules a callback after a fixed delay"
       },
       {
         "option_id": 2,
-        "option_value": "Tells browser to perform animation before repaint"
+        "option_value": "Schedules a callback before the next repaint"
       },
       {
         "option_id": 3,
-        "option_value": "Set interval"
+        "option_value": "Schedules a callback on a repeating timer"
       },
       {
         "option_id": 4,
-        "option_value": "No animation"
+        "option_value": "Has no effect on animation timing"
       }
     ],
     "answer_id": 2,
@@ -1804,19 +1804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "jQuery method"
+        "option_value": "A helper method provided by jQuery"
       },
       {
         "option_id": 2,
-        "option_value": "Modern interface for fetching resources"
+        "option_value": "A promise-based interface for HTTP requests"
       },
       {
         "option_id": 3,
-        "option_value": "XMLHttpRequest"
+        "option_value": "The older XMLHttpRequest under a new name"
       },
       {
         "option_id": 4,
-        "option_value": "No API"
+        "option_value": "A feature browsers have not shipped"
       }
     ],
     "answer_id": 2,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data directly"
+        "option_value": "The parsed body of the response directly"
       },
       {
         "option_id": 2,
-        "option_value": "Promise that resolves to Response"
+        "option_value": "A promise resolving to a Response object"
       },
       {
         "option_id": 3,
-        "option_value": "Callback"
+        "option_value": "A callback invoked once data arrives"
       },
       {
         "option_id": 4,
-        "option_value": "XML"
+        "option_value": "An XML document parsed from the body"
       }
     ],
     "answer_id": 2,
@@ -1852,19 +1852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Returns string"
+        "option_value": "The response body as a raw string"
       },
       {
         "option_id": 2,
-        "option_value": "Returns Promise resolving to parsed JSON"
+        "option_value": "A promise resolving to the parsed body"
       },
       {
         "option_id": 3,
-        "option_value": "Returns object"
+        "option_value": "The parsed body returned synchronously"
       },
       {
         "option_id": 4,
-        "option_value": "Returns array"
+        "option_value": "An array of the response header pairs"
       }
     ],
     "answer_id": 2,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Modern API"
+        "option_value": "The current, promise-based request API"
       },
       {
         "option_id": 2,
-        "option_value": "Legacy API for HTTP requests"
+        "option_value": "The older callback-based request API"
       },
       {
         "option_id": 3,
-        "option_value": "Fetch API"
+        "option_value": "A newer alias for the fetch function"
       },
       {
         "option_id": 4,
-        "option_value": "No API"
+        "option_value": "An API that browsers never shipped"
       }
     ],
     "answer_id": 2,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Server storage"
+        "option_value": "Storage kept on the origin server"
       },
       {
         "option_id": 2,
-        "option_value": "Web storage for persistent data"
+        "option_value": "Browser storage that survives restarts"
       },
       {
         "option_id": 3,
-        "option_value": "Session storage"
+        "option_value": "Browser storage cleared when the tab closes"
       },
       {
         "option_id": 4,
-        "option_value": "Cookie"
+        "option_value": "A small value sent with every request"
       }
     ],
     "answer_id": 2,
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Persistent storage"
+        "option_value": "Browser storage that survives restarts"
       },
       {
         "option_id": 2,
-        "option_value": "Web storage for session-only data"
+        "option_value": "Browser storage cleared when the tab closes"
       },
       {
         "option_id": 3,
-        "option_value": "Local storage"
+        "option_value": "Storage kept on the origin server"
       },
       {
         "option_id": 4,
-        "option_value": "Cookie"
+        "option_value": "A small value sent with every request"
       }
     ],
     "answer_id": 2,
@@ -1948,19 +1948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "They behave identically in every browser"
       },
       {
         "option_id": 2,
-        "option_value": "localStorage persists, sessionStorage cleared on session end"
+        "option_value": "local survives restarts; session does not"
       },
       {
         "option_id": 3,
-        "option_value": "sessionStorage persists"
+        "option_value": "session survives restarts; local does not"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "local is per-tab; session is per-origin"
       }
     ],
     "answer_id": 2,
@@ -1972,19 +1972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Local storage"
+        "option_value": "Storage the browser keeps entirely offline"
       },
       {
         "option_id": 2,
-        "option_value": "Small data stored on client sent with HTTP requests"
+        "option_value": "A small value sent with matching requests"
       },
       {
         "option_id": 3,
-        "option_value": "Session storage"
+        "option_value": "A store cleared when the tab is closed"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A database managed by the browser engine"
       }
     ],
     "answer_id": 2,
@@ -1996,19 +1996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Window object"
+        "option_value": "The object representing the browser tab"
       },
       {
         "option_id": 2,
-        "option_value": "Root node of HTML document"
+        "option_value": "The root node of the loaded HTML tree"
       },
       {
         "option_id": 3,
-        "option_value": "Body element"
+        "option_value": "The body element of the current page"
       },
       {
         "option_id": 4,
-        "option_value": "Head element"
+        "option_value": "The head element of the current page"
       }
     ],
     "answer_id": 2,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Document"
+        "option_value": "The root node of the loaded HTML tree"
       },
       {
         "option_id": 2,
-        "option_value": "Global object representing browser window"
+        "option_value": "The global object for the browser tab"
       },
       {
         "option_id": 3,
-        "option_value": "Body element"
+        "option_value": "The body element of the current page"
       },
       {
         "option_id": 4,
-        "option_value": "Head element"
+        "option_value": "The head element of the current page"
       }
     ],
     "answer_id": 2,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "JavaScript engine"
+        "option_value": "The engine that executes JavaScript"
       },
       {
         "option_id": 2,
-        "option_value": "Document Object Model - tree structure of HTML"
+        "option_value": "A tree of objects representing the page"
       },
       {
         "option_id": 3,
-        "option_value": "Browser API"
+        "option_value": "A collection of browser-only functions"
       },
       {
         "option_id": 4,
-        "option_value": "Style sheet"
+        "option_value": "A set of rules describing page styling"
       }
     ],
     "answer_id": 2,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Get by class"
+        "option_value": "Finds elements sharing a class name"
       },
       {
         "option_id": 2,
-        "option_value": "Get element by its id attribute"
+        "option_value": "Finds the element with a given id"
       },
       {
         "option_id": 3,
-        "option_value": "Get by tag"
+        "option_value": "Finds every element with a given tag"
       },
       {
         "option_id": 4,
-        "option_value": "Get by name"
+        "option_value": "Finds elements by their name attribute"
       }
     ],
     "answer_id": 2,
@@ -2092,19 +2092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Get all elements"
+        "option_value": "Returns every element that matches"
       },
       {
         "option_id": 2,
-        "option_value": "Get first element matching CSS selector"
+        "option_value": "Returns the first element that matches"
       },
       {
         "option_id": 3,
-        "option_value": "Get by id"
+        "option_value": "Only ever matches on an id selector"
       },
       {
         "option_id": 4,
-        "option_value": "Get by class"
+        "option_value": "Only ever matches on a class selector"
       }
     ],
     "answer_id": 2,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Get first element"
+        "option_value": "Returns the first element that matches"
       },
       {
         "option_id": 2,
-        "option_value": "Get all elements matching CSS selector"
+        "option_value": "Returns every element that matches"
       },
       {
         "option_id": 3,
-        "option_value": "Get by id"
+        "option_value": "Only ever matches on an id selector"
       },
       {
         "option_id": 4,
-        "option_value": "Get by class"
+        "option_value": "Only ever matches on a class selector"
       }
     ],
     "answer_id": 2,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Remove event"
+        "option_value": "Detaches a handler from an element"
       },
       {
         "option_id": 2,
-        "option_value": "Attach event handler to element"
+        "option_value": "Attaches a handler to an element"
       },
       {
         "option_id": 3,
-        "option_value": "Create event"
+        "option_value": "Constructs a new event object"
       },
       {
         "option_id": 4,
-        "option_value": "Trigger event"
+        "option_value": "Fires an event on an element now"
       }
     ],
     "answer_id": 2,
@@ -2164,19 +2164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Add event"
+        "option_value": "Attaches a handler to an element"
       },
       {
         "option_id": 2,
-        "option_value": "Remove event handler from element"
+        "option_value": "Detaches a handler from an element"
       },
       {
         "option_id": 3,
-        "option_value": "Create event"
+        "option_value": "Constructs a new event object"
       },
       {
         "option_id": 4,
-        "option_value": "Trigger event"
+        "option_value": "Fires an event on an element now"
       }
     ],
     "answer_id": 2,
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No bubbling"
+        "option_value": "Events never travel beyond the target"
       },
       {
         "option_id": 2,
-        "option_value": "Event propagates from target up to ancestors"
+        "option_value": "Events travel from the target up to the root"
       },
       {
         "option_id": 3,
-        "option_value": "Event stops"
+        "option_value": "Events travel from the root down to target"
       },
       {
         "option_id": 4,
-        "option_value": "Event down"
+        "option_value": "Events fire on every element at once"
       }
     ],
     "answer_id": 2,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No capturing"
+        "option_value": "Events never travel beyond the target"
       },
       {
         "option_id": 2,
-        "option_value": "Event propagates from ancestors down to target"
+        "option_value": "Events travel from the root down to target"
       },
       {
         "option_id": 3,
-        "option_value": "Event up"
+        "option_value": "Events travel from the target up to root"
       },
       {
         "option_id": 4,
-        "option_value": "Event stops"
+        "option_value": "Events fire on every element at once"
       }
     ],
     "answer_id": 2,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct binding"
+        "option_value": "Binding one handler to every child"
       },
       {
         "option_id": 2,
-        "option_value": "Using single listener on parent for child events"
+        "option_value": "Binding one handler on a shared ancestor"
       },
       {
         "option_id": 3,
-        "option_value": "No delegation"
+        "option_value": "Binding several handlers to one child"
       },
       {
         "option_id": 4,
-        "option_value": "Multiple listeners"
+        "option_value": "Binding handlers only after page load"
       }
     ],
     "answer_id": 2,
@@ -2260,19 +2260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Stop propagation"
+        "option_value": "Stops the event travelling any further"
       },
       {
         "option_id": 2,
-        "option_value": "Prevent default browser action"
+        "option_value": "Stops the browser's built-in reaction"
       },
       {
         "option_id": 3,
-        "option_value": "Trigger default"
+        "option_value": "Forces the built-in reaction to happen"
       },
       {
         "option_id": 4,
-        "option_value": "No effect"
+        "option_value": "Has no effect on modern browsers"
       }
     ],
     "answer_id": 2,
@@ -2284,19 +2284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Prevent default"
+        "option_value": "Stops the browser's built-in reaction"
       },
       {
         "option_id": 2,
-        "option_value": "Stop event bubbling/capturing"
+        "option_value": "Stops the event travelling any further"
       },
       {
         "option_id": 3,
-        "option_value": "Trigger event"
+        "option_value": "Fires the same event again immediately"
       },
       {
         "option_id": 4,
-        "option_value": "No effect"
+        "option_value": "Has no effect on modern browsers"
       }
     ],
     "answer_id": 2,
@@ -2308,19 +2308,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "JavaScript function"
+        "option_value": "A built-in JavaScript function name"
       },
       {
         "option_id": 2,
-        "option_value": "Lightweight data interchange format"
+        "option_value": "A lightweight text format for data"
       },
       {
         "option_id": 3,
-        "option_value": "JavaScript method"
+        "option_value": "A method available on every object"
       },
       {
         "option_id": 4,
-        "option_value": "XML format"
+        "option_value": "A markup language based on tags"
       }
     ],
     "answer_id": 2,
@@ -2332,19 +2332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Stringify object"
+        "option_value": "Turns a value into a JSON string"
       },
       {
         "option_id": 2,
-        "option_value": "Parse JSON string to JavaScript object"
+        "option_value": "Turns a JSON string into a value"
       },
       {
         "option_id": 3,
-        "option_value": "Create JSON"
+        "option_value": "Builds a JSON document from scratch"
       },
       {
         "option_id": 4,
-        "option_value": "Validate JSON"
+        "option_value": "Checks whether a string is valid JSON"
       }
     ],
     "answer_id": 2,
@@ -2356,19 +2356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Parse JSON"
+        "option_value": "Turns a JSON string into a value"
       },
       {
         "option_id": 2,
-        "option_value": "Convert JavaScript object to JSON string"
+        "option_value": "Turns a value into a JSON string"
       },
       {
         "option_id": 3,
-        "option_value": "Create object"
+        "option_value": "Builds an object from a plain string"
       },
       {
         "option_id": 4,
-        "option_value": "Parse string"
+        "option_value": "Checks whether a string is valid JSON"
       }
     ],
     "answer_id": 2,
@@ -2380,19 +2380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Old JavaScript"
+        "option_value": "The very first version of the language"
       },
       {
         "option_id": 2,
-        "option_value": "Major JavaScript update in 2015"
+        "option_value": "A large revision released in 2015"
       },
       {
         "option_id": 3,
-        "option_value": "Browser API"
+        "option_value": "A browser-specific set of extensions"
       },
       {
         "option_id": 4,
-        "option_value": "Framework"
+        "option_value": "A framework layered on the language"
       }
     ],
     "answer_id": 2,
@@ -2404,19 +2404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "CommonJS"
+        "option_value": "Node's original require-based system"
       },
       {
         "option_id": 2,
-        "option_value": "Standard JavaScript module system"
+        "option_value": "The language's own module system"
       },
       {
         "option_id": 3,
-        "option_value": "AMD"
+        "option_value": "An older loader for browser scripts"
       },
       {
         "option_id": 4,
-        "option_value": "No modules"
+        "option_value": "A wrapper covering several systems"
       }
     ],
     "answer_id": 2,
@@ -2428,19 +2428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "ESModule"
+        "option_value": "The language's own module system"
       },
       {
         "option_id": 2,
-        "option_value": "Module system used in Node.js (require/module.exports)"
+        "option_value": "Node's original require-based system"
       },
       {
         "option_id": 3,
-        "option_value": "AMD"
+        "option_value": "An older loader for browser scripts"
       },
       {
         "option_id": 4,
-        "option_value": "UMD"
+        "option_value": "A wrapper covering several systems"
       }
     ],
     "answer_id": 2,
@@ -2452,19 +2452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "The two are interchangeable in Node"
       },
       {
         "option_id": 2,
-        "option_value": "import is ES6 static, require is CommonJS dynamic"
+        "option_value": "import is static; require runs at call time"
       },
       {
         "option_id": 3,
-        "option_value": "require is ES6"
+        "option_value": "require is static; import runs at call time"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "import works only inside browsers"
       }
     ],
     "answer_id": 2,
@@ -2476,19 +2476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular function"
+        "option_value": "A function declared with the function word"
       },
       {
         "option_id": 2,
-        "option_value": "Concise function syntax with lexical this"
+        "option_value": "A short syntax that inherits outer this"
       },
       {
         "option_id": 3,
-        "option_value": "Generator"
+        "option_value": "A function that can pause and resume"
       },
       {
         "option_id": 4,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       }
     ],
     "answer_id": 2,
@@ -2500,19 +2500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "True class"
+        "option_value": "A true class as found in Java or C#"
       },
       {
         "option_id": 2,
-        "option_value": "Syntactic sugar over prototype-based inheritance"
+        "option_value": "Sugar over the prototype-based model"
       },
       {
         "option_id": 3,
-        "option_value": "Interface"
+        "option_value": "A contract listing required methods"
       },
       {
         "option_id": 4,
-        "option_value": "Abstract class"
+        "option_value": "A type that cannot be instantiated"
       }
     ],
     "answer_id": 2,
@@ -2524,19 +2524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular method"
+        "option_value": "An ordinary method with a special name"
       },
       {
         "option_id": 2,
-        "option_value": "Special method for creating/initializing object"
+        "option_value": "The method run when an instance is made"
       },
       {
         "option_id": 3,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       },
       {
         "option_id": 4,
-        "option_value": "Getter"
+        "option_value": "A method that reads a property value"
       }
     ],
     "answer_id": 2,
@@ -2548,19 +2548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Implements interface"
+        "option_value": "Declares that a contract is satisfied"
       },
       {
         "option_id": 2,
-        "option_value": "Creates class that is child of another class"
+        "option_value": "Makes one class inherit from another"
       },
       {
         "option_id": 3,
-        "option_value": "Creates object"
+        "option_value": "Creates an instance of a given class"
       },
       {
         "option_id": 4,
-        "option_value": "No use"
+        "option_value": "Has no effect on the class body"
       }
     ],
     "answer_id": 2,
@@ -2572,19 +2572,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Parent class"
+        "option_value": "A reference to the parent class object"
       },
       {
         "option_id": 2,
-        "option_value": "Calls parent class constructor/methods"
+        "option_value": "A call into the parent's constructor"
       },
       {
         "option_id": 3,
-        "option_value": "Child class"
+        "option_value": "A reference to the child class object"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method shared by every instance"
       }
     ],
     "answer_id": 2,
@@ -2596,19 +2596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Instance method"
+        "option_value": "A method called on each instance"
       },
       {
         "option_id": 2,
-        "option_value": "Method called on class, not instance"
+        "option_value": "A method called on the class itself"
       },
       {
         "option_id": 3,
-        "option_value": "Private method"
+        "option_value": "A method hidden from outside code"
       },
       {
         "option_id": 4,
-        "option_value": "Getter"
+        "option_value": "A method that reads a property value"
       }
     ],
     "answer_id": 2,
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular method"
+        "option_value": "An ordinary method with a plain name"
       },
       {
         "option_id": 2,
-        "option_value": "Method that gets value of property"
+        "option_value": "A method that runs when reading a property"
       },
       {
         "option_id": 3,
-        "option_value": "Setter"
+        "option_value": "A method that runs when writing a property"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -2644,19 +2644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular method"
+        "option_value": "An ordinary method with a plain name"
       },
       {
         "option_id": 2,
-        "option_value": "Method that sets value of property"
+        "option_value": "A method that runs when writing a property"
       },
       {
         "option_id": 3,
-        "option_value": "Getter"
+        "option_value": "A method that runs when reading a property"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -2668,19 +2668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public field"
+        "option_value": "A field any outside code may read"
       },
       {
         "option_id": 2,
-        "option_value": "Truly private class field (ES2022)"
+        "option_value": "A field reachable only inside the class"
       },
       {
         "option_id": 3,
-        "option_value": "Protected"
+        "option_value": "A field visible to subclasses only"
       },
       {
         "option_id": 4,
-        "option_value": "No privacy"
+        "option_value": "A naming convention with no enforcement"
       }
     ],
     "answer_id": 2,
@@ -2692,19 +2692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "String"
+        "option_value": "A primitive holding a text value"
       },
       {
         "option_id": 2,
-        "option_value": "Unique, immutable primitive value"
+        "option_value": "A primitive guaranteed to be unique"
       },
       {
         "option_id": 3,
-        "option_value": "Number"
+        "option_value": "A primitive holding a numeric value"
       },
       {
         "option_id": 4,
-        "option_value": "Object"
+        "option_value": "A reference type stored on the heap"
       }
     ],
     "answer_id": 2,
@@ -2716,19 +2716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Can be stringified"
+        "option_value": "Two with one description are equal"
       },
       {
         "option_id": 2,
-        "option_value": "Each Symbol is unique, even with same description"
+        "option_value": "Two with one description still differ"
       },
       {
         "option_id": 3,
-        "option_value": "Can be duplicated"
+        "option_value": "It can be duplicated by copying it"
       },
       {
         "option_id": 4,
-        "option_value": "Is mutable"
+        "option_value": "Its value can be changed after creation"
       }
     ],
     "answer_id": 2,
@@ -2740,19 +2740,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Plain object"
+        "option_value": "A plain object with string keys only"
       },
       {
         "option_id": 2,
-        "option_value": "Collection of keyed data with any key type"
+        "option_value": "A keyed collection accepting any key type"
       },
       {
         "option_id": 3,
-        "option_value": "Array"
+        "option_value": "An ordered list indexed by integers"
       },
       {
         "option_id": 4,
-        "option_value": "Set"
+        "option_value": "A collection that rejects duplicates"
       }
     ],
     "answer_id": 2,
@@ -2764,19 +2764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "They behave identically in every case"
       },
       {
         "option_id": 2,
-        "option_value": "Map allows any key type, maintains insertion order, has size"
+        "option_value": "Map takes any key and tracks its size"
       },
       {
         "option_id": 3,
-        "option_value": "Object is better"
+        "option_value": "Object takes any key and tracks size"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "Map keys are always coerced to strings"
       }
     ],
     "answer_id": 2,
@@ -2788,19 +2788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Array"
+        "option_value": "An ordered list indexed by integers"
       },
       {
         "option_id": 2,
-        "option_value": "Collection of unique values"
+        "option_value": "A collection holding only unique values"
       },
       {
         "option_id": 3,
-        "option_value": "Object"
+        "option_value": "A plain object with string keys only"
       },
       {
         "option_id": 4,
-        "option_value": "Map"
+        "option_value": "A keyed collection of pairs of values"
       }
     ],
     "answer_id": 2,
@@ -2812,19 +2812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Strong map"
+        "option_value": "A map holding strong refs to its keys"
       },
       {
         "option_id": 2,
-        "option_value": "Map that doesn't prevent garbage collection of keys"
+        "option_value": "A map whose keys can still be collected"
       },
       {
         "option_id": 3,
-        "option_value": "Regular map"
+        "option_value": "A map identical to the ordinary Map"
       },
       {
         "option_id": 4,
-        "option_value": "No map"
+        "option_value": "A map that only accepts string keys"
       }
     ],
     "answer_id": 2,
@@ -2836,19 +2836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Strong set"
+        "option_value": "A set holding strong refs to members"
       },
       {
         "option_id": 2,
-        "option_value": "Set that doesn't prevent garbage collection of objects"
+        "option_value": "A set whose members can be collected"
       },
       {
         "option_id": 3,
-        "option_value": "Regular set"
+        "option_value": "A set identical to the ordinary Set"
       },
       {
         "option_id": 4,
-        "option_value": "No set"
+        "option_value": "A set that only accepts string values"
       }
     ],
     "answer_id": 2,
@@ -2860,19 +2860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular number"
+        "option_value": "The ordinary double-precision number"
       },
       {
         "option_id": 2,
-        "option_value": "Arbitrary-precision integer"
+        "option_value": "An integer of arbitrary precision"
       },
       {
         "option_id": 3,
-        "option_value": "Decimal"
+        "option_value": "A fixed-point decimal for currency"
       },
       {
         "option_id": 4,
-        "option_value": "Float"
+        "option_value": "A single-precision floating value"
       }
     ],
     "answer_id": 2,
@@ -2932,19 +2932,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Number format"
+        "option_value": "Formats numbers for a given locale"
       },
       {
         "option_id": 2,
-        "option_value": "Date and time formatting"
+        "option_value": "Formats dates and times for a locale"
       },
       {
         "option_id": 3,
-        "option_value": "String format"
+        "option_value": "Formats plain strings for a locale"
       },
       {
         "option_id": 4,
-        "option_value": "Currency"
+        "option_value": "Formats currency amounts for a locale"
       }
     ],
     "answer_id": 2,
@@ -2980,19 +2980,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "String method"
+        "option_value": "A method available on every string value"
       },
       {
         "option_id": 2,
-        "option_value": "Pattern for matching character combinations"
+        "option_value": "A pattern describing character sequences"
       },
       {
         "option_id": 3,
-        "option_value": "Array method"
+        "option_value": "A method available on every array value"
       },
       {
         "option_id": 4,
-        "option_value": "Object type"
+        "option_value": "A built-in object type much like Date"
       }
     ],
     "answer_id": 2,
@@ -3028,19 +3028,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Execute match"
+        "option_value": "Returns the details of the first match"
       },
       {
         "option_id": 2,
-        "option_value": "Test for match, returns true/false"
+        "option_value": "Returns true or false for a match"
       },
       {
         "option_id": 3,
-        "option_value": "Replace"
+        "option_value": "Swaps matches for a replacement string"
       },
       {
         "option_id": 4,
-        "option_value": "Split"
+        "option_value": "Splits a string on each match found"
       }
     ],
     "answer_id": 2,
