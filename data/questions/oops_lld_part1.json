@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Object"
+        "option_value": "A single instance living in memory"
       },
       {
         "option_id": 2,
-        "option_value": "Blueprint for creating objects"
+        "option_value": "A template objects are made from"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 4,
-        "option_value": "Variable"
+        "option_value": "A name bound to a stored value"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class"
+        "option_value": "A template objects are made from"
       },
       {
         "option_id": 2,
-        "option_value": "Instance of a class"
+        "option_value": "A single instance of some template"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 4,
-        "option_value": "Method"
+        "option_value": "A routine bound to a template"
       }
     ],
     "answer_id": 2,
@@ -52,19 +52,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Inheritance"
+        "option_value": "Deriving a new type from an old one"
       },
       {
         "option_id": 2,
-        "option_value": "Bundling data and methods that operate on data"
+        "option_value": "Bundling data with the code acting on it"
       },
       {
         "option_id": 3,
-        "option_value": "Polymorphism"
+        "option_value": "One interface with several behaviours"
       },
       {
         "option_id": 4,
-        "option_value": "Abstraction"
+        "option_value": "Showing essentials and hiding the rest"
       }
     ],
     "answer_id": 2,
@@ -76,19 +76,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Code duplication"
+        "option_value": "The same logic can be repeated freely"
       },
       {
         "option_id": 2,
-        "option_value": "Data hiding and controlled access"
+        "option_value": "Internals stay hidden behind an interface"
       },
       {
         "option_id": 3,
-        "option_value": "Tight coupling"
+        "option_value": "Callers become tied to the internals"
       },
       {
         "option_id": 4,
-        "option_value": "No benefits"
+        "option_value": "There is no real benefit to it"
       }
     ],
     "answer_id": 2,
@@ -100,19 +100,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Encapsulation"
+        "option_value": "Bundling data with the code acting on it"
       },
       {
         "option_id": 2,
-        "option_value": "Mechanism for creating new class from existing class"
+        "option_value": "Deriving a new type from an old one"
       },
       {
         "option_id": 3,
-        "option_value": "Polymorphism"
+        "option_value": "One interface with several behaviours"
       },
       {
         "option_id": 4,
-        "option_value": "Abstraction"
+        "option_value": "Showing essentials and hiding the rest"
       }
     ],
     "answer_id": 2,
@@ -124,19 +124,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Child class"
+        "option_value": "The derived type, or subclass"
       },
       {
         "option_id": 2,
-        "option_value": "Base class or Superclass"
+        "option_value": "The base type, or superclass"
       },
       {
         "option_id": 3,
-        "option_value": "Derived class"
+        "option_value": "The type doing the deriving"
       },
       {
         "option_id": 4,
-        "option_value": "Subclass"
+        "option_value": "The type further down the chain"
       }
     ],
     "answer_id": 2,
@@ -148,19 +148,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Parent class"
+        "option_value": "The base type, or superclass"
       },
       {
         "option_id": 2,
-        "option_value": "Derived class or Subclass"
+        "option_value": "The derived type, or subclass"
       },
       {
         "option_id": 3,
-        "option_value": "Base class"
+        "option_value": "The type being derived from"
       },
       {
         "option_id": 4,
-        "option_value": "Superclass"
+        "option_value": "The type further up the chain"
       }
     ],
     "answer_id": 2,
@@ -172,19 +172,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single form"
+        "option_value": "Exactly one behaviour behind one name"
       },
       {
         "option_id": 2,
-        "option_value": "Many forms - same interface, different implementations"
+        "option_value": "One interface, several behaviours behind it"
       },
       {
         "option_id": 3,
-        "option_value": "Single inheritance"
+        "option_value": "Deriving from a single parent type only"
       },
       {
         "option_id": 4,
-        "option_value": "No inheritance"
+        "option_value": "Deriving from no parent type at all"
       }
     ],
     "answer_id": 2,
@@ -196,19 +196,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Only runtime"
+        "option_value": "Only the kind that is resolved while running"
       },
       {
         "option_id": 2,
-        "option_value": "Compile-time (overloading) and Runtime (overriding)"
+        "option_value": "Overloading at compile time, overriding at run"
       },
       {
         "option_id": 3,
-        "option_value": "Only compile-time"
+        "option_value": "Only the kind that is resolved when compiling"
       },
       {
         "option_id": 4,
-        "option_value": "No types"
+        "option_value": "There are no distinct kinds of it whatsoever"
       }
     ],
     "answer_id": 2,
@@ -220,19 +220,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Runtime polymorphism"
+        "option_value": "One name resolved while the code runs"
       },
       {
         "option_id": 2,
-        "option_value": "Compile-time polymorphism with same name, different parameters"
+        "option_value": "One name, differing parameter lists"
       },
       {
         "option_id": 3,
-        "option_value": "Method overriding"
+        "option_value": "A child redefining a parent's method"
       },
       {
         "option_id": 4,
-        "option_value": "No polymorphism"
+        "option_value": "Not a form of polymorphism at all"
       }
     ],
     "answer_id": 2,
@@ -244,19 +244,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Compile-time polymorphism"
+        "option_value": "One name resolved at compile time"
       },
       {
         "option_id": 2,
-        "option_value": "Runtime polymorphism with same signature in parent and child"
+        "option_value": "A child redefining a parent's method"
       },
       {
         "option_id": 3,
-        "option_value": "Method overloading"
+        "option_value": "One name, differing parameter lists"
       },
       {
         "option_id": 4,
-        "option_value": "No polymorphism"
+        "option_value": "Not a form of polymorphism at all"
       }
     ],
     "answer_id": 2,
@@ -268,19 +268,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Concrete implementation"
+        "option_value": "Spelling out every implementation detail"
       },
       {
         "option_id": 2,
-        "option_value": "Hiding complex implementation details, showing only essential features"
+        "option_value": "Showing essentials and hiding the rest"
       },
       {
         "option_id": 3,
-        "option_value": "Inheritance"
+        "option_value": "Deriving a new type from an old one"
       },
       {
         "option_id": 4,
-        "option_value": "Encapsulation"
+        "option_value": "Bundling data with the code acting on it"
       }
     ],
     "answer_id": 2,
@@ -292,19 +292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class that can be instantiated"
+        "option_value": "A type you instantiate as normal"
       },
       {
         "option_id": 2,
-        "option_value": "Class that cannot be instantiated, meant to be subclassed"
+        "option_value": "A type meant only to be derived from"
       },
       {
         "option_id": 3,
-        "option_value": "Concrete class"
+        "option_value": "A type with every method implemented"
       },
       {
         "option_id": 4,
-        "option_value": "Final class"
+        "option_value": "A type that cannot be derived from"
       }
     ],
     "answer_id": 2,
@@ -316,19 +316,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class with implementation"
+        "option_value": "A type carrying its own implementation"
       },
       {
         "option_id": 2,
-        "option_value": "Contract specifying methods a class must implement"
+        "option_value": "A contract listing methods to implement"
       },
       {
         "option_id": 3,
-        "option_value": "Abstract class with implementation"
+        "option_value": "A partly implemented base type"
       },
       {
         "option_id": 4,
-        "option_value": "Concrete class"
+        "option_value": "A type you instantiate as normal"
       }
     ],
     "answer_id": 2,
@@ -340,19 +340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "The two are entirely interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "Abstract class can have implementation, interface typically cannot"
+        "option_value": "A base class may carry implementation"
       },
       {
         "option_id": 3,
-        "option_value": "Interface can be instantiated"
+        "option_value": "An interface can be instantiated directly"
       },
       {
         "option_id": 4,
-        "option_value": "Abstract class cannot have methods"
+        "option_value": "A base class may not declare methods"
       }
     ],
     "answer_id": 2,
@@ -364,19 +364,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Inheriting from one class"
+        "option_value": "Deriving from exactly one parent"
       },
       {
         "option_id": 2,
-        "option_value": "Inheriting from multiple classes"
+        "option_value": "Deriving from more than one parent"
       },
       {
         "option_id": 3,
-        "option_value": "No inheritance"
+        "option_value": "Deriving from no parent at all"
       },
       {
         "option_id": 4,
-        "option_value": "Single inheritance"
+        "option_value": "Deriving only through interfaces"
       }
     ],
     "answer_id": 2,
@@ -388,19 +388,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No problem"
+        "option_value": "It causes no difficulty in practice"
       },
       {
         "option_id": 2,
-        "option_value": "Ambiguity in multiple inheritance when two parents have same method"
+        "option_value": "Two parents supplying the same member"
       },
       {
         "option_id": 3,
-        "option_value": "Single inheritance issue"
+        "option_value": "A difficulty unique to single inheritance"
       },
       {
         "option_id": 4,
-        "option_value": "No inheritance"
+        "option_value": "A difficulty that inheritance avoids"
       }
     ],
     "answer_id": 2,
@@ -412,19 +412,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Not solvable"
+        "option_value": "It cannot be resolved at all"
       },
       {
         "option_id": 2,
-        "option_value": "Using virtual inheritance or interface implementation"
+        "option_value": "Virtual bases, or interfaces instead"
       },
       {
         "option_id": 3,
-        "option_value": "Using single inheritance only"
+        "option_value": "By forbidding inheritance altogether"
       },
       {
         "option_id": 4,
-        "option_value": "No solution needed"
+        "option_value": "Nothing needs to be done about it"
       }
     ],
     "answer_id": 2,
@@ -436,19 +436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Inheritance"
+        "option_value": "An is-a link between two types"
       },
       {
         "option_id": 2,
-        "option_value": "Has-a relationship where one class contains object of another"
+        "option_value": "A has-a link owning the part outright"
       },
       {
         "option_id": 3,
-        "option_value": "Is-a relationship"
+        "option_value": "An is-a link through an interface"
       },
       {
         "option_id": 4,
-        "option_value": "No relationship"
+        "option_value": "No link at all between the types"
       }
     ],
     "answer_id": 2,
@@ -460,19 +460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Strong ownership"
+        "option_value": "Ownership where the part cannot outlive"
       },
       {
         "option_id": 2,
-        "option_value": "Weak ownership where parts can exist independently"
+        "option_value": "Ownership where the part lives on alone"
       },
       {
         "option_id": 3,
-        "option_value": "Composition"
+        "option_value": "An is-a link between the two types"
       },
       {
         "option_id": 4,
-        "option_value": "Inheritance"
+        "option_value": "A has-a link owning the part outright"
       }
     ],
     "answer_id": 2,
@@ -484,19 +484,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Inheritance"
+        "option_value": "An is-a link between two types"
       },
       {
         "option_id": 2,
-        "option_value": "Relationship between two independent classes"
+        "option_value": "A plain link between independent types"
       },
       {
         "option_id": 3,
-        "option_value": "Composition only"
+        "option_value": "A has-a link owning the part outright"
       },
       {
         "option_id": 4,
-        "option_value": "No relationship"
+        "option_value": "No link at all between the types"
       }
     ],
     "answer_id": 2,
@@ -508,19 +508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Strong relationship"
+        "option_value": "A permanent structural link"
       },
       {
         "option_id": 2,
-        "option_value": "Weaker relationship where one class depends on another"
+        "option_value": "A passing use of another type"
       },
       {
         "option_id": 3,
-        "option_value": "Inheritance"
+        "option_value": "An is-a link between the types"
       },
       {
         "option_id": 4,
-        "option_value": "Composition"
+        "option_value": "A has-a link owning the part outright"
       }
     ],
     "answer_id": 2,
@@ -532,19 +532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Independence"
+        "option_value": "How little modules rely on each other"
       },
       {
         "option_id": 2,
-        "option_value": "Degree of interdependence between modules"
+        "option_value": "How much modules rely on each other"
       },
       {
         "option_id": 3,
-        "option_value": "Encapsulation"
+        "option_value": "How well one module hangs together"
       },
       {
         "option_id": 4,
-        "option_value": "Cohesion"
+        "option_value": "How much internals stay hidden"
       }
     ],
     "answer_id": 2,
@@ -556,19 +556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Interdependence"
+        "option_value": "How much modules rely on each other"
       },
       {
         "option_id": 2,
-        "option_value": "Degree to which elements of a module belong together"
+        "option_value": "How well one module hangs together"
       },
       {
         "option_id": 3,
-        "option_value": "Coupling"
+        "option_value": "How little modules rely on each other"
       },
       {
         "option_id": 4,
-        "option_value": "Inheritance"
+        "option_value": "How much internals stay hidden"
       }
     ],
     "answer_id": 2,
@@ -628,19 +628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Good design"
+        "option_value": "A property worth designing towards"
       },
       {
         "option_id": 2,
-        "option_value": "Modules highly dependent on each other"
+        "option_value": "Modules leaning heavily on each other"
       },
       {
         "option_id": 3,
-        "option_value": "Loose coupling"
+        "option_value": "Modules leaning very little on each other"
       },
       {
         "option_id": 4,
-        "option_value": "No coupling"
+        "option_value": "Modules that never interact at all"
       }
     ],
     "answer_id": 2,
@@ -652,19 +652,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Bad design"
+        "option_value": "A property worth designing away from"
       },
       {
         "option_id": 2,
-        "option_value": "Modules with minimal dependencies"
+        "option_value": "Modules leaning very little on each other"
       },
       {
         "option_id": 3,
-        "option_value": "Tight coupling"
+        "option_value": "Modules leaning heavily on each other"
       },
       {
         "option_id": 4,
-        "option_value": "No coupling"
+        "option_value": "Modules that never interact at all"
       }
     ],
     "answer_id": 2,
@@ -676,19 +676,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular method"
+        "option_value": "An ordinary method with a plain name"
       },
       {
         "option_id": 2,
-        "option_value": "Special method called when object is created"
+        "option_value": "The method run when an instance is made"
       },
       {
         "option_id": 3,
-        "option_value": "Destructor"
+        "option_value": "The method run when one is destroyed"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -700,19 +700,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Constructor"
+        "option_value": "The method run when an instance is made"
       },
       {
         "option_id": 2,
-        "option_value": "Special method called when object is destroyed"
+        "option_value": "The method run when one is destroyed"
       },
       {
         "option_id": 3,
-        "option_value": "Regular method"
+        "option_value": "An ordinary method with a plain name"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -724,19 +724,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static reference"
+        "option_value": "A reference shared by every instance"
       },
       {
         "option_id": 2,
-        "option_value": "Reference to current object instance"
+        "option_value": "A reference to the current instance"
       },
       {
         "option_id": 3,
-        "option_value": "Parent class reference"
+        "option_value": "A reference to the parent type"
       },
       {
         "option_id": 4,
-        "option_value": "Global reference"
+        "option_value": "A reference visible across the program"
       }
     ],
     "answer_id": 2,
@@ -748,19 +748,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Current object"
+        "option_value": "A reference to the current instance"
       },
       {
         "option_id": 2,
-        "option_value": "Reference to parent class"
+        "option_value": "A reference to the parent type"
       },
       {
         "option_id": 3,
-        "option_value": "Child class"
+        "option_value": "A reference to the derived type"
       },
       {
         "option_id": 4,
-        "option_value": "Static reference"
+        "option_value": "A reference shared by every instance"
       }
     ],
     "answer_id": 2,
@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Instance member"
+        "option_value": "A member belonging to each instance"
       },
       {
         "option_id": 2,
-        "option_value": "Class-level member shared across all instances"
+        "option_value": "A member shared by every instance"
       },
       {
         "option_id": 3,
-        "option_value": "Local variable"
+        "option_value": "A name confined to one block"
       },
       {
         "option_id": 4,
-        "option_value": "Global variable"
+        "option_value": "A name visible across the program"
       }
     ],
     "answer_id": 2,
@@ -796,19 +796,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Mutable"
+        "option_value": "A binding that may be reassigned"
       },
       {
         "option_id": 2,
-        "option_value": "Cannot be changed after initialization"
+        "option_value": "A binding fixed once it is set"
       },
       {
         "option_id": 3,
-        "option_value": "Static"
+        "option_value": "A member shared by every instance"
       },
       {
         "option_id": 4,
-        "option_value": "Abstract"
+        "option_value": "A member a subclass must supply"
       }
     ],
     "answer_id": 2,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Method body"
+        "option_value": "The block of code inside the method"
       },
       {
         "option_id": 2,
-        "option_value": "Method name and parameter list"
+        "option_value": "The method's name and parameter list"
       },
       {
         "option_id": 3,
-        "option_value": "Return type only"
+        "option_value": "Only the type the method returns"
       },
       {
         "option_id": 4,
-        "option_value": "Access modifier only"
+        "option_value": "Only the visibility keyword used"
       }
     ],
     "answer_id": 2,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Random selection"
+        "option_value": "One candidate is chosen at random"
       },
       {
         "option_id": 2,
-        "option_value": "Compiler selects based on parameters at compile time"
+        "option_value": "The compiler picks from the argument types"
       },
       {
         "option_id": 3,
-        "option_value": "Runtime selection"
+        "option_value": "The choice is deferred until run time"
       },
       {
         "option_id": 4,
-        "option_value": "No resolution"
+        "option_value": "No choice is ever actually made"
       }
     ],
     "answer_id": 2,
@@ -868,19 +868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Compile-time binding"
+        "option_value": "The target is fixed at compile time"
       },
       {
         "option_id": 2,
-        "option_value": "Runtime binding of method call to implementation"
+        "option_value": "The target is chosen while running"
       },
       {
         "option_id": 3,
-        "option_value": "Static binding"
+        "option_value": "The target is fixed by the declared type"
       },
       {
         "option_id": 4,
-        "option_value": "No binding"
+        "option_value": "No target is chosen at any point"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Downcasting"
+        "option_value": "Treating a base value as a derived one"
       },
       {
         "option_id": 2,
-        "option_value": "Casting subclass to superclass type"
+        "option_value": "Treating a derived value as its base"
       },
       {
         "option_id": 3,
-        "option_value": "No casting"
+        "option_value": "Converting between unrelated types"
       },
       {
         "option_id": 4,
-        "option_value": "Primitive casting"
+        "option_value": "Converting between primitive types"
       }
     ],
     "answer_id": 2,
@@ -916,19 +916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Upcasting"
+        "option_value": "Treating a derived value as its base"
       },
       {
         "option_id": 2,
-        "option_value": "Casting superclass to subclass type"
+        "option_value": "Treating a base value as a derived one"
       },
       {
         "option_id": 3,
-        "option_value": "No casting"
+        "option_value": "Converting between unrelated types"
       },
       {
         "option_id": 4,
-        "option_value": "Implicit casting"
+        "option_value": "A conversion the compiler inserts"
       }
     ],
     "answer_id": 2,
@@ -940,19 +940,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Type conversion"
+        "option_value": "Converting a value to another type"
       },
       {
         "option_id": 2,
-        "option_value": "Checking if object is instance of class"
+        "option_value": "Testing whether a value is of a type"
       },
       {
         "option_id": 3,
-        "option_value": "Method calling"
+        "option_value": "Invoking a method on some value"
       },
       {
         "option_id": 4,
-        "option_value": "Variable assignment"
+        "option_value": "Binding a value to a fresh name"
       }
     ],
     "answer_id": 2,
@@ -964,19 +964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class"
+        "option_value": "A single template for making objects"
       },
       {
         "option_id": 2,
-        "option_value": "Organizational unit grouping related classes"
+        "option_value": "A grouping of related types together"
       },
       {
         "option_id": 3,
-        "option_value": "Method"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 4,
-        "option_value": "Variable"
+        "option_value": "A name bound to a stored value"
       }
     ],
     "answer_id": 2,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Return type"
+        "option_value": "The type a method hands back to callers"
       },
       {
         "option_id": 2,
-        "option_value": "Keyword controlling visibility of class/members"
+        "option_value": "A keyword controlling who may see it"
       },
       {
         "option_id": 3,
-        "option_value": "Method name"
+        "option_value": "The name given to a particular method"
       },
       {
         "option_id": 4,
-        "option_value": "Variable type"
+        "option_value": "The type a variable is allowed to hold"
       }
     ],
     "answer_id": 2,
@@ -1012,19 +1012,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Private access"
+        "option_value": "Reachable only inside its own type"
       },
       {
         "option_id": 2,
-        "option_value": "Accessible from anywhere"
+        "option_value": "Reachable from anywhere at all"
       },
       {
         "option_id": 3,
-        "option_value": "Package-private"
+        "option_value": "Reachable only within its own package"
       },
       {
         "option_id": 4,
-        "option_value": "Protected only"
+        "option_value": "Reachable only from derived types"
       }
     ],
     "answer_id": 2,
@@ -1036,19 +1036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public access"
+        "option_value": "Reachable from anywhere at all"
       },
       {
         "option_id": 2,
-        "option_value": "Accessible only within declaring class"
+        "option_value": "Reachable only inside its own type"
       },
       {
         "option_id": 3,
-        "option_value": "Package access"
+        "option_value": "Reachable only within its own package"
       },
       {
         "option_id": 4,
-        "option_value": "Subclass access"
+        "option_value": "Reachable only from derived types"
       }
     ],
     "answer_id": 2,
@@ -1060,19 +1060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public access"
+        "option_value": "Reachable from anywhere at all"
       },
       {
         "option_id": 2,
-        "option_value": "Accessible within package and subclasses"
+        "option_value": "Reachable in the package and subclasses"
       },
       {
         "option_id": 3,
-        "option_value": "Private only"
+        "option_value": "Reachable only inside its own type"
       },
       {
         "option_id": 4,
-        "option_value": "Package only"
+        "option_value": "Reachable only within its own package"
       }
     ],
     "answer_id": 2,
@@ -1084,19 +1084,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public"
+        "option_value": "Reachable from anywhere at all"
       },
       {
         "option_id": 2,
-        "option_value": "Accessible only within same package"
+        "option_value": "Reachable only within its own package"
       },
       {
         "option_id": 3,
-        "option_value": "Private"
+        "option_value": "Reachable only inside its own type"
       },
       {
         "option_id": 4,
-        "option_value": "Protected"
+        "option_value": "Reachable in the package and subclasses"
       }
     ],
     "answer_id": 2,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Mutable object"
+        "option_value": "One whose state may still be changed"
       },
       {
         "option_id": 2,
-        "option_value": "Object whose state cannot be changed after creation"
+        "option_value": "One whose state is fixed once built"
       },
       {
         "option_id": 3,
-        "option_value": "Static object"
+        "option_value": "One shared by every instance of a type"
       },
       {
         "option_id": 4,
-        "option_value": "Abstract object"
+        "option_value": "One that cannot be instantiated at all"
       }
     ],
     "answer_id": 2,
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public fields"
+        "option_value": "Expose the fields to callers directly"
       },
       {
         "option_id": 2,
-        "option_value": "Private final fields, no setters, defensive copies"
+        "option_value": "Private final fields, no setters, copies"
       },
       {
         "option_id": 3,
-        "option_value": "Public setters"
+        "option_value": "Provide a setter for every field"
       },
       {
         "option_id": 4,
-        "option_value": "Mutable fields"
+        "option_value": "Let callers hold the internal collections"
       }
     ],
     "answer_id": 2,
@@ -1156,19 +1156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Immutable object"
+        "option_value": "One whose state is fixed once built"
       },
       {
         "option_id": 2,
-        "option_value": "Object whose state can be changed"
+        "option_value": "One whose state may still be changed"
       },
       {
         "option_id": 3,
-        "option_value": "Static object"
+        "option_value": "One shared by every instance of a type"
       },
       {
         "option_id": 4,
-        "option_value": "Final object"
+        "option_value": "One whose binding cannot be reassigned"
       }
     ],
     "answer_id": 2,
@@ -1180,19 +1180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multiple instances"
+        "option_value": "Any number of instances may exist"
       },
       {
         "option_id": 2,
-        "option_value": "Only one instance of class exists"
+        "option_value": "Exactly one instance ever exists"
       },
       {
         "option_id": 3,
-        "option_value": "No instances"
+        "option_value": "No instance is ever created at all"
       },
       {
         "option_id": 4,
-        "option_value": "Two instances"
+        "option_value": "Exactly two instances always exist"
       }
     ],
     "answer_id": 2,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public constructor"
+        "option_value": "Leave the constructor open to callers"
       },
       {
         "option_id": 2,
-        "option_value": "Private constructor, static instance method"
+        "option_value": "Private constructor plus a static accessor"
       },
       {
         "option_id": 3,
-        "option_value": "Abstract class"
+        "option_value": "Make the type abstract and derive it"
       },
       {
         "option_id": 4,
-        "option_value": "Interface"
+        "option_value": "Declare it as an interface instead"
       }
     ],
     "answer_id": 2,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Early creation"
+        "option_value": "The instance is built at start-up"
       },
       {
         "option_id": 2,
-        "option_value": "Creating instance when first requested"
+        "option_value": "The instance is built on first request"
       },
       {
         "option_id": 3,
-        "option_value": "No initialization"
+        "option_value": "No instance is ever built at all"
       },
       {
         "option_id": 4,
-        "option_value": "Multiple instances"
+        "option_value": "Several instances are built up front"
       }
     ],
     "answer_id": 2,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Delayed creation"
+        "option_value": "The instance is built on first request"
       },
       {
         "option_id": 2,
-        "option_value": "Creating instance at class loading"
+        "option_value": "The instance is built when loaded"
       },
       {
         "option_id": 3,
-        "option_value": "No initialization"
+        "option_value": "No instance is ever built at all"
       },
       {
         "option_id": 4,
-        "option_value": "Lazy creation"
+        "option_value": "Several instances are built up front"
       }
     ],
     "answer_id": 2,
@@ -1276,19 +1276,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Non-thread-safe"
+        "option_value": "One that breaks under concurrent use"
       },
       {
         "option_id": 2,
-        "option_value": "Singleton safe for concurrent access"
+        "option_value": "One safe under concurrent access"
       },
       {
         "option_id": 3,
-        "option_value": "Multiple instances"
+        "option_value": "One that permits several instances"
       },
       {
         "option_id": 4,
-        "option_value": "No singleton"
+        "option_value": "One that is not a singleton at all"
       }
     ],
     "answer_id": 2,
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single check"
+        "option_value": "Testing the field exactly once"
       },
       {
         "option_id": 2,
-        "option_value": "Checking instance twice for thread-safe lazy initialization"
+        "option_value": "Testing the field twice around a lock"
       },
       {
         "option_id": 3,
-        "option_value": "No locking"
+        "option_value": "Using no lock of any kind at all"
       },
       {
         "option_id": 4,
-        "option_value": "Eager initialization"
+        "option_value": "Building the instance at start-up"
       }
     ],
     "answer_id": 2,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Double-checked locking"
+        "option_value": "Testing the field twice around a lock"
       },
       {
         "option_id": 2,
-        "option_value": "Using static inner class for lazy initialization"
+        "option_value": "A static holder class built on demand"
       },
       {
         "option_id": 3,
-        "option_value": "Eager initialization"
+        "option_value": "The instance built at class load time"
       },
       {
         "option_id": 4,
-        "option_value": "Enum singleton"
+        "option_value": "An enum constant standing in for it"
       }
     ],
     "answer_id": 2,
@@ -1348,19 +1348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class-based"
+        "option_value": "An ordinary class with a static field"
       },
       {
         "option_id": 2,
-        "option_value": "Using enum for singleton (Java)"
+        "option_value": "An enum constant standing in for it"
       },
       {
         "option_id": 3,
-        "option_value": "Interface-based"
+        "option_value": "An interface with a single method"
       },
       {
         "option_id": 4,
-        "option_value": "Abstract class"
+        "option_value": "An abstract type others derive from"
       }
     ],
     "answer_id": 2,
@@ -1372,19 +1372,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct instantiation"
+        "option_value": "Callers construct the type directly"
       },
       {
         "option_id": 2,
-        "option_value": "Creating objects without specifying exact class"
+        "option_value": "Objects made without naming the type"
       },
       {
         "option_id": 3,
-        "option_value": "Singleton"
+        "option_value": "Exactly one instance ever exists"
       },
       {
         "option_id": 4,
-        "option_value": "Builder"
+        "option_value": "Objects assembled step by step"
       }
     ],
     "answer_id": 2,
@@ -1396,19 +1396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multiple factories"
+        "option_value": "Several factory types working together"
       },
       {
         "option_id": 2,
-        "option_value": "Single factory class with creation method"
+        "option_value": "One class holding the creation method"
       },
       {
         "option_id": 3,
-        "option_value": "Abstract factory"
+        "option_value": "A factory producing other factories"
       },
       {
         "option_id": 4,
-        "option_value": "Factory method"
+        "option_value": "Subclasses deciding what to construct"
       }
     ],
     "answer_id": 2,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Simple factory"
+        "option_value": "One class holding the creation method"
       },
       {
         "option_id": 2,
-        "option_value": "Defining interface for creating object, subclasses decide class"
+        "option_value": "Subclasses deciding what gets constructed"
       },
       {
         "option_id": 3,
-        "option_value": "Abstract factory"
+        "option_value": "A factory producing other factories"
       },
       {
         "option_id": 4,
-        "option_value": "Builder"
+        "option_value": "Objects assembled step by step"
       }
     ],
     "answer_id": 2,
@@ -1444,19 +1444,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single factory"
+        "option_value": "One class holding the creation method"
       },
       {
         "option_id": 2,
-        "option_value": "Factory of factories for related objects"
+        "option_value": "A factory producing families of factories"
       },
       {
         "option_id": 3,
-        "option_value": "Factory method"
+        "option_value": "Subclasses deciding what to construct"
       },
       {
         "option_id": 4,
-        "option_value": "Builder"
+        "option_value": "Objects assembled step by step"
       }
     ],
     "answer_id": 2,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct construction"
+        "option_value": "Callers construct the type directly"
       },
       {
         "option_id": 2,
-        "option_value": "Constructing complex objects step by step"
+        "option_value": "Objects assembled a step at a time"
       },
       {
         "option_id": 3,
-        "option_value": "Factory"
+        "option_value": "Objects made without naming the type"
       },
       {
         "option_id": 4,
-        "option_value": "Singleton"
+        "option_value": "Exactly one instance ever exists"
       }
     ],
     "answer_id": 2,
@@ -1492,19 +1492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Simple objects"
+        "option_value": "When the object has one or two fields"
       },
       {
         "option_id": 2,
-        "option_value": "Complex objects with many optional parameters"
+        "option_value": "When many fields are optional"
       },
       {
         "option_id": 3,
-        "option_value": "Single instance"
+        "option_value": "When only one instance may exist"
       },
       {
         "option_id": 4,
-        "option_value": "No objects"
+        "option_value": "When no objects need constructing"
       }
     ],
     "answer_id": 2,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Creating from scratch"
+        "option_value": "Building each object from nothing"
       },
       {
         "option_id": 2,
-        "option_value": "Creating new objects by copying existing ones"
+        "option_value": "Building new objects by cloning one"
       },
       {
         "option_id": 3,
-        "option_value": "Factory"
+        "option_value": "Objects made without naming the type"
       },
       {
         "option_id": 4,
-        "option_value": "Singleton"
+        "option_value": "Exactly one instance ever exists"
       }
     ],
     "answer_id": 2,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Deep copy"
+        "option_value": "Copying the object and all it points at"
       },
       {
         "option_id": 2,
-        "option_value": "Copying object references, not referenced objects"
+        "option_value": "Copying the references, not the targets"
       },
       {
         "option_id": 3,
-        "option_value": "No copy"
+        "option_value": "Making no copy of anything at all"
       },
       {
         "option_id": 4,
-        "option_value": "Clone all"
+        "option_value": "Copying only the primitive fields"
       }
     ],
     "answer_id": 2,
@@ -1564,19 +1564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Shallow copy"
+        "option_value": "Copying the references, not the targets"
       },
       {
         "option_id": 2,
-        "option_value": "Copying object and all objects it references"
+        "option_value": "Copying the object and all it points at"
       },
       {
         "option_id": 3,
-        "option_value": "No copy"
+        "option_value": "Making no copy of anything at all"
       },
       {
         "option_id": 4,
-        "option_value": "Reference copy"
+        "option_value": "Copying only the primitive fields"
       }
     ],
     "answer_id": 2,
@@ -1588,19 +1588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Creating objects"
+        "option_value": "A way of constructing brand-new objects"
       },
       {
         "option_id": 2,
-        "option_value": "Allowing incompatible interfaces to work together"
+        "option_value": "Letting mismatched interfaces work together"
       },
       {
         "option_id": 3,
-        "option_value": "Singleton"
+        "option_value": "Ensuring exactly one instance ever exists"
       },
       {
         "option_id": 4,
-        "option_value": "Factory"
+        "option_value": "Assembling an object a step at a time"
       }
     ],
     "answer_id": 2,
@@ -1612,19 +1612,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Connecting databases"
+        "option_value": "A way of pooling database handles"
       },
       {
         "option_id": 2,
-        "option_value": "Separating abstraction from implementation"
+        "option_value": "Letting abstraction and implementation vary"
       },
       {
         "option_id": 3,
-        "option_value": "Adapter"
+        "option_value": "Letting mismatched interfaces cooperate"
       },
       {
         "option_id": 4,
-        "option_value": "Proxy"
+        "option_value": "Standing in front of another object"
       }
     ],
     "answer_id": 2,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Inheritance"
+        "option_value": "Extending behaviour by subclassing"
       },
       {
         "option_id": 2,
-        "option_value": "Adding behavior dynamically without affecting other objects"
+        "option_value": "Wrapping an object to add behaviour"
       },
       {
         "option_id": 3,
-        "option_value": "Factory"
+        "option_value": "A way of constructing new objects"
       },
       {
         "option_id": 4,
-        "option_value": "Singleton"
+        "option_value": "Ensuring exactly one instance exists"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Complex interface"
+        "option_value": "Exposing every detail of a subsystem"
       },
       {
         "option_id": 2,
-        "option_value": "Simplified interface to complex subsystem"
+        "option_value": "A simple front onto a complex subsystem"
       },
       {
         "option_id": 3,
-        "option_value": "Decorator"
+        "option_value": "Wrapping an object to add behaviour"
       },
       {
         "option_id": 4,
-        "option_value": "Adapter"
+        "option_value": "Letting mismatched interfaces cooperate"
       }
     ],
     "answer_id": 2,
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct access"
+        "option_value": "Callers reach the object directly"
       },
       {
         "option_id": 2,
-        "option_value": "Placeholder controlling access to another object"
+        "option_value": "A stand-in controlling access to it"
       },
       {
         "option_id": 3,
-        "option_value": "Adapter"
+        "option_value": "Letting mismatched interfaces cooperate"
       },
       {
         "option_id": 4,
-        "option_value": "Decorator"
+        "option_value": "Wrapping an object to add behaviour"
       }
     ],
     "answer_id": 2,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One type"
+        "option_value": "There is only one kind of them"
       },
       {
         "option_id": 2,
-        "option_value": "Virtual, Protection, Remote, Smart"
+        "option_value": "Virtual, protection, remote and smart"
       },
       {
         "option_id": 3,
-        "option_value": "Only virtual"
+        "option_value": "Only the virtual kind actually exists"
       },
       {
         "option_id": 4,
-        "option_value": "Only remote"
+        "option_value": "Only the remote kind actually exists"
       }
     ],
     "answer_id": 2,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single object"
+        "option_value": "A single object standing on its own"
       },
       {
         "option_id": 2,
-        "option_value": "Tree structure of individual and composite objects"
+        "option_value": "A tree treating parts and wholes alike"
       },
       {
         "option_id": 3,
-        "option_value": "Adapter"
+        "option_value": "Letting mismatched interfaces cooperate"
       },
       {
         "option_id": 4,
-        "option_value": "Decorator"
+        "option_value": "Wrapping an object to add behaviour"
       }
     ],
     "answer_id": 2,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Heavy objects"
+        "option_value": "Giving each object its own full state"
       },
       {
         "option_id": 2,
-        "option_value": "Sharing data to support large numbers of similar objects"
+        "option_value": "Sharing state across many similar objects"
       },
       {
         "option_id": 3,
-        "option_value": "Singleton"
+        "option_value": "Ensuring exactly one instance exists"
       },
       {
         "option_id": 4,
-        "option_value": "Factory"
+        "option_value": "A way of constructing new objects"
       }
     ],
     "answer_id": 2,
@@ -1780,19 +1780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single handler"
+        "option_value": "One handler deals with everything"
       },
       {
         "option_id": 2,
-        "option_value": "Passing request along chain of handlers"
+        "option_value": "A request passed along a line of handlers"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Dependents told whenever something changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1804,19 +1804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct method call"
+        "option_value": "The caller invokes the method itself"
       },
       {
         "option_id": 2,
-        "option_value": "Encapsulating request as object"
+        "option_value": "A request wrapped up as an object"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Dependents told whenever something changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct access"
+        "option_value": "Callers index into the storage directly"
       },
       {
         "option_id": 2,
-        "option_value": "Sequential access to elements without exposing representation"
+        "option_value": "Walking elements without exposing storage"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Dependents told whenever something changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1852,19 +1852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct communication"
+        "option_value": "Objects call one another directly"
       },
       {
         "option_id": 2,
-        "option_value": "Object encapsulating how set of objects interact"
+        "option_value": "One object coordinating how others talk"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Dependents told whenever something changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No state saving"
+        "option_value": "State is never captured anywhere"
       },
       {
         "option_id": 2,
-        "option_value": "Capturing and restoring object internal state"
+        "option_value": "Capturing state so it can be restored"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Dependents told whenever something changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-to-one"
+        "option_value": "One object notified by one other"
       },
       {
         "option_id": 2,
-        "option_value": "One-to-many dependency, notify dependents automatically"
+        "option_value": "Many dependents told when one changes"
       },
       {
         "option_id": 3,
-        "option_value": "Mediator"
+        "option_value": "One object coordinating how others talk"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct call"
+        "option_value": "The sender calls each receiver directly"
       },
       {
         "option_id": 2,
-        "option_value": "Message broker between publishers and subscribers"
+        "option_value": "A broker sits between both ends"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Many dependents told when one changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -1948,19 +1948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single state"
+        "option_value": "Behaviour never varies at all"
       },
       {
         "option_id": 2,
-        "option_value": "Altering object behavior when internal state changes"
+        "option_value": "Behaviour changing with internal state"
       },
       {
         "option_id": 3,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       },
       {
         "option_id": 4,
-        "option_value": "Observer"
+        "option_value": "Many dependents told when one changes"
       }
     ],
     "answer_id": 2,
@@ -1972,19 +1972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single algorithm"
+        "option_value": "Exactly one algorithm is available"
       },
       {
         "option_id": 2,
-        "option_value": "Family of algorithms, making them interchangeable"
+        "option_value": "Interchangeable algorithms behind one name"
       },
       {
         "option_id": 3,
-        "option_value": "State"
+        "option_value": "Behaviour changing with internal state"
       },
       {
         "option_id": 4,
-        "option_value": "Observer"
+        "option_value": "Many dependents told when one changes"
       }
     ],
     "answer_id": 2,
@@ -1996,19 +1996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No template"
+        "option_value": "No shared outline exists at all"
       },
       {
         "option_id": 2,
-        "option_value": "Skeleton method, subclasses override steps"
+        "option_value": "A fixed outline with overridable steps"
       },
       {
         "option_id": 3,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       },
       {
         "option_id": 4,
-        "option_value": "Observer"
+        "option_value": "Many dependents told when one changes"
       }
     ],
     "answer_id": 2,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct operation"
+        "option_value": "The operation lives on each type"
       },
       {
         "option_id": 2,
-        "option_value": "Separating algorithm from object structure"
+        "option_value": "Operations kept apart from the structure"
       },
       {
         "option_id": 3,
-        "option_value": "Observer"
+        "option_value": "Many dependents told when one changes"
       },
       {
         "option_id": 4,
-        "option_value": "Strategy"
+        "option_value": "Interchangeable algorithms behind one name"
       }
     ],
     "answer_id": 2,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct instantiation"
+        "option_value": "Each class builds what it needs itself"
       },
       {
         "option_id": 2,
-        "option_value": "Supplying dependencies from outside"
+        "option_value": "Collaborators handed in from outside"
       },
       {
         "option_id": 3,
-        "option_value": "Singleton"
+        "option_value": "Ensuring exactly one instance exists"
       },
       {
         "option_id": 4,
-        "option_value": "Factory"
+        "option_value": "Objects made without naming the type"
       }
     ],
     "answer_id": 2,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One type"
+        "option_value": "There is only one way to do it"
       },
       {
         "option_id": 2,
-        "option_value": "Constructor, Setter, Interface injection"
+        "option_value": "Constructor, setter and interface"
       },
       {
         "option_id": 3,
-        "option_value": "Only constructor"
+        "option_value": "Only constructor injection is possible"
       },
       {
         "option_id": 4,
-        "option_value": "Only setter"
+        "option_value": "Only setter injection is possible"
       }
     ],
     "answer_id": 2,
@@ -2092,19 +2092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct control"
+        "option_value": "Your own code drives the whole flow"
       },
       {
         "option_id": 2,
-        "option_value": "Framework calls application code"
+        "option_value": "The framework calls into your code"
       },
       {
         "option_id": 3,
-        "option_value": "No control"
+        "option_value": "Nothing is in control of anything"
       },
       {
         "option_id": 4,
-        "option_value": "Direct instantiation"
+        "option_value": "Objects are constructed where used"
       }
     ],
     "answer_id": 2,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No container"
+        "option_value": "No such component actually exists"
       },
       {
         "option_id": 2,
-        "option_value": "Framework managing object creation and dependencies"
+        "option_value": "A framework wiring objects together"
       },
       {
         "option_id": 3,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single principle"
+        "option_value": "A single overarching design rule"
       },
       {
         "option_id": 2,
-        "option_value": "Five design principles for maintainable software"
+        "option_value": "Five rules for maintainable design"
       },
       {
         "option_id": 3,
-        "option_value": "Three principles"
+        "option_value": "Three rules for maintainable design"
       },
       {
         "option_id": 4,
-        "option_value": "Ten principles"
+        "option_value": "Ten rules for maintainable design"
       }
     ],
     "answer_id": 2,
@@ -2164,19 +2164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multiple responsibilities"
+        "option_value": "A class may carry several duties"
       },
       {
         "option_id": 2,
-        "option_value": "Class should have one reason to change"
+        "option_value": "A class should have one reason to change"
       },
       {
         "option_id": 3,
-        "option_value": "One method"
+        "option_value": "A class should hold just one method"
       },
       {
         "option_id": 4,
-        "option_value": "One variable"
+        "option_value": "A class should hold just one field"
       }
     ],
     "answer_id": 2,
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Open for modification"
+        "option_value": "Open to being edited whenever needed"
       },
       {
         "option_id": 2,
-        "option_value": "Open for extension, closed for modification"
+        "option_value": "Open to extension, closed to modification"
       },
       {
         "option_id": 3,
-        "option_value": "Closed for extension"
+        "option_value": "Closed to extension, open to modification"
       },
       {
         "option_id": 4,
-        "option_value": "Open for both"
+        "option_value": "Open to both extension and modification"
       }
     ],
     "answer_id": 2,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Any substitution"
+        "option_value": "Any type may stand in for any other"
       },
       {
         "option_id": 2,
-        "option_value": "Subtypes must be substitutable for base types"
+        "option_value": "Subtypes must stand in for their base"
       },
       {
         "option_id": 3,
-        "option_value": "No substitution"
+        "option_value": "No type may stand in for another"
       },
       {
         "option_id": 4,
-        "option_value": "Only inheritance"
+        "option_value": "It merely permits inheritance to exist"
       }
     ],
     "answer_id": 2,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Large interfaces"
+        "option_value": "Prefer one large interface per module"
       },
       {
         "option_id": 2,
-        "option_value": "Clients shouldn't depend on methods they don't use"
+        "option_value": "Callers should not see methods they ignore"
       },
       {
         "option_id": 3,
-        "option_value": "Single interface"
+        "option_value": "Every module should share one interface"
       },
       {
         "option_id": 4,
-        "option_value": "No interfaces"
+        "option_value": "Interfaces should be avoided altogether"
       }
     ],
     "answer_id": 2,
@@ -2260,7 +2260,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Depend on concrete classes"
+        "option_value": "Depend on the concrete class you use"
       },
       {
         "option_id": 2,
@@ -2268,11 +2268,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "No dependencies"
+        "option_value": "Avoid depending on anything at all"
       },
       {
         "option_id": 4,
-        "option_value": "Direct dependencies"
+        "option_value": "Depend directly on every collaborator"
       }
     ],
     "answer_id": 2,
@@ -2332,19 +2332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Build everything"
+        "option_value": "Build for every case you can imagine"
       },
       {
         "option_id": 2,
-        "option_value": "You Aren't Gonna Need It"
+        "option_value": "Do not build what nobody has asked for"
       },
       {
         "option_id": 3,
-        "option_value": "Build for future"
+        "option_value": "Build now for requirements expected later"
       },
       {
         "option_id": 4,
-        "option_value": "Over-engineer"
+        "option_value": "Add extra layers before they are needed"
       }
     ],
     "answer_id": 2,
@@ -2356,19 +2356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Talk to everyone"
+        "option_value": "Reach through objects as far as needed"
       },
       {
         "option_id": 2,
-        "option_value": "Only talk to immediate friends"
+        "option_value": "Speak only to your immediate neighbours"
       },
       {
         "option_id": 3,
-        "option_value": "Talk to strangers"
+        "option_value": "Reach into objects you were handed"
       },
       {
         "option_id": 4,
-        "option_value": "No communication"
+        "option_value": "Objects should not communicate at all"
       }
     ],
     "answer_id": 2,
@@ -2380,19 +2380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Always inherit"
+        "option_value": "Reach for inheritance as the default"
       },
       {
         "option_id": 2,
-        "option_value": "Favor composition for flexibility"
+        "option_value": "Prefer holding a part over deriving"
       },
       {
         "option_id": 3,
-        "option_value": "Never compose"
+        "option_value": "Composition should always be avoided"
       },
       {
         "option_id": 4,
-        "option_value": "Only inherit"
+        "option_value": "Inheritance is the only option available"
       }
     ],
     "answer_id": 2,
@@ -2404,19 +2404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Fat interfaces"
+        "option_value": "Keep interfaces broad and inclusive"
       },
       {
         "option_id": 2,
-        "option_value": "Splitting large interfaces into smaller ones"
+        "option_value": "Split broad interfaces into narrow ones"
       },
       {
         "option_id": 3,
-        "option_value": "Single interface"
+        "option_value": "Every module should share one interface"
       },
       {
         "option_id": 4,
-        "option_value": "No interfaces"
+        "option_value": "Interfaces should be avoided altogether"
       }
     ],
     "answer_id": 2,
@@ -2428,19 +2428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Concrete classes"
+        "option_value": "Depend on the concrete type you use"
       },
       {
         "option_id": 2,
-        "option_value": "Depend on interfaces/abstractions"
+        "option_value": "Depend on the abstraction, not the class"
       },
       {
         "option_id": 3,
-        "option_value": "Implementation details"
+        "option_value": "Depend on the details of the algorithm"
       },
       {
         "option_id": 4,
-        "option_value": "No interfaces"
+        "option_value": "Avoid declaring interfaces altogether"
       }
     ],
     "answer_id": 2,
@@ -2452,19 +2452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single concern"
+        "option_value": "Keep the whole program in one place"
       },
       {
         "option_id": 2,
-        "option_value": "Dividing program into distinct sections"
+        "option_value": "Split the program into distinct parts"
       },
       {
         "option_id": 3,
-        "option_value": "No separation"
+        "option_value": "Let each part handle every concern"
       },
       {
         "option_id": 4,
-        "option_value": "Mixed concerns"
+        "option_value": "Mix responsibilities for convenience"
       }
     ],
     "answer_id": 2,
@@ -2476,19 +2476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single component"
+        "option_value": "Everything handled by one component"
       },
       {
         "option_id": 2,
-        "option_value": "Model-View-Controller separation"
+        "option_value": "Model, view and controller kept apart"
       },
       {
         "option_id": 3,
-        "option_value": "No separation"
+        "option_value": "No separation between the layers"
       },
       {
         "option_id": 4,
-        "option_value": "Database only"
+        "option_value": "Only the database layer is separated"
       }
     ],
     "answer_id": 2,
@@ -2500,19 +2500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "User interface"
+        "option_value": "The screens the user actually sees"
       },
       {
         "option_id": 2,
-        "option_value": "Data and business logic"
+        "option_value": "The data and the rules acting on it"
       },
       {
         "option_id": 3,
-        "option_value": "Request handling"
+        "option_value": "The part that receives the request"
       },
       {
         "option_id": 4,
-        "option_value": "View rendering"
+        "option_value": "The part that renders the output"
       }
     ],
     "answer_id": 2,
@@ -2524,19 +2524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data layer"
+        "option_value": "The data and the rules acting on it"
       },
       {
         "option_id": 2,
-        "option_value": "User interface and presentation"
+        "option_value": "The screens the user actually sees"
       },
       {
         "option_id": 3,
-        "option_value": "Business logic"
+        "option_value": "The part that receives the request"
       },
       {
         "option_id": 4,
-        "option_value": "Controller"
+        "option_value": "The store the data lives in"
       }
     ],
     "answer_id": 2,
@@ -2548,19 +2548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data layer"
+        "option_value": "The data and the rules that act on it"
       },
       {
         "option_id": 2,
-        "option_value": "Handles input and coordinates Model/View"
+        "option_value": "The part receiving input and coordinating"
       },
       {
         "option_id": 3,
-        "option_value": "UI rendering"
+        "option_value": "The screens the user actually looks at"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "The store where the data finally lives"
       }
     ],
     "answer_id": 2,
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct DB access"
+        "option_value": "Callers query the store directly"
       },
       {
         "option_id": 2,
-        "option_value": "Abstracting data access layer"
+        "option_value": "Data access hidden behind an interface"
       },
       {
         "option_id": 3,
-        "option_value": "No pattern"
+        "option_value": "No particular structure is imposed"
       },
       {
         "option_id": 4,
-        "option_value": "Direct SQL"
+        "option_value": "Raw SQL written wherever it is needed"
       }
     ],
     "answer_id": 2,
@@ -2644,19 +2644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single operation"
+        "option_value": "Each change is committed on its own"
       },
       {
         "option_id": 2,
-        "option_value": "Maintaining list of affected objects, committing as unit"
+        "option_value": "Changes tracked and committed together"
       },
       {
         "option_id": 3,
-        "option_value": "No pattern"
+        "option_value": "No structure is imposed on the writes"
       },
       {
         "option_id": 4,
-        "option_value": "Multiple transactions"
+        "option_value": "Each change opens its own transaction"
       }
     ],
     "answer_id": 2,
@@ -2668,19 +2668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Active record"
+        "option_value": "Objects carry their own persistence code"
       },
       {
         "option_id": 2,
-        "option_value": "Moving data between objects and database while keeping them independent"
+        "option_value": "A separate layer moves data to and fro"
       },
       {
         "option_id": 3,
-        "option_value": "No mapping"
+        "option_value": "Objects and rows are never mapped at all"
       },
       {
         "option_id": 4,
-        "option_value": "Direct access"
+        "option_value": "Callers query the store directly"
       }
     ],
     "answer_id": 2,
@@ -2692,19 +2692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data mapper"
+        "option_value": "A separate layer moves data to and fro"
       },
       {
         "option_id": 2,
-        "option_value": "Object wrapping row in database table"
+        "option_value": "An object wrapping a single table row"
       },
       {
         "option_id": 3,
-        "option_value": "No pattern"
+        "option_value": "No structure is imposed on the writes"
       },
       {
         "option_id": 4,
-        "option_value": "Repository only"
+        "option_value": "Access hidden behind a repository"
       }
     ],
     "answer_id": 2,
@@ -2716,19 +2716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Eager loading"
+        "option_value": "Related data fetched with the parent"
       },
       {
         "option_id": 2,
-        "option_value": "Delaying loading of data until needed"
+        "option_value": "Related data fetched only when touched"
       },
       {
         "option_id": 3,
-        "option_value": "No loading"
+        "option_value": "No data is ever fetched from the store"
       },
       {
         "option_id": 4,
-        "option_value": "Immediate loading"
+        "option_value": "All data is fetched at start-up"
       }
     ],
     "answer_id": 2,
@@ -2740,19 +2740,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Lazy loading"
+        "option_value": "Related data fetched only when touched"
       },
       {
         "option_id": 2,
-        "option_value": "Loading related data with parent object"
+        "option_value": "Related data fetched with the parent"
       },
       {
         "option_id": 3,
-        "option_value": "No loading"
+        "option_value": "No data is ever fetched from the store"
       },
       {
         "option_id": 4,
-        "option_value": "On-demand loading"
+        "option_value": "Data is fetched one row at a time"
       }
     ],
     "answer_id": 2,
@@ -2764,19 +2764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No caching"
+        "option_value": "Nothing is remembered between reads"
       },
       {
         "option_id": 2,
-        "option_value": "Ensuring each object loaded only once per transaction"
+        "option_value": "Each row is loaded once per transaction"
       },
       {
         "option_id": 3,
-        "option_value": "Multiple loads"
+        "option_value": "Each row is loaded afresh every time"
       },
       {
         "option_id": 4,
-        "option_value": "No pattern"
+        "option_value": "No particular structure is imposed"
       }
     ],
     "answer_id": 2,
@@ -2788,19 +2788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Transaction script"
+        "option_value": "Logic organised per incoming request"
       },
       {
         "option_id": 2,
-        "option_value": "Object model of domain incorporating behavior and data"
+        "option_value": "Objects carrying both data and behaviour"
       },
       {
         "option_id": 3,
-        "option_value": "Table module"
+        "option_value": "One instance handling a whole table"
       },
       {
         "option_id": 4,
-        "option_value": "No pattern"
+        "option_value": "No particular structure is imposed"
       }
     ],
     "answer_id": 2,
@@ -2812,19 +2812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Rich model"
+        "option_value": "Objects carrying real behaviour"
       },
       {
         "option_id": 2,
-        "option_value": "Domain objects with little behavior, mostly getters/setters"
+        "option_value": "Objects that are little but getters"
       },
       {
         "option_id": 3,
-        "option_value": "No model"
+        "option_value": "No object model exists at all"
       },
       {
         "option_id": 4,
-        "option_value": "Full model"
+        "option_value": "A model covering the whole domain"
       }
     ],
     "answer_id": 2,
@@ -2836,19 +2836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Anemic model"
+        "option_value": "Objects that are little but getters"
       },
       {
         "option_id": 2,
-        "option_value": "Domain objects with both data and behavior"
+        "option_value": "Objects carrying data and real behaviour"
       },
       {
         "option_id": 3,
-        "option_value": "No model"
+        "option_value": "No object model exists at all"
       },
       {
         "option_id": 4,
-        "option_value": "Data only"
+        "option_value": "A model holding only stored data"
       }
     ],
     "answer_id": 2,
@@ -2860,19 +2860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No services"
+        "option_value": "No boundary is defined at all"
       },
       {
         "option_id": 2,
-        "option_value": "Defining application's boundary and set of available operations"
+        "option_value": "A boundary naming the available operations"
       },
       {
         "option_id": 3,
-        "option_value": "Data layer"
+        "option_value": "The layer that reads and writes storage"
       },
       {
         "option_id": 4,
-        "option_value": "UI layer"
+        "option_value": "The layer the user actually sees"
       }
     ],
     "answer_id": 2,
@@ -2884,19 +2884,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Domain model"
+        "option_value": "Objects carrying both data and behaviour"
       },
       {
         "option_id": 2,
-        "option_value": "Organizing business logic by each transaction"
+        "option_value": "Logic organised per incoming request"
       },
       {
         "option_id": 3,
-        "option_value": "Table module"
+        "option_value": "One instance handling a whole table"
       },
       {
         "option_id": 4,
-        "option_value": "No pattern"
+        "option_value": "No particular structure is imposed"
       }
     ],
     "answer_id": 2,
@@ -2908,19 +2908,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Domain model"
+        "option_value": "Objects carrying both data and behaviour"
       },
       {
         "option_id": 2,
-        "option_value": "Single instance handling business logic for all rows in table"
+        "option_value": "One instance handling a whole table"
       },
       {
         "option_id": 3,
-        "option_value": "Transaction script"
+        "option_value": "Logic organised per incoming request"
       },
       {
         "option_id": 4,
-        "option_value": "No pattern"
+        "option_value": "No particular structure is imposed"
       }
     ],
     "answer_id": 2,
