@@ -3052,19 +3052,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Test match"
+        "option_value": "Returns true or false for a match"
       },
       {
         "option_id": 2,
-        "option_value": "Return matches as array"
+        "option_value": "Returns the matches found, as an array"
       },
       {
         "option_id": 3,
-        "option_value": "Replace"
+        "option_value": "Swaps matches for a replacement string"
       },
       {
         "option_id": 4,
-        "option_value": "Split"
+        "option_value": "Splits the string on each match found"
       }
     ],
     "answer_id": 2,
@@ -3076,19 +3076,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Find match"
+        "option_value": "Returns the index of the first match"
       },
       {
         "option_id": 2,
-        "option_value": "Replace matches with new substring"
+        "option_value": "Swaps matches for a replacement string"
       },
       {
         "option_id": 3,
-        "option_value": "Test match"
+        "option_value": "Returns true or false for a match"
       },
       {
         "option_id": 4,
-        "option_value": "Split"
+        "option_value": "Splits the string on each match found"
       }
     ],
     "answer_id": 2,
@@ -3100,19 +3100,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Replace"
+        "option_value": "Swaps matches for a replacement string"
       },
       {
         "option_id": 2,
-        "option_value": "Search for match, return index"
+        "option_value": "Returns the index of the first match"
       },
       {
         "option_id": 3,
-        "option_value": "Test match"
+        "option_value": "Returns true or false for a match"
       },
       {
         "option_id": 4,
-        "option_value": "Split"
+        "option_value": "Splits the string on each match found"
       }
     ],
     "answer_id": 2,
@@ -3124,19 +3124,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Join strings"
+        "option_value": "Joins an array into a single string"
       },
       {
         "option_id": 2,
-        "option_value": "Split string into array by separator"
+        "option_value": "Breaks a string apart on a separator"
       },
       {
         "option_id": 3,
-        "option_value": "Replace"
+        "option_value": "Swaps matches for a replacement string"
       },
       {
         "option_id": 4,
-        "option_value": "Search"
+        "option_value": "Returns the index of the first match"
       }
     ],
     "answer_id": 2,
@@ -3148,19 +3148,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Loop"
+        "option_value": "A construct for repeating a block"
       },
       {
         "option_id": 2,
-        "option_value": "Error handling mechanism"
+        "option_value": "A construct for handling thrown errors"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A construct for declaring a routine"
       },
       {
         "option_id": 4,
-        "option_value": "Object"
+        "option_value": "A construct for grouping related data"
       }
     ],
     "answer_id": 2,
@@ -3172,19 +3172,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Catch error"
+        "option_value": "Catches an exception that was raised"
       },
       {
         "option_id": 2,
-        "option_value": "Throw custom exception"
+        "option_value": "Raises an exception of your choosing"
       },
       {
         "option_id": 3,
-        "option_value": "Handle error"
+        "option_value": "Suppresses an exception that occurred"
       },
       {
         "option_id": 4,
-        "option_value": "Ignore error"
+        "option_value": "Logs an exception without raising it"
       }
     ],
     "answer_id": 2,
@@ -3196,19 +3196,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Optional block"
+        "option_value": "A block that may be skipped entirely"
       },
       {
         "option_id": 2,
-        "option_value": "Always executes after try/catch"
+        "option_value": "A block that runs whatever happens"
       },
       {
         "option_id": 3,
-        "option_value": "Only on error"
+        "option_value": "A block that runs only after an error"
       },
       {
         "option_id": 4,
-        "option_value": "Only on success"
+        "option_value": "A block that runs only without errors"
       }
     ],
     "answer_id": 2,
@@ -3220,19 +3220,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Success object"
+        "option_value": "A value describing a successful result"
       },
       {
         "option_id": 2,
-        "option_value": "Runtime error information"
+        "option_value": "A value describing a runtime failure"
       },
       {
         "option_id": 3,
-        "option_value": "Warning"
+        "option_value": "A value describing a non-fatal warning"
       },
       {
         "option_id": 4,
-        "option_value": "Log"
+        "option_value": "A value written into the console log"
       }
     ],
     "answer_id": 2,
@@ -3244,19 +3244,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Syntax error"
+        "option_value": "Raised when code cannot be parsed"
       },
       {
         "option_id": 2,
-        "option_value": "Error when value is not expected type"
+        "option_value": "Raised when a value is the wrong type"
       },
       {
         "option_id": 3,
-        "option_value": "Reference error"
+        "option_value": "Raised when a name is not defined"
       },
       {
         "option_id": 4,
-        "option_value": "Range error"
+        "option_value": "Raised when a value is out of range"
       }
     ],
     "answer_id": 2,
@@ -3268,19 +3268,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Type error"
+        "option_value": "Raised when a value is the wrong type"
       },
       {
         "option_id": 2,
-        "option_value": "Error when referencing non-existent variable"
+        "option_value": "Raised when a name is not defined"
       },
       {
         "option_id": 3,
-        "option_value": "Syntax error"
+        "option_value": "Raised when code cannot be parsed"
       },
       {
         "option_id": 4,
-        "option_value": "Range error"
+        "option_value": "Raised when a value is out of range"
       }
     ],
     "answer_id": 2,
@@ -3292,19 +3292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Runtime error"
+        "option_value": "Raised while the program is running"
       },
       {
         "option_id": 2,
-        "option_value": "Error in parsing code"
+        "option_value": "Raised when code cannot be parsed"
       },
       {
         "option_id": 3,
-        "option_value": "Type error"
+        "option_value": "Raised when a value is the wrong type"
       },
       {
         "option_id": 4,
-        "option_value": "Logic error"
+        "option_value": "Raised when the logic gives a bad answer"
       }
     ],
     "answer_id": 2,
@@ -3316,19 +3316,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Type error"
+        "option_value": "Raised when a value is the wrong type"
       },
       {
         "option_id": 2,
-        "option_value": "Error when value not in allowed range"
+        "option_value": "Raised when a value is out of range"
       },
       {
         "option_id": 3,
-        "option_value": "Syntax error"
+        "option_value": "Raised when code cannot be parsed"
       },
       {
         "option_id": 4,
-        "option_value": "Reference error"
+        "option_value": "Raised when a name is not defined"
       }
     ],
     "answer_id": 2,
@@ -3340,19 +3340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No types"
+        "option_value": "Leaving the type entirely unstated"
       },
       {
         "option_id": 2,
-        "option_value": "Explicitly specifying type: let x: number"
+        "option_value": "Stating the type outright, as let x: number"
       },
       {
         "option_id": 3,
-        "option_value": "Implicit types"
+        "option_value": "Letting the runtime decide the type"
       },
       {
         "option_id": 4,
-        "option_value": "JavaScript types"
+        "option_value": "Reusing the types JavaScript already has"
       }
     ],
     "answer_id": 2,
@@ -3364,19 +3364,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No inference"
+        "option_value": "Types must always be written by hand"
       },
       {
         "option_id": 2,
-        "option_value": "Compiler infers type from value"
+        "option_value": "The compiler works the type out for you"
       },
       {
         "option_id": 3,
-        "option_value": "Runtime inference"
+        "option_value": "Types are worked out while running"
       },
       {
         "option_id": 4,
-        "option_value": "No types"
+        "option_value": "Values carry no type information at all"
       }
     ],
     "answer_id": 2,
@@ -3388,19 +3388,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       },
       {
         "option_id": 2,
-        "option_value": "Contract defining shape of object"
+        "option_value": "A contract describing an object's shape"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A routine that returns a value"
       },
       {
         "option_id": 4,
-        "option_value": "Variable"
+        "option_value": "A named container holding a value"
       }
     ],
     "answer_id": 2,
@@ -3412,19 +3412,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Interface"
+        "option_value": "A contract describing an object's shape"
       },
       {
         "option_id": 2,
-        "option_value": "Name for any type"
+        "option_value": "A name given to any type expression"
       },
       {
         "option_id": 3,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       },
       {
         "option_id": 4,
-        "option_value": "Function"
+        "option_value": "A routine that returns a value"
       }
     ],
     "answer_id": 2,
@@ -3436,19 +3436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "The two are entirely interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "interface can be extended/merged, type can define unions/intersections"
+        "option_value": "interface merges; type expresses unions"
       },
       {
         "option_id": 3,
-        "option_value": "type can be extended"
+        "option_value": "type merges; interface expresses unions"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "interface works only on class shapes"
       }
     ],
     "answer_id": 2,
@@ -3460,19 +3460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Specific type"
+        "option_value": "A type pinned to one concrete shape"
       },
       {
         "option_id": 2,
-        "option_value": "Type that works with any type"
+        "option_value": "A type parameterised over other types"
       },
       {
         "option_id": 3,
-        "option_value": "No generics"
+        "option_value": "A type that only accepts numbers"
       },
       {
         "option_id": 4,
-        "option_value": "Only number"
+        "option_value": "A type checked only while running"
       }
     ],
     "answer_id": 2,
@@ -3484,19 +3484,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "T only"
+        "option_value": "Written as a bare T with no brackets"
       },
       {
         "option_id": 2,
-        "option_value": "<T> or <Type>"
+        "option_value": "Written in angle brackets, as <T>"
       },
       {
         "option_id": 3,
-        "option_value": "any"
+        "option_value": "Written as the keyword any instead"
       },
       {
         "option_id": 4,
-        "option_value": "unknown"
+        "option_value": "Written as the keyword unknown instead"
       }
     ],
     "answer_id": 2,
@@ -3508,19 +3508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Object"
+        "option_value": "A container mapping keys to values"
       },
       {
         "option_id": 2,
-        "option_value": "Named constants"
+        "option_value": "A set of named constant values"
       },
       {
         "option_id": 3,
-        "option_value": "Array"
+        "option_value": "An ordered list indexed by integers"
       },
       {
         "option_id": 4,
-        "option_value": "Function"
+        "option_value": "A routine returning a fixed value"
       }
     ],
     "answer_id": 2,
@@ -3532,19 +3532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Array"
+        "option_value": "An array of any length and one type"
       },
       {
         "option_id": 2,
-        "option_value": "Array with fixed number of elements with known types"
+        "option_value": "An array of fixed length and known types"
       },
       {
         "option_id": 3,
-        "option_value": "Object"
+        "option_value": "A container mapping keys to values"
       },
       {
         "option_id": 4,
-        "option_value": "Set"
+        "option_value": "A collection holding unique values"
       }
     ],
     "answer_id": 2,
@@ -3556,19 +3556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single type"
+        "option_value": "A value pinned to exactly one type"
       },
       {
         "option_id": 2,
-        "option_value": "Value can be one of several types: string | number"
+        "option_value": "A value that may be any of several types"
       },
       {
         "option_id": 3,
-        "option_value": "Intersection"
+        "option_value": "A value combining several types at once"
       },
       {
         "option_id": 4,
-        "option_value": "Generic"
+        "option_value": "A value whose type is left unstated"
       }
     ],
     "answer_id": 2,
@@ -3580,19 +3580,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single type"
+        "option_value": "A value pinned to exactly one type"
       },
       {
         "option_id": 2,
-        "option_value": "Combines multiple types: Type1 & Type2"
+        "option_value": "A value combining several types at once"
       },
       {
         "option_id": 3,
-        "option_value": "Union"
+        "option_value": "A value that may be any of several types"
       },
       {
         "option_id": 4,
-        "option_value": "Generic"
+        "option_value": "A value whose type is left unstated"
       }
     ],
     "answer_id": 2,
@@ -3604,19 +3604,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Strict type"
+        "option_value": "The strictest type the compiler offers"
       },
       {
         "option_id": 2,
-        "option_value": "Opt-out of type checking"
+        "option_value": "A deliberate opt-out of type checking"
       },
       {
         "option_id": 3,
-        "option_value": "Unknown type"
+        "option_value": "A safe type requiring a check first"
       },
       {
         "option_id": 4,
-        "option_value": "Never type"
+        "option_value": "A type that no value can ever have"
       }
     ],
     "answer_id": 2,
@@ -3628,19 +3628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same as any"
+        "option_value": "Exactly the same thing as any"
       },
       {
         "option_id": 2,
-        "option_value": "Type-safe counterpart of any"
+        "option_value": "A safe type requiring a check first"
       },
       {
         "option_id": 3,
-        "option_value": "Never type"
+        "option_value": "A type that no value can ever have"
       },
       {
         "option_id": 4,
-        "option_value": "Void type"
+        "option_value": "A type used for absent return values"
       }
     ],
     "answer_id": 2,
@@ -3652,19 +3652,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Any value"
+        "option_value": "A type that accepts any value at all"
       },
       {
         "option_id": 2,
-        "option_value": "Value that never occurs"
+        "option_value": "A type that no value can ever have"
       },
       {
         "option_id": 3,
-        "option_value": "Unknown"
+        "option_value": "A safe type requiring a check first"
       },
       {
         "option_id": 4,
-        "option_value": "Void"
+        "option_value": "A type used for absent return values"
       }
     ],
     "answer_id": 2,
@@ -3676,19 +3676,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Any value"
+        "option_value": "A type that accepts any value at all"
       },
       {
         "option_id": 2,
-        "option_value": "No return value"
+        "option_value": "A type used for absent return values"
       },
       {
         "option_id": 3,
-        "option_value": "Null"
+        "option_value": "A type holding only the value null"
       },
       {
         "option_id": 4,
-        "option_value": "Undefined"
+        "option_value": "A type that no value can ever have"
       }
     ],
     "answer_id": 2,
@@ -3700,19 +3700,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Writable"
+        "option_value": "Marks a property as freely writable"
       },
       {
         "option_id": 2,
-        "option_value": "Property cannot be reassigned"
+        "option_value": "Marks a property as never reassignable"
       },
       {
         "option_id": 3,
-        "option_value": "Optional"
+        "option_value": "Marks a property as possibly absent"
       },
       {
         "option_id": 4,
-        "option_value": "Private"
+        "option_value": "Marks a property as internal to a class"
       }
     ],
     "answer_id": 2,
@@ -3724,19 +3724,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Required"
+        "option_value": "A parameter the caller must always supply"
       },
       {
         "option_id": 2,
-        "option_value": "Parameter with ? that may be omitted"
+        "option_value": "A parameter marked ? that may be left out"
       },
       {
         "option_id": 3,
-        "option_value": "Default"
+        "option_value": "A parameter with a fallback default value"
       },
       {
         "option_id": 4,
-        "option_value": "Rest"
+        "option_value": "A parameter gathering up the leftovers"
       }
     ],
     "answer_id": 2,
@@ -3748,19 +3748,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No modifiers"
+        "option_value": "The language provides none of these"
       },
       {
         "option_id": 2,
-        "option_value": "public, private, protected"
+        "option_value": "public, private and protected"
       },
       {
         "option_id": 3,
-        "option_value": "Only public"
+        "option_value": "Only public is actually supported"
       },
       {
         "option_id": 4,
-        "option_value": "Only private"
+        "option_value": "Only private is actually supported"
       }
     ],
     "answer_id": 2,
@@ -3772,19 +3772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Concrete class"
+        "option_value": "A class you instantiate as normal"
       },
       {
         "option_id": 2,
-        "option_value": "Class that cannot be instantiated, meant to be extended"
+        "option_value": "A class only ever used as a base"
       },
       {
         "option_id": 3,
-        "option_value": "Interface"
+        "option_value": "A contract listing required members"
       },
       {
         "option_id": 4,
-        "option_value": "Static class"
+        "option_value": "A class holding only static members"
       }
     ],
     "answer_id": 2,
@@ -3796,19 +3796,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Extends class"
+        "option_value": "Declares a parent class to inherit from"
       },
       {
         "option_id": 2,
-        "option_value": "Class implements interface"
+        "option_value": "Declares an interface the class satisfies"
       },
       {
         "option_id": 3,
-        "option_value": "Creates instance"
+        "option_value": "Constructs an instance of the class"
       },
       {
         "option_id": 4,
-        "option_value": "No use"
+        "option_value": "Has no effect on the class body"
       }
     ],
     "answer_id": 2,
@@ -3820,19 +3820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source file"
+        "option_value": "A file holding runnable source code"
       },
       {
         "option_id": 2,
-        "option_value": "File providing type information for JS library"
+        "option_value": "A file supplying types for plain JS"
       },
       {
         "option_id": 3,
-        "option_value": "Config file"
+        "option_value": "A file holding compiler settings"
       },
       {
         "option_id": 4,
-        "option_value": "Test file"
+        "option_value": "A file holding the project's tests"
       }
     ],
     "answer_id": 2,
@@ -3844,19 +3844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source file"
+        "option_value": "A file holding runnable source code"
       },
       {
         "option_id": 2,
-        "option_value": "Configuration file for TypeScript project"
+        "option_value": "A file holding the compiler's settings"
       },
       {
         "option_id": 3,
-        "option_value": "Test config"
+        "option_value": "A file holding the project's tests"
       },
       {
         "option_id": 4,
-        "option_value": "Build script"
+        "option_value": "A script that drives the build step"
       }
     ],
     "answer_id": 2,
@@ -3868,19 +3868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Lenient mode"
+        "option_value": "Relaxes the checks the compiler makes"
       },
       {
         "option_id": 2,
-        "option_value": "Enables stricter type checking"
+        "option_value": "Turns on the compiler's stricter checks"
       },
       {
         "option_id": 3,
-        "option_value": "No checking"
+        "option_value": "Disables type checking altogether"
       },
       {
         "option_id": 4,
-        "option_value": "JavaScript mode"
+        "option_value": "Compiles the file as plain JavaScript"
       }
     ],
     "answer_id": 2,
@@ -3892,19 +3892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No decorators"
+        "option_value": "A feature the language never added"
       },
       {
         "option_id": 2,
-        "option_value": "Experimental feature for annotations/modifying classes"
+        "option_value": "An annotation that can alter a class"
       },
       {
         "option_id": 3,
-        "option_value": "Functions only"
+        "option_value": "A feature limited to plain functions"
       },
       {
         "option_id": 4,
-        "option_value": "Variables only"
+        "option_value": "A feature limited to variables only"
       }
     ],
     "answer_id": 2,
@@ -3916,19 +3916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Module"
+        "option_value": "A file-based module with import/export"
       },
       {
         "option_id": 2,
-        "option_value": "Way to organize code with internal modules"
+        "option_value": "An internal grouping of related code"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A routine that returns some value"
       },
       {
         "option_id": 4,
-        "option_value": "Variable"
+        "option_value": "A named container holding a value"
       }
     ],
     "answer_id": 2,
@@ -3940,19 +3940,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Namespace"
+        "option_value": "An internal grouping of related code"
       },
       {
         "option_id": 2,
-        "option_value": "External module with import/export"
+        "option_value": "A file-based unit with import/export"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A routine that returns some value"
       },
       {
         "option_id": 4,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       }
     ],
     "answer_id": 2,
@@ -3964,19 +3964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Comment"
+        "option_value": "An ordinary comment ignored entirely"
       },
       {
         "option_id": 2,
-        "option_value": "XML tag for compiler directives"
+        "option_value": "An XML-style comment the compiler reads"
       },
       {
         "option_id": 3,
-        "option_value": "String"
+        "option_value": "A plain string used as a marker"
       },
       {
         "option_id": 4,
-        "option_value": "Number"
+        "option_value": "A numeric constant read at build time"
       }
     ],
     "answer_id": 2,
@@ -3988,19 +3988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular union"
+        "option_value": "A union of completely unrelated types"
       },
       {
         "option_id": 2,
-        "option_value": "Union with common literal property for narrowing"
+        "option_value": "A union sharing a literal tag property"
       },
       {
         "option_id": 3,
-        "option_value": "Intersection"
+        "option_value": "A type combining several types at once"
       },
       {
         "option_id": 4,
-        "option_value": "Generic"
+        "option_value": "A type parameterised over other types"
       }
     ],
     "answer_id": 2,
@@ -4012,19 +4012,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Broadening"
+        "option_value": "Widening a type to something broader"
       },
       {
         "option_id": 2,
-        "option_value": "Refining type to more specific type"
+        "option_value": "Refining a type to something narrower"
       },
       {
         "option_id": 3,
-        "option_value": "No narrowing"
+        "option_value": "Removing the type from a value"
       },
       {
         "option_id": 4,
-        "option_value": "Any type"
+        "option_value": "Treating every value as type any"
       }
     ],
     "answer_id": 2,
@@ -4036,19 +4036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No guards"
+        "option_value": "A feature the language never added"
       },
       {
         "option_id": 2,
-        "option_value": "Expression that narrows type within scope"
+        "option_value": "An expression narrowing a type in scope"
       },
       {
         "option_id": 3,
-        "option_value": "Generic"
+        "option_value": "A type parameterised over other types"
       },
       {
         "option_id": 4,
-        "option_value": "Decorator"
+        "option_value": "An annotation that can alter a class"
       }
     ],
     "answer_id": 2,
@@ -4060,19 +4060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No guard"
+        "option_value": "A guard based on the class of a value"
       },
       {
         "option_id": 2,
-        "option_value": "Narrows type based on typeof check"
+        "option_value": "A guard based on the typeof result"
       },
       {
         "option_id": 3,
-        "option_value": "instanceof only"
+        "option_value": "A guard based on a property existing"
       },
       {
         "option_id": 4,
-        "option_value": "No narrowing"
+        "option_value": "A guard the language does not support"
       }
     ],
     "answer_id": 2,
@@ -4084,19 +4084,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No guard"
+        "option_value": "A guard based on the typeof result"
       },
       {
         "option_id": 2,
-        "option_value": "Narrows type based on instanceof check"
+        "option_value": "A guard based on the class of a value"
       },
       {
         "option_id": 3,
-        "option_value": "typeof only"
+        "option_value": "A guard based on a property existing"
       },
       {
         "option_id": 4,
-        "option_value": "No narrowing"
+        "option_value": "A guard the language does not support"
       }
     ],
     "answer_id": 2,
@@ -4108,19 +4108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No guard"
+        "option_value": "A guard based on the typeof result"
       },
       {
         "option_id": 2,
-        "option_value": "Narrows type based on property existence"
+        "option_value": "A guard based on a property existing"
       },
       {
         "option_id": 3,
-        "option_value": "typeof only"
+        "option_value": "A guard based on the class of a value"
       },
       {
         "option_id": 4,
-        "option_value": "No narrowing"
+        "option_value": "A guard the language does not support"
       }
     ],
     "answer_id": 2,
@@ -4132,19 +4132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No custom guards"
+        "option_value": "Only the built-in guards are available"
       },
       {
         "option_id": 2,
-        "option_value": "User-defined function returning type predicate"
+        "option_value": "A function returning a type predicate"
       },
       {
         "option_id": 3,
-        "option_value": "Built-in only"
+        "option_value": "A guard generated by the compiler"
       },
       {
         "option_id": 4,
-        "option_value": "No guards"
+        "option_value": "A feature the language never added"
       }
     ],
     "answer_id": 2,
@@ -4156,19 +4156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular type"
+        "option_value": "A type written out property by property"
       },
       {
         "option_id": 2,
-        "option_value": "Type created by mapping over properties"
+        "option_value": "A type built by walking another's keys"
       },
       {
         "option_id": 3,
-        "option_value": "Generic only"
+        "option_value": "A type parameterised over other types"
       },
       {
         "option_id": 4,
-        "option_value": "Union"
+        "option_value": "A type formed by joining several types"
       }
     ],
     "answer_id": 2,
@@ -4180,19 +4180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular type"
+        "option_value": "A type written out property by property"
       },
       {
         "option_id": 2,
-        "option_value": "Type selecting based on condition"
+        "option_value": "A type chosen by testing another type"
       },
       {
         "option_id": 3,
-        "option_value": "Union only"
+        "option_value": "A type formed by joining several types"
       },
       {
         "option_id": 4,
-        "option_value": "Intersection"
+        "option_value": "A type that may be one of several"
       }
     ],
     "answer_id": 2,
@@ -4204,19 +4204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No infer"
+        "option_value": "A keyword the language never added"
       },
       {
         "option_id": 2,
-        "option_value": "Infers type within conditional type"
+        "option_value": "A keyword capturing a type in a branch"
       },
       {
         "option_id": 3,
-        "option_value": "Generic"
+        "option_value": "A keyword introducing a type parameter"
       },
       {
         "option_id": 4,
-        "option_value": "Decorator"
+        "option_value": "A keyword that annotates a class"
       }
     ],
     "answer_id": 2,
@@ -4228,19 +4228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No utilities"
+        "option_value": "Helpers the language never shipped"
       },
       {
         "option_id": 2,
-        "option_value": "Built-in type helpers (Partial, Required, etc.)"
+        "option_value": "Built-in helpers like Partial and Pick"
       },
       {
         "option_id": 3,
-        "option_value": "Only Partial"
+        "option_value": "Only Partial exists among the helpers"
       },
       {
         "option_id": 4,
-        "option_value": "Only Required"
+        "option_value": "Only Required exists among the helpers"
       }
     ],
     "answer_id": 2,
@@ -4252,19 +4252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All required"
+        "option_value": "Makes every property mandatory"
       },
       {
         "option_id": 2,
-        "option_value": "Makes all properties optional"
+        "option_value": "Makes every property optional"
       },
       {
         "option_id": 3,
-        "option_value": "Makes readonly"
+        "option_value": "Makes every property unwritable"
       },
       {
         "option_id": 4,
-        "option_value": "Makes required"
+        "option_value": "Removes null from every property"
       }
     ],
     "answer_id": 2,
@@ -4276,19 +4276,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All optional"
+        "option_value": "Makes every property optional"
       },
       {
         "option_id": 2,
-        "option_value": "Makes all properties required"
+        "option_value": "Makes every property mandatory"
       },
       {
         "option_id": 3,
-        "option_value": "Makes readonly"
+        "option_value": "Makes every property unwritable"
       },
       {
         "option_id": 4,
-        "option_value": "Makes optional"
+        "option_value": "Removes null from every property"
       }
     ],
     "answer_id": 2,
@@ -4300,19 +4300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Writable"
+        "option_value": "Makes every property writable again"
       },
       {
         "option_id": 2,
-        "option_value": "Makes all properties readonly"
+        "option_value": "Makes every property unwritable"
       },
       {
         "option_id": 3,
-        "option_value": "Makes optional"
+        "option_value": "Makes every property optional"
       },
       {
         "option_id": 4,
-        "option_value": "Makes required"
+        "option_value": "Makes every property mandatory"
       }
     ],
     "answer_id": 2,
@@ -4324,19 +4324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All properties"
+        "option_value": "Keeps every property of the source"
       },
       {
         "option_id": 2,
-        "option_value": "Picks subset of properties from T"
+        "option_value": "Keeps only the named properties"
       },
       {
         "option_id": 3,
-        "option_value": "Omits properties"
+        "option_value": "Drops the named properties instead"
       },
       {
         "option_id": 4,
-        "option_value": "Combines types"
+        "option_value": "Joins two types into a single one"
       }
     ],
     "answer_id": 2,
@@ -4348,19 +4348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All properties"
+        "option_value": "Keeps every property of the source"
       },
       {
         "option_id": 2,
-        "option_value": "Constructs type without specified properties"
+        "option_value": "Drops the named properties instead"
       },
       {
         "option_id": 3,
-        "option_value": "Picks properties"
+        "option_value": "Keeps only the named properties"
       },
       {
         "option_id": 4,
-        "option_value": "Combines types"
+        "option_value": "Joins two types into a single one"
       }
     ],
     "answer_id": 2,
@@ -4372,19 +4372,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Array"
+        "option_value": "An ordered list indexed by integers"
       },
       {
         "option_id": 2,
-        "option_value": "Object type with keys K and values T"
+        "option_value": "An object with keys K and values T"
       },
       {
         "option_id": 3,
-        "option_value": "Union"
+        "option_value": "A type that may be one of several"
       },
       {
         "option_id": 4,
-        "option_value": "Intersection"
+        "option_value": "A type formed by joining several types"
       }
     ],
     "answer_id": 2,
@@ -4396,19 +4396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Include types"
+        "option_value": "Keeps members of T assignable to U"
       },
       {
         "option_id": 2,
-        "option_value": "Exclude types from T assignable to U"
+        "option_value": "Drops members of T assignable to U"
       },
       {
         "option_id": 3,
-        "option_value": "Extract types"
+        "option_value": "Joins T and U into a single type"
       },
       {
         "option_id": 4,
-        "option_value": "Combine types"
+        "option_value": "Makes every member of T optional"
       }
     ],
     "answer_id": 2,
@@ -4420,19 +4420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Exclude types"
+        "option_value": "Drops members of T assignable to U"
       },
       {
         "option_id": 2,
-        "option_value": "Extract types from T assignable to U"
+        "option_value": "Keeps members of T assignable to U"
       },
       {
         "option_id": 3,
-        "option_value": "Combine types"
+        "option_value": "Joins T and U into a single type"
       },
       {
         "option_id": 4,
-        "option_value": "No extraction"
+        "option_value": "Makes every member of T optional"
       }
     ],
     "answer_id": 2,
@@ -4444,19 +4444,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Nullable"
+        "option_value": "Adds null and undefined back to T"
       },
       {
         "option_id": 2,
-        "option_value": "Exclude null and undefined from T"
+        "option_value": "Drops null and undefined from T"
       },
       {
         "option_id": 3,
-        "option_value": "Include null"
+        "option_value": "Makes every property of T optional"
       },
       {
         "option_id": 4,
-        "option_value": "No change"
+        "option_value": "Makes every property of T readonly"
       }
     ],
     "answer_id": 2,
@@ -4468,19 +4468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Parameter types"
+        "option_value": "Pulls out a function's parameter types"
       },
       {
         "option_id": 2,
-        "option_value": "Extract return type of function type"
+        "option_value": "Pulls out a function's return type"
       },
       {
         "option_id": 3,
-        "option_value": "No extraction"
+        "option_value": "Pulls out a function's own name"
       },
       {
         "option_id": 4,
-        "option_value": "Argument type"
+        "option_value": "Pulls out a function's arity as a number"
       }
     ],
     "answer_id": 2,
@@ -4492,19 +4492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Return type"
+        "option_value": "Pulls out a function's return type"
       },
       {
         "option_id": 2,
-        "option_value": "Extract parameter types of function type"
+        "option_value": "Pulls out a function's parameter types"
       },
       {
         "option_id": 3,
-        "option_value": "No extraction"
+        "option_value": "Pulls out a function's own name"
       },
       {
         "option_id": 4,
-        "option_value": "No parameters"
+        "option_value": "Pulls out a function's arity as a number"
       }
     ],
     "answer_id": 2,
@@ -4516,19 +4516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Valueof"
+        "option_value": "Gives the union of a type's values"
       },
       {
         "option_id": 2,
-        "option_value": "Union of property names of type"
+        "option_value": "Gives the union of a type's key names"
       },
       {
         "option_id": 3,
-        "option_value": "Typeof"
+        "option_value": "Gives the type of a given variable"
       },
       {
         "option_id": 4,
-        "option_value": "Instanceof"
+        "option_value": "Gives the class a value came from"
       }
     ],
     "answer_id": 2,
@@ -4540,19 +4540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "JavaScript typeof"
+        "option_value": "Behaves exactly as it does at runtime"
       },
       {
         "option_id": 2,
-        "option_value": "Get type of variable/function"
+        "option_value": "Gives the static type of a binding"
       },
       {
         "option_id": 3,
-        "option_value": "Instanceof"
+        "option_value": "Gives the class a value came from"
       },
       {
         "option_id": 4,
-        "option_value": "Keyof"
+        "option_value": "Gives the union of a type's key names"
       }
     ],
     "answer_id": 2,
@@ -4564,19 +4564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No access"
+        "option_value": "A feature the language never added"
       },
       {
         "option_id": 2,
-        "option_value": "Access property type: T[K]"
+        "option_value": "Reading a property's type, as T[K]"
       },
       {
         "option_id": 3,
-        "option_value": "Generic only"
+        "option_value": "A type parameterised over other types"
       },
       {
         "option_id": 4,
-        "option_value": "Union only"
+        "option_value": "A type that may be one of several"
       }
     ],
     "answer_id": 2,
@@ -4588,19 +4588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No assertion"
+        "option_value": "An assertion the language never added"
       },
       {
         "option_id": 2,
-        "option_value": "Mark literal type as readonly with as const"
+        "option_value": "Marking a literal readonly with as const"
       },
       {
         "option_id": 3,
-        "option_value": "Any assertion"
+        "option_value": "Casting a value to the any type"
       },
       {
         "option_id": 4,
-        "option_value": "Unknown assertion"
+        "option_value": "Casting a value to the unknown type"
       }
     ],
     "answer_id": 2,
@@ -4612,19 +4612,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No operator"
+        "option_value": "An operator the language has never added"
       },
       {
         "option_id": 2,
-        "option_value": "Check expression matches type without widening"
+        "option_value": "Checks a value fits a type, without widening"
       },
       {
         "option_id": 3,
-        "option_value": "Any operator"
+        "option_value": "Casts a value straight to the any type"
       },
       {
         "option_id": 4,
-        "option_value": "Unknown operator"
+        "option_value": "Casts a value straight to unknown type"
       }
     ],
     "answer_id": 2,
@@ -4636,19 +4636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow any"
+        "option_value": "Lets implicit any pass without comment"
       },
       {
         "option_id": 2,
-        "option_value": "Raise error on expressions/declarations with implied any"
+        "option_value": "Errors when a type is implicitly any"
       },
       {
         "option_id": 3,
-        "option_value": "No error"
+        "option_value": "Turns off error reporting entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All any"
+        "option_value": "Treats every declaration as type any"
       }
     ],
     "answer_id": 2,
@@ -4660,19 +4660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow null"
+        "option_value": "Lets null sit inside every type"
       },
       {
         "option_id": 2,
-        "option_value": "Make null and undefined distinct types"
+        "option_value": "Treats null and undefined as own types"
       },
       {
         "option_id": 3,
-        "option_value": "No null"
+        "option_value": "Removes null from the language"
       },
       {
         "option_id": 4,
-        "option_value": "All null"
+        "option_value": "Treats every value as possibly null"
       }
     ],
     "answer_id": 2,
@@ -4684,19 +4684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No target"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Specify ECMAScript target version"
+        "option_value": "Which ECMAScript version to emit"
       },
       {
         "option_id": 3,
-        "option_value": "Source map"
+        "option_value": "Whether to emit a source map file"
       },
       {
         "option_id": 4,
-        "option_value": "Module"
+        "option_value": "Which module format to emit"
       }
     ],
     "answer_id": 2,
@@ -4708,19 +4708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No module"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Specify module code generation"
+        "option_value": "Which module format to emit"
       },
       {
         "option_id": 3,
-        "option_value": "Target"
+        "option_value": "Which ECMAScript version to emit"
       },
       {
         "option_id": 4,
-        "option_value": "Source map"
+        "option_value": "Whether to emit a source map file"
       }
     ],
     "answer_id": 2,
@@ -4732,19 +4732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source directory"
+        "option_value": "Where the input sources are found"
       },
       {
         "option_id": 2,
-        "option_value": "Output directory for compiled files"
+        "option_value": "Where the compiled output is written"
       },
       {
         "option_id": 3,
-        "option_value": "No output"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 4,
-        "option_value": "Root directory"
+        "option_value": "The directory the command was run in"
       }
     ],
     "answer_id": 2,
@@ -4756,19 +4756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Output directory"
+        "option_value": "Where the compiled output is written"
       },
       {
         "option_id": 2,
-        "option_value": "Root directory of source files"
+        "option_value": "Where the input sources are found"
       },
       {
         "option_id": 3,
-        "option_value": "No root"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 4,
-        "option_value": "Current directory"
+        "option_value": "The directory the command was run in"
       }
     ],
     "answer_id": 2,
@@ -4780,19 +4780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No map"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Generate source map files for debugging"
+        "option_value": "Emits map files that aid debugging"
       },
       {
         "option_id": 3,
-        "option_value": "No debug"
+        "option_value": "Turns off debugging information"
       },
       {
         "option_id": 4,
-        "option_value": "Minify"
+        "option_value": "Shrinks the emitted output files"
       }
     ],
     "answer_id": 2,
@@ -4804,19 +4804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No declaration"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Generate .d.ts declaration files"
+        "option_value": "Emits .d.ts files beside the output"
       },
       {
         "option_id": 3,
-        "option_value": "No types"
+        "option_value": "Strips all type information away"
       },
       {
         "option_id": 4,
-        "option_value": "Source only"
+        "option_value": "Emits only the source, not the types"
       }
     ],
     "answer_id": 2,
@@ -4828,19 +4828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No strictness"
+        "option_value": "Turns off every strictness check"
       },
       {
         "option_id": 2,
-        "option_value": "Enable all strict type-checking options"
+        "option_value": "Turns on every strictness check"
       },
       {
         "option_id": 3,
-        "option_value": "Some strictness"
+        "option_value": "Turns on only some of the checks"
       },
       {
         "option_id": 4,
-        "option_value": "No types"
+        "option_value": "Strips all type information away"
       }
     ],
     "answer_id": 2,
@@ -4852,19 +4852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No interop"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Enable interoperability between CommonJS and ES Modules"
+        "option_value": "Smooths over CommonJS and ES module gaps"
       },
       {
         "option_id": 3,
-        "option_value": "No modules"
+        "option_value": "Disables module support entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All CommonJS"
+        "option_value": "Forces every file to be CommonJS"
       }
     ],
     "answer_id": 2,
@@ -4876,19 +4876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Check all"
+        "option_value": "Type checks every file it can find"
       },
       {
         "option_id": 2,
-        "option_value": "Skip type checking of declaration files"
+        "option_value": "Skips type checking of .d.ts files"
       },
       {
         "option_id": 3,
-        "option_value": "No checking"
+        "option_value": "Turns off type checking entirely"
       },
       {
         "option_id": 4,
-        "option_value": "Strict checking"
+        "option_value": "Applies the strictest checks to libs"
       }
     ],
     "answer_id": 2,
@@ -4900,19 +4900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No forcing"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Disallow inconsistently-cased references"
+        "option_value": "Rejects imports whose casing disagrees"
       },
       {
         "option_id": 3,
-        "option_value": "Allow any case"
+        "option_value": "Accepts any casing in import paths"
       },
       {
         "option_id": 4,
-        "option_value": "No checking"
+        "option_value": "Turns off path checking entirely"
       }
     ],
     "answer_id": 2,
@@ -4924,19 +4924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No JSON"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Allow importing JSON files"
+        "option_value": "Lets you import .json files directly"
       },
       {
         "option_id": 3,
-        "option_value": "No modules"
+        "option_value": "Disables module support entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All JSON"
+        "option_value": "Treats every import as a JSON file"
       }
     ],
     "answer_id": 2,
@@ -4948,19 +4948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No base"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Base directory for non-relative module resolution"
+        "option_value": "The root for non-relative import paths"
       },
       {
         "option_id": 3,
-        "option_value": "Current directory"
+        "option_value": "The directory the command was run in"
       },
       {
         "option_id": 4,
-        "option_value": "Root directory"
+        "option_value": "Where the compiled output is written"
       }
     ],
     "answer_id": 2,
@@ -4972,19 +4972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No paths"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Module name to path mappings"
+        "option_value": "Maps module names onto real paths"
       },
       {
         "option_id": 3,
-        "option_value": "Only baseUrl"
+        "option_value": "Only baseUrl can be configured here"
       },
       {
         "option_id": 4,
-        "option_value": "No mapping"
+        "option_value": "Disables module resolution entirely"
       }
     ],
     "answer_id": 2,
@@ -4996,19 +4996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Exclude files"
+        "option_value": "Which files to leave out of the build"
       },
       {
         "option_id": 2,
-        "option_value": "Specify files to include in compilation"
+        "option_value": "Which files to take into the build"
       },
       {
         "option_id": 3,
-        "option_value": "All files"
+        "option_value": "Every file in the tree is taken in"
       },
       {
         "option_id": 4,
-        "option_value": "No files"
+        "option_value": "No files at all are taken in"
       }
     ],
     "answer_id": 2,
@@ -5020,19 +5020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Include files"
+        "option_value": "Which files to take into the build"
       },
       {
         "option_id": 2,
-        "option_value": "Specify files to exclude from compilation"
+        "option_value": "Which files to leave out of the build"
       },
       {
         "option_id": 3,
-        "option_value": "All files"
+        "option_value": "Every file in the tree is taken in"
       },
       {
         "option_id": 4,
-        "option_value": "No files"
+        "option_value": "No files at all are taken in"
       }
     ],
     "answer_id": 2,
@@ -5044,19 +5044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No extension"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Inherit configuration from another file"
+        "option_value": "Pulls settings in from another config"
       },
       {
         "option_id": 3,
-        "option_value": "Override only"
+        "option_value": "Overrides settings without inheriting"
       },
       {
         "option_id": 4,
-        "option_value": "No config"
+        "option_value": "Disables configuration files entirely"
       }
     ],
     "answer_id": 2,
@@ -5068,19 +5068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No API"
+        "option_value": "An interface the project does not offer"
       },
       {
         "option_id": 2,
-        "option_value": "Programmatic access to TypeScript compiler"
+        "option_value": "A programmatic interface to the compiler"
       },
       {
         "option_id": 3,
-        "option_value": "Only CLI"
+        "option_value": "The compiler is usable only from a shell"
       },
       {
         "option_id": 4,
-        "option_value": "Only IDE"
+        "option_value": "The compiler is usable only in an editor"
       }
     ],
     "answer_id": 2,
@@ -5092,19 +5092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No service"
+        "option_value": "A service the project does not offer"
       },
       {
         "option_id": 2,
-        "option_value": "API for editor features like autocomplete"
+        "option_value": "The API behind editor autocompletion"
       },
       {
         "option_id": 3,
-        "option_value": "Only compiler"
+        "option_value": "Only batch compilation is supported"
       },
       {
         "option_id": 4,
-        "option_value": "Only runtime"
+        "option_value": "It runs only in the browser at runtime"
       }
     ],
     "answer_id": 2,
@@ -5116,19 +5116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No watch"
+        "option_value": "A mode the compiler does not offer"
       },
       {
         "option_id": 2,
-        "option_value": "Automatically recompile on file changes"
+        "option_value": "Recompiles whenever a file changes"
       },
       {
         "option_id": 3,
-        "option_value": "Manual only"
+        "option_value": "Compilation must be triggered by hand"
       },
       {
         "option_id": 4,
-        "option_value": "No compile"
+        "option_value": "It watches but never recompiles"
       }
     ],
     "answer_id": 2,
@@ -5140,19 +5140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No references"
+        "option_value": "A feature the compiler does not offer"
       },
       {
         "option_id": 2,
-        "option_value": "Split project into multiple projects"
+        "option_value": "Splitting a build into linked projects"
       },
       {
         "option_id": 3,
-        "option_value": "Single project"
+        "option_value": "Everything must live in one project"
       },
       {
         "option_id": 4,
-        "option_value": "No split"
+        "option_value": "Projects can never depend on each other"
       }
     ],
     "answer_id": 2,
@@ -5164,19 +5164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No composite"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Enable project references on project"
+        "option_value": "Marks a project as referenceable"
       },
       {
         "option_id": 3,
-        "option_value": "Single project"
+        "option_value": "Everything must live in one project"
       },
       {
         "option_id": 4,
-        "option_value": "No references"
+        "option_value": "Turns off project references entirely"
       }
     ],
     "answer_id": 2,
@@ -5188,19 +5188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Full build"
+        "option_value": "Rebuilds everything from scratch"
       },
       {
         "option_id": 2,
-        "option_value": "Enable incremental compilation"
+        "option_value": "Reuses prior output where it can"
       },
       {
         "option_id": 3,
-        "option_value": "No build"
+        "option_value": "Turns off compilation altogether"
       },
       {
         "option_id": 4,
-        "option_value": "Clean build"
+        "option_value": "Deletes prior output before building"
       }
     ],
     "answer_id": 2,
@@ -5212,19 +5212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "TypeScript loader"
+        "option_value": "A Webpack loader for TypeScript files"
       },
       {
         "option_id": 2,
-        "option_value": "Webpack loader for transpiling with Babel"
+        "option_value": "A Webpack loader that runs Babel"
       },
       {
         "option_id": 3,
-        "option_value": "No loader"
+        "option_value": "A loader that does not exist"
       },
       {
         "option_id": 4,
-        "option_value": "CSS loader"
+        "option_value": "A Webpack loader for stylesheets"
       }
     ],
     "answer_id": 2,
@@ -5236,19 +5236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Babel loader"
+        "option_value": "A Webpack loader that runs Babel"
       },
       {
         "option_id": 2,
-        "option_value": "Webpack loader for TypeScript"
+        "option_value": "A Webpack loader for TypeScript files"
       },
       {
         "option_id": 3,
-        "option_value": "No loader"
+        "option_value": "A loader that does not exist"
       },
       {
         "option_id": 4,
-        "option_value": "CSS loader"
+        "option_value": "A Webpack loader for stylesheets"
       }
     ],
     "answer_id": 2,
@@ -5260,19 +5260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Slow bundler"
+        "option_value": "A bundler known for slow cold builds"
       },
       {
         "option_id": 2,
-        "option_value": "Extremely fast JavaScript bundler and minifier"
+        "option_value": "A bundler and minifier written in Go"
       },
       {
         "option_id": 3,
-        "option_value": "No bundler"
+        "option_value": "A type checker with no bundling step"
       },
       {
         "option_id": 4,
-        "option_value": "Only minifier"
+        "option_value": "A minifier that cannot bundle at all"
       }
     ],
     "answer_id": 2,
@@ -5284,19 +5284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Slow compiler"
+        "option_value": "A compiler known for slow cold builds"
       },
       {
         "option_id": 2,
-        "option_value": "Super-fast JavaScript/TypeScript compiler"
+        "option_value": "A JS and TS compiler written in Rust"
       },
       {
         "option_id": 3,
-        "option_value": "No compiler"
+        "option_value": "A bundler with no compilation step"
       },
       {
         "option_id": 4,
-        "option_value": "Only bundler"
+        "option_value": "A linter that cannot compile at all"
       }
     ],
     "answer_id": 2,
@@ -5308,19 +5308,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Slow tool"
+        "option_value": "A bundler built around slow cold starts"
       },
       {
         "option_id": 2,
-        "option_value": "Next generation frontend tooling"
+        "option_value": "A dev server and front-end build tool"
       },
       {
         "option_id": 3,
-        "option_value": "Old tool"
+        "option_value": "A legacy tool long replaced by Webpack"
       },
       {
         "option_id": 4,
-        "option_value": "Backend tool"
+        "option_value": "A server-side web framework for Node"
       }
     ],
     "answer_id": 2,
@@ -5332,19 +5332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "The two behave identically in practice"
       },
       {
         "option_id": 2,
-        "option_value": "esbuild is faster but less type checking, tsc is slower with full checking"
+        "option_value": "esbuild is faster; tsc checks types fully"
       },
       {
         "option_id": 3,
-        "option_value": "tsc is faster"
+        "option_value": "tsc is faster; esbuild checks types fully"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "Neither of them performs type checking"
       }
     ],
     "answer_id": 2,
@@ -5356,19 +5356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Lenient functions"
+        "option_value": "Checks function types loosely as before"
       },
       {
         "option_id": 2,
-        "option_value": "Enforce strict checking of function types"
+        "option_value": "Checks function parameter types strictly"
       },
       {
         "option_id": 3,
-        "option_value": "No checking"
+        "option_value": "Turns off function type checking"
       },
       {
         "option_id": 4,
-        "option_value": "All functions"
+        "option_value": "Treats every function as type any"
       }
     ],
     "answer_id": 2,
@@ -5380,19 +5380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow missing returns"
+        "option_value": "Lets some code paths return nothing"
       },
       {
         "option_id": 2,
-        "option_value": "Error when not all code paths return value"
+        "option_value": "Errors when a path returns no value"
       },
       {
         "option_id": 3,
-        "option_value": "No returns"
+        "option_value": "Turns off return type checking"
       },
       {
         "option_id": 4,
-        "option_value": "All returns"
+        "option_value": "Requires every function to return"
       }
     ],
     "answer_id": 2,
@@ -5404,19 +5404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow implicit this"
+        "option_value": "Lets this quietly become type any"
       },
       {
         "option_id": 2,
-        "option_value": "Error when this has implicit any type"
+        "option_value": "Errors when this is implicitly any"
       },
       {
         "option_id": 3,
-        "option_value": "No this"
+        "option_value": "Removes this from the language"
       },
       {
         "option_id": 4,
-        "option_value": "All this"
+        "option_value": "Treats this as any in every scope"
       }
     ],
     "answer_id": 2,
@@ -5428,19 +5428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No strict"
+        "option_value": "Parses without strict mode at all"
       },
       {
         "option_id": 2,
-        "option_value": "Parse in strict mode and emit 'use strict'"
+        "option_value": "Parses strictly and emits 'use strict'"
       },
       {
         "option_id": 3,
-        "option_value": "No parsing"
+        "option_value": "Skips parsing the file altogether"
       },
       {
         "option_id": 4,
-        "option_value": "No emit"
+        "option_value": "Parses the file but emits nothing"
       }
     ],
     "answer_id": 2,
@@ -5452,19 +5452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow unused"
+        "option_value": "Lets unused locals pass in silence"
       },
       {
         "option_id": 2,
-        "option_value": "Error on unused local variables"
+        "option_value": "Errors on locals that are never used"
       },
       {
         "option_id": 3,
-        "option_value": "No locals"
+        "option_value": "Forbids local variables altogether"
       },
       {
         "option_id": 4,
-        "option_value": "All unused"
+        "option_value": "Removes unused locals from output"
       }
     ],
     "answer_id": 2,
@@ -5476,19 +5476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow unused"
+        "option_value": "Lets unused parameters pass silently"
       },
       {
         "option_id": 2,
-        "option_value": "Error on unused parameters"
+        "option_value": "Errors on parameters never used"
       },
       {
         "option_id": 3,
-        "option_value": "No parameters"
+        "option_value": "Forbids parameters altogether"
       },
       {
         "option_id": 4,
-        "option_value": "All unused"
+        "option_value": "Removes unused parameters from output"
       }
     ],
     "answer_id": 2,
@@ -5500,19 +5500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow undefined"
+        "option_value": "Lets an optional prop hold undefined"
       },
       {
         "option_id": 2,
-        "option_value": "Treat optional properties as exactly present or not"
+        "option_value": "Separates absent from set-to-undefined"
       },
       {
         "option_id": 3,
-        "option_value": "All optional"
+        "option_value": "Makes every property optional"
       },
       {
         "option_id": 4,
-        "option_value": "No optional"
+        "option_value": "Makes every property mandatory"
       }
     ],
     "answer_id": 2,
@@ -5524,19 +5524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Checked access"
+        "option_value": "Assumes every index is always present"
       },
       {
         "option_id": 2,
-        "option_value": "Add undefined to indexed access result"
+        "option_value": "Adds undefined to indexed lookups"
       },
       {
         "option_id": 3,
-        "option_value": "No access"
+        "option_value": "Forbids indexed access entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All access"
+        "option_value": "Allows any index without checking"
       }
     ],
     "answer_id": 2,
@@ -5548,19 +5548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No JSX"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Specify JSX code generation"
+        "option_value": "How JSX syntax should be emitted"
       },
       {
         "option_id": 3,
-        "option_value": "No React"
+        "option_value": "Disables React support entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All JSX"
+        "option_value": "Treats every file as containing JSX"
       }
     ],
     "answer_id": 2,
@@ -5572,19 +5572,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No decorators"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Enable experimental decorator support"
+        "option_value": "Turns on the older decorator proposal"
       },
       {
         "option_id": 3,
-        "option_value": "Standard decorators"
+        "option_value": "Turns on the standard decorators only"
       },
       {
         "option_id": 4,
-        "option_value": "No support"
+        "option_value": "Removes decorator support entirely"
       }
     ],
     "answer_id": 2,
@@ -5596,19 +5596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No metadata"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Emit design-type metadata for decorators"
+        "option_value": "Emits design-time type metadata"
       },
       {
         "option_id": 3,
-        "option_value": "No decorators"
+        "option_value": "Removes decorator support entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All metadata"
+        "option_value": "Emits metadata for every declaration"
       }
     ],
     "answer_id": 2,
@@ -5620,19 +5620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No fields"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Emit class fields with define semantics"
+        "option_value": "Emits class fields with define semantics"
       },
       {
         "option_id": 3,
-        "option_value": "No classes"
+        "option_value": "Removes class support entirely"
       },
       {
         "option_id": 4,
-        "option_value": "All fields"
+        "option_value": "Emits every field as a plain assignment"
       }
     ],
     "answer_id": 2,
@@ -5644,19 +5644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No isolation"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Ensure files can be transpiled independently"
+        "option_value": "Requires each file to transpile alone"
       },
       {
         "option_id": 3,
-        "option_value": "All modules"
+        "option_value": "Forces every file into one module"
       },
       {
         "option_id": 4,
-        "option_value": "No modules"
+        "option_value": "Removes module support entirely"
       }
     ],
     "answer_id": 2,
@@ -5668,19 +5668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Remove enums"
+        "option_value": "Erases const enums from the output"
       },
       {
         "option_id": 2,
-        "option_value": "Don't erase const enum declarations"
+        "option_value": "Keeps const enum declarations in output"
       },
       {
         "option_id": 3,
-        "option_value": "All enums"
+        "option_value": "Removes enum support entirely"
       },
       {
         "option_id": 4,
-        "option_value": "No enums"
+        "option_value": "Treats every enum as a const enum"
       }
     ],
     "answer_id": 2,
@@ -5692,19 +5692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No imports"
+        "option_value": "A setting the compiler does not have"
       },
       {
         "option_id": 2,
-        "option_value": "Allow default imports from modules without default"
+        "option_value": "Allows default imports where none exist"
       },
       {
         "option_id": 3,
-        "option_value": "All imports"
+        "option_value": "Forbids imports of every kind"
       },
       {
         "option_id": 4,
-        "option_value": "No default"
+        "option_value": "Removes default exports entirely"
       }
     ],
     "answer_id": 2,
