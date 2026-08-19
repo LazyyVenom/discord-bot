@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database protocol"
+        "option_value": "A protocol for talking to databases"
       },
       {
         "option_id": 2,
-        "option_value": "Architectural style using HTTP methods"
+        "option_value": "An architectural style built on HTTP verbs"
       },
       {
         "option_id": 3,
-        "option_value": "Messaging protocol"
+        "option_value": "A protocol for queued message delivery"
       },
       {
         "option_id": 4,
-        "option_value": "File transfer protocol"
+        "option_value": "A protocol for transferring whole files"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "The two verbs behave identically"
       },
       {
         "option_id": 2,
-        "option_value": "PUT replaces entire resource, PATCH partial update"
+        "option_value": "PUT replaces it all; PATCH changes part"
       },
       {
         "option_id": 3,
-        "option_value": "PATCH is for creation"
+        "option_value": "PATCH replaces it all; PUT changes part"
       },
       {
         "option_id": 4,
-        "option_value": "PUT is for deletion"
+        "option_value": "PUT creates only; PATCH deletes only"
       }
     ],
     "answer_id": 2,
@@ -52,19 +52,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Different results each time"
+        "option_value": "Each repeat gives a different result"
       },
       {
         "option_id": 2,
-        "option_value": "Same result for multiple identical requests"
+        "option_value": "Repeating it leaves the same end state"
       },
       {
         "option_id": 3,
-        "option_value": "Faster execution"
+        "option_value": "It makes the request run more quickly"
       },
       {
         "option_id": 4,
-        "option_value": "Caching"
+        "option_value": "It allows the response to be cached"
       }
     ],
     "answer_id": 2,
@@ -268,19 +268,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Bad Gateway"
+        "option_value": "The upstream server sent a bad reply"
       },
       {
         "option_id": 2,
-        "option_value": "Service Unavailable"
+        "option_value": "The service is temporarily unavailable"
       },
       {
         "option_id": 3,
-        "option_value": "Not Found"
+        "option_value": "The requested resource does not exist"
       },
       {
         "option_id": 4,
-        "option_value": "Timeout"
+        "option_value": "The request took too long to answer"
       }
     ],
     "answer_id": 2,
@@ -292,19 +292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No versioning"
+        "option_value": "Shipping one API that never changes"
       },
       {
         "option_id": 2,
-        "option_value": "Managing changes to API over time"
+        "option_value": "Managing how an API changes over time"
       },
       {
         "option_id": 3,
-        "option_value": "Version control for code"
+        "option_value": "Tracking source code across revisions"
       },
       {
         "option_id": 4,
-        "option_value": "Database versioning"
+        "option_value": "Tracking schema changes in a database"
       }
     ],
     "answer_id": 2,
@@ -316,19 +316,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No versioning"
+        "option_value": "Versioning is not usually practised"
       },
       {
         "option_id": 2,
-        "option_value": "URL path, query param, header, content negotiation"
+        "option_value": "Path, query, header or media type"
       },
       {
         "option_id": 3,
-        "option_value": "Only URL path"
+        "option_value": "Only the URL path can carry a version"
       },
       {
         "option_id": 4,
-        "option_value": "Only headers"
+        "option_value": "Only a header can carry a version"
       }
     ],
     "answer_id": 2,
@@ -340,19 +340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database concept"
+        "option_value": "A way of indexing relational tables"
       },
       {
         "option_id": 2,
-        "option_value": "Hypermedia as the Engine of Application State"
+        "option_value": "Responses carrying links to next actions"
       },
       {
         "option_id": 3,
-        "option_value": "Caching strategy"
+        "option_value": "A policy for expiring cached entries"
       },
       {
         "option_id": 4,
-        "option_value": "Security protocol"
+        "option_value": "A protocol for exchanging credentials"
       }
     ],
     "answer_id": 2,
@@ -364,19 +364,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Fixed format"
+        "option_value": "The server always picks one format"
       },
       {
         "option_id": 2,
-        "option_value": "Client and server agreeing on response format"
+        "option_value": "Client and server agreeing a media type"
       },
       {
         "option_id": 3,
-        "option_value": "URL routing"
+        "option_value": "Choosing which handler serves a path"
       },
       {
         "option_id": 4,
-        "option_value": "Authentication"
+        "option_value": "Proving who the calling client is"
       }
     ],
     "answer_id": 2,
@@ -388,19 +388,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Returning all data"
+        "option_value": "Returning the whole collection at once"
       },
       {
         "option_id": 2,
-        "option_value": "Returning data in chunks/pages"
+        "option_value": "Returning the collection in slices"
       },
       {
         "option_id": 3,
-        "option_value": "Data sorting"
+        "option_value": "Ordering results by a chosen field"
       },
       {
         "option_id": 4,
-        "option_value": "Data filtering"
+        "option_value": "Narrowing results with a filter"
       }
     ],
     "answer_id": 2,
@@ -412,19 +412,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cursor-based"
+        "option_value": "Paging with an opaque cursor value"
       },
       {
         "option_id": 2,
-        "option_value": "Using offset and limit parameters"
+        "option_value": "Paging with a numeric offset and limit"
       },
       {
         "option_id": 3,
-        "option_value": "Keyset pagination"
+        "option_value": "Paging by seeking on an indexed key"
       },
       {
         "option_id": 4,
-        "option_value": "Infinite scroll"
+        "option_value": "Loading more as the user scrolls"
       }
     ],
     "answer_id": 2,
@@ -436,19 +436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Offset-based"
+        "option_value": "Paging with a numeric offset and limit"
       },
       {
         "option_id": 2,
-        "option_value": "Using opaque pointer to next page"
+        "option_value": "Paging with an opaque pointer value"
       },
       {
         "option_id": 3,
-        "option_value": "Page numbers"
+        "option_value": "Paging by numbered pages of results"
       },
       {
         "option_id": 4,
-        "option_value": "No pagination"
+        "option_value": "Returning everything in one response"
       }
     ],
     "answer_id": 2,
@@ -460,19 +460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Unlimited requests"
+        "option_value": "Callers may send as much as they like"
       },
       {
         "option_id": 2,
-        "option_value": "Restricting number of requests per time window"
+        "option_value": "Capping requests within a time window"
       },
       {
         "option_id": 3,
-        "option_value": "Speed optimization"
+        "option_value": "Making each request complete faster"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking payloads before sending them"
       }
     ],
     "answer_id": 2,
@@ -484,19 +484,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Unlimited speed"
+        "option_value": "Requests are served as fast as possible"
       },
       {
         "option_id": 2,
-        "option_value": "Controlling processing rate of requests"
+        "option_value": "Pacing how quickly requests are handled"
       },
       {
         "option_id": 3,
-        "option_value": "Request caching"
+        "option_value": "Serving repeat requests from a cache"
       },
       {
         "option_id": 4,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling payloads before sending"
       }
     ],
     "answer_id": 2,
@@ -508,19 +508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database gateway"
+        "option_value": "A proxy that fronts a database server"
       },
       {
         "option_id": 2,
-        "option_value": "Single entry point for API requests"
+        "option_value": "A single front door for API traffic"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A broker that queues messages for later"
       },
       {
         "option_id": 4,
-        "option_value": "Cache layer"
+        "option_value": "A layer that stores hot responses"
       }
     ],
     "answer_id": 2,
@@ -532,19 +532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No logging"
+        "option_value": "Nothing about traffic is recorded"
       },
       {
         "option_id": 2,
-        "option_value": "Recording API requests and responses"
+        "option_value": "Recording the calls and their replies"
       },
       {
         "option_id": 3,
-        "option_value": "Error logging only"
+        "option_value": "Recording only failed calls"
       },
       {
         "option_id": 4,
-        "option_value": "Security logging"
+        "option_value": "Recording only security-relevant events"
       }
     ],
     "answer_id": 2,
@@ -556,19 +556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No authentication"
+        "option_value": "Callers are trusted without any check"
       },
       {
         "option_id": 2,
-        "option_value": "Verifying client identity"
+        "option_value": "Establishing who the caller claims to be"
       },
       {
         "option_id": 3,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling data as it crosses the wire"
       },
       {
         "option_id": 4,
-        "option_value": "Rate limiting"
+        "option_value": "Capping requests within a time window"
       }
     ],
     "answer_id": 2,
@@ -580,19 +580,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Authentication"
+        "option_value": "Establishing who the caller is"
       },
       {
         "option_id": 2,
-        "option_value": "Determining what actions are allowed"
+        "option_value": "Deciding what the caller may do"
       },
       {
         "option_id": 3,
-        "option_value": "Data validation"
+        "option_value": "Checking that input is well formed"
       },
       {
         "option_id": 4,
-        "option_value": "Logging"
+        "option_value": "Recording the calls and their replies"
       }
     ],
     "answer_id": 2,
@@ -604,19 +604,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "OAuth"
+        "option_value": "A redirect-based delegation protocol"
       },
       {
         "option_id": 2,
-        "option_value": "Username:password base64 encoded in header"
+        "option_value": "Base64 user:password in a header"
       },
       {
         "option_id": 3,
-        "option_value": "Token auth"
+        "option_value": "An opaque token sent in a header"
       },
       {
         "option_id": 4,
-        "option_value": "Certificate auth"
+        "option_value": "A client certificate exchanged in TLS"
       }
     ],
     "answer_id": 2,
@@ -628,19 +628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Basic auth"
+        "option_value": "Base64 user:password in a header"
       },
       {
         "option_id": 2,
-        "option_value": "Token in Authorization header"
+        "option_value": "An opaque token sent in a header"
       },
       {
         "option_id": 3,
-        "option_value": "Session cookies"
+        "option_value": "A session identifier held in a cookie"
       },
       {
         "option_id": 4,
-        "option_value": "API keys in URL"
+        "option_value": "A secret passed in the query string"
       }
     ],
     "answer_id": 2,
@@ -652,19 +652,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Username/password"
+        "option_value": "A username and password pair"
       },
       {
         "option_id": 2,
-        "option_value": "Unique key identifying client"
+        "option_value": "A shared secret naming the client"
       },
       {
         "option_id": 3,
-        "option_value": "OAuth token"
+        "option_value": "A token issued by an OAuth server"
       },
       {
         "option_id": 4,
-        "option_value": "Certificate"
+        "option_value": "A certificate exchanged during TLS"
       }
     ],
     "answer_id": 2,
@@ -676,19 +676,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database token"
+        "option_value": "An identifier for a database row"
       },
       {
         "option_id": 2,
-        "option_value": "Compact, self-contained token format"
+        "option_value": "A compact, self-describing signed token"
       },
       {
         "option_id": 3,
-        "option_value": "Session ID"
+        "option_value": "An identifier for a server-side session"
       },
       {
         "option_id": 4,
-        "option_value": "API key"
+        "option_value": "A shared secret naming the client"
       }
     ],
     "answer_id": 2,
@@ -700,19 +700,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database records"
+        "option_value": "Rows fetched from a backing store"
       },
       {
         "option_id": 2,
-        "option_value": "Statements about entity and additional data"
+        "option_value": "Statements carried inside the payload"
       },
       {
         "option_id": 3,
-        "option_value": "HTTP headers"
+        "option_value": "Fields sent in the HTTP headers"
       },
       {
         "option_id": 4,
-        "option_value": "URL parameters"
+        "option_value": "Values appended to the query string"
       }
     ],
     "answer_id": 2,
@@ -724,19 +724,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Header only"
+        "option_value": "The first segment of the token"
       },
       {
         "option_id": 2,
-        "option_value": "Verification that token hasn't been altered"
+        "option_value": "Proof the token has not been altered"
       },
       {
         "option_id": 3,
-        "option_value": "Payload data"
+        "option_value": "The middle segment of the token"
       },
       {
         "option_id": 4,
-        "option_value": "Encryption"
+        "option_value": "A cipher hiding the payload contents"
       }
     ],
     "answer_id": 2,
@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Implicit flow"
+        "option_value": "The token comes straight to the browser"
       },
       {
         "option_id": 2,
-        "option_value": "Server exchanges code for token"
+        "option_value": "The server swaps a code for a token"
       },
       {
         "option_id": 3,
-        "option_value": "Password flow"
+        "option_value": "The user's password goes to the client"
       },
       {
         "option_id": 4,
-        "option_value": "Client credentials"
+        "option_value": "No user is involved in the exchange"
       }
     ],
     "answer_id": 2,
@@ -796,19 +796,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Authorization code"
+        "option_value": "The server swaps a code for a token"
       },
       {
         "option_id": 2,
-        "option_value": "Token returned directly to client"
+        "option_value": "The token comes straight to the client"
       },
       {
         "option_id": 3,
-        "option_value": "Password flow"
+        "option_value": "The user's password goes to the client"
       },
       {
         "option_id": 4,
-        "option_value": "Device flow"
+        "option_value": "No user is involved in the exchange"
       }
     ],
     "answer_id": 2,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "User authorization"
+        "option_value": "A human approves the request first"
       },
       {
         "option_id": 2,
-        "option_value": "Machine-to-machine authentication"
+        "option_value": "One service authenticates to another"
       },
       {
         "option_id": 3,
-        "option_value": "Authorization code"
+        "option_value": "The server swaps a code for a token"
       },
       {
         "option_id": 4,
-        "option_value": "Implicit"
+        "option_value": "The token comes straight to the client"
       }
     ],
     "answer_id": 2,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Access token"
+        "option_value": "The short-lived token sent on each call"
       },
       {
         "option_id": 2,
-        "option_value": "Long-lived token to get new access tokens"
+        "option_value": "A long-lived token buying new ones"
       },
       {
         "option_id": 3,
-        "option_value": "Authorization code"
+        "option_value": "The one-time code swapped for a token"
       },
       {
         "option_id": 4,
-        "option_value": "ID token"
+        "option_value": "The token carrying the user's identity"
       }
     ],
     "answer_id": 2,
@@ -868,19 +868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "OAuth 2.0"
+        "option_value": "A delegation protocol with no identity"
       },
       {
         "option_id": 2,
-        "option_value": "Authentication layer on top of OAuth 2.0"
+        "option_value": "An identity layer built over OAuth 2.0"
       },
       {
         "option_id": 3,
-        "option_value": "SAML"
+        "option_value": "An XML-based federation standard"
       },
       {
         "option_id": 4,
-        "option_value": "LDAP"
+        "option_value": "A directory protocol for user lookup"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "OAuth 2.0"
+        "option_value": "A delegation protocol with no identity"
       },
       {
         "option_id": 2,
-        "option_value": "XML-based authentication standard"
+        "option_value": "An XML-based federation standard"
       },
       {
         "option_id": 3,
-        "option_value": "JWT"
+        "option_value": "A compact, self-describing signed token"
       },
       {
         "option_id": 4,
-        "option_value": "OpenID Connect"
+        "option_value": "An identity layer built over OAuth 2.0"
       }
     ],
     "answer_id": 2,
@@ -916,19 +916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multiple logins"
+        "option_value": "Signing in separately to each system"
       },
       {
         "option_id": 2,
-        "option_value": "One authentication for multiple applications"
+        "option_value": "One sign-in covering many systems"
       },
       {
         "option_id": 3,
-        "option_value": "No authentication"
+        "option_value": "Requiring no sign-in at all anywhere"
       },
       {
         "option_id": 4,
-        "option_value": "Two-factor auth"
+        "option_value": "Requiring a second factor to sign in"
       }
     ],
     "answer_id": 2,
@@ -940,19 +940,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Token-based"
+        "option_value": "State travels in a token each request"
       },
       {
         "option_id": 2,
-        "option_value": "Server-side session storage"
+        "option_value": "The server keeps the session in storage"
       },
       {
         "option_id": 3,
-        "option_value": "JWT"
+        "option_value": "No state is kept on either side"
       },
       {
         "option_id": 4,
-        "option_value": "API keys"
+        "option_value": "State is kept only in the URL path"
       }
     ],
     "answer_id": 2,
@@ -964,19 +964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Server-side sessions"
+        "option_value": "The server keeps the session in storage"
       },
       {
         "option_id": 2,
-        "option_value": "Each request contains all auth info (JWT)"
+        "option_value": "Every request carries its own proof"
       },
       {
         "option_id": 3,
-        "option_value": "Cookies only"
+        "option_value": "State is kept only in browser cookies"
       },
       {
         "option_id": 4,
-        "option_value": "Database lookup"
+        "option_value": "Every request re-reads the user table"
       }
     ],
     "answer_id": 2,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same-origin policy"
+        "option_value": "The rule blocking cross-origin reads"
       },
       {
         "option_id": 2,
-        "option_value": "Mechanism for cross-origin requests"
+        "option_value": "The rules permitting cross-origin reads"
       },
       {
         "option_id": 3,
-        "option_value": "Authentication"
+        "option_value": "A scheme for establishing identity"
       },
       {
         "option_id": 4,
-        "option_value": "Encryption"
+        "option_value": "A scheme for scrambling payloads"
       }
     ],
     "answer_id": 2,
@@ -1012,19 +1012,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "GET request"
+        "option_value": "A GET sent before the real request"
       },
       {
         "option_id": 2,
-        "option_value": "OPTIONS request before actual request"
+        "option_value": "An OPTIONS sent before the real one"
       },
       {
         "option_id": 3,
-        "option_value": "POST request"
+        "option_value": "A POST sent before the real request"
       },
       {
         "option_id": 4,
-        "option_value": "Simple request"
+        "option_value": "A request that needs no preflight"
       }
     ],
     "answer_id": 2,
@@ -1036,19 +1036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Any request"
+        "option_value": "Any request at all counts as simple"
       },
       {
         "option_id": 2,
-        "option_value": "GET/POST with specific content types, no custom headers"
+        "option_value": "GET or POST with plain content types"
       },
       {
         "option_id": 3,
-        "option_value": "PUT/DELETE"
+        "option_value": "Any PUT or DELETE counts as simple"
       },
       {
         "option_id": 4,
-        "option_value": "Any with auth"
+        "option_value": "Any request carrying credentials"
       }
     ],
     "answer_id": 2,
@@ -1060,19 +1060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 2,
-        "option_value": "Unauthorized actions on behalf of authenticated user"
+        "option_value": "Riding a logged-in user's credentials"
       },
       {
         "option_id": 3,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 4,
-        "option_value": "Man-in-the-middle"
+        "option_value": "Reading traffic from between two parties"
       }
     ],
     "answer_id": 2,
@@ -1084,19 +1084,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Disable cookies"
+        "option_value": "Switch cookies off across the site"
       },
       {
         "option_id": 2,
-        "option_value": "CSRF tokens, SameSite cookies"
+        "option_value": "Anti-forgery tokens and SameSite cookies"
       },
       {
         "option_id": 3,
-        "option_value": "CORS headers"
+        "option_value": "Send permissive cross-origin headers"
       },
       {
         "option_id": 4,
-        "option_value": "Encryption"
+        "option_value": "Encrypt every payload before sending"
       }
     ],
     "answer_id": 2,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Injecting malicious scripts"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 3,
-        "option_value": "CSRF"
+        "option_value": "Riding a logged-in user's credentials"
       },
       {
         "option_id": 4,
-        "option_value": "Session hijacking"
+        "option_value": "Reusing a session identifier later"
       }
     ],
     "answer_id": 2,
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Allow all input"
+        "option_value": "Accept whatever the client sends"
       },
       {
         "option_id": 2,
-        "option_value": "Input validation, output encoding, CSP"
+        "option_value": "Validate input, encode output, use CSP"
       },
       {
         "option_id": 3,
-        "option_value": "Encryption"
+        "option_value": "Encrypt every payload before sending"
       },
       {
         "option_id": 4,
-        "option_value": "CSRF tokens"
+        "option_value": "Add anti-forgery tokens to each form"
       }
     ],
     "answer_id": 2,
@@ -1156,19 +1156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 2,
-        "option_value": "Injecting malicious SQL code"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 3,
-        "option_value": "CSRF"
+        "option_value": "Riding a logged-in user's credentials"
       },
       {
         "option_id": 4,
-        "option_value": "Session fixation"
+        "option_value": "Fixing a session identifier in advance"
       }
     ],
     "answer_id": 2,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Accepting all input"
+        "option_value": "Accepting whatever the client sends"
       },
       {
         "option_id": 2,
-        "option_value": "Verifying input meets expected format"
+        "option_value": "Checking input matches the expected shape"
       },
       {
         "option_id": 3,
-        "option_value": "Output encoding"
+        "option_value": "Escaping data on the way back out"
       },
       {
         "option_id": 4,
-        "option_value": "Encryption"
+        "option_value": "Scrambling data as it crosses the wire"
       }
     ],
     "answer_id": 2,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Input validation"
+        "option_value": "Checking input matches an expected shape"
       },
       {
         "option_id": 2,
-        "option_value": "Encoding data for safe display"
+        "option_value": "Escaping data so it renders safely"
       },
       {
         "option_id": 3,
-        "option_value": "Encryption"
+        "option_value": "Scrambling data as it crosses the wire"
       },
       {
         "option_id": 4,
-        "option_value": "Compression"
+        "option_value": "Shrinking payloads before sending them"
       }
     ],
     "answer_id": 2,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Unencrypted HTTP"
+        "option_value": "Plain HTTP with no protection at all"
       },
       {
         "option_id": 2,
-        "option_value": "HTTP over TLS/SSL encryption"
+        "option_value": "HTTP carried inside a TLS session"
       },
       {
         "option_id": 3,
-        "option_value": "Faster HTTP"
+        "option_value": "HTTP tuned for lower latency"
       },
       {
         "option_id": 4,
-        "option_value": "Different protocol"
+        "option_value": "An unrelated protocol on another port"
       }
     ],
     "answer_id": 2,
@@ -1276,19 +1276,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data transfer"
+        "option_value": "The bulk transfer of encrypted data"
       },
       {
         "option_id": 2,
-        "option_value": "Process establishing encrypted connection"
+        "option_value": "The exchange that agrees keys and ciphers"
       },
       {
         "option_id": 3,
-        "option_value": "Certificate validation only"
+        "option_value": "Only the checking of the certificate"
       },
       {
         "option_id": 4,
-        "option_value": "Key generation only"
+        "option_value": "Only the generation of a session key"
       }
     ],
     "answer_id": 2,
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multiple certificates"
+        "option_value": "Trusting any certificate a CA signs"
       },
       {
         "option_id": 2,
-        "option_value": "Hardcoding expected certificate/public key"
+        "option_value": "Trusting only one known key up front"
       },
       {
         "option_id": 3,
-        "option_value": "Certificate rotation"
+        "option_value": "Swapping certificates on a schedule"
       },
       {
         "option_id": 4,
-        "option_value": "No validation"
+        "option_value": "Skipping certificate checks entirely"
       }
     ],
     "answer_id": 2,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-way authentication"
+        "option_value": "Only the server proves who it is"
       },
       {
         "option_id": 2,
-        "option_value": "Both client and server authenticate"
+        "option_value": "Both ends prove who they are"
       },
       {
         "option_id": 3,
-        "option_value": "No authentication"
+        "option_value": "Neither end proves who it is"
       },
       {
         "option_id": 4,
-        "option_value": "Token only"
+        "option_value": "Identity is carried in a token instead"
       }
     ],
     "answer_id": 2,
@@ -1348,19 +1348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No verification"
+        "option_value": "Nothing about the request is checked"
       },
       {
         "option_id": 2,
-        "option_value": "Cryptographically signing requests"
+        "option_value": "Attaching a cryptographic proof to it"
       },
       {
         "option_id": 3,
-        "option_value": "Basic auth"
+        "option_value": "Sending a base64 user and password"
       },
       {
         "option_id": 4,
-        "option_value": "Token auth"
+        "option_value": "Sending an opaque token in a header"
       }
     ],
     "answer_id": 2,
@@ -1372,19 +1372,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Encryption algorithm"
+        "option_value": "A cipher that hides message contents"
       },
       {
         "option_id": 2,
-        "option_value": "Hash-based message authentication code"
+        "option_value": "A keyed hash proving integrity"
       },
       {
         "option_id": 3,
-        "option_value": "Digital signature"
+        "option_value": "A signature using a private key pair"
       },
       {
         "option_id": 4,
-        "option_value": "Checksum"
+        "option_value": "A simple checksum for transmission"
       }
     ],
     "answer_id": 2,
@@ -1396,19 +1396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Basic auth"
+        "option_value": "A base64 user and password header"
       },
       {
         "option_id": 2,
-        "option_value": "HMAC-SHA256 signing of request"
+        "option_value": "An HMAC-SHA256 over the request parts"
       },
       {
         "option_id": 3,
-        "option_value": "OAuth"
+        "option_value": "A redirect-based delegation exchange"
       },
       {
         "option_id": 4,
-        "option_value": "JWT"
+        "option_value": "A compact, self-describing signed token"
       }
     ],
     "answer_id": 2,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No security needed"
+        "option_value": "Callbacks need no protection at all"
       },
       {
         "option_id": 2,
-        "option_value": "Signature verification, HTTPS, IP allowlisting"
+        "option_value": "Verify signatures, use TLS, allowlist IPs"
       },
       {
         "option_id": 3,
-        "option_value": "Basic auth only"
+        "option_value": "A base64 user and password suffices"
       },
       {
         "option_id": 4,
-        "option_value": "No HTTPS"
+        "option_value": "Plain HTTP is acceptable for callbacks"
       }
     ],
     "answer_id": 2,
@@ -1444,19 +1444,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "New request"
+        "option_value": "Sending a freshly built request"
       },
       {
         "option_id": 2,
-        "option_value": "Replaying intercepted valid request"
+        "option_value": "Resending a captured valid request"
       },
       {
         "option_id": 3,
-        "option_value": "Modified request"
+        "option_value": "Sending a request that was tampered with"
       },
       {
         "option_id": 4,
-        "option_value": "Fake request"
+        "option_value": "Sending a wholly fabricated request"
       }
     ],
     "answer_id": 2,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No prevention"
+        "option_value": "Nothing can be done to prevent them"
       },
       {
         "option_id": 2,
-        "option_value": "Nonces, timestamps, request signing"
+        "option_value": "Nonces, timestamps and signed requests"
       },
       {
         "option_id": 3,
-        "option_value": "Encryption only"
+        "option_value": "Encrypting the payload is sufficient"
       },
       {
         "option_id": 4,
-        "option_value": "HTTPS only"
+        "option_value": "Using TLS alone is sufficient"
       }
     ],
     "answer_id": 2,
@@ -1492,19 +1492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Random value"
+        "option_value": "A random value carrying no other meaning"
       },
       {
         "option_id": 2,
-        "option_value": "Unique key ensuring idempotent processing"
+        "option_value": "A caller-supplied key deduplicating retries"
       },
       {
         "option_id": 3,
-        "option_value": "Timestamp"
+        "option_value": "The time at which the call was made"
       },
       {
         "option_id": 4,
-        "option_value": "User ID"
+        "option_value": "The identifier of the calling user"
       }
     ],
     "answer_id": 2,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database layer"
+        "option_value": "The layer that talks to the database"
       },
       {
         "option_id": 2,
-        "option_value": "Code processing requests/responses"
+        "option_value": "Code that wraps request handling"
       },
       {
         "option_id": 3,
-        "option_value": "Frontend code"
+        "option_value": "Code that runs in the user's browser"
       },
       {
         "option_id": 4,
-        "option_value": "Network layer"
+        "option_value": "The layer that moves packets around"
       }
     ],
     "answer_id": 2,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database trigger"
+        "option_value": "A hook fired inside the database"
       },
       {
         "option_id": 2,
-        "option_value": "Code executed before/after request handling"
+        "option_value": "Code running around a request handler"
       },
       {
         "option_id": 3,
-        "option_value": "Frontend component"
+        "option_value": "A component rendered in the browser"
       },
       {
         "option_id": 4,
-        "option_value": "Network router"
+        "option_value": "A device that routes network packets"
       }
     ],
     "answer_id": 2,
@@ -1564,19 +1564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Hardcoded dependencies"
+        "option_value": "Each class builds what it needs itself"
       },
       {
         "option_id": 2,
-        "option_value": "Supplying dependencies from outside"
+        "option_value": "Collaborators are handed in from outside"
       },
       {
         "option_id": 3,
-        "option_value": "Global variables"
+        "option_value": "Collaborators are read from globals"
       },
       {
         "option_id": 4,
-        "option_value": "Singleton pattern"
+        "option_value": "One shared instance serves everybody"
       }
     ],
     "answer_id": 2,
@@ -1588,19 +1588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct control"
+        "option_value": "Your code drives the whole flow"
       },
       {
         "option_id": 2,
-        "option_value": "Framework calls application code"
+        "option_value": "The framework calls into your code"
       },
       {
         "option_id": 3,
-        "option_value": "Manual memory management"
+        "option_value": "Memory is released by hand as needed"
       },
       {
         "option_id": 4,
-        "option_value": "Direct instantiation"
+        "option_value": "Objects are constructed where used"
       }
     ],
     "answer_id": 2,
@@ -1612,19 +1612,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No services"
+        "option_value": "Business rules are spread everywhere"
       },
       {
         "option_id": 2,
-        "option_value": "Business logic in dedicated service classes"
+        "option_value": "Business rules live in their own classes"
       },
       {
         "option_id": 3,
-        "option_value": "All in controllers"
+        "option_value": "Business rules live in the controllers"
       },
       {
         "option_id": 4,
-        "option_value": "All in models"
+        "option_value": "Business rules live in the data models"
       }
     ],
     "answer_id": 2,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct database access"
+        "option_value": "Callers issue queries against the store"
       },
       {
         "option_id": 2,
-        "option_value": "Abstracting data access layer"
+        "option_value": "Data access sits behind an interface"
       },
       {
         "option_id": 3,
-        "option_value": "No data access"
+        "option_value": "Nothing ever reads from the store"
       },
       {
         "option_id": 4,
-        "option_value": "Direct SQL in code"
+        "option_value": "Raw SQL is written wherever needed"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single operation"
+        "option_value": "Each change commits on its own"
       },
       {
         "option_id": 2,
-        "option_value": "Tracking changes and committing as single transaction"
+        "option_value": "Changes are tracked and committed as one"
       },
       {
         "option_id": 3,
-        "option_value": "No transactions"
+        "option_value": "Changes are written without transactions"
       },
       {
         "option_id": 4,
-        "option_value": "Multiple transactions"
+        "option_value": "Each change opens its own transaction"
       }
     ],
     "answer_id": 2,
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct database access"
+        "option_value": "Objects issue their own queries"
       },
       {
         "option_id": 2,
-        "option_value": "Mapping between objects and database without domain knowing"
+        "option_value": "A separate layer maps objects to rows"
       },
       {
         "option_id": 3,
-        "option_value": "Active record"
+        "option_value": "Objects carry their own persistence code"
       },
       {
         "option_id": 4,
-        "option_value": "No mapping"
+        "option_value": "Objects and rows are never mapped"
       }
     ],
     "answer_id": 2,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data mapper"
+        "option_value": "A separate layer maps objects to rows"
       },
       {
         "option_id": 2,
-        "option_value": "Domain object encapsulates database access"
+        "option_value": "Objects carry their own persistence code"
       },
       {
         "option_id": 3,
-        "option_value": "Repository only"
+        "option_value": "Access sits behind a repository interface"
       },
       {
         "option_id": 4,
-        "option_value": "No database"
+        "option_value": "The objects never reach a database"
       }
     ],
     "answer_id": 2,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database entity"
+        "option_value": "A row loaded straight from the store"
       },
       {
         "option_id": 2,
-        "option_value": "Object for transferring data between layers"
+        "option_value": "A plain object carrying data across tiers"
       },
       {
         "option_id": 3,
-        "option_value": "Domain model"
+        "option_value": "An object holding the business rules"
       },
       {
         "option_id": 4,
-        "option_value": "Controller"
+        "option_value": "The class that handles an HTTP route"
       }
     ],
     "answer_id": 2,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "The two are the same kind of object"
       },
       {
         "option_id": 2,
-        "option_value": "DTO transfers data, Entity has identity and business logic"
+        "option_value": "A DTO just carries data; an entity has rules"
       },
       {
         "option_id": 3,
-        "option_value": "Same thing"
+        "option_value": "A DTO holds the rules; an entity carries data"
       },
       {
         "option_id": 4,
-        "option_value": "DTO has logic"
+        "option_value": "Only entities may cross layer boundaries"
       }
     ],
     "answer_id": 2,
@@ -1780,19 +1780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data deletion"
+        "option_value": "Removing an object from memory"
       },
       {
         "option_id": 2,
-        "option_value": "Converting object to format for storage/transmission"
+        "option_value": "Turning an object into a storable form"
       },
       {
         "option_id": 3,
-        "option_value": "Data encryption"
+        "option_value": "Scrambling an object with a secret key"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking an object to fewer bytes"
       }
     ],
     "answer_id": 2,
@@ -1804,19 +1804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Serialization"
+        "option_value": "Turning an object into a storable form"
       },
       {
         "option_id": 2,
-        "option_value": "Converting serialized data back to object"
+        "option_value": "Rebuilding an object from stored bytes"
       },
       {
         "option_id": 3,
-        "option_value": "Data deletion"
+        "option_value": "Removing an object from memory"
       },
       {
         "option_id": 4,
-        "option_value": "Encryption"
+        "option_value": "Scrambling an object with a secret key"
       }
     ],
     "answer_id": 2,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Binary format"
+        "option_value": "A compact binary encoding of data"
       },
       {
         "option_id": 2,
-        "option_value": "Lightweight text data interchange format"
+        "option_value": "A lightweight text format for data"
       },
       {
         "option_id": 3,
-        "option_value": "XML variant"
+        "option_value": "A stricter dialect of XML markup"
       },
       {
         "option_id": 4,
-        "option_value": "Database format"
+        "option_value": "A file layout used by a database"
       }
     ],
     "answer_id": 2,
@@ -1852,19 +1852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Binary format"
+        "option_value": "A compact binary encoding of data"
       },
       {
         "option_id": 2,
-        "option_value": "Extensible Markup Language"
+        "option_value": "A markup language built from tags"
       },
       {
         "option_id": 3,
-        "option_value": "JSON variant"
+        "option_value": "A stricter dialect of JSON text"
       },
       {
         "option_id": 4,
-        "option_value": "Database format"
+        "option_value": "A file layout used by a database"
       }
     ],
     "answer_id": 2,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Text format"
+        "option_value": "A human-readable text encoding of data"
       },
       {
         "option_id": 2,
-        "option_value": "Binary serialization format by Google"
+        "option_value": "A compact schema-driven binary encoding"
       },
       {
         "option_id": 3,
-        "option_value": "JSON format"
+        "option_value": "Just another name for the JSON format"
       },
       {
         "option_id": 4,
-        "option_value": "XML format"
+        "option_value": "Just another name for the XML format"
       }
     ],
     "answer_id": 2,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "REST API"
+        "option_value": "A style of API built on HTTP verbs"
       },
       {
         "option_id": 2,
-        "option_value": "High-performance RPC framework"
+        "option_value": "A high-performance RPC framework"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A broker that queues messages"
       },
       {
         "option_id": 4,
-        "option_value": "Database protocol"
+        "option_value": "A wire protocol for databases"
       }
     ],
     "answer_id": 2,
@@ -1948,19 +1948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database table"
+        "option_value": "A table stored in the database"
       },
       {
         "option_id": 2,
-        "option_value": "Function providing value for GraphQL field"
+        "option_value": "A function producing one field's value"
       },
       {
         "option_id": 3,
-        "option_value": "REST endpoint"
+        "option_value": "A route exposed over plain HTTP"
       },
       {
         "option_id": 4,
-        "option_value": "Middleware"
+        "option_value": "Code wrapping the request handler"
       }
     ],
     "answer_id": 2,
@@ -1972,19 +1972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database schema"
+        "option_value": "The layout of the database tables"
       },
       {
         "option_id": 2,
-        "option_value": "Type system defining API capabilities"
+        "option_value": "The type system describing the API"
       },
       {
         "option_id": 3,
-        "option_value": "REST specification"
+        "option_value": "A document describing REST routes"
       },
       {
         "option_id": 4,
-        "option_value": "JSON document"
+        "option_value": "A plain document holding sample data"
       }
     ],
     "answer_id": 2,
@@ -1996,19 +1996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database query"
+        "option_value": "A statement run against a database"
       },
       {
         "option_id": 2,
-        "option_value": "Client request for specific data"
+        "option_value": "A client's request for chosen fields"
       },
       {
         "option_id": 3,
-        "option_value": "REST GET"
+        "option_value": "A plain HTTP GET against a route"
       },
       {
         "option_id": 4,
-        "option_value": "Mutation"
+        "option_value": "An operation that changes stored data"
       }
     ],
     "answer_id": 2,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Read operation"
+        "option_value": "An operation that only reads data"
       },
       {
         "option_id": 2,
-        "option_value": "Write operation modifying data"
+        "option_value": "An operation that changes stored data"
       },
       {
         "option_id": 3,
-        "option_value": "Query"
+        "option_value": "A client's request for chosen fields"
       },
       {
         "option_id": 4,
-        "option_value": "Subscription"
+        "option_value": "A stream of updates over a socket"
       }
     ],
     "answer_id": 2,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-time query"
+        "option_value": "A single request answered just once"
       },
       {
         "option_id": 2,
-        "option_value": "Real-time updates via WebSocket"
+        "option_value": "A stream of updates over a socket"
       },
       {
         "option_id": 3,
-        "option_value": "Mutation"
+        "option_value": "An operation that changes stored data"
       },
       {
         "option_id": 4,
-        "option_value": "REST endpoint"
+        "option_value": "A route exposed over plain HTTP"
       }
     ],
     "answer_id": 2,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single query"
+        "option_value": "One query serving the whole request"
       },
       {
         "option_id": 2,
-        "option_value": "Executing many queries for nested data"
+        "option_value": "One query per item in a nested list"
       },
       {
         "option_id": 3,
-        "option_value": "Pagination issue"
+        "option_value": "Pages of results being fetched twice"
       },
       {
         "option_id": 4,
-        "option_value": "Caching issue"
+        "option_value": "Cached entries being missed each time"
       }
     ],
     "answer_id": 2,
@@ -2092,19 +2092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More indexes"
+        "option_value": "Add more indexes to the tables"
       },
       {
         "option_id": 2,
-        "option_value": "DataLoader for batching and deduplication"
+        "option_value": "Batch and deduplicate with a DataLoader"
       },
       {
         "option_id": 3,
-        "option_value": "No nested queries"
+        "option_value": "Forbid nested fields in the schema"
       },
       {
         "option_id": 4,
-        "option_value": "REST instead"
+        "option_value": "Replace the whole API with REST"
       }
     ],
     "answer_id": 2,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database loader"
+        "option_value": "A driver that loads data from a file"
       },
       {
         "option_id": 2,
-        "option_value": "Batching and caching library for GraphQL"
+        "option_value": "A batching and caching helper per request"
       },
       {
         "option_id": 3,
-        "option_value": "File loader"
+        "option_value": "A loader for configuration settings"
       },
       {
         "option_id": 4,
-        "option_value": "Config loader"
+        "option_value": "A tool that imports database dumps"
       }
     ],
     "answer_id": 2,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "HTTP request-response"
+        "option_value": "One request answered by one response"
       },
       {
         "option_id": 2,
-        "option_value": "Full-duplex persistent connection"
+        "option_value": "A persistent two-way connection"
       },
       {
         "option_id": 3,
-        "option_value": "Polling"
+        "option_value": "Repeatedly asking whether data is ready"
       },
       {
         "option_id": 4,
-        "option_value": "Server-sent events"
+        "option_value": "A one-way stream pushed by the server"
       }
     ],
     "answer_id": 2,
@@ -2164,19 +2164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Bidirectional"
+        "option_value": "A persistent two-way connection"
       },
       {
         "option_id": 2,
-        "option_value": "Server-to-client streaming"
+        "option_value": "A one-way stream pushed by the server"
       },
       {
         "option_id": 3,
-        "option_value": "Client-to-server"
+        "option_value": "A one-way stream pushed by the client"
       },
       {
         "option_id": 4,
-        "option_value": "Polling"
+        "option_value": "Repeatedly asking whether data is ready"
       }
     ],
     "answer_id": 2,
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Short polling"
+        "option_value": "Asking again the moment a reply lands"
       },
       {
         "option_id": 2,
-        "option_value": "Server holds request until data available"
+        "option_value": "The server holding the request until ready"
       },
       {
         "option_id": 3,
-        "option_value": "WebSocket"
+        "option_value": "A persistent two-way connection"
       },
       {
         "option_id": 4,
-        "option_value": "No polling"
+        "option_value": "No requests are made at all"
       }
     ],
     "answer_id": 2,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same thing"
+        "option_value": "The two are the same mechanism"
       },
       {
         "option_id": 2,
-        "option_value": "WebSocket bidirectional, SSE server-to-client only"
+        "option_value": "WebSocket goes both ways; SSE does not"
       },
       {
         "option_id": 3,
-        "option_value": "SSE bidirectional"
+        "option_value": "SSE goes both ways; WebSocket does not"
       },
       {
         "option_id": 4,
-        "option_value": "WebSocket HTTP only"
+        "option_value": "WebSocket cannot run over HTTP at all"
       }
     ],
     "answer_id": 2,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Polling"
+        "option_value": "Repeatedly asking whether data is ready"
       },
       {
         "option_id": 2,
-        "option_value": "HTTP callback triggered by event"
+        "option_value": "An HTTP call the sender makes on an event"
       },
       {
         "option_id": 3,
-        "option_value": "WebSocket"
+        "option_value": "A persistent two-way connection"
       },
       {
         "option_id": 4,
-        "option_value": "SSE"
+        "option_value": "A one-way stream pushed by the server"
       }
     ],
     "answer_id": 2,
@@ -2260,19 +2260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Request-response"
+        "option_value": "Callers wait for each reply in turn"
       },
       {
         "option_id": 2,
-        "option_value": "Reacting to events asynchronously"
+        "option_value": "Components react to events as they arrive"
       },
       {
         "option_id": 3,
-        "option_value": "Synchronous only"
+        "option_value": "Everything runs strictly in sequence"
       },
       {
         "option_id": 4,
-        "option_value": "Batch processing"
+        "option_value": "Work is collected and run overnight"
       }
     ],
     "answer_id": 2,
@@ -2284,19 +2284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Asynchronous message storage and delivery"
+        "option_value": "A buffer holding messages until consumed"
       },
       {
         "option_id": 3,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       },
       {
         "option_id": 4,
-        "option_value": "File system"
+        "option_value": "A tree of directories holding files"
       }
     ],
     "answer_id": 2,
@@ -2308,19 +2308,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Middleware for message routing and transformation"
+        "option_value": "Middleware routing and reshaping messages"
       },
       {
         "option_id": 3,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       },
       {
         "option_id": 4,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across servers"
       }
     ],
     "answer_id": 2,
@@ -2332,19 +2332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Message broker implementing AMQP"
+        "option_value": "A message broker that speaks AMQP"
       },
       {
         "option_id": 3,
-        "option_value": "Cache system"
+        "option_value": "A store for frequently read values"
       },
       {
         "option_id": 4,
-        "option_value": "Web server"
+        "option_value": "A process that answers HTTP requests"
       }
     ],
     "answer_id": 2,
@@ -2356,19 +2356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Distributed event streaming platform"
+        "option_value": "A distributed log for streaming events"
       },
       {
         "option_id": 3,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       },
       {
         "option_id": 4,
-        "option_value": "Web server"
+        "option_value": "A process that answers HTTP requests"
       }
     ],
     "answer_id": 2,
@@ -2380,19 +2380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database table"
+        "option_value": "A table stored in a relational database"
       },
       {
         "option_id": 2,
-        "option_value": "Category/feed name to which records are published"
+        "option_value": "A named feed records are published to"
       },
       {
         "option_id": 3,
-        "option_value": "Queue"
+        "option_value": "A buffer draining in arrival order"
       },
       {
         "option_id": 4,
-        "option_value": "File"
+        "option_value": "A file written out to local disk"
       }
     ],
     "answer_id": 2,
@@ -2404,19 +2404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database index"
+        "option_value": "An index built over a database table"
       },
       {
         "option_id": 2,
-        "option_value": "Ordered, immutable sequence of records"
+        "option_value": "An ordered, append-only run of records"
       },
       {
         "option_id": 3,
-        "option_value": "Topic name"
+        "option_value": "The name identifying a whole feed"
       },
       {
         "option_id": 4,
-        "option_value": "Consumer group"
+        "option_value": "A set of readers sharing the work"
       }
     ],
     "answer_id": 2,
@@ -2428,19 +2428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single consumer"
+        "option_value": "A single reader working on its own"
       },
       {
         "option_id": 2,
-        "option_value": "Group of consumers sharing workload"
+        "option_value": "A set of readers sharing the work"
       },
       {
         "option_id": 3,
-        "option_value": "Producer group"
+        "option_value": "A set of writers sharing the work"
       },
       {
         "option_id": 4,
-        "option_value": "Topic group"
+        "option_value": "A set of feeds grouped by name"
       }
     ],
     "answer_id": 2,
@@ -2452,19 +2452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Timestamp"
+        "option_value": "The time at which a record arrived"
       },
       {
         "option_id": 2,
-        "option_value": "Position of consumer in partition"
+        "option_value": "A reader's position within a partition"
       },
       {
         "option_id": 3,
-        "option_value": "Message size"
+        "option_value": "The size in bytes of one record"
       },
       {
         "option_id": 4,
-        "option_value": "Partition number"
+        "option_value": "The number identifying a partition"
       }
     ],
     "answer_id": 2,
@@ -2476,19 +2476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "In-memory only"
+        "option_value": "Messages are held in memory alone"
       },
       {
         "option_id": 2,
-        "option_value": "Storing messages durably"
+        "option_value": "Messages are written to durable storage"
       },
       {
         "option_id": 3,
-        "option_value": "Transient messages"
+        "option_value": "Messages vanish once they are read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache only"
+        "option_value": "Messages are held only in a cache"
       }
     ],
     "answer_id": 2,
@@ -2500,19 +2500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No confirmation"
+        "option_value": "Nothing confirms that work happened"
       },
       {
         "option_id": 2,
-        "option_value": "Consumer confirming message processing"
+        "option_value": "The consumer confirms it handled a message"
       },
       {
         "option_id": 3,
-        "option_value": "Producer confirmation"
+        "option_value": "The producer confirms it sent a message"
       },
       {
         "option_id": 4,
-        "option_value": "Broker confirmation"
+        "option_value": "The broker confirms it stored a message"
       }
     ],
     "answer_id": 2,
@@ -2524,19 +2524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Exactly once"
+        "option_value": "Every message arrives exactly once"
       },
       {
         "option_id": 2,
-        "option_value": "Message delivered one or more times"
+        "option_value": "Every message arrives one or more times"
       },
       {
         "option_id": 3,
-        "option_value": "At most once"
+        "option_value": "Every message arrives zero or one times"
       },
       {
         "option_id": 4,
-        "option_value": "No delivery"
+        "option_value": "Messages may never arrive at all"
       }
     ],
     "answer_id": 2,
@@ -2548,19 +2548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Exactly once"
+        "option_value": "Every message arrives exactly once"
       },
       {
         "option_id": 2,
-        "option_value": "Message delivered zero or one times"
+        "option_value": "Every message arrives zero or one times"
       },
       {
         "option_id": 3,
-        "option_value": "At least once"
+        "option_value": "Every message arrives one or more times"
       },
       {
         "option_id": 4,
-        "option_value": "No delivery"
+        "option_value": "Messages may never arrive at all"
       }
     ],
     "answer_id": 2,
@@ -2572,19 +2572,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "At least once"
+        "option_value": "Every message arrives one or more times"
       },
       {
         "option_id": 2,
-        "option_value": "Message delivered exactly one time"
+        "option_value": "Every message arrives exactly one time"
       },
       {
         "option_id": 3,
-        "option_value": "At most once"
+        "option_value": "Every message arrives zero or one times"
       },
       {
         "option_id": 4,
-        "option_value": "No delivery"
+        "option_value": "Messages may never arrive at all"
       }
     ],
     "answer_id": 2,
@@ -2596,19 +2596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Random order"
+        "option_value": "Messages arrive in an entirely arbitrary order"
       },
       {
         "option_id": 2,
-        "option_value": "Messages processed in order sent"
+        "option_value": "Messages arrive in the order they were sent"
       },
       {
         "option_id": 3,
-        "option_value": "Reverse order"
+        "option_value": "Messages arrive in reverse of the send order"
       },
       {
         "option_id": 4,
-        "option_value": "No guarantee"
+        "option_value": "No ordering is promised under any conditions"
       }
     ],
     "answer_id": 2,
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Main queue"
+        "option_value": "The queue normal traffic flows through"
       },
       {
         "option_id": 2,
-        "option_value": "Queue for messages that fail processing"
+        "option_value": "A queue holding messages that kept failing"
       },
       {
         "option_id": 3,
-        "option_value": "Priority queue"
+        "option_value": "A queue served in order of importance"
       },
       {
         "option_id": 4,
-        "option_value": "Delay queue"
+        "option_value": "A queue that holds messages back a while"
       }
     ],
     "answer_id": 2,
@@ -2644,19 +2644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Infinite time"
+        "option_value": "Messages are kept for ever by default"
       },
       {
         "option_id": 2,
-        "option_value": "Message expiration time"
+        "option_value": "How long a message stays valid for"
       },
       {
         "option_id": 3,
-        "option_value": "Processing time"
+        "option_value": "How long a message takes to process"
       },
       {
         "option_id": 4,
-        "option_value": "Queue size"
+        "option_value": "How many messages a queue may hold"
       }
     ],
     "answer_id": 2,
@@ -2668,19 +2668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Immediate delivery"
+        "option_value": "Messages go out the moment they arrive"
       },
       {
         "option_id": 2,
-        "option_value": "Delivering messages after specified delay"
+        "option_value": "Messages go out after a set waiting period"
       },
       {
         "option_id": 3,
-        "option_value": "Priority queue"
+        "option_value": "Messages go out in order of importance"
       },
       {
         "option_id": 4,
-        "option_value": "Dead letter queue"
+        "option_value": "Messages that failed are parked here"
       }
     ],
     "answer_id": 2,
@@ -2692,19 +2692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "FIFO queue"
+        "option_value": "Messages are served in arrival order"
       },
       {
         "option_id": 2,
-        "option_value": "Messages processed by priority"
+        "option_value": "Messages are served by importance first"
       },
       {
         "option_id": 3,
-        "option_value": "LIFO queue"
+        "option_value": "Messages are served newest-first"
       },
       {
         "option_id": 4,
-        "option_value": "Random queue"
+        "option_value": "Messages are served in a random order"
       }
     ],
     "answer_id": 2,
@@ -2716,19 +2716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single message"
+        "option_value": "Each message is sent on its own"
       },
       {
         "option_id": 2,
-        "option_value": "Grouping multiple messages together"
+        "option_value": "Several messages are sent as one unit"
       },
       {
         "option_id": 3,
-        "option_value": "No grouping"
+        "option_value": "Messages are never grouped together"
       },
       {
         "option_id": 4,
-        "option_value": "Individual processing"
+        "option_value": "Each message is handled separately"
       }
     ],
     "answer_id": 2,
@@ -2740,19 +2740,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-way"
+        "option_value": "The caller sends it and moves straight on"
       },
       {
         "option_id": 2,
-        "option_value": "Synchronous request waiting for response"
+        "option_value": "The caller waits for a reply before going on"
       },
       {
         "option_id": 3,
-        "option_value": "Fire-and-forget"
+        "option_value": "One message reaches many subscribers at once"
       },
       {
         "option_id": 4,
-        "option_value": "Pub-sub"
+        "option_value": "One message reaches a single consumer only"
       }
     ],
     "answer_id": 2,
@@ -2764,19 +2764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Request-response"
+        "option_value": "The caller waits for a reply first"
       },
       {
         "option_id": 2,
-        "option_value": "Send message without waiting for response"
+        "option_value": "The caller sends and moves straight on"
       },
       {
         "option_id": 3,
-        "option_value": "Pub-sub"
+        "option_value": "One message reaches many subscribers"
       },
       {
         "option_id": 4,
-        "option_value": "RPC"
+        "option_value": "The caller invokes a remote procedure"
       }
     ],
     "answer_id": 2,
@@ -2788,19 +2788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-to-one"
+        "option_value": "One message reaches a single consumer"
       },
       {
         "option_id": 2,
-        "option_value": "One-to-many message distribution"
+        "option_value": "One message reaches many subscribers"
       },
       {
         "option_id": 3,
-        "option_value": "Request-response"
+        "option_value": "The caller waits for a reply first"
       },
       {
         "option_id": 4,
-        "option_value": "Point-to-point"
+        "option_value": "The caller invokes a remote procedure"
       }
     ],
     "answer_id": 2,
@@ -2812,19 +2812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One-to-many"
+        "option_value": "One message reaches many subscribers"
       },
       {
         "option_id": 2,
-        "option_value": "One-to-one message delivery"
+        "option_value": "One message reaches a single consumer"
       },
       {
         "option_id": 3,
-        "option_value": "Pub-sub"
+        "option_value": "The caller waits for a reply first"
       },
       {
         "option_id": 4,
-        "option_value": "Broadcast"
+        "option_value": "One message reaches every consumer"
       }
     ],
     "answer_id": 2,
@@ -2836,19 +2836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Local function call"
+        "option_value": "Calling a function in the same process"
       },
       {
         "option_id": 2,
-        "option_value": "Executing function on remote server"
+        "option_value": "Calling a function in another process"
       },
       {
         "option_id": 3,
-        "option_value": "Database query"
+        "option_value": "Running a statement against a database"
       },
       {
         "option_id": 4,
-        "option_value": "Message queue"
+        "option_value": "Placing a message onto a queue"
       }
     ],
     "answer_id": 2,
@@ -2860,19 +2860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "The two styles are interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "RPC is operation-focused, REST is resource-focused"
+        "option_value": "RPC names actions; REST names resources"
       },
       {
         "option_id": 3,
-        "option_value": "REST is faster"
+        "option_value": "REST names actions; RPC names resources"
       },
       {
         "option_id": 4,
-        "option_value": "RPC is newer"
+        "option_value": "REST is always the faster of the two"
       }
     ],
     "answer_id": 2,
@@ -2884,19 +2884,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across servers"
       },
       {
         "option_id": 2,
-        "option_value": "Infrastructure layer for service communication"
+        "option_value": "A layer handling service-to-service traffic"
       },
       {
         "option_id": 3,
-        "option_value": "API gateway"
+        "option_value": "A single front door for API traffic"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       }
     ],
     "answer_id": 2,
@@ -2908,19 +2908,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single container"
+        "option_value": "One container doing all of the work"
       },
       {
         "option_id": 2,
-        "option_value": "Helper container alongside main container"
+        "option_value": "A helper container beside the main one"
       },
       {
         "option_id": 3,
-        "option_value": "Main container only"
+        "option_value": "The main container running on its own"
       },
       {
         "option_id": 4,
-        "option_value": "Init container"
+        "option_value": "A container that runs before the others"
       }
     ],
     "answer_id": 2,
@@ -2932,19 +2932,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Direct calls"
+        "option_value": "Every call goes straight through"
       },
       {
         "option_id": 2,
-        "option_value": "Preventing cascade failures by failing fast"
+        "option_value": "Failing fast once a dependency is sick"
       },
       {
         "option_id": 3,
-        "option_value": "Retry forever"
+        "option_value": "Retrying for ever until it succeeds"
       },
       {
         "option_id": 4,
-        "option_value": "No timeout"
+        "option_value": "Waiting indefinitely for a reply"
       }
     ],
     "answer_id": 2,
@@ -2956,19 +2956,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "One state"
+        "option_value": "There is only one state to be in"
       },
       {
         "option_id": 2,
-        "option_value": "Closed, Open, Half-Open"
+        "option_value": "Closed, open and half-open"
       },
       {
         "option_id": 3,
-        "option_value": "On, Off"
+        "option_value": "Simply on and off, nothing more"
       },
       {
         "option_id": 4,
-        "option_value": "Active, Inactive"
+        "option_value": "Simply active and inactive, nothing more"
       }
     ],
     "answer_id": 2,
@@ -2980,19 +2980,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single attempt"
+        "option_value": "Trying an operation exactly once"
       },
       {
         "option_id": 2,
-        "option_value": "Retrying failed operations"
+        "option_value": "Trying a failed operation again"
       },
       {
         "option_id": 3,
-        "option_value": "No retry"
+        "option_value": "Never attempting an operation twice"
       },
       {
         "option_id": 4,
-        "option_value": "Infinite retry"
+        "option_value": "Trying for ever without ever stopping"
       }
     ],
     "answer_id": 2,
