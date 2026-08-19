@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Compiled language"
+        "option_value": "A compiled, statically typed language"
       },
       {
         "option_id": 2,
-        "option_value": "Interpreted high-level language"
+        "option_value": "An interpreted, dynamically typed language"
       },
       {
         "option_id": 3,
-        "option_value": "Machine language"
+        "option_value": "A low-level language run by the CPU"
       },
       {
         "option_id": 4,
-        "option_value": "Assembly language"
+        "option_value": "A markup language for describing data"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Python compiler"
+        "option_value": "The reference Python compiler"
       },
       {
         "option_id": 2,
-        "option_value": "Style guide for Python code"
+        "option_value": "The style guide for Python source"
       },
       {
         "option_id": 3,
-        "option_value": "Python interpreter"
+        "option_value": "The interpreter that runs bytecode"
       },
       {
         "option_id": 4,
-        "option_value": "Package manager"
+        "option_value": "The tool that installs packages"
       }
     ],
     "answer_id": 2,
@@ -52,19 +52,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Fixed-size array"
+        "option_value": "A fixed-size array of one type"
       },
       {
         "option_id": 2,
-        "option_value": "Mutable ordered sequence"
+        "option_value": "A mutable, ordered sequence"
       },
       {
         "option_id": 3,
-        "option_value": "Immutable sequence"
+        "option_value": "An immutable, ordered sequence"
       },
       {
         "option_id": 4,
-        "option_value": "Key-value pairs"
+        "option_value": "A mapping from keys to values"
       }
     ],
     "answer_id": 2,
@@ -76,19 +76,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Mutable sequence"
+        "option_value": "A mutable, ordered sequence"
       },
       {
         "option_id": 2,
-        "option_value": "Immutable ordered sequence"
+        "option_value": "An immutable, ordered sequence"
       },
       {
         "option_id": 3,
-        "option_value": "Key-value pairs"
+        "option_value": "A mapping from keys to values"
       },
       {
         "option_id": 4,
-        "option_value": "Unordered collection"
+        "option_value": "An unordered set of unique items"
       }
     ],
     "answer_id": 2,
@@ -124,19 +124,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Ordered collection"
+        "option_value": "An ordered sequence allowing repeats"
       },
       {
         "option_id": 2,
-        "option_value": "Unordered collection of unique elements"
+        "option_value": "An unordered collection of unique items"
       },
       {
         "option_id": 3,
-        "option_value": "Key-value pairs"
+        "option_value": "A mapping from keys to values"
       },
       {
         "option_id": 4,
-        "option_value": "Immutable list"
+        "option_value": "An immutable, ordered sequence"
       }
     ],
     "answer_id": 2,
@@ -148,19 +148,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "For loop"
+        "option_value": "A loop written across several lines"
       },
       {
         "option_id": 2,
-        "option_value": "Concise way to create lists"
+        "option_value": "A compact expression building a list"
       },
       {
         "option_id": 3,
-        "option_value": "Function definition"
+        "option_value": "A statement that declares a routine"
       },
       {
         "option_id": 4,
-        "option_value": "Class creation"
+        "option_value": "A statement that declares a class"
       }
     ],
     "answer_id": 2,
@@ -172,19 +172,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No difference"
+        "option_value": "They behave identically in every case"
       },
       {
         "option_id": 2,
-        "option_value": "List is mutable, tuple is immutable"
+        "option_value": "Lists are mutable; tuples are not"
       },
       {
         "option_id": 3,
-        "option_value": "Tuple is mutable"
+        "option_value": "Tuples are mutable; lists are not"
       },
       {
         "option_id": 4,
-        "option_value": "List is faster"
+        "option_value": "Lists hash; tuples cannot be hashed"
       }
     ],
     "answer_id": 2,
@@ -196,19 +196,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cutting objects"
+        "option_value": "Splitting an object into two halves"
       },
       {
         "option_id": 2,
-        "option_value": "Extracting portion of sequence"
+        "option_value": "Taking a sub-range out of a sequence"
       },
       {
         "option_id": 3,
-        "option_value": "Deleting elements"
+        "option_value": "Deleting elements from a sequence"
       },
       {
         "option_id": 4,
-        "option_value": "Adding elements"
+        "option_value": "Inserting elements into a sequence"
       }
     ],
     "answer_id": 2,
@@ -244,19 +244,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same function"
+        "option_value": "The two do exactly the same thing"
       },
       {
         "option_id": 2,
-        "option_value": "append adds single element, extend adds iterable"
+        "option_value": "append adds one item; extend adds many"
       },
       {
         "option_id": 3,
-        "option_value": "extend adds single"
+        "option_value": "extend adds one item; append adds many"
       },
       {
         "option_id": 4,
-        "option_value": "append is faster"
+        "option_value": "append works only on lists of numbers"
       }
     ],
     "answer_id": 2,
@@ -268,19 +268,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same function"
+        "option_value": "The two do exactly the same thing"
       },
       {
         "option_id": 2,
-        "option_value": "remove by value, pop by index"
+        "option_value": "remove takes a value; pop takes an index"
       },
       {
         "option_id": 3,
-        "option_value": "pop by value"
+        "option_value": "pop takes a value; remove takes an index"
       },
       {
         "option_id": 4,
-        "option_value": "remove returns value"
+        "option_value": "remove returns the item it took out"
       }
     ],
     "answer_id": 2,
@@ -292,19 +292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular function"
+        "option_value": "A routine returning all results at once"
       },
       {
         "option_id": 2,
-        "option_value": "Function that yields values lazily"
+        "option_value": "A routine yielding results one at a time"
       },
       {
         "option_id": 3,
-        "option_value": "List comprehension"
+        "option_value": "A compact expression building a list"
       },
       {
         "option_id": 4,
-        "option_value": "Decorator"
+        "option_value": "A wrapper that alters another routine"
       }
     ],
     "answer_id": 2,
@@ -316,19 +316,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Returns and exits"
+        "option_value": "Returns a value and ends the call"
       },
       {
         "option_id": 2,
-        "option_value": "Yields value and pauses, saves state"
+        "option_value": "Hands back a value and pauses the call"
       },
       {
         "option_id": 3,
-        "option_value": "Prints value"
+        "option_value": "Prints a value to standard output"
       },
       {
         "option_id": 4,
-        "option_value": "Raises exception"
+        "option_value": "Raises an exception at that point"
       }
     ],
     "answer_id": 2,
@@ -340,19 +340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Index counter"
+        "option_value": "A counter tracking the current index"
       },
       {
         "option_id": 2,
-        "option_value": "Object implementing __iter__ and __next__"
+        "option_value": "An object with __iter__ and __next__"
       },
       {
         "option_id": 3,
-        "option_value": "List"
+        "option_value": "An ordered sequence of stored values"
       },
       {
         "option_id": 4,
-        "option_value": "Dictionary"
+        "option_value": "A mapping from keys to stored values"
       }
     ],
     "answer_id": 2,
@@ -364,19 +364,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same thing"
+        "option_value": "The two words mean the same thing"
       },
       {
         "option_id": 2,
-        "option_value": "Iterable can be iterated, iterator does iteration"
+        "option_value": "An iterable yields one; an iterator steps"
       },
       {
         "option_id": 3,
-        "option_value": "Iterator is list"
+        "option_value": "An iterator yields one; an iterable steps"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "Only lists can ever be iterable"
       }
     ],
     "answer_id": 2,
@@ -388,19 +388,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Returns length"
+        "option_value": "Gives back the number of items held"
       },
       {
         "option_id": 2,
-        "option_value": "Returns iterator object"
+        "option_value": "Gives back an iterator over the object"
       },
       {
         "option_id": 3,
-        "option_value": "Returns string"
+        "option_value": "Gives back a printable text form"
       },
       {
         "option_id": 4,
-        "option_value": "Returns index"
+        "option_value": "Gives back the current index position"
       }
     ],
     "answer_id": 2,
@@ -412,19 +412,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Returns iterator"
+        "option_value": "Gives back a fresh iterator object each"
       },
       {
         "option_id": 2,
-        "option_value": "Returns next value or raises StopIteration"
+        "option_value": "Gives the next item or raises StopIteration"
       },
       {
         "option_id": 3,
-        "option_value": "Returns length"
+        "option_value": "Gives back the total number of items held"
       },
       {
         "option_id": 4,
-        "option_value": "Returns first value"
+        "option_value": "Gives back the very first item each time"
       }
     ],
     "answer_id": 2,
@@ -436,19 +436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       },
       {
         "option_id": 2,
-        "option_value": "Function that modifies another function"
+        "option_value": "A callable that wraps another callable"
       },
       {
         "option_id": 3,
-        "option_value": "Variable"
+        "option_value": "A name bound to a stored value"
       },
       {
         "option_id": 4,
-        "option_value": "Module"
+        "option_value": "A file holding importable code"
       }
     ],
     "answer_id": 2,
@@ -460,19 +460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "def decorator"
+        "option_value": "By naming the function 'decorator'"
       },
       {
         "option_id": 2,
-        "option_value": "@decorator syntax or function wrapping"
+        "option_value": "With @name above the definition"
       },
       {
         "option_id": 3,
-        "option_value": "class decorator"
+        "option_value": "By subclassing a Decorator base class"
       },
       {
         "option_id": 4,
-        "option_value": "import decorator"
+        "option_value": "By importing it from the standard library"
       }
     ],
     "answer_id": 2,
@@ -484,19 +484,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Speed optimization"
+        "option_value": "It makes the wrapped call run faster"
       },
       {
         "option_id": 2,
-        "option_value": "Preserving original function metadata"
+        "option_value": "It copies the wrapped function's metadata"
       },
       {
         "option_id": 3,
-        "option_value": "Memory management"
+        "option_value": "It frees memory the wrapper allocated"
       },
       {
         "option_id": 4,
-        "option_value": "Error handling"
+        "option_value": "It converts exceptions into return values"
       }
     ],
     "answer_id": 2,
@@ -508,19 +508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Named function"
+        "option_value": "A function bound to a name by def"
       },
       {
         "option_id": 2,
-        "option_value": "Anonymous inline function"
+        "option_value": "An anonymous single-expression function"
       },
       {
         "option_id": 3,
-        "option_value": "Generator function"
+        "option_value": "A function that yields values lazily"
       },
       {
         "option_id": 4,
-        "option_value": "Class method"
+        "option_value": "A function defined inside a class body"
       }
     ],
     "answer_id": 2,
@@ -532,19 +532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "def name():"
+        "option_value": "Written as def name(): expression"
       },
       {
         "option_id": 2,
-        "option_value": "lambda arguments: expression"
+        "option_value": "Written as lambda args: expression"
       },
       {
         "option_id": 3,
-        "option_value": "function name()"
+        "option_value": "Written as function name(): expression"
       },
       {
         "option_id": 4,
-        "option_value": "anonymous()"
+        "option_value": "Written as anonymous(args): expression"
       }
     ],
     "answer_id": 2,
@@ -556,19 +556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Dictionary mapping"
+        "option_value": "Builds a mapping from keys to values"
       },
       {
         "option_id": 2,
-        "option_value": "Applies function to all items in iterable"
+        "option_value": "Applies a callable across an iterable"
       },
       {
         "option_id": 3,
-        "option_value": "List creation"
+        "option_value": "Builds a list from a range of numbers"
       },
       {
         "option_id": 4,
-        "option_value": "Filter function"
+        "option_value": "Keeps only items passing a condition"
       }
     ],
     "answer_id": 2,
@@ -580,19 +580,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Maps values"
+        "option_value": "Applies a callable across an iterable"
       },
       {
         "option_id": 2,
-        "option_value": "Filters items based on condition"
+        "option_value": "Keeps only items passing a condition"
       },
       {
         "option_id": 3,
-        "option_value": "Sorts items"
+        "option_value": "Puts the items into sorted order"
       },
       {
         "option_id": 4,
-        "option_value": "Reduces items"
+        "option_value": "Folds the items down to one value"
       }
     ],
     "answer_id": 2,
@@ -604,19 +604,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Maps values"
+        "option_value": "Applies a callable across an iterable"
       },
       {
         "option_id": 2,
-        "option_value": "Reduces iterable to single value"
+        "option_value": "Folds the items down to one value"
       },
       {
         "option_id": 3,
-        "option_value": "Filters items"
+        "option_value": "Keeps only items passing a condition"
       },
       {
         "option_id": 4,
-        "option_value": "Sorts items"
+        "option_value": "Puts the items into sorted order"
       }
     ],
     "answer_id": 2,
@@ -628,19 +628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Compress files"
+        "option_value": "Compresses a file on disk"
       },
       {
         "option_id": 2,
-        "option_value": "Aggregates elements from multiple iterables"
+        "option_value": "Pairs up items from several iterables"
       },
       {
         "option_id": 3,
-        "option_value": "Unzip files"
+        "option_value": "Extracts a file from an archive"
       },
       {
         "option_id": 4,
-        "option_value": "Sort iterables"
+        "option_value": "Puts several iterables into order"
       }
     ],
     "answer_id": 2,
@@ -652,19 +652,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Count items"
+        "option_value": "Counts how many items there are"
       },
       {
         "option_id": 2,
-        "option_value": "Returns index and value pairs"
+        "option_value": "Pairs each item with its index"
       },
       {
         "option_id": 3,
-        "option_value": "List items"
+        "option_value": "Turns any iterable into a list"
       },
       {
         "option_id": 4,
-        "option_value": "Sort items"
+        "option_value": "Puts the items into sorted order"
       }
     ],
     "answer_id": 2,
@@ -676,19 +676,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same thing"
+        "option_value": "The two forms are interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "*args for positional, **kwargs for keyword arguments"
+        "option_value": "*args takes positional; **kwargs keyword"
       },
       {
         "option_id": 3,
-        "option_value": "**args for positional"
+        "option_value": "**kwargs takes positional; *args keyword"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "*args works only inside class methods"
       }
     ],
     "answer_id": 2,
@@ -700,19 +700,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Keyword arguments"
+        "option_value": "Any number of keyword arguments"
       },
       {
         "option_id": 2,
-        "option_value": "Variable number of positional arguments"
+        "option_value": "Any number of positional arguments"
       },
       {
         "option_id": 3,
-        "option_value": "Fixed arguments"
+        "option_value": "Exactly one required argument"
       },
       {
         "option_id": 4,
-        "option_value": "No arguments"
+        "option_value": "A function taking no arguments"
       }
     ],
     "answer_id": 2,
@@ -724,19 +724,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Positional arguments"
+        "option_value": "Any number of positional arguments"
       },
       {
         "option_id": 2,
-        "option_value": "Variable number of keyword arguments"
+        "option_value": "Any number of keyword arguments"
       },
       {
         "option_id": 3,
-        "option_value": "Fixed arguments"
+        "option_value": "Exactly one required argument"
       },
       {
         "option_id": 4,
-        "option_value": "No arguments"
+        "option_value": "A function taking no arguments"
       }
     ],
     "answer_id": 2,
@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No impact"
+        "option_value": "It has no measurable effect at all"
       },
       {
         "option_id": 2,
-        "option_value": "Limits true parallelism in CPU-bound multi-threading"
+        "option_value": "It caps CPU-bound threads to one core"
       },
       {
         "option_id": 3,
-        "option_value": "Speeds up threads"
+        "option_value": "It makes threaded code run faster"
       },
       {
         "option_id": 4,
-        "option_value": "No threading"
+        "option_value": "It stops threads being created at all"
       }
     ],
     "answer_id": 2,
@@ -796,19 +796,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "More threads"
+        "option_value": "Create a larger pool of threads"
       },
       {
         "option_id": 2,
-        "option_value": "Multiprocessing or C extensions"
+        "option_value": "Use processes or native extensions"
       },
       {
         "option_id": 3,
-        "option_value": "More locks"
+        "option_value": "Add more locks around shared state"
       },
       {
         "option_id": 4,
-        "option_value": "No way"
+        "option_value": "Parallelism is simply not possible"
       }
     ],
     "answer_id": 2,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same thing"
+        "option_value": "The two are different names for one thing"
       },
       {
         "option_id": 2,
-        "option_value": "Threads share memory, processes have separate memory"
+        "option_value": "Threads share memory; processes do not"
       },
       {
         "option_id": 3,
-        "option_value": "Processes are threads"
+        "option_value": "Processes share memory; threads do not"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "Threads always run on separate cores"
       }
     ],
     "answer_id": 2,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 2,
-        "option_value": "File containing Python code"
+        "option_value": "A single file holding Python code"
       },
       {
         "option_id": 3,
-        "option_value": "Variable"
+        "option_value": "A name bound to a stored value"
       },
       {
         "option_id": 4,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       }
     ],
     "answer_id": 2,
@@ -868,19 +868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single module"
+        "option_value": "Just another word for a single module"
       },
       {
         "option_id": 2,
-        "option_value": "Directory with modules and __init__.py"
+        "option_value": "A directory of modules imported as one"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A named block of code you can reuse"
       },
       {
         "option_id": 4,
-        "option_value": "Variable"
+        "option_value": "A name bound to some stored value"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Main module"
+        "option_value": "The file a program starts running from"
       },
       {
         "option_id": 2,
-        "option_value": "Marks directory as Python package"
+        "option_value": "The file marking a directory as a package"
       },
       {
         "option_id": 3,
-        "option_value": "Entry point"
+        "option_value": "The place command-line entry points live"
       },
       {
         "option_id": 4,
-        "option_value": "Configuration file"
+        "option_value": "The file holding project configuration"
       }
     ],
     "answer_id": 2,
@@ -916,19 +916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "The two forms behave identically"
       },
       {
         "option_id": 2,
-        "option_value": "import module needs module.name, from imports directly"
+        "option_value": "import needs the prefix; from does not"
       },
       {
         "option_id": 3,
-        "option_value": "from is slower"
+        "option_value": "from needs the prefix; import does not"
       },
       {
         "option_id": 4,
-        "option_value": "import is deprecated"
+        "option_value": "from is markedly slower at runtime"
       }
     ],
     "answer_id": 2,
@@ -940,19 +940,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class name"
+        "option_value": "The name of the class enclosing it"
       },
       {
         "option_id": 2,
-        "option_value": "Checks if module is run directly"
+        "option_value": "True only when the file is run directly"
       },
       {
         "option_id": 3,
-        "option_value": "Function name"
+        "option_value": "The name of the function running now"
       },
       {
         "option_id": 4,
-        "option_value": "Module version"
+        "option_value": "The version string of the module"
       }
     ],
     "answer_id": 2,
@@ -964,19 +964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Python interpreter"
+        "option_value": "The interpreter that runs Python code"
       },
       {
         "option_id": 2,
-        "option_value": "Package installer for Python"
+        "option_value": "The tool that installs Python packages"
       },
       {
         "option_id": 3,
-        "option_value": "Python compiler"
+        "option_value": "The compiler that emits bytecode"
       },
       {
         "option_id": 4,
-        "option_value": "IDE"
+        "option_value": "An editor bundled with the language"
       }
     ],
     "answer_id": 2,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Python editor"
+        "option_value": "An editor tuned for Python code"
       },
       {
         "option_id": 2,
-        "option_value": "Tool to create isolated Python environments"
+        "option_value": "A tool creating isolated environments"
       },
       {
         "option_id": 3,
-        "option_value": "Python debugger"
+        "option_value": "A debugger that steps through code"
       },
       {
         "option_id": 4,
-        "option_value": "Python linter"
+        "option_value": "A linter that flags style problems"
       }
     ],
     "answer_id": 2,
@@ -1012,19 +1012,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Python script"
+        "option_value": "A script that runs at install time"
       },
       {
         "option_id": 2,
-        "option_value": "File listing package dependencies"
+        "option_value": "A file listing the packages needed"
       },
       {
         "option_id": 3,
-        "option_value": "Configuration file"
+        "option_value": "A file holding project configuration"
       },
       {
         "option_id": 4,
-        "option_value": "Documentation"
+        "option_value": "A file holding the project's docs"
       }
     ],
     "answer_id": 2,
@@ -1036,19 +1036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 2,
-        "option_value": "Blueprint for creating objects"
+        "option_value": "A template for constructing objects"
       },
       {
         "option_id": 3,
-        "option_value": "Variable"
+        "option_value": "A name bound to a stored value"
       },
       {
         "option_id": 4,
-        "option_value": "Module"
+        "option_value": "A single file holding Python code"
       }
     ],
     "answer_id": 2,
@@ -1060,19 +1060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Destructor"
+        "option_value": "Runs when the object is destroyed"
       },
       {
         "option_id": 2,
-        "option_value": "Constructor method called when object created"
+        "option_value": "Runs when a new instance is made"
       },
       {
         "option_id": 3,
-        "option_value": "Main method"
+        "option_value": "The entry point a program starts at"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -1084,19 +1084,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static keyword"
+        "option_value": "A keyword marking a method static"
       },
       {
         "option_id": 2,
-        "option_value": "Reference to instance of class"
+        "option_value": "A reference to the current instance"
       },
       {
         "option_id": 3,
-        "option_value": "Global variable"
+        "option_value": "A variable shared across all modules"
       },
       {
         "option_id": 4,
-        "option_value": "Constant"
+        "option_value": "A constant fixed at import time"
       }
     ],
     "answer_id": 2,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Constructor"
+        "option_value": "Runs when a new instance is made"
       },
       {
         "option_id": 2,
-        "option_value": "String representation of object"
+        "option_value": "Gives a readable string for humans"
       },
       {
         "option_id": 3,
-        "option_value": "Destructor"
+        "option_value": "Runs when the object is destroyed"
       },
       {
         "option_id": 4,
-        "option_value": "Comparator"
+        "option_value": "Compares two objects for ordering"
       }
     ],
     "answer_id": 2,
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Constructor"
+        "option_value": "Runs when a new instance is made"
       },
       {
         "option_id": 2,
-        "option_value": "Official string representation for debugging"
+        "option_value": "Gives an unambiguous string for devs"
       },
       {
         "option_id": 3,
-        "option_value": "Destructor"
+        "option_value": "Runs when the object is destroyed"
       },
       {
         "option_id": 4,
-        "option_value": "String for users"
+        "option_value": "Gives a readable string for humans"
       }
     ],
     "answer_id": 2,
@@ -1156,19 +1156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "The two are entirely interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "__str__ for users, __repr__ for developers/debugging"
+        "option_value": "__str__ is for users; __repr__ for devs"
       },
       {
         "option_id": 3,
-        "option_value": "__repr__ for users"
+        "option_value": "__repr__ is for users; __str__ for devs"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "__repr__ is only ever called by print"
       }
     ],
     "answer_id": 2,
@@ -1180,19 +1180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No inheritance"
+        "option_value": "A class copying another's source"
       },
       {
         "option_id": 2,
-        "option_value": "Class deriving from another class"
+        "option_value": "A class deriving from another class"
       },
       {
         "option_id": 3,
-        "option_value": "Function calling"
+        "option_value": "A routine calling another routine"
       },
       {
         "option_id": 4,
-        "option_value": "Module importing"
+        "option_value": "A module importing another module"
       }
     ],
     "answer_id": 2,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Parent class"
+        "option_value": "A reference to the parent class"
       },
       {
         "option_id": 2,
-        "option_value": "Calls parent class methods"
+        "option_value": "A call into the parent's own methods"
       },
       {
         "option_id": 3,
-        "option_value": "Child class"
+        "option_value": "A reference to the child class"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method shared by all instances"
       }
     ],
     "answer_id": 2,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same method"
+        "option_value": "Two methods sharing a single body"
       },
       {
         "option_id": 2,
-        "option_value": "Child class redefining parent method"
+        "option_value": "A subclass redefining a parent method"
       },
       {
         "option_id": 3,
-        "option_value": "Method overloading"
+        "option_value": "Two methods sharing one name, differing"
       },
       {
         "option_id": 4,
-        "option_value": "No method"
+        "option_value": "A method that is never defined at all"
       }
     ],
     "answer_id": 2,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same as Java"
+        "option_value": "Supported exactly as it is in Java"
       },
       {
         "option_id": 2,
-        "option_value": "Not directly supported, use default args or *args"
+        "option_value": "Not built in; use defaults or *args"
       },
       {
         "option_id": 3,
-        "option_value": "Fully supported"
+        "option_value": "Fully supported by the interpreter"
       },
       {
         "option_id": 4,
-        "option_value": "Not possible"
+        "option_value": "Impossible to imitate in any way"
       }
     ],
     "answer_id": 2,
@@ -1276,19 +1276,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Instance method"
+        "option_value": "Receives the instance as first argument"
       },
       {
         "option_id": 2,
-        "option_value": "Method that doesn't access instance or class"
+        "option_value": "Receives neither instance nor class"
       },
       {
         "option_id": 3,
-        "option_value": "Class method"
+        "option_value": "Receives the class as first argument"
       },
       {
         "option_id": 4,
-        "option_value": "Abstract method"
+        "option_value": "Cannot be called until overridden"
       }
     ],
     "answer_id": 2,
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Instance method"
+        "option_value": "Receives the instance as first argument"
       },
       {
         "option_id": 2,
-        "option_value": "Method that receives class as first argument"
+        "option_value": "Receives the class as its first argument"
       },
       {
         "option_id": 3,
-        "option_value": "Static method"
+        "option_value": "Receives neither instance nor class"
       },
       {
         "option_id": 4,
-        "option_value": "Private method"
+        "option_value": "Cannot be called until overridden"
       }
     ],
     "answer_id": 2,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static method"
+        "option_value": "Marks a method as callable on the class"
       },
       {
         "option_id": 2,
-        "option_value": "Makes method act like attribute"
+        "option_value": "Lets a method be read like an attribute"
       },
       {
         "option_id": 3,
-        "option_value": "Class method"
+        "option_value": "Marks a method as needing no instance"
       },
       {
         "option_id": 4,
-        "option_value": "Private method"
+        "option_value": "Hides a method from outside code"
       }
     ],
     "answer_id": 2,
@@ -1348,19 +1348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Setter method"
+        "option_value": "A method that writes an attribute"
       },
       {
         "option_id": 2,
-        "option_value": "Method to get attribute value"
+        "option_value": "A method that reads an attribute"
       },
       {
         "option_id": 3,
-        "option_value": "Private method"
+        "option_value": "A method hidden from outside code"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -1372,19 +1372,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Getter method"
+        "option_value": "A method that reads an attribute"
       },
       {
         "option_id": 2,
-        "option_value": "Method to set attribute value"
+        "option_value": "A method that writes an attribute"
       },
       {
         "option_id": 3,
-        "option_value": "Private method"
+        "option_value": "A method hidden from outside code"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "A method called on the class itself"
       }
     ],
     "answer_id": 2,
@@ -1396,19 +1396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Name formatting"
+        "option_value": "Reformatting a name to read more clearly"
       },
       {
         "option_id": 2,
-        "option_value": "__name becomes _Class__name for pseudo-private"
+        "option_value": "__name becoming _Class__name inside a class"
       },
       {
         "option_id": 3,
-        "option_value": "Name shortening"
+        "option_value": "Shortening a long name to save memory"
       },
       {
         "option_id": 4,
-        "option_value": "Name expansion"
+        "option_value": "Expanding a short name to its full path"
       }
     ],
     "answer_id": 2,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular class"
+        "option_value": "An ordinary class given a special name"
       },
       {
         "option_id": 2,
-        "option_value": "Class of a class that creates classes"
+        "option_value": "A class whose instances are classes"
       },
       {
         "option_id": 3,
-        "option_value": "Abstract class"
+        "option_value": "A class that can never be instantiated"
       },
       {
         "option_id": 4,
-        "option_value": "Interface"
+        "option_value": "A class that only lists required methods"
       }
     ],
     "answer_id": 2,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Constructor"
+        "option_value": "Sets up an instance already created"
       },
       {
         "option_id": 2,
-        "option_value": "Creates and returns new instance"
+        "option_value": "Allocates and returns the new instance"
       },
       {
         "option_id": 3,
-        "option_value": "Initializer"
+        "option_value": "Runs when the object is destroyed"
       },
       {
         "option_id": 4,
-        "option_value": "Destructor"
+        "option_value": "Gives a readable string for humans"
       }
     ],
     "answer_id": 2,
@@ -1492,19 +1492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Constructor"
+        "option_value": "Runs whenever a new instance is made"
       },
       {
         "option_id": 2,
-        "option_value": "Makes instance callable like function"
+        "option_value": "Lets the instance be called like a function"
       },
       {
         "option_id": 3,
-        "option_value": "Destructor"
+        "option_value": "Runs whenever the object is destroyed"
       },
       {
         "option_id": 4,
-        "option_value": "String method"
+        "option_value": "Gives a readable string for human eyes"
       }
     ],
     "answer_id": 2,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Concrete class"
+        "option_value": "A class you instantiate as normal"
       },
       {
         "option_id": 2,
-        "option_value": "Class that cannot be instantiated, meant to be subclassed"
+        "option_value": "A class meant only to be subclassed"
       },
       {
         "option_id": 3,
-        "option_value": "Final class"
+        "option_value": "A class that cannot be subclassed"
       },
       {
         "option_id": 4,
-        "option_value": "Static class"
+        "option_value": "A class holding only static members"
       }
     ],
     "answer_id": 2,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Array module"
+        "option_value": "The module for array-based numerics"
       },
       {
         "option_id": 2,
-        "option_value": "Abstract Base Classes module"
+        "option_value": "The module providing abstract base classes"
       },
       {
         "option_id": 3,
-        "option_value": "String module"
+        "option_value": "The module for string manipulation"
       },
       {
         "option_id": 4,
-        "option_value": "Math module"
+        "option_value": "The module for mathematical functions"
       }
     ],
     "answer_id": 2,
@@ -1564,19 +1564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static method"
+        "option_value": "Marks a method as needing no instance"
       },
       {
         "option_id": 2,
-        "option_value": "Decorator for abstract methods"
+        "option_value": "Marks a method a subclass must define"
       },
       {
         "option_id": 3,
-        "option_value": "Class method"
+        "option_value": "Marks a method as callable on the class"
       },
       {
         "option_id": 4,
-        "option_value": "Property"
+        "option_value": "Lets a method be read like an attribute"
       }
     ],
     "answer_id": 2,
@@ -1588,19 +1588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Normal execution"
+        "option_value": "The normal path through a program"
       },
       {
         "option_id": 2,
-        "option_value": "Error that disrupts normal program flow"
+        "option_value": "An error that interrupts normal flow"
       },
       {
         "option_id": 3,
-        "option_value": "Function call"
+        "option_value": "An ordinary call into a routine"
       },
       {
         "option_id": 4,
-        "option_value": "Loop"
+        "option_value": "A construct that repeats a block"
       }
     ],
     "answer_id": 2,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Optional block"
+        "option_value": "A block that may be skipped entirely"
       },
       {
         "option_id": 2,
-        "option_value": "Always executes regardless of exception"
+        "option_value": "A block that runs whatever happens"
       },
       {
         "option_id": 3,
-        "option_value": "Only on error"
+        "option_value": "A block that runs only after an error"
       },
       {
         "option_id": 4,
-        "option_value": "Only on success"
+        "option_value": "A block that runs only without errors"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Catch exception"
+        "option_value": "Catches an exception that was thrown"
       },
       {
         "option_id": 2,
-        "option_value": "Explicitly raise an exception"
+        "option_value": "Throws an exception on purpose"
       },
       {
         "option_id": 3,
-        "option_value": "Ignore exception"
+        "option_value": "Suppresses an exception silently"
       },
       {
         "option_id": 4,
-        "option_value": "Handle exception"
+        "option_value": "Logs an exception without throwing"
       }
     ],
     "answer_id": 2,
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Built-in exception"
+        "option_value": "An exception supplied by the language"
       },
       {
         "option_id": 2,
-        "option_value": "User-defined exception class"
+        "option_value": "An exception class you define yourself"
       },
       {
         "option_id": 3,
-        "option_value": "System exception"
+        "option_value": "An exception raised by the operating system"
       },
       {
         "option_id": 4,
-        "option_value": "No exception"
+        "option_value": "A situation that raises nothing at all"
       }
     ],
     "answer_id": 2,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single exception"
+        "option_value": "Raising exactly one exception at a time"
       },
       {
         "option_id": 2,
-        "option_value": "Linking exceptions with 'from'"
+        "option_value": "Linking a new exception to its cause"
       },
       {
         "option_id": 3,
-        "option_value": "No chaining"
+        "option_value": "A feature Python does not support"
       },
       {
         "option_id": 4,
-        "option_value": "Multiple catches"
+        "option_value": "Catching several exception types at once"
       }
     ],
     "answer_id": 2,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Exception handler"
+        "option_value": "A construct that catches exceptions"
       },
       {
         "option_id": 2,
-        "option_value": "Debug assertion that raises AssertionError"
+        "option_value": "A check that raises AssertionError"
       },
       {
         "option_id": 3,
-        "option_value": "Loop"
+        "option_value": "A construct that repeats a block"
       },
       {
         "option_id": 4,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       }
     ],
     "answer_id": 2,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Loop"
+        "option_value": "A construct that repeats a block"
       },
       {
         "option_id": 2,
-        "option_value": "Context manager for resource management"
+        "option_value": "A construct that manages a resource"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 4,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       }
     ],
     "answer_id": 2,
@@ -1780,19 +1780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular object"
+        "option_value": "Any ordinary object at all"
       },
       {
         "option_id": 2,
-        "option_value": "Object with __enter__ and __exit__ methods"
+        "option_value": "An object with __enter__ and __exit__"
       },
       {
         "option_id": 3,
-        "option_value": "Function"
+        "option_value": "A named block of reusable code"
       },
       {
         "option_id": 4,
-        "option_value": "Class"
+        "option_value": "A template for constructing objects"
       }
     ],
     "answer_id": 2,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Enter context"
+        "option_value": "Runs when the block is entered"
       },
       {
         "option_id": 2,
-        "option_value": "Exit runtime context, handles exceptions"
+        "option_value": "Runs on leaving, and sees exceptions"
       },
       {
         "option_id": 3,
-        "option_value": "Create object"
+        "option_value": "Allocates and returns a new object"
       },
       {
         "option_id": 4,
-        "option_value": "No action"
+        "option_value": "Has no effect on the block at all"
       }
     ],
     "answer_id": 2,
@@ -1852,19 +1852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "String context"
+        "option_value": "Tools for working with text strings alone"
       },
       {
         "option_id": 2,
-        "option_value": "Utilities for with-statement contexts"
+        "option_value": "Tools for building with-statement helpers"
       },
       {
         "option_id": 3,
-        "option_value": "Math context"
+        "option_value": "Tools for numeric and mathematical work"
       },
       {
         "option_id": 4,
-        "option_value": "File context"
+        "option_value": "Tools for reading and writing files"
       }
     ],
     "answer_id": 2,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Class decorator"
+        "option_value": "Turns a class into a decorator"
       },
       {
         "option_id": 2,
-        "option_value": "Decorator to create context manager from generator"
+        "option_value": "Turns a generator into a context manager"
       },
       {
         "option_id": 3,
-        "option_value": "Function decorator"
+        "option_value": "Turns a method into a static method"
       },
       {
         "option_id": 4,
-        "option_value": "Static method"
+        "option_value": "Turns a function into a class method"
       }
     ],
     "answer_id": 2,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "String"
+        "option_value": "A sequence of characters in memory"
       },
       {
         "option_id": 2,
-        "option_value": "Object for file I/O operations"
+        "option_value": "An object used for reading and writing"
       },
       {
         "option_id": 3,
-        "option_value": "Integer"
+        "option_value": "A whole number of arbitrary size"
       },
       {
         "option_id": 4,
-        "option_value": "List"
+        "option_value": "An ordered sequence of stored values"
       }
     ],
     "answer_id": 2,
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same mode"
+        "option_value": "All three open the file identically"
       },
       {
         "option_id": 2,
-        "option_value": "read, write (truncate), append"
+        "option_value": "read, write-truncating, and append"
       },
       {
         "option_id": 3,
-        "option_value": "write, read, append"
+        "option_value": "write, read, and append respectively"
       },
       {
         "option_id": 4,
-        "option_value": "append, write, read"
+        "option_value": "append, write, and read respectively"
       }
     ],
     "answer_id": 2,
@@ -1948,19 +1948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Write to file"
+        "option_value": "Writes a string into the file"
       },
       {
         "option_id": 2,
-        "option_value": "Read entire file or specified bytes"
+        "option_value": "Reads the whole file, or n bytes"
       },
       {
         "option_id": 3,
-        "option_value": "Close file"
+        "option_value": "Closes the file handle for good"
       },
       {
         "option_id": 4,
-        "option_value": "Open file"
+        "option_value": "Opens the file for reading"
       }
     ],
     "answer_id": 2,
@@ -1996,19 +1996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Read single line"
+        "option_value": "Reads exactly one line from the file"
       },
       {
         "option_id": 2,
-        "option_value": "Read all lines into list"
+        "option_value": "Reads every line into a list"
       },
       {
         "option_id": 3,
-        "option_value": "Write lines"
+        "option_value": "Writes a list of lines to the file"
       },
       {
         "option_id": 4,
-        "option_value": "Close file"
+        "option_value": "Closes the file handle for good"
       }
     ],
     "answer_id": 2,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Read from file"
+        "option_value": "Reads the whole file into memory"
       },
       {
         "option_id": 2,
-        "option_value": "Write string to file"
+        "option_value": "Writes a string into the file"
       },
       {
         "option_id": 3,
-        "option_value": "Close file"
+        "option_value": "Closes the file handle for good"
       },
       {
         "option_id": 4,
-        "option_value": "Open file"
+        "option_value": "Opens the file for writing"
       }
     ],
     "answer_id": 2,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Write single line"
+        "option_value": "Writes exactly one line to the file"
       },
       {
         "option_id": 2,
-        "option_value": "Write list of strings to file"
+        "option_value": "Writes a list of strings to the file"
       },
       {
         "option_id": 3,
-        "option_value": "Read lines"
+        "option_value": "Reads every line into a list"
       },
       {
         "option_id": 4,
-        "option_value": "Close file"
+        "option_value": "Closes the file handle for good"
       }
     ],
     "answer_id": 2,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "XML parser"
+        "option_value": "A reader and writer for XML data"
       },
       {
         "option_id": 2,
-        "option_value": "JSON encoder and decoder"
+        "option_value": "A reader and writer for JSON data"
       },
       {
         "option_id": 3,
-        "option_value": "CSV parser"
+        "option_value": "A reader and writer for CSV data"
       },
       {
         "option_id": 4,
-        "option_value": "YAML parser"
+        "option_value": "A reader and writer for YAML data"
       }
     ],
     "answer_id": 2,
@@ -2092,19 +2092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Parse JSON"
+        "option_value": "Turns a JSON string into an object"
       },
       {
         "option_id": 2,
-        "option_value": "Convert Python object to JSON string"
+        "option_value": "Turns an object into a JSON string"
       },
       {
         "option_id": 3,
-        "option_value": "Load from file"
+        "option_value": "Reads JSON straight from a file"
       },
       {
         "option_id": 4,
-        "option_value": "Read JSON"
+        "option_value": "Writes JSON straight to a file"
       }
     ],
     "answer_id": 2,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Convert to JSON"
+        "option_value": "Turns an object into a JSON string"
       },
       {
         "option_id": 2,
-        "option_value": "Parse JSON string to Python object"
+        "option_value": "Turns a JSON string into an object"
       },
       {
         "option_id": 3,
-        "option_value": "Write to file"
+        "option_value": "Writes JSON straight to a file"
       },
       {
         "option_id": 4,
-        "option_value": "Load file"
+        "option_value": "Reads JSON straight from a file"
       }
     ],
     "answer_id": 2,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "JSON parser"
+        "option_value": "A reader and writer for JSON data"
       },
       {
         "option_id": 2,
-        "option_value": "CSV file reader and writer"
+        "option_value": "A reader and writer for CSV data"
       },
       {
         "option_id": 3,
-        "option_value": "XML parser"
+        "option_value": "A reader and writer for XML data"
       },
       {
         "option_id": 4,
-        "option_value": "YAML parser"
+        "option_value": "A reader and writer for YAML data"
       }
     ],
     "answer_id": 2,
@@ -2164,19 +2164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "JSON serializer"
+        "option_value": "Serialises objects as readable JSON"
       },
       {
         "option_id": 2,
-        "option_value": "Python object serialization"
+        "option_value": "Serialises objects to a binary format"
       },
       {
         "option_id": 3,
-        "option_value": "XML parser"
+        "option_value": "A reader and writer for XML data"
       },
       {
         "option_id": 4,
-        "option_value": "CSV parser"
+        "option_value": "A reader and writer for CSV data"
       }
     ],
     "answer_id": 2,
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No risk"
+        "option_value": "There is no real risk in using it"
       },
       {
         "option_id": 2,
-        "option_value": "Security risk - only unpickle trusted data"
+        "option_value": "Loading untrusted data can run code"
       },
       {
         "option_id": 3,
-        "option_value": "Speed issue"
+        "option_value": "It is markedly slower than JSON"
       },
       {
         "option_id": 4,
-        "option_value": "Memory issue"
+        "option_value": "It uses far more memory than JSON"
       }
     ],
     "answer_id": 2,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Math module"
+        "option_value": "The module for mathematical functions"
       },
       {
         "option_id": 2,
-        "option_value": "Regular expression operations"
+        "option_value": "The module for regular expressions"
       },
       {
         "option_id": 3,
-        "option_value": "File module"
+        "option_value": "The module for file system access"
       },
       {
         "option_id": 4,
-        "option_value": "Network module"
+        "option_value": "The module for network connections"
       }
     ],
     "answer_id": 2,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same"
+        "option_value": "The two behave identically in all cases"
       },
       {
         "option_id": 2,
-        "option_value": "match at beginning, search anywhere"
+        "option_value": "match anchors at the start; search does not"
       },
       {
         "option_id": 3,
-        "option_value": "search at beginning"
+        "option_value": "search anchors at the start; match does not"
       },
       {
         "option_id": 4,
-        "option_value": "No difference"
+        "option_value": "match works only on ASCII input"
       }
     ],
     "answer_id": 2,
@@ -2260,19 +2260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Find single match"
+        "option_value": "Finds only the very first match"
       },
       {
         "option_id": 2,
-        "option_value": "Find all non-overlapping matches"
+        "option_value": "Finds every non-overlapping match"
       },
       {
         "option_id": 3,
-        "option_value": "Replace matches"
+        "option_value": "Swaps each match for a replacement"
       },
       {
         "option_id": 4,
-        "option_value": "Split string"
+        "option_value": "Splits the string on every match"
       }
     ],
     "answer_id": 2,
@@ -2284,19 +2284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Find matches"
+        "option_value": "Finds every non-overlapping match"
       },
       {
         "option_id": 2,
-        "option_value": "Replace matches with string"
+        "option_value": "Swaps each match for a replacement"
       },
       {
         "option_id": 3,
-        "option_value": "Split string"
+        "option_value": "Splits the string on every match"
       },
       {
         "option_id": 4,
-        "option_value": "Match pattern"
+        "option_value": "Tests whether the pattern matches"
       }
     ],
     "answer_id": 2,
@@ -2308,19 +2308,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Garbage collection"
+        "option_value": "Tools for reclaiming unused memory"
       },
       {
         "option_id": 2,
-        "option_value": "Specialized container datatypes"
+        "option_value": "Tools providing specialised containers"
       },
       {
         "option_id": 3,
-        "option_value": "Memory collection"
+        "option_value": "Tools for inspecting memory usage"
       },
       {
         "option_id": 4,
-        "option_value": "File collection"
+        "option_value": "Tools for grouping files together"
       }
     ],
     "answer_id": 2,
@@ -2332,19 +2332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Timer"
+        "option_value": "A timer for measuring elapsed time"
       },
       {
         "option_id": 2,
-        "option_value": "Dict subclass for counting hashable objects"
+        "option_value": "A dict subclass that tallies items"
       },
       {
         "option_id": 3,
-        "option_value": "List counter"
+        "option_value": "A list that tracks its own length"
       },
       {
         "option_id": 4,
-        "option_value": "Set counter"
+        "option_value": "A set that tracks its own size"
       }
     ],
     "answer_id": 2,
@@ -2356,19 +2356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Regular dict"
+        "option_value": "Behaves just like an ordinary dict"
       },
       {
         "option_id": 2,
-        "option_value": "Dict with default value for missing keys"
+        "option_value": "A dict supplying a value for missing keys"
       },
       {
         "option_id": 3,
-        "option_value": "Ordered dict"
+        "option_value": "A dict that remembers insertion order"
       },
       {
         "option_id": 4,
-        "option_value": "Counter"
+        "option_value": "A dict subclass that tallies items"
       }
     ],
     "answer_id": 2,
