@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Vertical scaling"
+        "option_value": "Giving each pod more CPU and memory"
       },
       {
         "option_id": 2,
-        "option_value": "Scaling pod count based on metrics"
+        "option_value": "Changing how many pod replicas run"
       },
       {
         "option_id": 3,
-        "option_value": "Manual scaling"
+        "option_value": "An operator changing counts by hand"
       },
       {
         "option_id": 4,
-        "option_value": "Database scaling"
+        "option_value": "Adding read replicas to a database"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Horizontal scaling"
+        "option_value": "Changing how many pod replicas run"
       },
       {
         "option_id": 2,
-        "option_value": "Adjusting pod CPU/memory requests"
+        "option_value": "Tuning each pod's CPU and memory asks"
       },
       {
         "option_id": 3,
-        "option_value": "Manual scaling"
+        "option_value": "An operator changing counts by hand"
       },
       {
         "option_id": 4,
-        "option_value": "Node scaling"
+        "option_value": "Adding more machines to the cluster"
       }
     ],
     "answer_id": 2,
@@ -52,19 +52,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Pod scaling"
+        "option_value": "Changing how many pod replicas run"
       },
       {
         "option_id": 2,
-        "option_value": "Scaling number of cluster nodes"
+        "option_value": "Adding or removing cluster machines"
       },
       {
         "option_id": 3,
-        "option_value": "Manual scaling"
+        "option_value": "An operator changing counts by hand"
       },
       {
         "option_id": 4,
-        "option_value": "Application scaling"
+        "option_value": "Tuning the application's own threads"
       }
     ],
     "answer_id": 2,
@@ -76,19 +76,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Secret storage"
+        "option_value": "A store for credentials and keys"
       },
       {
         "option_id": 2,
-        "option_value": "Configuration data storage"
+        "option_value": "A store for plain configuration values"
       },
       {
         "option_id": 3,
-        "option_value": "Database"
+        "option_value": "A managed relational database"
       },
       {
         "option_id": 4,
-        "option_value": "Volume"
+        "option_value": "A disk mounted into a running pod"
       }
     ],
     "answer_id": 2,
@@ -100,19 +100,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Config map"
+        "option_value": "A store for plain configuration values"
       },
       {
         "option_id": 2,
-        "option_value": "Storage for sensitive data"
+        "option_value": "A store for credentials and keys"
       },
       {
         "option_id": 3,
-        "option_value": "Public data"
+        "option_value": "A store meant for public data"
       },
       {
         "option_id": 4,
-        "option_value": "Volume"
+        "option_value": "A disk mounted into a running pod"
       }
     ],
     "answer_id": 2,
@@ -124,19 +124,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Service"
+        "option_value": "A stable address for a set of pods"
       },
       {
         "option_id": 2,
-        "option_value": "HTTP/HTTPS routing rules"
+        "option_value": "Rules routing outside HTTP traffic in"
       },
       {
         "option_id": 3,
-        "option_value": "Pod"
+        "option_value": "The smallest unit that can be scheduled"
       },
       {
         "option_id": 4,
-        "option_value": "Deployment"
+        "option_value": "A controller keeping replicas running"
       }
     ],
     "answer_id": 2,
@@ -148,19 +148,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Temporary storage"
+        "option_value": "Scratch space lost when a pod dies"
       },
       {
         "option_id": 2,
-        "option_value": "Network-attached storage in cluster"
+        "option_value": "Storage outliving the pods that use it"
       },
       {
         "option_id": 3,
-        "option_value": "Local disk only"
+        "option_value": "A disk attached to one machine only"
       },
       {
         "option_id": 4,
-        "option_value": "Memory"
+        "option_value": "A filesystem living purely in memory"
       }
     ],
     "answer_id": 2,
@@ -172,19 +172,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Container runtime"
+        "option_value": "The engine that actually runs containers"
       },
       {
         "option_id": 2,
-        "option_value": "Package manager for Kubernetes"
+        "option_value": "The package manager for cluster manifests"
       },
       {
         "option_id": 3,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across pods"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A managed relational database"
       }
     ],
     "answer_id": 2,
@@ -196,19 +196,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Graph"
+        "option_value": "A diagram of the cluster's topology"
       },
       {
         "option_id": 2,
-        "option_value": "Package of pre-configured Kubernetes resources"
+        "option_value": "A packaged, templated set of manifests"
       },
       {
         "option_id": 3,
-        "option_value": "Config file"
+        "option_value": "A single file of configuration values"
       },
       {
         "option_id": 4,
-        "option_value": "Docker image"
+        "option_value": "A layered image a container runs from"
       }
     ],
     "answer_id": 2,
@@ -220,19 +220,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Manual deployment"
+        "option_value": "Operators applying changes by hand"
       },
       {
         "option_id": 2,
-        "option_value": "Using Git as single source of truth for infrastructure"
+        "option_value": "Git holding the desired system state"
       },
       {
         "option_id": 3,
-        "option_value": "No version control"
+        "option_value": "Changes tracked outside version control"
       },
       {
         "option_id": 4,
-        "option_value": "Email-based deployment"
+        "option_value": "Deployments triggered by email"
       }
     ],
     "answer_id": 2,
@@ -244,19 +244,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Declarative GitOps CD for Kubernetes"
+        "option_value": "A GitOps delivery tool for Kubernetes"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -268,19 +268,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "GitOps operator for Kubernetes"
+        "option_value": "A GitOps reconciler for Kubernetes"
       },
       {
         "option_id": 3,
-        "option_value": "Message broker"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across pods"
       }
     ],
     "answer_id": 2,
@@ -292,19 +292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Programming language"
+        "option_value": "A general-purpose programming language"
       },
       {
         "option_id": 2,
-        "option_value": "Infrastructure as Code tool"
+        "option_value": "A tool declaring infrastructure as code"
       },
       {
         "option_id": 3,
-        "option_value": "Container platform"
+        "option_value": "A platform for running containers"
       },
       {
         "option_id": 4,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       }
     ],
     "answer_id": 2,
@@ -316,19 +316,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No state"
+        "option_value": "It keeps no record between runs"
       },
       {
         "option_id": 2,
-        "option_value": "Mapping of resources to real-world infrastructure"
+        "option_value": "A record mapping config to real resources"
       },
       {
         "option_id": 3,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -340,19 +340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cloud customer"
+        "option_value": "The company paying the cloud bill"
       },
       {
         "option_id": 2,
-        "option_value": "Plugin for cloud/service API"
+        "option_value": "A plugin speaking to one service's API"
       },
       {
         "option_id": 3,
-        "option_value": "User interface"
+        "option_value": "A screen operators click through"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       }
     ],
     "answer_id": 2,
@@ -364,19 +364,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Configuration management tool"
+        "option_value": "An agentless configuration management tool"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Container runtime"
+        "option_value": "The engine that actually runs containers"
       }
     ],
     "answer_id": 2,
@@ -388,19 +388,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single task"
+        "option_value": "A single command run on one host"
       },
       {
         "option_id": 2,
-        "option_value": "YAML file defining automation tasks"
+        "option_value": "A YAML file describing tasks to run"
       },
       {
         "option_id": 3,
-        "option_value": "Database script"
+        "option_value": "A script run against a database"
       },
       {
         "option_id": 4,
-        "option_value": "Shell script"
+        "option_value": "A shell script run over SSH"
       }
     ],
     "answer_id": 2,
@@ -412,19 +412,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Configuration management tool"
+        "option_value": "An agent-based configuration management tool"
       },
       {
         "option_id": 3,
-        "option_value": "Message broker"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across servers"
       }
     ],
     "answer_id": 2,
@@ -436,19 +436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Configuration management using Ruby DSL"
+        "option_value": "Configuration management written in Ruby"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -460,19 +460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Infrastructure as Code using programming languages"
+        "option_value": "Infrastructure declared in real languages"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Container runtime"
+        "option_value": "The engine that actually runs containers"
       }
     ],
     "answer_id": 2,
@@ -484,19 +484,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Third-party tool"
+        "option_value": "A tool built outside the cloud vendor"
       },
       {
         "option_id": 2,
-        "option_value": "AWS Infrastructure as Code service"
+        "option_value": "The AWS service declaring infrastructure"
       },
       {
         "option_id": 3,
-        "option_value": "Azure service"
+        "option_value": "The Azure service declaring infrastructure"
       },
       {
         "option_id": 4,
-        "option_value": "GCP service"
+        "option_value": "The GCP service declaring infrastructure"
       }
     ],
     "answer_id": 2,
@@ -508,19 +508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "AWS service"
+        "option_value": "The AWS service declaring infrastructure"
       },
       {
         "option_id": 2,
-        "option_value": "Azure Resource Manager templates"
+        "option_value": "The Azure service declaring infrastructure"
       },
       {
         "option_id": 3,
-        "option_value": "GCP service"
+        "option_value": "The GCP service declaring infrastructure"
       },
       {
         "option_id": 4,
-        "option_value": "Kubernetes resource"
+        "option_value": "A manifest applied to a Kubernetes cluster"
       }
     ],
     "answer_id": 2,
@@ -532,19 +532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "AWS service"
+        "option_value": "The AWS service declaring infrastructure"
       },
       {
         "option_id": 2,
-        "option_value": "GCP Infrastructure as Code service"
+        "option_value": "The GCP service declaring infrastructure"
       },
       {
         "option_id": 3,
-        "option_value": "Azure service"
+        "option_value": "The Azure service declaring infrastructure"
       },
       {
         "option_id": 4,
-        "option_value": "Kubernetes tool"
+        "option_value": "A manifest applied to a Kubernetes cluster"
       }
     ],
     "answer_id": 2,
@@ -556,19 +556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Manual deployment"
+        "option_value": "An operator shipping releases by hand"
       },
       {
         "option_id": 2,
-        "option_value": "Automated build, test, deployment"
+        "option_value": "Automated build, test and release steps"
       },
       {
         "option_id": 3,
-        "option_value": "No automation"
+        "option_value": "A process with no automation at all"
       },
       {
         "option_id": 4,
-        "option_value": "Email notifications"
+        "option_value": "A mailing list announcing releases"
       }
     ],
     "answer_id": 2,
@@ -580,19 +580,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Open-source automation server for CI/CD"
+        "option_value": "A self-hosted automation server"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -604,19 +604,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database feature"
+        "option_value": "A feature of a relational database"
       },
       {
         "option_id": 2,
-        "option_value": "CI/CD feature integrated with GitHub"
+        "option_value": "A CI/CD runner built into GitHub"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -628,19 +628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "GitHub feature"
+        "option_value": "A CI/CD runner built into GitHub"
       },
       {
         "option_id": 2,
-        "option_value": "CI/CD feature integrated with GitLab"
+        "option_value": "A CI/CD runner built into GitLab"
       },
       {
         "option_id": 3,
-        "option_value": "Jenkins plugin"
+        "option_value": "An extension installed into Jenkins"
       },
       {
         "option_id": 4,
-        "option_value": "CircleCI"
+        "option_value": "A hosted service run by CircleCI"
       }
     ],
     "answer_id": 2,
@@ -676,19 +676,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Cloud-based CI/CD service"
+        "option_value": "A hosted CI service for repositories"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -700,19 +700,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database service"
+        "option_value": "A managed relational database service"
       },
       {
         "option_id": 2,
-        "option_value": "Microsoft CI/CD and DevOps platform"
+        "option_value": "Microsoft's CI/CD and planning suite"
       },
       {
         "option_id": 3,
-        "option_value": "AWS service"
+        "option_value": "A suite of services offered by AWS"
       },
       {
         "option_id": 4,
-        "option_value": "GCP service"
+        "option_value": "A suite of services offered by GCP"
       }
     ],
     "answer_id": 2,
@@ -748,19 +748,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A managed relational database service"
       },
       {
         "option_id": 2,
-        "option_value": "AWS fully managed build service"
+        "option_value": "The AWS managed build service"
       },
       {
         "option_id": 3,
-        "option_value": "Azure service"
+        "option_value": "The Azure managed build service"
       },
       {
         "option_id": 4,
-        "option_value": "GCP service"
+        "option_value": "The GCP managed build service"
       }
     ],
     "answer_id": 2,
@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database deployment"
+        "option_value": "A tool for migrating database schemas"
       },
       {
         "option_id": 2,
-        "option_value": "AWS automated deployment service"
+        "option_value": "The AWS automated deployment service"
       },
       {
         "option_id": 3,
-        "option_value": "Azure service"
+        "option_value": "The Azure automated deployment service"
       },
       {
         "option_id": 4,
-        "option_value": "Manual deployment"
+        "option_value": "An operator shipping releases by hand"
       }
     ],
     "answer_id": 2,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Multi-cloud continuous delivery platform"
+        "option_value": "A multi-cloud continuous delivery tool"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Kubernetes-native workflow engine"
+        "option_value": "A workflow engine native to Kubernetes"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -868,19 +868,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Cloud-native CI/CD framework for Kubernetes"
+        "option_value": "A CI/CD framework native to Kubernetes"
       },
       {
         "option_id": 3,
-        "option_value": "Message broker"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source code"
+        "option_value": "The source text the build reads in"
       },
       {
         "option_id": 2,
-        "option_value": "Compiled/bundled output of build process"
+        "option_value": "The compiled output the build produces"
       },
       {
         "option_id": 3,
-        "option_value": "Documentation"
+        "option_value": "The prose describing how it works"
       },
       {
         "option_id": 4,
-        "option_value": "Test results"
+        "option_value": "The report a test run produces"
       }
     ],
     "answer_id": 2,
@@ -916,19 +916,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source code repo"
+        "option_value": "A place that holds the source text"
       },
       {
         "option_id": 2,
-        "option_value": "Storage for build artifacts"
+        "option_value": "A place that holds the built outputs"
       },
       {
         "option_id": 3,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -940,19 +940,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Docker container"
+        "option_value": "A single running container instance"
       },
       {
         "option_id": 2,
-        "option_value": "Storage for Docker images"
+        "option_value": "A place that holds container images"
       },
       {
         "option_id": 3,
-        "option_value": "Dockerfile"
+        "option_value": "The file describing how to build one"
       },
       {
         "option_id": 4,
-        "option_value": "Docker compose"
+        "option_value": "A file describing a set of services"
       }
     ],
     "answer_id": 2,
@@ -964,19 +964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Performance testing"
+        "option_value": "Measuring how fast an image starts"
       },
       {
         "option_id": 2,
-        "option_value": "Security vulnerability scanning"
+        "option_value": "Checking an image for known flaws"
       },
       {
         "option_id": 3,
-        "option_value": "Unit testing"
+        "option_value": "Running the unit tests inside an image"
       },
       {
         "option_id": 4,
-        "option_value": "Load testing"
+        "option_value": "Measuring behaviour under heavy load"
       }
     ],
     "answer_id": 2,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Container image vulnerability scanner"
+        "option_value": "A scanner finding flaws in images"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across servers"
       }
     ],
     "answer_id": 2,
@@ -1012,19 +1012,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Container vulnerability static analyzer"
+        "option_value": "A static analyser for container images"
       },
       {
         "option_id": 3,
-        "option_value": "Message broker"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -1036,19 +1036,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Security platform for finding/fixing vulnerabilities"
+        "option_value": "A platform finding and fixing known flaws"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -1060,19 +1060,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Code quality and security analysis platform"
+        "option_value": "A platform analysing code quality and risk"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -1084,19 +1084,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Runtime testing"
+        "option_value": "Probing the application while it runs"
       },
       {
         "option_id": 2,
-        "option_value": "Analyzing source code for vulnerabilities"
+        "option_value": "Reading the source to find weaknesses"
       },
       {
         "option_id": 3,
-        "option_value": "Network testing"
+        "option_value": "Probing the network the app sits on"
       },
       {
         "option_id": 4,
-        "option_value": "Penetration testing"
+        "option_value": "A human attacking a live deployment"
       }
     ],
     "answer_id": 2,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source code analysis"
+        "option_value": "Reading the source to find weaknesses"
       },
       {
         "option_id": 2,
-        "option_value": "Testing running application for vulnerabilities"
+        "option_value": "Probing the application while it runs"
       },
       {
         "option_id": 3,
-        "option_value": "Manual review"
+        "option_value": "A human reviewing the code by hand"
       },
       {
         "option_id": 4,
-        "option_value": "Unit testing"
+        "option_value": "Exercising one function in isolation"
       }
     ],
     "answer_id": 2,
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Source code analysis"
+        "option_value": "Reading your own source for weaknesses"
       },
       {
         "option_id": 2,
-        "option_value": "Analyzing open-source dependencies for vulnerabilities"
+        "option_value": "Checking third-party libraries for flaws"
       },
       {
         "option_id": 3,
-        "option_value": "Performance analysis"
+        "option_value": "Measuring how fast the system runs"
       },
       {
         "option_id": 4,
-        "option_value": "Network analysis"
+        "option_value": "Probing the network the app sits on"
       }
     ],
     "answer_id": 2,
@@ -1156,19 +1156,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Automated scanning"
+        "option_value": "A scanner run automatically on a schedule"
       },
       {
         "option_id": 2,
-        "option_value": "Simulated cyberattack to find vulnerabilities"
+        "option_value": "A person attacking the system on purpose"
       },
       {
         "option_id": 3,
-        "option_value": "Code review"
+        "option_value": "A colleague reading through the source"
       },
       {
         "option_id": 4,
-        "option_value": "Unit testing"
+        "option_value": "Exercising one function in isolation"
       }
     ],
     "answer_id": 2,
@@ -1180,19 +1180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Performance modeling"
+        "option_value": "Predicting how the system will perform"
       },
       {
         "option_id": 2,
-        "option_value": "Identifying security threats and mitigations"
+        "option_value": "Working out how it might be attacked"
       },
       {
         "option_id": 3,
-        "option_value": "User modeling"
+        "option_value": "Describing the people who will use it"
       },
       {
         "option_id": 4,
-        "option_value": "Data modeling"
+        "option_value": "Describing how the data is structured"
       }
     ],
     "answer_id": 2,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Performance framework"
+        "option_value": "A framework for measuring throughput"
       },
       {
         "option_id": 2,
-        "option_value": "Microsoft threat classification framework"
+        "option_value": "A Microsoft threat classification scheme"
       },
       {
         "option_id": 3,
-        "option_value": "Development framework"
+        "option_value": "A framework for structuring a codebase"
       },
       {
         "option_id": 4,
-        "option_value": "Testing framework"
+        "option_value": "A framework for organising test suites"
       }
     ],
     "answer_id": 2,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Performance standards"
+        "option_value": "A list of performance benchmarks"
       },
       {
         "option_id": 2,
-        "option_value": "Standard awareness document for web app security"
+        "option_value": "A list of the most critical web risks"
       },
       {
         "option_id": 3,
-        "option_value": "Database standards"
+        "option_value": "A list of relational database rules"
       },
       {
         "option_id": 4,
-        "option_value": "Network standards"
+        "option_value": "A list of network configuration rules"
       }
     ],
     "answer_id": 2,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 2,
-        "option_value": "Injecting malicious SQL"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 3,
-        "option_value": "CSRF"
+        "option_value": "Riding a logged-in user's credentials"
       },
       {
         "option_id": 4,
-        "option_value": "Broken auth"
+        "option_value": "Sign-in that can be trivially bypassed"
       }
     ],
     "answer_id": 2,
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Inadequate protection of sensitive data"
+        "option_value": "Private data left inadequately protected"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "Security misconfiguration"
+        "option_value": "Shipping defaults nobody ever changed"
       }
     ],
     "answer_id": 2,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Processing XML with external entity references"
+        "option_value": "XML parsed with external entities enabled"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "CSRF"
+        "option_value": "Riding a logged-in user's credentials"
       }
     ],
     "answer_id": 2,
@@ -1348,19 +1348,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Restrictions on authenticated users not enforced"
+        "option_value": "Signed-in users doing what they should not"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "Insecure deserialization"
+        "option_value": "Rebuilding objects from untrusted bytes"
       }
     ],
     "answer_id": 2,
@@ -1372,19 +1372,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Insecure default configs, incomplete configs"
+        "option_value": "Shipping defaults nobody ever changed"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "Broken auth"
+        "option_value": "Sign-in that can be trivially bypassed"
       }
     ],
     "answer_id": 2,
@@ -1396,19 +1396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Cross-site scripting"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 3,
-        "option_value": "CSRF"
+        "option_value": "Riding a logged-in user's credentials"
       },
       {
         "option_id": 4,
-        "option_value": "Broken auth"
+        "option_value": "Sign-in that can be trivially bypassed"
       }
     ],
     "answer_id": 2,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Deserializing untrusted data"
+        "option_value": "Rebuilding objects from untrusted bytes"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "Broken auth"
+        "option_value": "Sign-in that can be trivially bypassed"
       }
     ],
     "answer_id": 2,
@@ -1444,19 +1444,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Using outdated/vulnerable libraries"
+        "option_value": "Depending on libraries with known flaws"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "Broken auth"
+        "option_value": "Sign-in that can be trivially bypassed"
       }
     ],
     "answer_id": 2,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "SQL injection"
+        "option_value": "Slipping extra clauses into a query"
       },
       {
         "option_id": 2,
-        "option_value": "Inadequate logging to detect breaches"
+        "option_value": "Too little recorded to notice a breach"
       },
       {
         "option_id": 3,
-        "option_value": "XSS"
+        "option_value": "Running attacker script in the page"
       },
       {
         "option_id": 4,
-        "option_value": "Broken auth"
+        "option_value": "Sign-in that can be trivially bypassed"
       }
     ],
     "answer_id": 2,
@@ -1492,19 +1492,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Caching policy"
+        "option_value": "Rules for how long responses are cached"
       },
       {
         "option_id": 2,
-        "option_value": "Mitigating XSS and data injection attacks"
+        "option_value": "Rules limiting what a page may load"
       },
       {
         "option_id": 3,
-        "option_value": "Compression policy"
+        "option_value": "Rules for compressing responses"
       },
       {
         "option_id": 4,
-        "option_value": "Connection policy"
+        "option_value": "Rules for reusing network connections"
       }
     ],
     "answer_id": 2,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Caching"
+        "option_value": "Rules for how long responses are cached"
       },
       {
         "option_id": 2,
-        "option_value": "Forcing HTTPS connections"
+        "option_value": "A header demanding future visits use TLS"
       },
       {
         "option_id": 3,
-        "option_value": "Compression"
+        "option_value": "Rules for compressing responses"
       },
       {
         "option_id": 4,
-        "option_value": "CORS"
+        "option_value": "Rules permitting cross-origin reads"
       }
     ],
     "answer_id": 2,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "CSP"
+        "option_value": "A header limiting what a page may load"
       },
       {
         "option_id": 2,
-        "option_value": "Preventing clickjacking"
+        "option_value": "A header stopping the page being framed"
       },
       {
         "option_id": 3,
-        "option_value": "CORS"
+        "option_value": "Rules permitting cross-origin reads"
       },
       {
         "option_id": 4,
-        "option_value": "Caching"
+        "option_value": "Rules for how long responses are cached"
       }
     ],
     "answer_id": 2,
@@ -1564,19 +1564,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "CSP replacement"
+        "option_value": "A header limiting what a page may load"
       },
       {
         "option_id": 2,
-        "option_value": "Browser XSS filter (deprecated)"
+        "option_value": "A deprecated browser script filter"
       },
       {
         "option_id": 3,
-        "option_value": "CORS"
+        "option_value": "Rules permitting cross-origin reads"
       },
       {
         "option_id": 4,
-        "option_value": "HSTS"
+        "option_value": "A header demanding future visits use TLS"
       }
     ],
     "answer_id": 2,
@@ -1588,19 +1588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cookie size"
+        "option_value": "How many bytes the cookie may hold"
       },
       {
         "option_id": 2,
-        "option_value": "Cookie only sent over HTTPS"
+        "option_value": "The cookie is sent only over TLS"
       },
       {
         "option_id": 3,
-        "option_value": "Cookie expiration"
+        "option_value": "When the cookie stops being valid"
       },
       {
         "option_id": 4,
-        "option_value": "Cookie domain"
+        "option_value": "Which hosts the cookie is sent to"
       }
     ],
     "answer_id": 2,
@@ -1612,19 +1612,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cookie expiration"
+        "option_value": "When the cookie stops being valid"
       },
       {
         "option_id": 2,
-        "option_value": "Cookie inaccessible to JavaScript"
+        "option_value": "Page scripts cannot read the cookie"
       },
       {
         "option_id": 3,
-        "option_value": "Cookie domain"
+        "option_value": "Which hosts the cookie is sent to"
       },
       {
         "option_id": 4,
-        "option_value": "Cookie path"
+        "option_value": "Which paths the cookie is sent to"
       }
     ],
     "answer_id": 2,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cookie size"
+        "option_value": "How many bytes the cookie may hold"
       },
       {
         "option_id": 2,
-        "option_value": "Controlling cross-site cookie sending"
+        "option_value": "Whether cross-site requests carry it"
       },
       {
         "option_id": 3,
-        "option_value": "Cookie expiration"
+        "option_value": "When the cookie stops being valid"
       },
       {
         "option_id": 4,
-        "option_value": "Cookie encryption"
+        "option_value": "Whether the cookie value is encrypted"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Network firewall"
+        "option_value": "A filter working at the packet level"
       },
       {
         "option_id": 2,
-        "option_value": "Protecting web applications from attacks"
+        "option_value": "A filter inspecting HTTP requests"
       },
       {
         "option_id": 3,
-        "option_value": "Database firewall"
+        "option_value": "A filter sitting in front of a database"
       },
       {
         "option_id": 4,
-        "option_value": "Email filter"
+        "option_value": "A filter applied to inbound email"
       }
     ],
     "answer_id": 2,
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database service"
+        "option_value": "A managed relational database service"
       },
       {
         "option_id": 2,
-        "option_value": "AWS web application firewall"
+        "option_value": "The AWS HTTP request filtering service"
       },
       {
         "option_id": 3,
-        "option_value": "Azure service"
+        "option_value": "The Azure HTTP request filtering service"
       },
       {
         "option_id": 4,
-        "option_value": "GCP service"
+        "option_value": "The GCP HTTP request filtering service"
       }
     ],
     "answer_id": 2,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Cloudflare's web application firewall"
+        "option_value": "Cloudflare's HTTP request filtering"
       },
       {
         "option_id": 3,
-        "option_value": "AWS service"
+        "option_value": "The AWS HTTP request filtering service"
       },
       {
         "option_id": 4,
-        "option_value": "Azure service"
+        "option_value": "The Azure HTTP request filtering service"
       }
     ],
     "answer_id": 2,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Increasing traffic"
+        "option_value": "Deliberately sending far more traffic"
       },
       {
         "option_id": 2,
-        "option_value": "Protecting against distributed denial of service"
+        "option_value": "Absorbing floods aimed at knocking you over"
       },
       {
         "option_id": 3,
-        "option_value": "Speed optimization"
+        "option_value": "Making each response return faster"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking payloads before sending them"
       }
     ],
     "answer_id": 2,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "AWS DDoS protection service"
+        "option_value": "The AWS service absorbing traffic floods"
       },
       {
         "option_id": 3,
-        "option_value": "WAF"
+        "option_value": "A filter inspecting HTTP requests"
       },
       {
         "option_id": 4,
-        "option_value": "CDN"
+        "option_value": "A network of edge caches near users"
       }
     ],
     "answer_id": 2,
@@ -1780,19 +1780,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Unlimited requests"
+        "option_value": "Callers may send as much as they like"
       },
       {
         "option_id": 2,
-        "option_value": "Limiting requests to prevent abuse"
+        "option_value": "Capping requests to blunt abuse"
       },
       {
         "option_id": 3,
-        "option_value": "Speed optimization"
+        "option_value": "Making each response return faster"
       },
       {
         "option_id": 4,
-        "option_value": "Data compression"
+        "option_value": "Shrinking payloads before sending them"
       }
     ],
     "answer_id": 2,
@@ -1804,19 +1804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Unlimited attempts"
+        "option_value": "Sign-in may be retried indefinitely"
       },
       {
         "option_id": 2,
-        "option_value": "Locking account after failed login attempts"
+        "option_value": "Sign-in is barred after repeated failures"
       },
       {
         "option_id": 3,
-        "option_value": "Password reset"
+        "option_value": "The password is reset automatically"
       },
       {
         "option_id": 4,
-        "option_value": "Two-factor auth"
+        "option_value": "A second factor is demanded each time"
       }
     ],
     "answer_id": 2,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Password"
+        "option_value": "A secret string proving who you are"
       },
       {
         "option_id": 2,
-        "option_value": "Test to distinguish humans from bots"
+        "option_value": "A challenge separating people from bots"
       },
       {
         "option_id": 3,
-        "option_value": "Encryption"
+        "option_value": "A cipher hiding the message contents"
       },
       {
         "option_id": 4,
-        "option_value": "Two-factor auth"
+        "option_value": "A second factor demanded at sign-in"
       }
     ],
     "answer_id": 2,
@@ -1852,19 +1852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Google's CAPTCHA service"
+        "option_value": "Google's bot-detection challenge service"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single password"
+        "option_value": "A single secret string proves identity"
       },
       {
         "option_id": 2,
-        "option_value": "Two different authentication factors"
+        "option_value": "Two different kinds of proof are required"
       },
       {
         "option_id": 3,
-        "option_value": "No authentication"
+        "option_value": "No proof of identity is required"
       },
       {
         "option_id": 4,
-        "option_value": "Biometric only"
+        "option_value": "Only a fingerprint or face is accepted"
       }
     ],
     "answer_id": 2,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single factor"
+        "option_value": "A single kind of proof is required"
       },
       {
         "option_id": 2,
-        "option_value": "Two or more authentication factors"
+        "option_value": "Two or more kinds of proof are required"
       },
       {
         "option_id": 3,
-        "option_value": "No authentication"
+        "option_value": "No proof of identity is required"
       },
       {
         "option_id": 4,
-        "option_value": "Password only"
+        "option_value": "Only a secret string is accepted"
       }
     ],
     "answer_id": 2,
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static password"
+        "option_value": "A fixed secret that never changes"
       },
       {
         "option_id": 2,
-        "option_value": "Time-based code for 2FA"
+        "option_value": "A short code derived from the clock"
       },
       {
         "option_id": 3,
-        "option_value": "Biometric"
+        "option_value": "A fingerprint or face used as proof"
       },
       {
         "option_id": 4,
-        "option_value": "Hardware token"
+        "option_value": "A physical key plugged into the machine"
       }
     ],
     "answer_id": 2,
@@ -1948,19 +1948,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static password"
+        "option_value": "A fixed secret that never changes"
       },
       {
         "option_id": 2,
-        "option_value": "Counter-based code for 2FA"
+        "option_value": "A short code derived from a counter"
       },
       {
         "option_id": 3,
-        "option_value": "Biometric"
+        "option_value": "A fingerprint or face used as proof"
       },
       {
         "option_id": 4,
-        "option_value": "SMS code"
+        "option_value": "A code delivered by text message"
       }
     ],
     "answer_id": 2,
@@ -1972,19 +1972,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Password authentication"
+        "option_value": "A standard built around shared secret strings"
       },
       {
         "option_id": 2,
-        "option_value": "Passwordless authentication standard"
+        "option_value": "A standard for signing in without a password"
       },
       {
         "option_id": 3,
-        "option_value": "OAuth"
+        "option_value": "A redirect-based delegation protocol only"
       },
       {
         "option_id": 4,
-        "option_value": "SAML"
+        "option_value": "An XML-based federation standard only"
       }
     ],
     "answer_id": 2,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single security layer"
+        "option_value": "Relying on a single protective layer"
       },
       {
         "option_id": 2,
-        "option_value": "Multiple overlapping security controls"
+        "option_value": "Stacking several overlapping controls"
       },
       {
         "option_id": 3,
-        "option_value": "No security"
+        "option_value": "Applying no controls whatsoever"
       },
       {
         "option_id": 4,
-        "option_value": "Perimeter only"
+        "option_value": "Guarding only the outer boundary"
       }
     ],
     "answer_id": 2,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single network"
+        "option_value": "Running everything on one flat network"
       },
       {
         "option_id": 2,
-        "option_value": "Dividing network into isolated segments"
+        "option_value": "Splitting the network into isolated zones"
       },
       {
         "option_id": 3,
-        "option_value": "No network"
+        "option_value": "Running with no network at all"
       },
       {
         "option_id": 4,
-        "option_value": "Public network"
+        "option_value": "Placing every host on the public internet"
       }
     ],
     "answer_id": 2,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public cloud"
+        "option_value": "A network shared with other tenants"
       },
       {
         "option_id": 2,
-        "option_value": "Isolated private network in cloud"
+        "option_value": "A private network carved out in the cloud"
       },
       {
         "option_id": 3,
-        "option_value": "On-premises network"
+        "option_value": "A network running in your own building"
       },
       {
         "option_id": 4,
-        "option_value": "No network"
+        "option_value": "A setup with no networking at all"
       }
     ],
     "answer_id": 2,
@@ -2092,19 +2092,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "User group"
+        "option_value": "A collection of people with one role"
       },
       {
         "option_id": 2,
-        "option_value": "Virtual firewall for cloud resources"
+        "option_value": "A virtual firewall around a resource"
       },
       {
         "option_id": 3,
-        "option_value": "AD group"
+        "option_value": "A directory group used for sign-in"
       },
       {
         "option_id": 4,
-        "option_value": "Email group"
+        "option_value": "A mailing list of several addresses"
       }
     ],
     "answer_id": 2,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Security group"
+        "option_value": "A virtual firewall around a resource"
       },
       {
         "option_id": 2,
-        "option_value": "Subnet-level firewall rules"
+        "option_value": "Firewall rules applied to a whole subnet"
       },
       {
         "option_id": 3,
-        "option_value": "User ACL"
+        "option_value": "A list of people allowed to sign in"
       },
       {
         "option_id": 4,
-        "option_value": "Database ACL"
+        "option_value": "A list of accounts allowed on a database"
       }
     ],
     "answer_id": 2,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Load balancer"
+        "option_value": "A device spreading traffic across servers"
       },
       {
         "option_id": 2,
-        "option_value": "Allowing private subnet internet access"
+        "option_value": "A gateway letting private hosts reach out"
       },
       {
         "option_id": 3,
-        "option_value": "VPN gateway"
+        "option_value": "A gateway terminating encrypted tunnels"
       },
       {
         "option_id": 4,
-        "option_value": "Direct Connect"
+        "option_value": "A dedicated private line to the provider"
       }
     ],
     "answer_id": 2,
@@ -2164,19 +2164,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database server"
+        "option_value": "A machine that stores relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Jump server for accessing private network"
+        "option_value": "A hardened machine you hop through"
       },
       {
         "option_id": 3,
-        "option_value": "Web server"
+        "option_value": "A machine that answers HTTP requests"
       },
       {
         "option_id": 4,
-        "option_value": "Cache server"
+        "option_value": "A machine that holds hot values"
       }
     ],
     "answer_id": 2,
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public network"
+        "option_value": "A network open to anyone who finds it"
       },
       {
         "option_id": 2,
-        "option_value": "Encrypted connection over public network"
+        "option_value": "An encrypted tunnel over a shared network"
       },
       {
         "option_id": 3,
-        "option_value": "Physical network"
+        "option_value": "A network of physical cables you own"
       },
       {
         "option_id": 4,
-        "option_value": "No network"
+        "option_value": "A setup with no networking at all"
       }
     ],
     "answer_id": 2,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "VPN"
+        "option_value": "An encrypted tunnel over the internet"
       },
       {
         "option_id": 2,
-        "option_value": "Dedicated network connection to AWS"
+        "option_value": "A dedicated private line into AWS"
       },
       {
         "option_id": 3,
-        "option_value": "Internet connection"
+        "option_value": "An ordinary link over the public internet"
       },
       {
         "option_id": 4,
-        "option_value": "CDN"
+        "option_value": "A network of edge caches near users"
       }
     ],
     "answer_id": 2,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Public endpoint"
+        "option_value": "An address reachable from the internet"
       },
       {
         "option_id": 2,
-        "option_value": "Private access to cloud services"
+        "option_value": "Private reach into a managed service"
       },
       {
         "option_id": 3,
-        "option_value": "VPN"
+        "option_value": "An encrypted tunnel over the internet"
       },
       {
         "option_id": 4,
-        "option_value": "Direct Connect"
+        "option_value": "A dedicated private line to the provider"
       }
     ],
     "answer_id": 2,
@@ -2260,19 +2260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Static secrets"
+        "option_value": "Credentials that never change at all"
       },
       {
         "option_id": 2,
-        "option_value": "Regularly changing secrets/credentials"
+        "option_value": "Replacing credentials on a schedule"
       },
       {
         "option_id": 3,
-        "option_value": "No rotation"
+        "option_value": "Credentials replaced only after a breach"
       },
       {
         "option_id": 4,
-        "option_value": "Public secrets"
+        "option_value": "Credentials published openly on purpose"
       }
     ],
     "answer_id": 2,
@@ -2284,19 +2284,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Manual rotation"
+        "option_value": "An operator swapping credentials by hand"
       },
       {
         "option_id": 2,
-        "option_value": "Automatic secrets rotation"
+        "option_value": "The service swapping credentials for you"
       },
       {
         "option_id": 3,
-        "option_value": "No rotation"
+        "option_value": "Credentials that never change at all"
       },
       {
         "option_id": 4,
-        "option_value": "Public secrets"
+        "option_value": "Credentials published openly on purpose"
       }
     ],
     "answer_id": 2,
@@ -2332,19 +2332,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "At-rest encryption"
+        "option_value": "Scrambling the bytes written to disk"
       },
       {
         "option_id": 2,
-        "option_value": "Encrypting data over network (TLS)"
+        "option_value": "Scrambling the bytes crossing the wire"
       },
       {
         "option_id": 3,
-        "option_value": "No encryption"
+        "option_value": "Leaving the traffic entirely in the clear"
       },
       {
         "option_id": 4,
-        "option_value": "Application encryption"
+        "option_value": "Scrambling inside the application code"
       }
     ],
     "answer_id": 2,
@@ -2356,19 +2356,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Full database encryption"
+        "option_value": "Scrambling the whole store at once"
       },
       {
         "option_id": 2,
-        "option_value": "Encrypting specific sensitive fields"
+        "option_value": "Scrambling only the sensitive columns"
       },
       {
         "option_id": 3,
-        "option_value": "No encryption"
+        "option_value": "Leaving the data entirely in the clear"
       },
       {
         "option_id": 4,
-        "option_value": "Disk encryption"
+        "option_value": "Scrambling the whole disk underneath"
       }
     ],
     "answer_id": 2,
@@ -2380,19 +2380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Same thing"
+        "option_value": "The two techniques are interchangeable"
       },
       {
         "option_id": 2,
-        "option_value": "Tokenization replaces data with token, encryption scrambles"
+        "option_value": "A token stands in; a cipher scrambles"
       },
       {
         "option_id": 3,
-        "option_value": "No difference"
+        "option_value": "A cipher stands in; a token scrambles"
       },
       {
         "option_id": 4,
-        "option_value": "Tokenization is encryption"
+        "option_value": "Tokenisation is a kind of cipher"
       }
     ],
     "answer_id": 2,
@@ -2404,19 +2404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Managed service for cryptographic keys"
+        "option_value": "A managed home for cryptographic keys"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2428,19 +2428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database service"
+        "option_value": "A managed relational database service"
       },
       {
         "option_id": 2,
-        "option_value": "AWS key management service"
+        "option_value": "The AWS managed key service"
       },
       {
         "option_id": 3,
-        "option_value": "Azure service"
+        "option_value": "The Azure managed key service"
       },
       {
         "option_id": 4,
-        "option_value": "GCP service"
+        "option_value": "The GCP managed key service"
       }
     ],
     "answer_id": 2,
@@ -2452,19 +2452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single key"
+        "option_value": "A single key protects all of the data"
       },
       {
         "option_id": 2,
-        "option_value": "Encrypting data key with master key"
+        "option_value": "A data key is itself wrapped by a master"
       },
       {
         "option_id": 3,
-        "option_value": "No encryption"
+        "option_value": "Nothing is scrambled at any point at all"
       },
       {
         "option_id": 4,
-        "option_value": "Public key only"
+        "option_value": "Only a public key is ever involved here"
       }
     ],
     "answer_id": 2,
@@ -2476,19 +2476,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Software module"
+        "option_value": "A library that runs inside your process"
       },
       {
         "option_id": 2,
-        "option_value": "Physical device safeguarding digital keys"
+        "option_value": "A physical appliance guarding keys"
       },
       {
         "option_id": 3,
-        "option_value": "Cloud service"
+        "option_value": "A managed service run by the provider"
       },
       {
         "option_id": 4,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       }
     ],
     "answer_id": 2,
@@ -2500,19 +2500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A managed relational database service"
       },
       {
         "option_id": 2,
-        "option_value": "AWS hardware security module service"
+        "option_value": "The AWS dedicated key appliance service"
       },
       {
         "option_id": 3,
-        "option_value": "KMS"
+        "option_value": "The AWS managed key service"
       },
       {
         "option_id": 4,
-        "option_value": "Secrets Manager"
+        "option_value": "The AWS managed credential store"
       }
     ],
     "answer_id": 2,
@@ -2524,19 +2524,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No certificates"
+        "option_value": "Certificates are never used at all"
       },
       {
         "option_id": 2,
-        "option_value": "Managing SSL/TLS certificates lifecycle"
+        "option_value": "Handling certificates across their lifetime"
       },
       {
         "option_id": 3,
-        "option_value": "Self-signed only"
+        "option_value": "Every certificate is signed by yourself"
       },
       {
         "option_id": 4,
-        "option_value": "No management"
+        "option_value": "Certificates are issued and then forgotten"
       }
     ],
     "answer_id": 2,
@@ -2548,19 +2548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Paid CA"
+        "option_value": "A commercial authority charging per cert"
       },
       {
         "option_id": 2,
-        "option_value": "Free, automated certificate authority"
+        "option_value": "A free authority issuing certs automatically"
       },
       {
         "option_id": 3,
-        "option_value": "Commercial CA"
+        "option_value": "A commercial authority owned by a bank"
       },
       {
         "option_id": 4,
-        "option_value": "Self-signed"
+        "option_value": "A certificate you signed for yourself"
       }
     ],
     "answer_id": 2,
@@ -2572,19 +2572,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Kubernetes certificate management controller"
+        "option_value": "A controller issuing certs inside a cluster"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2596,19 +2596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "AWS service for SSL/TLS certificates"
+        "option_value": "The AWS certificate issuing service"
       },
       {
         "option_id": 3,
-        "option_value": "KMS"
+        "option_value": "The AWS managed key service"
       },
       {
         "option_id": 4,
-        "option_value": "Secrets Manager"
+        "option_value": "The AWS managed credential store"
       }
     ],
     "answer_id": 2,
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No logging"
+        "option_value": "Nothing about activity is recorded"
       },
       {
         "option_id": 2,
-        "option_value": "Recording security-relevant events"
+        "option_value": "Recording security-relevant activity"
       },
       {
         "option_id": 3,
-        "option_value": "Performance logging"
+        "option_value": "Recording timings for performance work"
       },
       {
         "option_id": 4,
-        "option_value": "Error logging only"
+        "option_value": "Recording only outright failures"
       }
     ],
     "answer_id": 2,
@@ -2644,19 +2644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No retention"
+        "option_value": "Records are discarded almost straight away"
       },
       {
         "option_id": 2,
-        "option_value": "How long logs are kept"
+        "option_value": "How long records are kept before deletion"
       },
       {
         "option_id": 3,
-        "option_value": "Log creation"
+        "option_value": "How the records are first written down"
       },
       {
         "option_id": 4,
-        "option_value": "Log encryption"
+        "option_value": "How the records are scrambled at rest"
       }
     ],
     "answer_id": 2,
@@ -2668,19 +2668,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Security event collection and analysis"
+        "option_value": "Collecting and analysing security events"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2692,19 +2692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Platform for searching, monitoring, analyzing machine data"
+        "option_value": "A platform for searching machine data"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2716,19 +2716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Database"
+        "option_value": "A store for structured relational rows"
       },
       {
         "option_id": 2,
-        "option_value": "Using ELK stack for security monitoring"
+        "option_value": "Running the ELK stack for security work"
       },
       {
         "option_id": 3,
-        "option_value": "Message queue"
+        "option_value": "A buffer holding messages until read"
       },
       {
         "option_id": 4,
-        "option_value": "Cache"
+        "option_value": "A store for frequently read values"
       }
     ],
     "answer_id": 2,
@@ -2740,19 +2740,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Firewall"
+        "option_value": "A filter working at the packet level"
       },
       {
         "option_id": 2,
-        "option_value": "Monitoring network for malicious activity"
+        "option_value": "Watching traffic for signs of attack"
       },
       {
         "option_id": 3,
-        "option_value": "Antivirus"
+        "option_value": "Software scanning files for malware"
       },
       {
         "option_id": 4,
-        "option_value": "VPN"
+        "option_value": "An encrypted tunnel over the internet"
       }
     ],
     "answer_id": 2,
@@ -2764,19 +2764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "IDS only"
+        "option_value": "It watches but never intervenes"
       },
       {
         "option_id": 2,
-        "option_value": "IDS with ability to block threats"
+        "option_value": "It watches and can block what it sees"
       },
       {
         "option_id": 3,
-        "option_value": "Firewall only"
+        "option_value": "A filter working at the packet level"
       },
       {
         "option_id": 4,
-        "option_value": "Antivirus"
+        "option_value": "Software scanning files for malware"
       }
     ],
     "answer_id": 2,
@@ -2788,19 +2788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Network monitoring"
+        "option_value": "Watching traffic on the network"
       },
       {
         "option_id": 2,
-        "option_value": "Monitoring and responding to endpoint threats"
+        "option_value": "Watching and acting on each machine"
       },
       {
         "option_id": 3,
-        "option_value": "Firewall"
+        "option_value": "A filter working at the packet level"
       },
       {
         "option_id": 4,
-        "option_value": "VPN"
+        "option_value": "An encrypted tunnel over the internet"
       }
     ],
     "answer_id": 2,
@@ -2812,19 +2812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No scanning"
+        "option_value": "Nothing is ever scanned for weaknesses"
       },
       {
         "option_id": 2,
-        "option_value": "Identifying, prioritizing, remediating vulnerabilities"
+        "option_value": "Finding, ranking and fixing weaknesses"
       },
       {
         "option_id": 3,
-        "option_value": "Only patching"
+        "option_value": "Applying fixes without ever scanning"
       },
       {
         "option_id": 4,
-        "option_value": "Only scanning"
+        "option_value": "Scanning without ever applying fixes"
       }
     ],
     "answer_id": 2,
@@ -2836,19 +2836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No patching"
+        "option_value": "Updates are never applied at all"
       },
       {
         "option_id": 2,
-        "option_value": "Process of applying updates to systems"
+        "option_value": "The process of applying updates to systems"
       },
       {
         "option_id": 3,
-        "option_value": "Only security patches"
+        "option_value": "Only security updates are ever applied"
       },
       {
         "option_id": 4,
-        "option_value": "Only feature updates"
+        "option_value": "Only feature updates are ever applied"
       }
     ],
     "answer_id": 2,
@@ -2860,19 +2860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No plan"
+        "option_value": "Nothing is written down in advance"
       },
       {
         "option_id": 2,
-        "option_value": "Documented procedure for security incidents"
+        "option_value": "A written procedure for handling a breach"
       },
       {
         "option_id": 3,
-        "option_value": "Development plan"
+        "option_value": "A written plan for building the product"
       },
       {
         "option_id": 4,
-        "option_value": "Testing plan"
+        "option_value": "A written plan for testing the product"
       }
     ],
     "answer_id": 2,
@@ -2884,19 +2884,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No plan"
+        "option_value": "Nothing is written down in advance"
       },
       {
         "option_id": 2,
-        "option_value": "Procedure for recovering from disasters"
+        "option_value": "A written procedure for restoring service"
       },
       {
         "option_id": 3,
-        "option_value": "Development plan"
+        "option_value": "A written plan for building the product"
       },
       {
         "option_id": 4,
-        "option_value": "Testing plan"
+        "option_value": "A written plan for testing the product"
       }
     ],
     "answer_id": 2,
@@ -2908,19 +2908,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No plan"
+        "option_value": "Nothing is written down in advance"
       },
       {
         "option_id": 2,
-        "option_value": "Maintaining operations during disruptions"
+        "option_value": "Keeping the business running through trouble"
       },
       {
         "option_id": 3,
-        "option_value": "Development plan"
+        "option_value": "A written plan for building the product"
       },
       {
         "option_id": 4,
-        "option_value": "Marketing plan"
+        "option_value": "A written plan for promoting the product"
       }
     ],
     "answer_id": 2,
@@ -2932,19 +2932,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "No backups"
+        "option_value": "No copies of the data are ever kept"
       },
       {
         "option_id": 2,
-        "option_value": "Regular data copying for recovery"
+        "option_value": "Copying data regularly so it can be restored"
       },
       {
         "option_id": 3,
-        "option_value": "Single backup"
+        "option_value": "A single copy taken once and never again"
       },
       {
         "option_id": 4,
-        "option_value": "No strategy"
+        "option_value": "Copies taken with no schedule at all"
       }
     ],
     "answer_id": 2,
@@ -2956,19 +2956,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data loss"
+        "option_value": "How much data you can afford to lose"
       },
       {
         "option_id": 2,
-        "option_value": "Maximum acceptable downtime"
+        "option_value": "How long you can afford to be down"
       },
       {
         "option_id": 3,
-        "option_value": "Backup frequency"
+        "option_value": "How often backups are actually taken"
       },
       {
         "option_id": 4,
-        "option_value": "Test frequency"
+        "option_value": "How often the restore is rehearsed"
       }
     ],
     "answer_id": 2,
@@ -2980,19 +2980,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Downtime"
+        "option_value": "How long you can afford to be down"
       },
       {
         "option_id": 2,
-        "option_value": "Maximum acceptable data loss"
+        "option_value": "How much data you can afford to lose"
       },
       {
         "option_id": 3,
-        "option_value": "Backup size"
+        "option_value": "How large each backup copy is"
       },
       {
         "option_id": 4,
-        "option_value": "Recovery time"
+        "option_value": "How long a restore takes to finish"
       }
     ],
     "answer_id": 2,
