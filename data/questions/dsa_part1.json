@@ -64,7 +64,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 3,
@@ -92,7 +92,7 @@
       }
     ],
     "answer_id": 4,
-    "answer_explanation": "Merge Sort guarantees O(n log n) time complexity in all cases, while Quick Sort can degrade to O(n\u00b2).",
+    "answer_explanation": "Merge Sort guarantees O(n log n) time complexity in all cases, while Quick Sort can degrade to O(n²).",
     "difficulty_level": 2
   },
   {
@@ -100,22 +100,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "When two keys produce the same hash value"
+        "option_value": "When the hash table exceeds its load factor"
       },
       {
         "option_id": 2,
-        "option_value": "When hash table is full"
+        "option_value": "When two distinct keys hash to the same bucket"
       },
       {
         "option_id": 3,
-        "option_value": "When hash function fails"
+        "option_value": "When the hash function returns a negative value"
       },
       {
         "option_id": 4,
-        "option_value": "When key is null"
+        "option_value": "When a key is mutated after being inserted"
       }
     ],
-    "answer_id": 1,
+    "answer_id": 2,
     "answer_explanation": "A collision occurs when two different keys hash to the same index in the hash table.",
     "difficulty_level": 2
   },
@@ -160,11 +160,11 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Arrays provide constant-time access to elements using index calculation (base address + index \u00d7 size).",
+    "answer_explanation": "Arrays provide constant-time access to elements using index calculation (base address + index × size).",
     "difficulty_level": 1
   },
   {
@@ -232,7 +232,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 1,
@@ -272,7 +272,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -284,7 +284,7 @@
       }
     ],
     "answer_id": 2,
-    "answer_explanation": "With poor pivot selection (already sorted array), QuickSort degrades to O(n\u00b2).",
+    "answer_explanation": "With poor pivot selection (already sorted array), QuickSort degrades to O(n²).",
     "difficulty_level": 3
   },
   {
@@ -292,22 +292,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Overlapping subproblems and optimal substructure"
+        "option_value": "Independent subproblems solved in linear order"
       },
       {
         "option_id": 2,
-        "option_value": "Greedy choice property"
+        "option_value": "Overlapping subproblems with optimal substructure"
       },
       {
         "option_id": 3,
-        "option_value": "Linear structure only"
+        "option_value": "Problems where a greedy choice is always optimal"
       },
       {
         "option_id": 4,
-        "option_value": "Sorting requirements"
+        "option_value": "Problems whose subproblems never repeat at all"
       }
     ],
-    "answer_id": 1,
+    "answer_id": 2,
     "answer_explanation": "DP solves problems by breaking them into overlapping subproblems with optimal substructure.",
     "difficulty_level": 2
   },
@@ -348,11 +348,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(\u221an)"
+        "option_value": "O(√n)"
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 2,
@@ -396,7 +396,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -484,22 +484,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Worst-case per operation"
+        "option_value": "The average cost per operation across a sequence"
       },
       {
         "option_id": 2,
-        "option_value": "Average time over sequence of operations"
+        "option_value": "The exact cost of the single worst operation"
       },
       {
         "option_id": 3,
-        "option_value": "Best-case scenario"
+        "option_value": "The best-case cost under ideal input ordering"
       },
       {
         "option_id": 4,
-        "option_value": "Space complexity"
+        "option_value": "The memory consumed across a sequence of calls"
       }
     ],
-    "answer_id": 2,
+    "answer_id": 1,
     "answer_explanation": "Amortized analysis gives average performance over a sequence of operations.",
     "difficulty_level": 4
   },
@@ -540,7 +540,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(\u03b1(n))"
+        "option_value": "O(α(n))"
       },
       {
         "option_id": 4,
@@ -604,7 +604,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 2,
@@ -652,22 +652,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Recursion at the end of function"
+        "option_value": "A call that recurses more than once in each frame"
       },
       {
         "option_id": 2,
-        "option_value": "Infinite recursion"
+        "option_value": "A call whose result is the function's final action"
       },
       {
         "option_id": 3,
-        "option_value": "Multiple recursive calls"
+        "option_value": "A call that never reaches its base case condition"
       },
       {
         "option_id": 4,
-        "option_value": "Recursive data structure"
+        "option_value": "A call operating on a self-referential structure"
       }
     ],
-    "answer_id": 1,
+    "answer_id": 2,
     "answer_explanation": "Tail recursion occurs when recursive call is the last operation in function.",
     "difficulty_level": 3
   },
@@ -716,7 +716,7 @@
       }
     ],
     "answer_id": 2,
-    "answer_explanation": "Adjacency list uses O(V+E) space vs O(V\u00b2) for matrix.",
+    "answer_explanation": "Adjacency list uses O(V+E) space vs O(V²) for matrix.",
     "difficulty_level": 2
   },
   {
@@ -856,7 +856,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 2,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Bottom-up approach"
+        "option_value": "Filling a table from the smallest case upward"
       },
       {
         "option_id": 2,
-        "option_value": "Storing subproblem solutions"
+        "option_value": "Caching subproblem results so each is solved once"
       },
       {
         "option_id": 3,
-        "option_value": "Greedy selection"
+        "option_value": "Choosing the locally best option at each step"
       },
       {
         "option_id": 4,
-        "option_value": "Recursive division"
+        "option_value": "Splitting input in half and recursing on each part"
       }
     ],
     "answer_id": 2,
@@ -952,7 +952,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 3,
@@ -1000,7 +1000,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 3,
@@ -1068,7 +1068,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 4,
@@ -1108,19 +1108,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(n)"
+        "option_value": "O(n) on uniformly distributed data"
       },
       {
         "option_id": 2,
-        "option_value": "O(log n)"
+        "option_value": "O(log n) on uniformly distributed data"
       },
       {
         "option_id": 3,
-        "option_value": "O(log log n) best case"
+        "option_value": "O(log log n) on uniformly distributed data"
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n log n) on uniformly distributed data"
       }
     ],
     "answer_id": 3,
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Hash Map + Doubly Linked List"
+        "option_value": "A hash map paired with a doubly linked list"
       },
       {
         "option_id": 2,
-        "option_value": "Array"
+        "option_value": "A dynamic array with periodic compaction"
       },
       {
         "option_id": 3,
-        "option_value": "Stack"
+        "option_value": "A stack paired with a frequency counter"
       },
       {
         "option_id": 4,
-        "option_value": "Queue"
+        "option_value": "A queue paired with a binary search tree"
       }
     ],
     "answer_id": 1,
@@ -1164,7 +1164,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(\u221an)"
+        "option_value": "O(√n)"
       },
       {
         "option_id": 4,
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Tree with all vertices and minimum edges"
+        "option_value": "A subgraph reaching all vertices with no cycles"
       },
       {
         "option_id": 2,
-        "option_value": "Tree with minimum weight"
+        "option_value": "A subgraph whose total edge weight is minimal"
       },
       {
         "option_id": 3,
-        "option_value": "Binary tree variant"
+        "option_value": "A tree in which each node has at most two children"
       },
       {
         "option_id": 4,
-        "option_value": "Balanced tree"
+        "option_value": "A tree kept balanced after every insertion"
       }
     ],
     "answer_id": 1,
@@ -1260,7 +1260,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "n\u00b2"
+        "option_value": "n²"
       },
       {
         "option_id": 4,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Graph with two connected components"
+        "option_value": "A graph made of exactly two connected components"
       },
       {
         "option_id": 2,
-        "option_value": "Graph whose vertices can be divided into two disjoint sets"
+        "option_value": "A graph whose vertices split into two disjoint sets"
       },
       {
         "option_id": 3,
-        "option_value": "Graph with two edges"
+        "option_value": "A graph in which every vertex has degree exactly two"
       },
       {
         "option_id": 4,
-        "option_value": "Binary tree"
+        "option_value": "A graph that contains no cycles of any odd length"
       }
     ],
     "answer_id": 2,
@@ -1360,7 +1360,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 3,
@@ -1428,7 +1428,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Component with maximum edges"
+        "option_value": "A subgraph in which every vertex pair is adjacent"
       },
       {
         "option_id": 2,
-        "option_value": "Subgraph with path between every pair"
+        "option_value": "A subgraph with a directed path between every pair"
       },
       {
         "option_id": 3,
-        "option_value": "Complete subgraph"
+        "option_value": "A subgraph containing the maximum number of edges"
       },
       {
         "option_id": 4,
-        "option_value": "Tree subgraph"
+        "option_value": "A subgraph that contains no cycles at all"
       }
     ],
     "answer_id": 2,
@@ -1524,7 +1524,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 4,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Faster"
+        "option_value": "It runs faster on graphs with dense edge sets"
       },
       {
         "option_id": 2,
-        "option_value": "Handles negative weights"
+        "option_value": "It handles graphs containing negative edge weights"
       },
       {
         "option_id": 3,
-        "option_value": "Less memory"
+        "option_value": "It uses less memory on very large sparse graphs"
       },
       {
         "option_id": 4,
-        "option_value": "Simpler"
+        "option_value": "It needs no priority queue and is simpler to code"
       }
     ],
     "answer_id": 2,
@@ -1648,7 +1648,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 2,
@@ -1660,19 +1660,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Vertex whose removal increases connected components"
+        "option_value": "A vertex whose removal disconnects the graph further"
       },
       {
         "option_id": 2,
-        "option_value": "Vertex with maximum degree"
+        "option_value": "A vertex holding the highest degree in the graph"
       },
       {
         "option_id": 3,
-        "option_value": "Center vertex"
+        "option_value": "A vertex lying at the geometric centre of the graph"
       },
       {
         "option_id": 4,
-        "option_value": "Leaf vertex"
+        "option_value": "A vertex having exactly one incident edge"
       }
     ],
     "answer_id": 1,
@@ -1716,7 +1716,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -1788,7 +1788,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,

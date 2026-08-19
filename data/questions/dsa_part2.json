@@ -4,19 +4,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(n)"
+        "option_value": "O(√n) using trial division per number"
       },
       {
         "option_id": 2,
-        "option_value": "O(n log log n)"
+        "option_value": "O(n log log n) using the standard sieve"
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²) using pairwise divisibility tests"
       },
       {
         "option_id": 4,
-        "option_value": "O(\u221an)"
+        "option_value": "O(n log n) using a sorting-based method"
       }
     ],
     "answer_id": 2,
@@ -28,19 +28,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Range queries and updates"
+        "option_value": "Answering range queries with point updates"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting"
+        "option_value": "Sorting elements in guaranteed linear time"
       },
       {
         "option_id": 3,
-        "option_value": "Graph traversal"
+        "option_value": "Traversing graphs in breadth-first order"
       },
       {
         "option_id": 4,
-        "option_value": "String matching"
+        "option_value": "Matching patterns across long text strings"
       }
     ],
     "answer_id": 1,
@@ -136,7 +136,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 2,
@@ -148,19 +148,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Range queries offline processing"
+        "option_value": "Answering offline range queries efficiently"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting"
+        "option_value": "Sorting large arrays with linear extra space"
       },
       {
         "option_id": 3,
-        "option_value": "Graph traversal"
+        "option_value": "Traversing dense graphs in constant memory"
       },
       {
         "option_id": 4,
-        "option_value": "Pattern matching"
+        "option_value": "Matching multiple patterns in a single pass"
       }
     ],
     "answer_id": 1,
@@ -172,23 +172,23 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Dividing array into \u221an blocks"
+        "option_value": "Splitting an array into roughly √n blocks"
       },
       {
         "option_id": 2,
-        "option_value": "Tree splitting"
+        "option_value": "Splitting a tree into two balanced halves"
       },
       {
         "option_id": 3,
-        "option_value": "Hash table resizing"
+        "option_value": "Resizing a hash table when load grows"
       },
       {
         "option_id": 4,
-        "option_value": "Graph partitioning"
+        "option_value": "Partitioning a graph into equal regions"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Square root decomposition divides array into blocks of size \u221an for efficient queries.",
+    "answer_explanation": "Square root decomposition divides array into blocks of size √n for efficient queries.",
     "difficulty_level": 3
   },
   {
@@ -196,19 +196,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Sorted array of all suffixes"
+        "option_value": "A sorted array of every suffix of a string"
       },
       {
         "option_id": 2,
-        "option_value": "Prefix storage"
+        "option_value": "An array holding every prefix of a string"
       },
       {
         "option_id": 3,
-        "option_value": "Tree structure"
+        "option_value": "A balanced tree keyed by suffix length"
       },
       {
         "option_id": 4,
-        "option_value": "Hash table"
+        "option_value": "A hash table mapping suffixes to counts"
       }
     ],
     "answer_id": 1,
@@ -228,11 +228,11 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2 log n)"
+        "option_value": "O(n² log n)"
       }
     ],
     "answer_id": 2,
@@ -244,19 +244,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Longest Common Prefix array"
+        "option_value": "An array of longest common prefix lengths"
       },
       {
         "option_id": 2,
-        "option_value": "Lowest Common Parent"
+        "option_value": "An array of lowest common parent indices"
       },
       {
         "option_id": 3,
-        "option_value": "Length of Common Path"
+        "option_value": "An array of lengths of the common paths"
       },
       {
         "option_id": 4,
-        "option_value": "Longest Circular Path"
+        "option_value": "An array of longest circular path sizes"
       }
     ],
     "answer_id": 1,
@@ -268,19 +268,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Multi-pattern string matching"
+        "option_value": "Matching many patterns in one text pass"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting"
+        "option_value": "Sorting strings by lexicographic order"
       },
       {
         "option_id": 3,
-        "option_value": "Graph traversal"
+        "option_value": "Traversing graphs with weighted edges"
       },
       {
         "option_id": 4,
-        "option_value": "Matrix operation"
+        "option_value": "Multiplying sparse matrices efficiently"
       }
     ],
     "answer_id": 1,
@@ -292,19 +292,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Compressed trie of all suffixes"
+        "option_value": "A compressed trie holding every suffix"
       },
       {
         "option_id": 2,
-        "option_value": "Binary tree"
+        "option_value": "A binary tree ordered by suffix length"
       },
       {
         "option_id": 3,
-        "option_value": "Heap structure"
+        "option_value": "A min-heap keyed by suffix start index"
       },
       {
         "option_id": 4,
-        "option_value": "Graph representation"
+        "option_value": "An adjacency list of suffix overlaps"
       }
     ],
     "answer_id": 1,
@@ -320,7 +320,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -340,19 +340,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Tree + Heap hybrid"
+        "option_value": "A BST by key and a heap by priority"
       },
       {
         "option_id": 2,
-        "option_value": "Tree array"
+        "option_value": "A tree stored flat inside an array"
       },
       {
         "option_id": 3,
-        "option_value": "Triple heap"
+        "option_value": "Three heaps merged into one structure"
       },
       {
         "option_id": 4,
-        "option_value": "Tree stack"
+        "option_value": "A tree with a stack at every node"
       }
     ],
     "answer_id": 1,
@@ -436,19 +436,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Maximum children per node"
+        "option_value": "The maximum number of children per node"
       },
       {
         "option_id": 2,
-        "option_value": "Height of tree"
+        "option_value": "The number of levels from root to leaf"
       },
       {
         "option_id": 3,
-        "option_value": "Number of leaves"
+        "option_value": "The total number of leaves in the tree"
       },
       {
         "option_id": 4,
-        "option_value": "Tree depth"
+        "option_value": "The number of keys stored in the root"
       }
     ],
     "answer_id": 1,
@@ -460,19 +460,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Linked list with express lanes"
+        "option_value": "A linked list with express lanes above it"
       },
       {
         "option_id": 2,
-        "option_value": "Tree structure"
+        "option_value": "A balanced tree with skipped rotations"
       },
       {
         "option_id": 3,
-        "option_value": "Array variant"
+        "option_value": "An array that leaves gaps between items"
       },
       {
         "option_id": 4,
-        "option_value": "Graph representation"
+        "option_value": "A graph whose edges skip intermediate nodes"
       }
     ],
     "answer_id": 1,
@@ -492,7 +492,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(\u221an)"
+        "option_value": "O(√n)"
       },
       {
         "option_id": 4,
@@ -508,19 +508,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Data structure for tracking set partitions"
+        "option_value": "A structure tracking disjoint set membership"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting algorithm"
+        "option_value": "A sorting method using bucket partitions"
       },
       {
         "option_id": 3,
-        "option_value": "Graph traversal"
+        "option_value": "A traversal that visits each edge once"
       },
       {
         "option_id": 4,
-        "option_value": "String structure"
+        "option_value": "A structure storing overlapping substrings"
       }
     ],
     "answer_id": 1,
@@ -532,19 +532,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Flattening structure during find"
+        "option_value": "Flattening the tree during a find call"
       },
       {
         "option_id": 2,
-        "option_value": "Compressing edges"
+        "option_value": "Removing duplicate edges after a union"
       },
       {
         "option_id": 3,
-        "option_value": "Node removal"
+        "option_value": "Deleting nodes that have no children"
       },
       {
         "option_id": 4,
-        "option_value": "Tree balancing"
+        "option_value": "Rebalancing the tree after each merge"
       }
     ],
     "answer_id": 1,
@@ -556,19 +556,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Attaching smaller tree under larger"
+        "option_value": "Attaching the smaller tree under the larger"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting by value"
+        "option_value": "Attaching trees in order of their key values"
       },
       {
         "option_id": 3,
-        "option_value": "Height balancing"
+        "option_value": "Rebuilding both trees to an equal height"
       },
       {
         "option_id": 4,
-        "option_value": "Node ordering"
+        "option_value": "Ordering nodes by their insertion time"
       }
     ],
     "answer_id": 1,
@@ -580,19 +580,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Decomposing tree into chains"
+        "option_value": "Splitting a tree into disjoint chains"
       },
       {
         "option_id": 2,
-        "option_value": "Graph partitioning"
+        "option_value": "Splitting a graph into equal partitions"
       },
       {
         "option_id": 3,
-        "option_value": "Array splitting"
+        "option_value": "Splitting an array into fixed blocks"
       },
       {
         "option_id": 4,
-        "option_value": "Tree compression"
+        "option_value": "Compressing a tree into a single path"
       }
     ],
     "answer_id": 1,
@@ -604,19 +604,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Recursive tree splitting at centroids"
+        "option_value": "Recursively splitting a tree at centroids"
       },
       {
         "option_id": 2,
-        "option_value": "Graph coloring"
+        "option_value": "Recursively colouring a graph by degree"
       },
       {
         "option_id": 3,
-        "option_value": "Tree balancing"
+        "option_value": "Rebalancing a tree after every insertion"
       },
       {
         "option_id": 4,
-        "option_value": "Node removal"
+        "option_value": "Removing leaf nodes until one remains"
       }
     ],
     "answer_id": 1,
@@ -628,19 +628,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Node whose removal splits tree into subtrees of size \u2264 n/2"
+        "option_value": "A node whose removal leaves parts of size n/2"
       },
       {
         "option_id": 2,
-        "option_value": "Center node"
+        "option_value": "A node midway along the tree's longest path"
       },
       {
         "option_id": 3,
-        "option_value": "Root node"
+        "option_value": "A node chosen to be the root of the tree"
       },
       {
         "option_id": 4,
-        "option_value": "Leaf node"
+        "option_value": "A node having exactly one incident edge"
       }
     ],
     "answer_id": 1,
@@ -652,19 +652,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Recording entry/exit times during DFS"
+        "option_value": "Recording entry and exit times during DFS"
       },
       {
         "option_id": 2,
-        "option_value": "Tree traversal"
+        "option_value": "Visiting every node in strict level order"
       },
       {
         "option_id": 3,
-        "option_value": "Graph coloring"
+        "option_value": "Colouring nodes by their depth parity"
       },
       {
         "option_id": 4,
-        "option_value": "Node ordering"
+        "option_value": "Ordering nodes by their subtree size"
       }
     ],
     "answer_id": 1,
@@ -712,7 +712,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       }
     ],
     "answer_id": 1,
@@ -724,19 +724,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Deepest node that is ancestor of two nodes"
+        "option_value": "The deepest node that is an ancestor of both"
       },
       {
         "option_id": 2,
-        "option_value": "Root node"
+        "option_value": "The root of the tree containing both nodes"
       },
       {
         "option_id": 3,
-        "option_value": "Parent node"
+        "option_value": "The direct parent of the shallower node"
       },
       {
         "option_id": 4,
-        "option_value": "Leaf node"
+        "option_value": "The nearest leaf reachable from both nodes"
       }
     ],
     "answer_id": 1,
@@ -748,19 +748,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Precomputing 2^j ancestors"
+        "option_value": "Precomputing each node's 2^j-th ancestors"
       },
       {
         "option_id": 2,
-        "option_value": "Tree doubling"
+        "option_value": "Duplicating the tree to double its depth"
       },
       {
         "option_id": 3,
-        "option_value": "Node cloning"
+        "option_value": "Cloning nodes to balance subtree sizes"
       },
       {
         "option_id": 4,
-        "option_value": "Edge splitting"
+        "option_value": "Splitting edges to make depths uniform"
       }
     ],
     "answer_id": 1,
@@ -772,19 +772,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Edge whose removal increases connected components"
+        "option_value": "An edge whose removal disconnects the graph"
       },
       {
         "option_id": 2,
-        "option_value": "Longest edge"
+        "option_value": "The edge carrying the largest total weight"
       },
       {
         "option_id": 3,
-        "option_value": "Shortest edge"
+        "option_value": "The edge carrying the smallest weight"
       },
       {
         "option_id": 4,
-        "option_value": "Central edge"
+        "option_value": "The edge nearest the centre of the graph"
       }
     ],
     "answer_id": 1,
@@ -800,7 +800,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 3,
@@ -820,19 +820,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Edge to ancestor in DFS tree"
+        "option_value": "An edge pointing to an ancestor in the tree"
       },
       {
         "option_id": 2,
-        "option_value": "Edge to descendant"
+        "option_value": "An edge pointing to an already-seen descendant"
       },
       {
         "option_id": 3,
-        "option_value": "Cross edge"
+        "option_value": "An edge between two unrelated subtrees"
       },
       {
         "option_id": 4,
-        "option_value": "Tree edge"
+        "option_value": "An edge that belongs to the DFS tree itself"
       }
     ],
     "answer_id": 1,
@@ -844,19 +844,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Edge between non-ancestor-related subtrees"
+        "option_value": "An edge between two unrelated subtrees"
       },
       {
         "option_id": 2,
-        "option_value": "Edge to ancestor"
+        "option_value": "An edge pointing back to an ancestor"
       },
       {
         "option_id": 3,
-        "option_value": "Edge to parent"
+        "option_value": "An edge pointing to the immediate parent"
       },
       {
         "option_id": 4,
-        "option_value": "Self loop"
+        "option_value": "An edge from a node back to itself"
       }
     ],
     "answer_id": 1,
@@ -872,15 +872,15 @@
       },
       {
         "option_id": 2,
-        "option_value": "Finding MST"
+        "option_value": "Finding a minimum spanning tree"
       },
       {
         "option_id": 3,
-        "option_value": "Shortest path"
+        "option_value": "Finding shortest paths from a source"
       },
       {
         "option_id": 4,
-        "option_value": "Topological sort"
+        "option_value": "Producing a topological ordering"
       }
     ],
     "answer_id": 1,
@@ -892,19 +892,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Matrix showing reachability between all pairs"
+        "option_value": "A matrix of reachability between all pairs"
       },
       {
         "option_id": 2,
-        "option_value": "Shortest paths"
+        "option_value": "A matrix of shortest distances for pairs"
       },
       {
         "option_id": 3,
-        "option_value": "Minimum spanning tree"
+        "option_value": "A subgraph with minimum total edge weight"
       },
       {
         "option_id": 4,
-        "option_value": "Graph coloring"
+        "option_value": "An assignment of colours to all vertices"
       }
     ],
     "answer_id": 1,
@@ -916,11 +916,11 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(V\u00b3)"
+        "option_value": "O(V³)"
       },
       {
         "option_id": 2,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 3,
@@ -928,11 +928,11 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(V\u00b2 log V)"
+        "option_value": "O(V² log V)"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Floyd-Warshall uses three nested loops giving O(V\u00b3) complexity.",
+    "answer_explanation": "Floyd-Warshall uses three nested loops giving O(V³) complexity.",
     "difficulty_level": 2
   },
   {
@@ -940,23 +940,23 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "All-pairs shortest path for sparse graphs"
+        "option_value": "All-pairs shortest paths on sparse graphs"
       },
       {
         "option_id": 2,
-        "option_value": "Single source shortest path"
+        "option_value": "Single-source shortest paths with negatives"
       },
       {
         "option_id": 3,
-        "option_value": "Minimum spanning tree"
+        "option_value": "Minimum spanning tree on weighted graphs"
       },
       {
         "option_id": 4,
-        "option_value": "Topological sort"
+        "option_value": "Topological ordering of a directed graph"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Johnson's algorithm uses reweighting and Dijkstra for O(V\u00b2 log V + VE) all-pairs shortest path.",
+    "answer_explanation": "Johnson's algorithm uses reweighting and Dijkstra for O(V² log V + VE) all-pairs shortest path.",
     "difficulty_level": 4
   },
   {
@@ -964,19 +964,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Single source shortest path with negative weights"
+        "option_value": "Single-source shortest paths with negatives"
       },
       {
         "option_id": 2,
-        "option_value": "All pairs shortest path"
+        "option_value": "All-pairs shortest paths on dense graphs"
       },
       {
         "option_id": 3,
-        "option_value": "Minimum spanning tree"
+        "option_value": "Minimum spanning tree of a weighted graph"
       },
       {
         "option_id": 4,
-        "option_value": "Topological sort"
+        "option_value": "Topological ordering of an acyclic graph"
       }
     ],
     "answer_id": 1,
@@ -988,19 +988,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Cycle with total negative weight"
+        "option_value": "A cycle whose edge weights sum below zero"
       },
       {
         "option_id": 2,
-        "option_value": "Cycle with minimum edges"
+        "option_value": "A cycle containing the fewest possible edges"
       },
       {
         "option_id": 3,
-        "option_value": "Self loop"
+        "option_value": "An edge that connects a node to itself"
       },
       {
         "option_id": 4,
-        "option_value": "Bidirectional cycle"
+        "option_value": "A cycle that can be traversed either way"
       }
     ],
     "answer_id": 1,
@@ -1020,7 +1020,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 4,
@@ -1036,23 +1036,23 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Dijkstra's for integer weights using bucket"
+        "option_value": "Dijkstra using buckets for integer weights"
       },
       {
         "option_id": 2,
-        "option_value": "String matching"
+        "option_value": "Matching patterns using a rolling hash"
       },
       {
         "option_id": 3,
-        "option_value": "Graph coloring"
+        "option_value": "Colouring graphs with the fewest colours"
       },
       {
         "option_id": 4,
-        "option_value": "Topological sort"
+        "option_value": "Ordering a DAG using in-degree counting"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Dial's algorithm implements Dijkstra using buckets for small integer weights in O(E + V\u00d7C).",
+    "answer_explanation": "Dial's algorithm implements Dijkstra using buckets for small integer weights in O(E + V×C).",
     "difficulty_level": 4
   },
   {
@@ -1084,7 +1084,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 2,
@@ -1100,7 +1100,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "With adjacency matrix, Prim's algorithm takes O(V\u00b2) time.",
+    "answer_explanation": "With adjacency matrix, Prim's algorithm takes O(V²) time.",
     "difficulty_level": 3
   },
   {
@@ -1132,19 +1132,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Partition of vertices into two disjoint sets"
+        "option_value": "A partition of vertices into two sets"
       },
       {
         "option_id": 2,
-        "option_value": "Edge removal"
+        "option_value": "A removal of edges to reduce density"
       },
       {
         "option_id": 3,
-        "option_value": "Vertex deletion"
+        "option_value": "A deletion of vertices of high degree"
       },
       {
         "option_id": 4,
-        "option_value": "Graph division"
+        "option_value": "A division of a graph into components"
       }
     ],
     "answer_id": 1,
@@ -1160,7 +1160,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(V\u00b2)"
+        "option_value": "O(V²)"
       },
       {
         "option_id": 3,
@@ -1180,19 +1180,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Path visiting each vertex exactly once"
+        "option_value": "A path visiting every vertex exactly once"
       },
       {
         "option_id": 2,
-        "option_value": "Shortest path"
+        "option_value": "A path with the smallest total weight"
       },
       {
         "option_id": 3,
-        "option_value": "Longest path"
+        "option_value": "A path with the greatest total weight"
       },
       {
         "option_id": 4,
-        "option_value": "Path with minimum edges"
+        "option_value": "A path using the fewest possible edges"
       }
     ],
     "answer_id": 1,
@@ -1204,19 +1204,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Path using every edge exactly once"
+        "option_value": "A path using every edge exactly once"
       },
       {
         "option_id": 2,
-        "option_value": "Shortest path"
+        "option_value": "A path with the smallest total weight"
       },
       {
         "option_id": 3,
-        "option_value": "Longest path"
+        "option_value": "A path with the greatest total weight"
       },
       {
         "option_id": 4,
-        "option_value": "Path visiting all vertices"
+        "option_value": "A path visiting every vertex exactly once"
       }
     ],
     "answer_id": 1,
@@ -1252,19 +1252,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding shortest route visiting all cities"
+        "option_value": "The shortest route visiting all cities once"
       },
       {
         "option_id": 2,
-        "option_value": "Finding MST"
+        "option_value": "The spanning tree with least total weight"
       },
       {
         "option_id": 3,
-        "option_value": "Shortest path between two cities"
+        "option_value": "The shortest path between two given cities"
       },
       {
         "option_id": 4,
-        "option_value": "Graph coloring"
+        "option_value": "The fewest colours needed to colour a map"
       }
     ],
     "answer_id": 1,
@@ -1276,22 +1276,22 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "NP-hard"
+        "option_value": "NP-hard, and its decision form is NP-complete"
       },
       {
         "option_id": 2,
-        "option_value": "P"
+        "option_value": "Solvable in polynomial time on all inputs"
       },
       {
         "option_id": 3,
-        "option_value": "NP-complete"
+        "option_value": "NP-complete but not NP-hard in any form"
       },
       {
         "option_id": 4,
-        "option_value": "Both NP-hard and NP-complete"
+        "option_value": "Undecidable for graphs with many vertices"
       }
     ],
-    "answer_id": 4,
+    "answer_id": 1,
     "answer_explanation": "TSP decision version is NP-complete, optimization version is NP-hard.",
     "difficulty_level": 3
   },
@@ -1300,19 +1300,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Solving problems by breaking into subproblems"
+        "option_value": "Solving overlapping subproblems once each"
       },
       {
         "option_id": 2,
-        "option_value": "Greedy approach"
+        "option_value": "Choosing the best option at every step"
       },
       {
         "option_id": 3,
-        "option_value": "Divide and conquer"
+        "option_value": "Splitting input and combining the halves"
       },
       {
         "option_id": 4,
-        "option_value": "Backtracking"
+        "option_value": "Trying all options and undoing bad ones"
       }
     ],
     "answer_id": 1,
@@ -1324,19 +1324,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Storing results of expensive function calls"
+        "option_value": "Caching results of expensive function calls"
       },
       {
         "option_id": 2,
-        "option_value": "Writing notes"
+        "option_value": "Allocating memory ahead of a computation"
       },
       {
         "option_id": 3,
-        "option_value": "Memory allocation"
+        "option_value": "Writing intermediate results out to disk"
       },
       {
         "option_id": 4,
-        "option_value": "Caching pages"
+        "option_value": "Storing pages of memory in a fast cache"
       }
     ],
     "answer_id": 1,
@@ -1376,7 +1376,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -1388,7 +1388,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "0/1 Knapsack DP solution takes O(n\u00d7W) time where n is items and W is capacity.",
+    "answer_explanation": "0/1 Knapsack DP solution takes O(n×W) time where n is items and W is capacity.",
     "difficulty_level": 3
   },
   {
@@ -1396,19 +1396,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Items can be broken in fractional"
+        "option_value": "Fractional allows taking part of an item"
       },
       {
         "option_id": 2,
-        "option_value": "Different objectives"
+        "option_value": "Fractional maximises count instead of value"
       },
       {
         "option_id": 3,
-        "option_value": "Different constraints"
+        "option_value": "Fractional permits exceeding the capacity"
       },
       {
         "option_id": 4,
-        "option_value": "Different input types"
+        "option_value": "Fractional accepts only integer weights"
       }
     ],
     "answer_id": 1,
@@ -1420,19 +1420,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding longest sequence present in both strings"
+        "option_value": "The longest sequence common to both, in order"
       },
       {
         "option_id": 2,
-        "option_value": "Finding common substring"
+        "option_value": "The longest run of characters shared by both"
       },
       {
         "option_id": 3,
-        "option_value": "String matching"
+        "option_value": "The position where one string occurs in another"
       },
       {
         "option_id": 4,
-        "option_value": "Pattern recognition"
+        "option_value": "The number of edits separating the two strings"
       }
     ],
     "answer_id": 1,
@@ -1444,7 +1444,7 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(m\u00d7n)"
+        "option_value": "O(m×n)"
       },
       {
         "option_id": 2,
@@ -1452,7 +1452,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(m\u00b2)"
+        "option_value": "O(m²)"
       },
       {
         "option_id": 4,
@@ -1460,7 +1460,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "LCS DP solution fills m\u00d7n table giving O(mn) time complexity.",
+    "answer_explanation": "LCS DP solution fills m×n table giving O(mn) time complexity.",
     "difficulty_level": 3
   },
   {
@@ -1468,19 +1468,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding longest subsequence in increasing order"
+        "option_value": "The longest subsequence in increasing order"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting sequence"
+        "option_value": "The result of sorting the sequence ascending"
       },
       {
         "option_id": 3,
-        "option_value": "Finding maximum element"
+        "option_value": "The largest single element in the sequence"
       },
       {
         "option_id": 4,
-        "option_value": "Finding minimum element"
+        "option_value": "The smallest single element in the sequence"
       }
     ],
     "answer_id": 1,
@@ -1496,7 +1496,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -1504,7 +1504,7 @@
       },
       {
         "option_id": 4,
-        "option_value": "O(n\u00b2 log n)"
+        "option_value": "O(n² log n)"
       }
     ],
     "answer_id": 1,
@@ -1516,19 +1516,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Minimum operations to convert string"
+        "option_value": "The fewest edits converting one to the other"
       },
       {
         "option_id": 2,
-        "option_value": "String matching"
+        "option_value": "The longest substring shared by both strings"
       },
       {
         "option_id": 3,
-        "option_value": "Longest common substring"
+        "option_value": "The position of the first differing character"
       },
       {
         "option_id": 4,
-        "option_value": "Pattern recognition"
+        "option_value": "The count of characters present in both"
       }
     ],
     "answer_id": 1,
@@ -1540,19 +1540,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding optimal parenthesization"
+        "option_value": "The order of multiplication costing the least"
       },
       {
         "option_id": 2,
-        "option_value": "Multiplying matrices"
+        "option_value": "The product obtained by multiplying in order"
       },
       {
         "option_id": 3,
-        "option_value": "Matrix addition"
+        "option_value": "The sum of every matrix in the given chain"
       },
       {
         "option_id": 4,
-        "option_value": "Matrix inversion"
+        "option_value": "The inverse of the product of the chain"
       }
     ],
     "answer_id": 1,
@@ -1564,11 +1564,11 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(n\u00b3)"
+        "option_value": "O(n³)"
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -1580,7 +1580,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Matrix Chain Multiplication DP solution takes O(n\u00b3) time.",
+    "answer_explanation": "Matrix Chain Multiplication DP solution takes O(n³) time.",
     "difficulty_level": 4
   },
   {
@@ -1588,19 +1588,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding minimum coins for amount"
+        "option_value": "The fewest coins that make a given amount"
       },
       {
         "option_id": 2,
-        "option_value": "Counting coins"
+        "option_value": "The number of coins of each denomination"
       },
       {
         "option_id": 3,
-        "option_value": "Making change greedily"
+        "option_value": "The greedy choice of the largest coin first"
       },
       {
         "option_id": 4,
-        "option_value": "Coin collection"
+        "option_value": "The total value of all available coins"
       }
     ],
     "answer_id": 1,
@@ -1636,19 +1636,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Determining if subset sums to target"
+        "option_value": "Whether some subset adds up to a target"
       },
       {
         "option_id": 2,
-        "option_value": "Finding maximum subset"
+        "option_value": "Which subset contains the most elements"
       },
       {
         "option_id": 3,
-        "option_value": "Finding minimum subset"
+        "option_value": "Which subset contains the fewest elements"
       },
       {
         "option_id": 4,
-        "option_value": "Counting subsets"
+        "option_value": "How many subsets the given set has"
       }
     ],
     "answer_id": 1,
@@ -1660,11 +1660,11 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(n\u00d7sum)"
+        "option_value": "O(n×sum)"
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -1676,7 +1676,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Subset Sum DP solution takes O(n\u00d7sum) time and space.",
+    "answer_explanation": "Subset Sum DP solution takes O(n×sum) time and space.",
     "difficulty_level": 3
   },
   {
@@ -1684,19 +1684,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Dividing array into two equal sum subsets"
+        "option_value": "Splitting an array into two equal-sum halves"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting array"
+        "option_value": "Sorting an array into strict ascending order"
       },
       {
         "option_id": 3,
-        "option_value": "Finding maximum sum"
+        "option_value": "Finding the subarray with the largest sum"
       },
       {
         "option_id": 4,
-        "option_value": "Finding minimum sum"
+        "option_value": "Finding the subarray with the smallest sum"
       }
     ],
     "answer_id": 1,
@@ -1708,19 +1708,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Determining if string can be segmented"
+        "option_value": "Whether a string splits into dictionary words"
       },
       {
         "option_id": 2,
-        "option_value": "Breaking words"
+        "option_value": "Whether a string reads the same reversed"
       },
       {
         "option_id": 3,
-        "option_value": "String reversal"
+        "option_value": "How many words a given string contains"
       },
       {
         "option_id": 4,
-        "option_value": "Word counting"
+        "option_value": "Where to insert hyphens for line breaking"
       }
     ],
     "answer_id": 1,
@@ -1732,19 +1732,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Minimum cuts for palindrome substrings"
+        "option_value": "The fewest cuts making every part a palindrome"
       },
       {
         "option_id": 2,
-        "option_value": "Creating palindromes"
+        "option_value": "The number of palindromes formable from it"
       },
       {
         "option_id": 3,
-        "option_value": "Checking palindrome"
+        "option_value": "Whether the whole string is a palindrome"
       },
       {
         "option_id": 4,
-        "option_value": "String reversal"
+        "option_value": "The string obtained by reversing the input"
       }
     ],
     "answer_id": 1,
@@ -1756,19 +1756,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding contiguous subarray with maximum sum"
+        "option_value": "The contiguous subarray with the largest sum"
       },
       {
         "option_id": 2,
-        "option_value": "Finding maximum element"
+        "option_value": "The single largest element in the array"
       },
       {
         "option_id": 3,
-        "option_value": "Sorting array"
+        "option_value": "The array reordered into ascending order"
       },
       {
         "option_id": 4,
-        "option_value": "Finding minimum subarray"
+        "option_value": "The contiguous subarray with the least sum"
       }
     ],
     "answer_id": 1,
@@ -1788,7 +1788,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -1804,19 +1804,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Counting ways to climb n stairs"
+        "option_value": "How many distinct ways there are to climb n"
       },
       {
         "option_id": 2,
-        "option_value": "Finding minimum steps"
+        "option_value": "The fewest steps needed to reach the top"
       },
       {
         "option_id": 3,
-        "option_value": "Maximum steps"
+        "option_value": "The largest single step that can be taken"
       },
       {
         "option_id": 4,
-        "option_value": "Step optimization"
+        "option_value": "The order in which the steps are climbed"
       }
     ],
     "answer_id": 1,
@@ -1828,19 +1828,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Maximum money without robbing adjacent houses"
+        "option_value": "Most money taken without robbing neighbours"
       },
       {
         "option_id": 2,
-        "option_value": "Robbing all houses"
+        "option_value": "Most money taken by robbing every house"
       },
       {
         "option_id": 3,
-        "option_value": "Finding richest house"
+        "option_value": "Which single house holds the most money"
       },
       {
         "option_id": 4,
-        "option_value": "Minimum robbery"
+        "option_value": "Fewest houses needed to reach a target"
       }
     ],
     "answer_id": 1,
@@ -1852,19 +1852,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Determining if end is reachable"
+        "option_value": "Whether the final index is reachable at all"
       },
       {
         "option_id": 2,
-        "option_value": "Finding minimum jumps"
+        "option_value": "The fewest jumps needed to reach the end"
       },
       {
         "option_id": 3,
-        "option_value": "Maximum jumps"
+        "option_value": "The largest single jump that can be made"
       },
       {
         "option_id": 4,
-        "option_value": "Jump counting"
+        "option_value": "How many jumps are possible from the start"
       }
     ],
     "answer_id": 1,
@@ -1876,19 +1876,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Combining overlapping intervals"
+        "option_value": "Merging every pair of overlapping intervals"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting intervals"
+        "option_value": "Sorting intervals by their starting point"
       },
       {
         "option_id": 3,
-        "option_value": "Finding gap"
+        "option_value": "Finding the largest gap between intervals"
       },
       {
         "option_id": 4,
-        "option_value": "Interval counting"
+        "option_value": "Counting how many intervals were supplied"
       }
     ],
     "answer_id": 1,
@@ -1900,19 +1900,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Inserting new interval into sorted intervals"
+        "option_value": "Adding one interval into a sorted set"
       },
       {
         "option_id": 2,
-        "option_value": "Creating intervals"
+        "option_value": "Building a fresh set of intervals"
       },
       {
         "option_id": 3,
-        "option_value": "Deleting intervals"
+        "option_value": "Removing one interval from a sorted set"
       },
       {
         "option_id": 4,
-        "option_value": "Merging all intervals"
+        "option_value": "Merging every interval into a single one"
       }
     ],
     "answer_id": 1,
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Determining if person can attend all meetings"
+        "option_value": "Whether one person can attend all meetings"
       },
       {
         "option_id": 2,
-        "option_value": "Scheduling maximum meetings"
+        "option_value": "The largest set of meetings that can be held"
       },
       {
         "option_id": 3,
-        "option_value": "Finding free time"
+        "option_value": "The longest free gap in the schedule"
       },
       {
         "option_id": 4,
-        "option_value": "Room allocation"
+        "option_value": "How many rooms the meetings would need"
       }
     ],
     "answer_id": 1,
@@ -1956,7 +1956,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -1996,19 +1996,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Remove interval with latest end time"
+        "option_value": "Always drop the interval ending latest"
       },
       {
         "option_id": 2,
-        "option_value": "Remove longest interval"
+        "option_value": "Always drop the interval that is longest"
       },
       {
         "option_id": 3,
-        "option_value": "Remove shortest interval"
+        "option_value": "Always drop the interval that is shortest"
       },
       {
         "option_id": 4,
-        "option_value": "Random removal"
+        "option_value": "Always drop an interval chosen at random"
       }
     ],
     "answer_id": 1,
@@ -2020,19 +2020,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding starting gas station's index to complete circuit"
+        "option_value": "Which station lets you complete the circuit"
       },
       {
         "option_id": 2,
-        "option_value": "Maximizing gas"
+        "option_value": "Which station holds the most fuel in total"
       },
       {
         "option_id": 3,
-        "option_value": "Minimizing cost"
+        "option_value": "Which route costs the least overall to drive"
       },
       {
         "option_id": 4,
-        "option_value": "Station counting"
+        "option_value": "How many stations lie along the circuit"
       }
     ],
     "answer_id": 1,
@@ -2044,19 +2044,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Minimum candies to distribute to children"
+        "option_value": "The fewest sweets satisfying the rating rule"
       },
       {
         "option_id": 2,
-        "option_value": "Maximum candy"
+        "option_value": "The most sweets any one child can receive"
       },
       {
         "option_id": 3,
-        "option_value": "Equal distribution"
+        "option_value": "How to give every child an equal share"
       },
       {
         "option_id": 4,
-        "option_value": "Candy counting"
+        "option_value": "How many sweets are available in total"
       }
     ],
     "answer_id": 1,
@@ -2068,19 +2068,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Computing trapped water between bars"
+        "option_value": "How much water is trapped between the bars"
       },
       {
         "option_id": 2,
-        "option_value": "Finding maximum water"
+        "option_value": "Which single gap can hold the most water"
       },
       {
         "option_id": 3,
-        "option_value": "Water flow"
+        "option_value": "The direction water flows across the bars"
       },
       {
         "option_id": 4,
-        "option_value": "Bar height"
+        "option_value": "The height of the tallest bar in the list"
       }
     ],
     "answer_id": 1,
@@ -2096,7 +2096,7 @@
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 3,
@@ -2116,19 +2116,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding two lines containing most water"
+        "option_value": "Which two lines hold the most water"
       },
       {
         "option_id": 2,
-        "option_value": "Maximum container"
+        "option_value": "Which single line is the tallest one"
       },
       {
         "option_id": 3,
-        "option_value": "Water filling"
+        "option_value": "How long filling the container would take"
       },
       {
         "option_id": 4,
-        "option_value": "Line drawing"
+        "option_value": "How many lines the diagram contains"
       }
     ],
     "answer_id": 1,
@@ -2140,19 +2140,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding triplets that sum to zero"
+        "option_value": "Every distinct triplet summing to zero"
       },
       {
         "option_id": 2,
-        "option_value": "Finding maximum sum"
+        "option_value": "The three elements with the largest sum"
       },
       {
         "option_id": 3,
-        "option_value": "Finding minimum sum"
+        "option_value": "The three elements with the smallest sum"
       },
       {
         "option_id": 4,
-        "option_value": "Triple counting"
+        "option_value": "How many triplets the array contains"
       }
     ],
     "answer_id": 1,
@@ -2164,11 +2164,11 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 2,
-        "option_value": "O(n\u00b3)"
+        "option_value": "O(n³)"
       },
       {
         "option_id": 3,
@@ -2180,7 +2180,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "3Sum can be solved in O(n\u00b2) using sorting and two pointers.",
+    "answer_explanation": "3Sum can be solved in O(n²) using sorting and two pointers.",
     "difficulty_level": 3
   },
   {
@@ -2188,19 +2188,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding next lexicographical permutation"
+        "option_value": "The next arrangement in lexicographic order"
       },
       {
         "option_id": 2,
-        "option_value": "Previous permutation"
+        "option_value": "The previous arrangement in that order"
       },
       {
         "option_id": 3,
-        "option_value": "Random permutation"
+        "option_value": "An arrangement picked uniformly at random"
       },
       {
         "option_id": 4,
-        "option_value": "All permutations"
+        "option_value": "Every arrangement the input can produce"
       }
     ],
     "answer_id": 1,
@@ -2212,19 +2212,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Generating all possible arrangements"
+        "option_value": "Every ordering the elements can be put in"
       },
       {
         "option_id": 2,
-        "option_value": "Counting permutations"
+        "option_value": "How many orderings the elements allow"
       },
       {
         "option_id": 3,
-        "option_value": "Single permutation"
+        "option_value": "One ordering chosen from all of them"
       },
       {
         "option_id": 4,
-        "option_value": "Random permutation"
+        "option_value": "An ordering picked uniformly at random"
       }
     ],
     "answer_id": 1,
@@ -2236,19 +2236,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Generating all k-sized combinations"
+        "option_value": "Every selection of exactly k elements"
       },
       {
         "option_id": 2,
-        "option_value": "Counting combinations"
+        "option_value": "How many such selections there are"
       },
       {
         "option_id": 3,
-        "option_value": "Single combination"
+        "option_value": "One selection chosen from all of them"
       },
       {
         "option_id": 4,
-        "option_value": "Random combination"
+        "option_value": "A selection picked uniformly at random"
       }
     ],
     "answer_id": 1,
@@ -2260,19 +2260,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Generating all possible subsets"
+        "option_value": "Every subset the input set can produce"
       },
       {
         "option_id": 2,
-        "option_value": "Counting subsets"
+        "option_value": "How many subsets the input set has"
       },
       {
         "option_id": 3,
-        "option_value": "Maximum subset"
+        "option_value": "The subset containing the most elements"
       },
       {
         "option_id": 4,
-        "option_value": "Minimum subset"
+        "option_value": "The subset containing the fewest elements"
       }
     ],
     "answer_id": 1,
@@ -2292,7 +2292,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -2308,23 +2308,23 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Placing N queens on N\u00d7N board"
+        "option_value": "Placing N queens so none attack another"
       },
       {
         "option_id": 2,
-        "option_value": "Queen movement"
+        "option_value": "Describing how a queen moves on a board"
       },
       {
         "option_id": 3,
-        "option_value": "Board games"
+        "option_value": "Listing the rules of common board games"
       },
       {
         "option_id": 4,
-        "option_value": "Chess strategy"
+        "option_value": "Choosing an opening strategy in chess"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "N-Queens places N chess queens on N\u00d7N board so no two queens threaten each other.",
+    "answer_explanation": "N-Queens places N chess queens on N×N board so no two queens threaten each other.",
     "difficulty_level": 3
   },
   {
@@ -2356,23 +2356,23 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Filling 9\u00d79 grid following rules"
+        "option_value": "Filling the grid without breaking the rules"
       },
       {
         "option_id": 2,
-        "option_value": "Creating Sudoku"
+        "option_value": "Generating a fresh puzzle from scratch"
       },
       {
         "option_id": 3,
-        "option_value": "Solving puzzles"
+        "option_value": "Rating how hard a given puzzle is"
       },
       {
         "option_id": 4,
-        "option_value": "Grid validation"
+        "option_value": "Checking whether a filled grid is legal"
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Sudoku Solver fills empty cells so each row, column, and 3\u00d73 box contains 1-9.",
+    "answer_explanation": "Sudoku Solver fills empty cells so each row, column, and 3×3 box contains 1-9.",
     "difficulty_level": 3
   },
   {
@@ -2380,19 +2380,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding combinations that sum to target"
+        "option_value": "Every combination that adds up to a target"
       },
       {
         "option_id": 2,
-        "option_value": "Counting combinations"
+        "option_value": "How many such combinations there are"
       },
       {
         "option_id": 3,
-        "option_value": "Maximum sum"
+        "option_value": "The combination with the largest total"
       },
       {
         "option_id": 4,
-        "option_value": "Minimum sum"
+        "option_value": "The combination with the smallest total"
       }
     ],
     "answer_id": 1,
@@ -2404,19 +2404,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Generating all possible letter combinations"
+        "option_value": "Every letter string the digits can spell"
       },
       {
         "option_id": 2,
-        "option_value": "Phone number validation"
+        "option_value": "Whether the given number is a valid one"
       },
       {
         "option_id": 3,
-        "option_value": "Letter counting"
+        "option_value": "How many letters the digits map to"
       },
       {
         "option_id": 4,
-        "option_value": "Digit mapping"
+        "option_value": "Which letters sit on each phone key"
       }
     ],
     "answer_id": 1,
@@ -2428,19 +2428,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Generating all valid parentheses combinations"
+        "option_value": "Every well-formed string of n bracket pairs"
       },
       {
         "option_id": 2,
-        "option_value": "Counting parentheses"
+        "option_value": "How many such strings exist for n pairs"
       },
       {
         "option_id": 3,
-        "option_value": "Validating parentheses"
+        "option_value": "Whether a given string is well-formed"
       },
       {
         "option_id": 4,
-        "option_value": "Parentheses matching"
+        "option_value": "Which opening bracket matches which close"
       }
     ],
     "answer_id": 1,
@@ -2452,19 +2452,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding word in 2D grid"
+        "option_value": "Whether a word traces a path in the grid"
       },
       {
         "option_id": 2,
-        "option_value": "Word counting"
+        "option_value": "How many words the grid contains"
       },
       {
         "option_id": 3,
-        "option_value": "Grid traversal"
+        "option_value": "The order cells are visited when scanning"
       },
       {
         "option_id": 4,
-        "option_value": "String matching"
+        "option_value": "Where one string occurs inside another"
       }
     ],
     "answer_id": 1,
@@ -2476,15 +2476,15 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "O(N\u00d74^L)"
+        "option_value": "O(N×4^L)"
       },
       {
         "option_id": 2,
-        "option_value": "O(N\u00d7L)"
+        "option_value": "O(N×L)"
       },
       {
         "option_id": 3,
-        "option_value": "O(N\u00b2)"
+        "option_value": "O(N²)"
       },
       {
         "option_id": 4,
@@ -2492,7 +2492,7 @@
       }
     ],
     "answer_id": 1,
-    "answer_explanation": "Word Search has O(N\u00d74^L) where N is board cells and L is word length.",
+    "answer_explanation": "Word Search has O(N×4^L) where N is board cells and L is word length.",
     "difficulty_level": 3
   },
   {
@@ -2500,19 +2500,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Counting connected land components"
+        "option_value": "How many connected land regions there are"
       },
       {
         "option_id": 2,
-        "option_value": "Counting water bodies"
+        "option_value": "How many separate water regions there are"
       },
       {
         "option_id": 3,
-        "option_value": "Island size"
+        "option_value": "The area of the largest land region"
       },
       {
         "option_id": 4,
-        "option_value": "Grid counting"
+        "option_value": "How many cells the grid contains overall"
       }
     ],
     "answer_id": 1,
@@ -2548,19 +2548,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Creating deep copy of connected undirected graph"
+        "option_value": "Building a deep copy of the whole graph"
       },
       {
         "option_id": 2,
-        "option_value": "Graph traversal"
+        "option_value": "Visiting every node of the graph once"
       },
       {
         "option_id": 3,
-        "option_value": "Graph validation"
+        "option_value": "Checking the graph is well-formed"
       },
       {
         "option_id": 4,
-        "option_value": "Node copying"
+        "option_value": "Copying a single node and its label"
       }
     ],
     "answer_id": 1,
@@ -2572,19 +2572,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Determining if all courses can be finished"
+        "option_value": "Whether every course can be completed"
       },
       {
         "option_id": 2,
-        "option_value": "Scheduling courses"
+        "option_value": "An order in which to take the courses"
       },
       {
         "option_id": 3,
-        "option_value": "Course ordering"
+        "option_value": "How many courses have prerequisites"
       },
       {
         "option_id": 4,
-        "option_value": "Prerequisite validation"
+        "option_value": "Whether a prerequisite list is well-formed"
       }
     ],
     "answer_id": 1,
@@ -2596,19 +2596,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "DFS with recursion stack"
+        "option_value": "DFS while tracking the recursion stack"
       },
       {
         "option_id": 2,
-        "option_value": "BFS"
+        "option_value": "BFS from every unvisited starting node"
       },
       {
         "option_id": 3,
-        "option_value": "Dijkstra's"
+        "option_value": "Dijkstra run from an arbitrary source"
       },
       {
         "option_id": 4,
-        "option_value": "Union-Find"
+        "option_value": "Union-Find over every directed edge"
       }
     ],
     "answer_id": 1,
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding cells where water can flow to both oceans"
+        "option_value": "Cells draining to both oceans at once"
       },
       {
         "option_id": 2,
-        "option_value": "Water flow simulation"
+        "option_value": "How fast water moves across the grid"
       },
       {
         "option_id": 3,
-        "option_value": "Ocean modeling"
+        "option_value": "A physical model of ocean currents"
       },
       {
         "option_id": 4,
-        "option_value": "Grid traversal"
+        "option_value": "The order in which cells are visited"
       }
     ],
     "answer_id": 1,
@@ -2644,19 +2644,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding longest consecutive elements sequence"
+        "option_value": "The longest run of consecutive integers"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting sequence"
+        "option_value": "The array reordered into ascending order"
       },
       {
         "option_id": 3,
-        "option_value": "Maximum element"
+        "option_value": "The single largest value in the array"
       },
       {
         "option_id": 4,
-        "option_value": "Sequence counting"
+        "option_value": "How many distinct values the array holds"
       }
     ],
     "answer_id": 1,
@@ -2676,7 +2676,7 @@
       },
       {
         "option_id": 3,
-        "option_value": "O(n\u00b2)"
+        "option_value": "O(n²)"
       },
       {
         "option_id": 4,
@@ -2692,19 +2692,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Deriving letter order from alien words"
+        "option_value": "The letter order implied by the word list"
       },
       {
         "option_id": 2,
-        "option_value": "Dictionary sorting"
+        "option_value": "The word list sorted into normal order"
       },
       {
         "option_id": 3,
-        "option_value": "Word ordering"
+        "option_value": "Whether the given words are in order"
       },
       {
         "option_id": 4,
-        "option_value": "Character mapping"
+        "option_value": "Which letter maps to which character"
       }
     ],
     "answer_id": 1,
@@ -2716,19 +2716,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Checking if graph is valid tree"
+        "option_value": "Whether the edges form a valid tree"
       },
       {
         "option_id": 2,
-        "option_value": "Tree validation"
+        "option_value": "Whether a given tree is well-balanced"
       },
       {
         "option_id": 3,
-        "option_value": "Graph traversal"
+        "option_value": "The order nodes are visited in traversal"
       },
       {
         "option_id": 4,
-        "option_value": "Cycle detection"
+        "option_value": "Whether the graph contains any cycle"
       }
     ],
     "answer_id": 1,
@@ -2764,19 +2764,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Serializing and deserializing string list"
+        "option_value": "Turning a list of strings into one, and back"
       },
       {
         "option_id": 2,
-        "option_value": "String compression"
+        "option_value": "Shrinking a string by removing repeated runs"
       },
       {
         "option_id": 3,
-        "option_value": "String encryption"
+        "option_value": "Scrambling a string with a shared secret key"
       },
       {
         "option_id": 4,
-        "option_value": "List manipulation"
+        "option_value": "Reordering the entries held within a list"
       }
     ],
     "answer_id": 1,
@@ -2788,19 +2788,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Counting number of 1 bits for all numbers 0 to n"
+        "option_value": "The set-bit count for every value up to n"
       },
       {
         "option_id": 2,
-        "option_value": "Bit manipulation"
+        "option_value": "How individual bits can be manipulated"
       },
       {
         "option_id": 3,
-        "option_value": "Number counting"
+        "option_value": "How many numbers lie in the given range"
       },
       {
         "option_id": 4,
-        "option_value": "Binary conversion"
+        "option_value": "How to convert a number into binary"
       }
     ],
     "answer_id": 1,
@@ -2812,19 +2812,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding missing number in range 0 to n"
+        "option_value": "The one value absent from the range 0..n"
       },
       {
         "option_id": 2,
-        "option_value": "Number counting"
+        "option_value": "How many values the range 0..n holds"
       },
       {
         "option_id": 3,
-        "option_value": "Range validation"
+        "option_value": "Whether every value lies inside the range"
       },
       {
         "option_id": 4,
-        "option_value": "Sum calculation"
+        "option_value": "The sum of every value in the range"
       }
     ],
     "answer_id": 1,
@@ -2836,19 +2836,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Reversing bits of unsigned integer"
+        "option_value": "Reversing the bit order of an integer"
       },
       {
         "option_id": 2,
-        "option_value": "Bit shifting"
+        "option_value": "Shifting an integer's bits left or right"
       },
       {
         "option_id": 3,
-        "option_value": "Number reversal"
+        "option_value": "Reversing the decimal digits of a number"
       },
       {
         "option_id": 4,
-        "option_value": "Binary operation"
+        "option_value": "Applying a bitwise AND to two numbers"
       }
     ],
     "answer_id": 1,
@@ -2860,19 +2860,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Counting set bits in integer"
+        "option_value": "How many bits of an integer are set"
       },
       {
         "option_id": 2,
-        "option_value": "Bit manipulation"
+        "option_value": "How individual bits can be manipulated"
       },
       {
         "option_id": 3,
-        "option_value": "Number counting"
+        "option_value": "How many integers are in the input"
       },
       {
         "option_id": 4,
-        "option_value": "Binary conversion"
+        "option_value": "How to convert a number into binary"
       }
     ],
     "answer_id": 1,
@@ -2884,19 +2884,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Subtracting 1 and ANDing"
+        "option_value": "Repeatedly ANDing n with n minus one"
       },
       {
         "option_id": 2,
-        "option_value": "Shifting bits"
+        "option_value": "Shifting the value right until it is zero"
       },
       {
         "option_id": 3,
-        "option_value": "Checking each bit"
+        "option_value": "Testing each bit position one at a time"
       },
       {
         "option_id": 4,
-        "option_value": "Using lookup table"
+        "option_value": "Reading counts from a precomputed table"
       }
     ],
     "answer_id": 1,
@@ -2908,19 +2908,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Checking if number is power of 2"
+        "option_value": "Whether a number is an exact power of two"
       },
       {
         "option_id": 2,
-        "option_value": "Calculating power"
+        "option_value": "The value of two raised to a given power"
       },
       {
         "option_id": 3,
-        "option_value": "Exponentiation"
+        "option_value": "How to exponentiate by repeated squaring"
       },
       {
         "option_id": 4,
-        "option_value": "Logarithm calculation"
+        "option_value": "The base-two logarithm of a given number"
       }
     ],
     "answer_id": 1,
@@ -2956,19 +2956,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding duplicate in array of n+1 integers"
+        "option_value": "The repeated value among n+1 integers"
       },
       {
         "option_id": 2,
-        "option_value": "Duplicate counting"
+        "option_value": "How many values appear more than once"
       },
       {
         "option_id": 3,
-        "option_value": "Array sorting"
+        "option_value": "The array reordered into ascending order"
       },
       {
         "option_id": 4,
-        "option_value": "Number search"
+        "option_value": "Whether a given value is in the array"
       }
     ],
     "answer_id": 1,
@@ -2980,19 +2980,19 @@
     "options": [
       {
         "option_id": 1,
-        "option_value": "Finding cycle in sequence"
+        "option_value": "Detecting a cycle in the index sequence"
       },
       {
         "option_id": 2,
-        "option_value": "Sorting array"
+        "option_value": "Reordering the array into sorted order"
       },
       {
         "option_id": 3,
-        "option_value": "Binary search"
+        "option_value": "Halving the search range on each step"
       },
       {
         "option_id": 4,
-        "option_value": "Hashing"
+        "option_value": "Storing seen values in a hash table"
       }
     ],
     "answer_id": 1,
